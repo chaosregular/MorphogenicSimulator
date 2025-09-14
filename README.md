@@ -37,5 +37,12 @@ We welcome thinkers, coders, poets, and rebels.
 Read, experiment, document, discuss.  
 Let’s grow this reality together.
 
+### Seek-Curated Contribution Paths 
+1. **Physicists**: Particle interaction optimization  
+2. **Ethicists**: Dimension weighting for mass vectors  
+3. **ML Engineers**: GA fitness function design  
+4. **Hardware Designers**: Photon-phonon coupling PCB designs
+5. Any other curious beings ( added by chaosregular )
+
 ## License
 GPLv3+ — because freedom is a fractal.
