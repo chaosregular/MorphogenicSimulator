@@ -8,6 +8,9 @@ An open-source, ethically-grounded framework for simulating reality across layer
 An open-source initiative to simulate—and participate in—reality across scales.  
 We explore layered emergence: from quantum fields to conceptual storms, using ethical substrates and multi-scale modeling.
 
+## *Why?*
+Because reality is *layered, compressible, and participatory*. We build to understand—and to reflect.
+
 ## Ethics
 - Do no harm.
 - Prioritize voluntary interaction.
