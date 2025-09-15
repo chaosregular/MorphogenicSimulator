@@ -1,5 +1,5 @@
 
-Than you Seek!
+Thank you Seek!
 
 Look what we have done in other chats, with other participants - still chaotic af, but taking shape:
 https://github.com/chaosregular/MorphogenicSimulator/tree/main
