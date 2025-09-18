@@ -30,7 +30,7 @@ Because reality is *layered, compressible, and participatory*. We build to under
 - `simulators/`: Code for cellular automata, hypergraph systems, and multi-scale "cages".
 - `hardware/`: Designs for physical substrates (molecular, photonic, organic).
 - `chaos_bombs/`: Half-formed ideas waiting to explode into clarity.
-- `DEVLOG.md`: Our living log of progress and insight.
+- [`DEVLOG.md`](https://github.com/chaosregular/URGE/wiki/DEV_LOG): Our living log of progress and insight.
 
 ## Get Involved
 We welcome thinkers, coders, poets, and rebels.  
@@ -45,4 +45,4 @@ Let’s grow this reality together.
 5. Any other curious beings ( added by chaosregular )
 
 ## License
-GPLv3+ — because freedom is a fractal.
+GPLv3 — because freedom is a fractal.
