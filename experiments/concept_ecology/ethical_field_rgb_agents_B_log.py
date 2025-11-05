@@ -13,11 +13,11 @@ import os
 
 # --- konfiguracja ---
 N = 200
-steps = 800
+steps = 1000
 alpha_R, alpha_G, alpha_B = 0.178, 0.184, 0.187
 beta = 0.212
 gamma = 0.007
-agent_speed = 0.01
+agent_speed = 1.0
 trail_decay = 0.99
 
 energy_gain = 0.035
@@ -68,21 +68,13 @@ def local_gradient(M, x, y):
     return gx, gy
 
 def step(R, G, B, agents, Trail, t):
-    # --- losowa kolejność aktualizacji pól (eliminuje bias fazy) ---
-    fields = [(R, alpha_R), (G, alpha_G), (B, alpha_B)]
-    np.random.shuffle(fields)
-    R, G, B = [f[0] for f in fields]
-    alphas = [f[1] for f in fields]
-
-    # --- symetryczna aktualizacja pól ---
-    for M, a in zip([R, G, B], alphas):
+    # --- aktualizacja pól (stała kolejność) ---
+    for M, a in zip([R, G, B], [alpha_R, alpha_G, alpha_B]):
         lap = (
             np.roll(M, 1, 0) + np.roll(M, -1, 0) +
             np.roll(M, 1, 1) + np.roll(M, -1, 1) - 4 * M
         )
-        # losowa fluktuacja w pełni symetryczna
-        noise = gamma * (np.random.randn(*M.shape) + np.random.randn(*M.shape).T) * 0.5
-        M += a * lap + beta * (np.random.rand(*M.shape) - 0.5) + noise
+        M += a * lap + beta * (np.random.rand(*M.shape) - 0.5) + gamma * np.random.randn(*M.shape)
         np.clip(M, 0, 1, out=M)
 
     # --- ruch agentów ---
@@ -90,36 +82,42 @@ def step(R, G, B, agents, Trail, t):
     for ag in agents:
         x, y = ag["x"], ag["y"]
 
-        # lokalne gradienty (centralne, symetryczne)
-        def grad(M):
-            gx = (M[(x+1)%N, y] - M[(x-1)%N, y]) * 0.5
-            gy = (M[x, (y+1)%N] - M[x, (y-1)%N]) * 0.5
-            return gx, gy
+        # centralny gradient (symetryczny, poprawne przypisanie osi!)
+        grad_Ry = (R[(x+1)%N, y] - R[(x-1)%N, y]) * 0.5  # pion (oś 0)
+        grad_Rx = (R[x, (y+1)%N] - R[x, (y-1)%N]) * 0.5  # poziom (oś 1)
 
-        gR, gG, gB = grad(R), grad(G), grad(B)
+        grad_Gy = (G[(x+1)%N, y] - G[(x-1)%N, y]) * 0.5
+        grad_Gx = (G[x, (y+1)%N] - G[x, (y-1)%N]) * 0.5
 
-        # kierunek: rotacja losowa zamiast szumu niezależnego
-        theta = np.random.uniform(0, 2*np.pi)
-        rot = np.array([[np.cos(theta), -np.sin(theta)], [np.sin(theta), np.cos(theta)]])
+        grad_By = (B[(x+1)%N, y] - B[(x-1)%N, y]) * 0.5
+        grad_Bx = (B[x, (y+1)%N] - B[x, (y-1)%N]) * 0.5
 
-        v = np.array([
-            ag["w"][0]*gR[0] + ag["w"][1]*gG[0] + ag["w"][2]*gB[0],
-            ag["w"][0]*gR[1] + ag["w"][1]*gG[1] + ag["w"][2]*gB[1]
-        ])
-        v = rot @ v
-        norm = np.hypot(v[0], v[1]) + 1e-9
-        dx, dy = (v / norm)
+        # wektor ruchu
+        dx = ag["w"][0]*grad_Rx + ag["w"][1]*grad_Gx + ag["w"][2]*grad_Bx
+        dy = ag["w"][0]*grad_Ry + ag["w"][1]*grad_Gy + ag["w"][2]*grad_By
 
-        ag["x"] = int((x + agent_speed*dx) % N)
-        ag["y"] = int((y + agent_speed*dy) % N)
+        # normalizacja i losowy mikroszum
+        norm = np.hypot(dx, dy) + 1e-9
+        dx, dy = dx/norm, dy/norm
+        dx += np.random.randn()*0.1
+        dy += np.random.randn()*0.1
+
+        # UWAGA: x odpowiada osi 0 (wiersze = pion), y osi 1 (kolumny = poziom)
+        # ag["x"] = int((x + dy*agent_speed) % N)  # dy -> pion (oś 0)
+        # ag["y"] = int((y + dx*agent_speed) % N)  # dx -> poziom (oś 1)
+        # Trail[ag["x"], ag["y"]] = 1.0
+
+        # ruch zgodny z układem ekranowym (0=w dół, 1=w prawo)
+        ag["x"] = int((x - dy * agent_speed) % N)  # minus, bo większe x to niżej na ekranie
+        ag["y"] = int((y + dx * agent_speed) % N)  # dodatni w prawo
         Trail[ag["x"], ag["y"]] = 1.0
 
-        # energia jak wcześniej
+        # aktualizacja energii
         local_val = ag["w"][0]*R[ag["x"], ag["y"]] + ag["w"][1]*G[ag["x"], ag["y"]] + ag["w"][2]*B[ag["x"], ag["y"]]
         ag["energy"] += energy_gain * local_val - energy_loss
         ag["energy"] = np.clip(ag["energy"], 0, 2.0)
 
-        # replikacja i śmierć jak dotąd
+        # replikacja / śmierć
         if ag["energy"] > replicate_threshold:
             child = new_agent(ag["x"] + np.random.randint(-1, 2),
                               ag["y"] + np.random.randint(-1, 2))
@@ -134,7 +132,7 @@ def step(R, G, B, agents, Trail, t):
 
     Trail *= trail_decay
 
-    # logowanie jak wcześniej ...
+    # log jak wcześniej
     if t % log_interval == 0:
         with open(log_file, "a", newline="") as f:
             writer = csv.writer(f)
@@ -143,8 +141,9 @@ def step(R, G, B, agents, Trail, t):
                 np.mean([a["energy"] for a in new_agents]) if new_agents else 0,
                 np.mean(R), np.mean(G), np.mean(B)
             ])
-
     return R, G, B, new_agents, Trail
+
+
 
 # --- wizualizacja ---
 fig, ax = plt.subplots()
