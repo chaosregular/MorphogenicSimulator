@@ -12,18 +12,18 @@ import csv
 import os
 
 # --- konfiguracja ---
-N = 80
+N = 200
 steps = 800
-alpha_R, alpha_G, alpha_B = 0.205, 0.201, 0.158
-beta = 0.05
-gamma = 0.015
-agent_speed = 1.0
-trail_decay = 0.95
+alpha_R, alpha_G, alpha_B = 0.178, 0.184, 0.187
+beta = 0.212
+gamma = 0.007
+agent_speed = 0.01
+trail_decay = 0.99
 
-energy_gain = 0.045
-energy_loss = 0.012
-replicate_threshold = 1.4
-death_threshold = 0.15
+energy_gain = 0.035
+energy_loss = 0.008
+replicate_threshold = 1.1
+death_threshold = 0.5
 
 paused = False
 
@@ -92,6 +92,8 @@ def step(R, G, B, agents, Trail, t):
         # aktualizacja pozycji (dodano losowe odchylenie)
         ag["x"] = int((x + agent_speed*dx + np.random.randn()*0.3) % N)
         ag["y"] = int((y + agent_speed*dy + np.random.randn()*0.3) % N)
+        # ag["x"] = int((x + agent_speed*dx ) % N)
+        # ag["y"] = int((y + agent_speed*dy ) % N)
         Trail[ag["x"], ag["y"]] = 1.0
 
         # aktualizacja energii
@@ -157,6 +159,6 @@ def on_key(event):
 fig.canvas.mpl_connect("button_press_event", on_click)
 fig.canvas.mpl_connect("key_press_event", on_key)
 
-ani = animation.FuncAnimation(fig, update, frames=steps, interval=40, blit=True)
+ani = animation.FuncAnimation(fig, update, frames=steps, interval=40, blit=False)
 plt.axis("off")
 plt.show()
