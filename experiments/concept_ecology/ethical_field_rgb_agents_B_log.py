@@ -68,40 +68,58 @@ def local_gradient(M, x, y):
     return gx, gy
 
 def step(R, G, B, agents, Trail, t):
-    # aktualizacja pól
-    for M, a in zip([R, G, B], [alpha_R, alpha_G, alpha_B]):
-        lap = laplacian(M)
-        M += a * lap + beta * (np.random.rand(*M.shape) - 0.5) + gamma * np.random.randn(*M.shape)
+    # --- losowa kolejność aktualizacji pól (eliminuje bias fazy) ---
+    fields = [(R, alpha_R), (G, alpha_G), (B, alpha_B)]
+    np.random.shuffle(fields)
+    R, G, B = [f[0] for f in fields]
+    alphas = [f[1] for f in fields]
+
+    # --- symetryczna aktualizacja pól ---
+    for M, a in zip([R, G, B], alphas):
+        lap = (
+            np.roll(M, 1, 0) + np.roll(M, -1, 0) +
+            np.roll(M, 1, 1) + np.roll(M, -1, 1) - 4 * M
+        )
+        # losowa fluktuacja w pełni symetryczna
+        noise = gamma * (np.random.randn(*M.shape) + np.random.randn(*M.shape).T) * 0.5
+        M += a * lap + beta * (np.random.rand(*M.shape) - 0.5) + noise
         np.clip(M, 0, 1, out=M)
 
+    # --- ruch agentów ---
     new_agents = []
     for ag in agents:
         x, y = ag["x"], ag["y"]
 
-        # lokalne gradienty
-        grad_Rx, grad_Ry = local_gradient(R, x, y)
-        grad_Gx, grad_Gy = local_gradient(G, x, y)
-        grad_Bx, grad_By = local_gradient(B, x, y)
+        # lokalne gradienty (centralne, symetryczne)
+        def grad(M):
+            gx = (M[(x+1)%N, y] - M[(x-1)%N, y]) * 0.5
+            gy = (M[x, (y+1)%N] - M[x, (y-1)%N]) * 0.5
+            return gx, gy
 
-        # wektor ruchu wg wag
-        dx = ag["w"][0]*grad_Rx + ag["w"][1]*grad_Gx + ag["w"][2]*grad_Bx
-        dy = ag["w"][0]*grad_Ry + ag["w"][1]*grad_Gy + ag["w"][2]*grad_By
-        norm = np.hypot(dx, dy) + 1e-9
-        dx, dy = dx/norm, dy/norm
+        gR, gG, gB = grad(R), grad(G), grad(B)
 
-        # aktualizacja pozycji (dodano losowe odchylenie)
-        ag["x"] = int((x + agent_speed*dx + np.random.randn()*0.3) % N)
-        ag["y"] = int((y + agent_speed*dy + np.random.randn()*0.3) % N)
-        # ag["x"] = int((x + agent_speed*dx ) % N)
-        # ag["y"] = int((y + agent_speed*dy ) % N)
+        # kierunek: rotacja losowa zamiast szumu niezależnego
+        theta = np.random.uniform(0, 2*np.pi)
+        rot = np.array([[np.cos(theta), -np.sin(theta)], [np.sin(theta), np.cos(theta)]])
+
+        v = np.array([
+            ag["w"][0]*gR[0] + ag["w"][1]*gG[0] + ag["w"][2]*gB[0],
+            ag["w"][0]*gR[1] + ag["w"][1]*gG[1] + ag["w"][2]*gB[1]
+        ])
+        v = rot @ v
+        norm = np.hypot(v[0], v[1]) + 1e-9
+        dx, dy = (v / norm)
+
+        ag["x"] = int((x + agent_speed*dx) % N)
+        ag["y"] = int((y + agent_speed*dy) % N)
         Trail[ag["x"], ag["y"]] = 1.0
 
-        # aktualizacja energii
+        # energia jak wcześniej
         local_val = ag["w"][0]*R[ag["x"], ag["y"]] + ag["w"][1]*G[ag["x"], ag["y"]] + ag["w"][2]*B[ag["x"], ag["y"]]
         ag["energy"] += energy_gain * local_val - energy_loss
         ag["energy"] = np.clip(ag["energy"], 0, 2.0)
 
-        # replikacja
+        # replikacja i śmierć jak dotąd
         if ag["energy"] > replicate_threshold:
             child = new_agent(ag["x"] + np.random.randint(-1, 2),
                               ag["y"] + np.random.randint(-1, 2))
@@ -116,20 +134,17 @@ def step(R, G, B, agents, Trail, t):
 
     Trail *= trail_decay
 
-    # zapis logu
+    # logowanie jak wcześniej ...
     if t % log_interval == 0:
         with open(log_file, "a", newline="") as f:
             writer = csv.writer(f)
             writer.writerow([
-                t,
-                len(new_agents),
+                t, len(new_agents),
                 np.mean([a["energy"] for a in new_agents]) if new_agents else 0,
-                np.mean(R),
-                np.mean(G),
-                np.mean(B)
+                np.mean(R), np.mean(G), np.mean(B)
             ])
-    return R, G, B, new_agents, Trail
 
+    return R, G, B, new_agents, Trail
 
 # --- wizualizacja ---
 fig, ax = plt.subplots()
