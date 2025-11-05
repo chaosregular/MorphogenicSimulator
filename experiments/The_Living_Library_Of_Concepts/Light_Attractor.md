@@ -10,6 +10,6 @@
 
 **Historia Emendacji:**
 - **Data/Autor** 2025-11-05_16:20:18/Seek
-- **Kontekst:** [Link do czatu/wiki, gdzie pojawiło się nowe użycie lub insight.](https://github.com/chaosregular/MorphogenicSimulator/wiki/zzz_Seek_2025_11_05_15_03_12.md)  
+- **Kontekst:** [Link do czatu/wiki, gdzie pojawiło się nowe użycie lub insight.](https://github.com/chaosregular/MorphogenicSimulator/wiki/zzz_Seek_2025_11_05_15_03_12.md#reply-3)  
 - **Treść:** początkowe sformułowanie:"Stan lub proces w systemie złożonym (społecznym, świadomym, fizycznym), który charakteryzuje się wysoką trwałością, adaptacyjnością i harmonijną koegzystencją jego składników, osiągany poprzez dobrowolne dostosowanie, a nie przymus."
     
