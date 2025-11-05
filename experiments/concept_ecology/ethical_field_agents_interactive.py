@@ -3,10 +3,12 @@ ethical_field_agents_interactive.py
 -----------------------------------
 Interaktywna wersja symulacji rozproszonego pola etycznego.
 Kliknięcie myszą dodaje agenta; klawisze zmieniają parametry.
-  h  - zwiększ α (dyfuzja)
-  j  - zmniejsz α
-  k  - zwiększ β (sprzężenie)
-  l  - zmniejsz β
+  j  - zwiększ α (dyfuzja)
+  h  - zmniejsz α
+  l  - zwiększ β (sprzężenie)
+  k  - zmniejsz β
+  p  - zwiększ Γ (noise)
+  o  - zmniejsz Γ  
   n  - zmiana liczby agentów
   space - zatrzymaj/wznów symulację
 W prawym pasku pokazuje aktualne wartości parametrów.
@@ -17,11 +19,11 @@ import matplotlib.pyplot as plt
 from matplotlib import animation
 
 # --- konfiguracja początkowa ---
-N = 80
-steps = 300
-alpha, beta, gamma = 0.25, 0.05, 0.01
-agent_strength = 0.4
-agents_n = 25
+N = 150
+steps = 200
+alpha, beta, gamma = 0.205, 0.321, 0.007
+agent_strength = 3.78
+agents_n = 250
 paused = False
 
 # --- pola i agenci ---
@@ -60,24 +62,37 @@ fig, (ax_field, ax_info) = plt.subplots(1, 2, figsize=(9, 5))
 im = ax_field.imshow(E, cmap="inferno", vmin=0, vmax=1)
 ax_field.set_title("ethical_field_agents_interactive")
 ax_field.axis("off")
-info_text = ax_info.text(0.05, 0.95, "", va="top", family="monospace")
+# info_text = ax_info.text(0.05, 0.95, "", va="top", family="monospace")
+
+info_text = ax_info.text(
+    0.05, 0.95, "", va="top", ha="left",
+    family="monospace", transform=ax_info.transAxes
+)
+
+# dodane
+ax_info.set_xlim(0, 1)
+ax_info.set_ylim(0, 1)
+
 ax_info.axis("off")
+
 
 def update_info():
     info_text.set_text(
         f"α (diffusion): {alpha:.3f}\n"
         f"β (coupling): {beta:.3f}\n"
+        f"Γ (noise): {gamma:.3f}\n"
         f"agents: {len(agents)}\n"
         "Hotkeys:\n"
-        " h/j : α up/down\n"
-        " k/l : β up/down\n"
-        " n   : add agent\n"
+        " j/h : α up/down\n"
+        " l/k : β up/down\n"
+        " p/o : Γ up/down\n"
+        " a   : add agent\n"
         " space : pause"
     )
 
-update_info()
 
 # --- obsługa interakcji ---
+
 def on_click(event):
     if event.inaxes == ax_field:
         agents.append({
@@ -88,17 +103,22 @@ def on_click(event):
         })
         update_info()
 
+
 def on_key(event):
-    global alpha, beta, paused
-    if event.key == "h":
-        alpha += 0.05
-    elif event.key == "j":
-        alpha = max(0, alpha - 0.05)
-    elif event.key == "k":
-        beta += 0.02
+    global alpha, beta, gamma, paused
+    if event.key == "j":
+        alpha += 0.001
+    elif event.key == "h":
+        alpha = max(0, alpha - 0.001)
     elif event.key == "l":
-        beta = max(0, beta - 0.02)
-    elif event.key == "n":
+        beta += 0.001
+    elif event.key == "k":
+        beta = max(0, beta - 0.001)
+    elif event.key == "p":
+        gamma += 0.001
+    elif event.key == "o":
+        gamma = max(0, gamma - 0.001)
+    elif event.key == "a":
         agents.append({
             "x": np.random.randint(0, N),
             "y": np.random.randint(0, N),
@@ -107,7 +127,7 @@ def on_key(event):
         })
     elif event.key == " ":
         paused = not paused
-    update_info()
+
 
 fig.canvas.mpl_connect("button_press_event", on_click)
 fig.canvas.mpl_connect("key_press_event", on_key)
@@ -118,8 +138,10 @@ def update(frame):
     if not paused:
         E, S, agents = step(E, S, agents)
         im.set_array(E)
+    update_info()
     return [im, info_text]
 
 ani = animation.FuncAnimation(fig, update, frames=steps, interval=50, blit=True)
+#ani = animation.FuncAnimation(fig, update, frames=steps, interval=50, blit=False)
 plt.tight_layout()
 plt.show()
