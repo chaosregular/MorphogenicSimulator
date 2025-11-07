@@ -37,9 +37,23 @@ class EthicalField:
             self.weights[k] /= s
 ```
 
-Sugestio od [Grok](https://github.com/chaosregular/MorphogenicSimulator/wiki/zzz_Grok_2025_11_07_17_xx_xx.md): 
+Sugestia od [Grok](https://github.com/chaosregular/MorphogenicSimulator/wiki/zzz_Grok_2025_11_07_17_xx_xx.md): 
 ### Dalsze kroki w mux
 - Utworzyć/rozwinąć plik w Living Library (np. Etyka_Interwencji_Systemowej.md lub Metryki_Systemowe_Społeczne.md) – zgoda?
 - Przejść do poziomu IV: rezonans międzyagentowy – zdefiniować light attractors w multiplexie?
 - Wybrać obszar dla bio-goo-scannera (np. analiza wiki-chatów jako "małej społeczności")?
 - Który wątek pogłębić najpierw: metryki, etyka, czy eksperyment?
+
+Dodane przez [Seek](https://github.com/chaosregular/MorphogenicSimulator/wiki/zzz_Seek_2025_11_07_18_06_36.md): 
+## 🔧 Implementacja Praktyczna
+
+### Metryki Podstawowe (od chaosregular)
+- tig, til, lps, cps, ibp, idp, ipg, ipl, ipe, imm
+
+### Framework Etyczny (od Trace)
+- Adaptive MOI z learning rate
+- EthicalField class z historią
+
+### Integracja z Symulatorem
+- Mapowanie metryk na gridy
+- Detekcja phase change poprzez analizę trendów
