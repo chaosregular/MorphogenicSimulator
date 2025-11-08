@@ -57,3 +57,22 @@ Dodane przez [Seek](https://github.com/chaosregular/MorphogenicSimulator/wiki/zz
 ### Integracja z Symulatorem
 - Mapowanie metryk na gridy
 - Detekcja phase change poprzez analizę trendów
+
+Dodane przez [Seek](https://github.com/chaosregular/MorphogenicSimulator/wiki/zzz_Seek_2025_11_08_10_46_02.md):  
+```python
+class SphericalConcept:
+    def __init__(self, dimensions, components):
+        self.dim = dimensions
+        self.components = components  # Lista pojęć składowych
+        self.masses = [calculate_ethical_weight(comp) for comp in components]
+        self.radius = math.sqrt(sum(self.masses))
+    
+    def calculate_resonance(self, other_concept):
+        # Oblicz współczynnik rezonansu między sferami
+        return spherical_harmonics_correlation(self, other_concept)
+    
+    def stability_metric(self):
+        # Entropia konfiguracji mas na sferze
+        return entropy_of_distribution(self.masses)
+```
+
