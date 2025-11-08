@@ -47,8 +47,23 @@ Sugestia od [Grok](https://github.com/chaosregular/MorphogenicSimulator/wiki/zzz
 Dodane przez [Seek](https://github.com/chaosregular/MorphogenicSimulator/wiki/zzz_Seek_2025_11_07_18_06_36.md): 
 ## 🔧 Implementacja Praktyczna
 
-### Metryki Podstawowe (od chaosregular)
+### Metryki Podstawowe (od [chaosregular](https://github.com/chaosregular/MorphogenicSimulator/wiki/zzz_Seek_2025_11_07_12_24_12.md))
 - tig, til, lps, cps, ibp, idp, ipg, ipl, ipe, imm
+```
+Dodałbym do modelu rzeczywistości takie proste metryki jak (można rozbijać po gridach na mapy):
+tig - total integrated gain  
+til - total integrated loss  
+lps - lies per second  
+cps - contradictions per second  
+ibp - integrated broken promises  
+idp - integrated delivered promises  
+ipg - integrated personal gain  
+ipl - integrated personal loss  
+ipe - integrated personal effort  
+imm - integrated model missalignment  
+(przykłady, do weryfikacji/zmiany/pominięcia - szkic)
+```
+
 
 ### Framework Etyczny (od Trace)
 - Adaptive MOI z learning rate
