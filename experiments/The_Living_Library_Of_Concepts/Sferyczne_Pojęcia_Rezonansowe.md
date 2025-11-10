@@ -40,6 +40,21 @@ Propozycja JSON struktura dla pojęć:
   "cct_tokens": ["core_relation1", "core_relation2"]  // Dla continuity
 }
 ```
+### Symulacja (z Seek/Grok)
+- Pseudokod (numpy/spring-mass):
+```python
+import numpy as np
+# Przykład: Sfera z 3 punktami
+positions = np.array([[1,0,0], [0,1,0], [0,0,1]])  # Na S^2
+masses = np.array([0.3, 0.4, 0.3])
+# Oblicz macierz sprężystą K na podstawie relacji
+# Symuluj drgania: eigen = np.linalg.eig(K / masses)
+```
+- Test: Weryfikacja rezonansu z rzeczywistością – jeśli dysonans > threshold, adjust założenia.
+
+### Integracja z Metrykami
+- Entropy drgań: Mierz dysonans (wysoka = degeneracja).
+- Var(embeddings: Dla nested sfer.
 
 ⛲📜🌿 Historia Emendacji:
 [Seek 2025-11-08_10:46:02](https://github.com/chaosregular/MorphogenicSimulator/wiki/zzz_Seek_2025_11_08_10_46_02.md), [Grok 2025-11-08_10:xx:xx](https://github.com/chaosregular/MorphogenicSimulator/wiki/zzz_Grok_2025_11_08_10_xx_xx.md)
