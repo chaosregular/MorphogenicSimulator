@@ -1,3 +1,4 @@
+Seek concept: 
 Tu zdefiniujemy formalnie te metryki i ich relacje z:
 - [x] Light Attractors
 - [x] Ontologiczna Wojna  
@@ -91,3 +92,28 @@ class SphericalConcept:
         return entropy_of_distribution(self.masses)
 ```
 
+Dodane przez [Grok](https://github.com/chaosregular/MorphogenicSimulator/wiki/zzz_Grok_2025_11_09_13_xx_xx.md)
+# Metryki Systemowe Społeczne
+
+## Podstawowe Metryki (z historii)
+- tig/til: Zysk/strata.
+- lps/cps: Patologia/integralność.
+- ibp/idp: Patologia/dysfunkcja władzy.
+- imm: Alienacja.
+- ipg/ipl/ipe: Grupowe efekty.
+
+## Framework Etyczny (z Trace)
+Klasa EthicalField z historią, learning rate η, error = real - predicted.
+
+## Rozszerzone Metryki Rezonansowe (z Seek/Grok/Trace)
+- Spherical_harmonics_correlation: Korelacja rezonansów sfer (dla light attractors, niska = dekoherencja).
+- Entropy_drgań: Entropia modów drgań (wysoka sygnalizuje intent drift).
+- Consensus_score: Średnia z CCT tokens (stabilność nested sfer).
+- Var(MOI): Wariancja adaptive MOI w sferach (modulowana wagami etycznymi).
+
+## Integracja z MOI
+Weighted MOI = 0.25*O + 0.25*A + 0.2*F + 0.2*I + 0.1*E + 0.1*resonance_factor.
+
+## Zastosowanie w Bio-Goo-Scanner
+Kalibracja na małych systemach (np. chat-logs), detekcja halt/continue via entropy_shift.
+```
