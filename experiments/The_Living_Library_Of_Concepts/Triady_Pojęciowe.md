@@ -4,8 +4,8 @@ w konfiguracji kotwica-zaburzenie-stabilizator, gdzie wyróżnione wyjście
 emerguje z interakcji komponentów w określonym kontekście."
 
 # 🌀 Fraktalne Powiązania:  
-[Sferyczne Pojęcia](https://github.com/chaosregular/MorphogenicSimulator/blob/main/experiments/The_Living_Library_Of_Concepts/Sferyczne_Poj%C4%99cia_Rezonansowe.md), [System Trójkowy], [Kolaps Kwantowy],
-[Rezonans Semantyczny], [Bio-Goo Scanner]
+[Sferyczne Pojęcia](https://github.com/chaosregular/MorphogenicSimulator/blob/main/experiments/The_Living_Library_Of_Concepts/Sferyczne_Poj%C4%99cia_Rezonansowe.md), [System Trójkowy](https://github.com/chaosregular/MorphogenicSimulator/wiki/zzz_Seek_2025_11_13_14_02_17.md#triady-jako-podstawowe-jednostki-znaczenia), [Kolaps Kwantowy](https://github.com/chaosregular/MorphogenicSimulator/wiki/zzz_Seek_2025_11_13_14_02_17.md#z-bio-goo-scannerem-i-kwantow%C4%85-metafor%C4%85),
+[Rezonans Semantyczny](https://github.com/chaosregular/MorphogenicSimulator/blob/main/experiments/The_Living_Library_Of_Concepts/Sferyczne_Poj%C4%99cia_Rezonansowe.md), [Bio-Goo Scanner]
 
 # 🏗️🔬🎯 Pole Testowe:  
 "Czy dana konfiguracja triad generuje emergentne wzorce znaczeniowe 
