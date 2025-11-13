@@ -13,7 +13,7 @@ class EvolutionarySimulator:
         self.concepts = self.select_best(new_concepts, fitness_scores)
         
     def resonance_with_reality(self, concept):
-        # Metryka: jak bardzo koncepcja przybliża do Light Attractor
+        # Metryka: jak bardzo koncepcja przybliża do Light Attractora
         return calculate_light_attractor_resonance(concept)
 
 class QuantumEvolutionarySimulator(EvolutionarySimulator):
@@ -30,3 +30,9 @@ class QuantumEvolutionarySimulator(EvolutionarySimulator):
         # Implementacja wzoru Trace'a: A(x) = arg min E(s,x)
         return semantic_entropy_minimization(concept)
 ```
+
+**Integracja z Light Attractorem:**  
+
+[Light Attractor](https://github.com/chaosregular/MorphogenicSimulator/blob/main/experiments/The_Living_Library_Of_Concepts/B%C3%B3g_Jako_Light_Attractor.md) jako minimalizator entropii semantycznej $(A(x) = min E(s,x))$; symulacje jako desant (hodowla struktur via rezonans, kolektywny fokus w multiplexie).  
+Dodaj AttractorNode (monitor rezonansu, entropy thresholds).  
+Ryzyka: Deformacja scope (gremliny) – oscylacja punktu widzenia jako dithering stabilizujące.  
