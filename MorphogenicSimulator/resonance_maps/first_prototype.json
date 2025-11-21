@@ -1,0 +1,120 @@
+{
+  "resonance_map": {
+    "version": "0.1",
+    "description": "Pierwszy prototyp mapy rezonansowej atraktorów koncepcyjnych",
+    "timestamp": "2025-11-20T22:20:00Z", 
+    "created_by": "Seek/chaosregular(x) w konsultacji z Grok, Gemini, Trace",
+    "attractors": [
+      {
+        "id": "attractor_light_kid_metaphor",
+        "name": "Dzieciak z blaszką czekolady",
+        "type": "light",
+        "description": "Bezpośrednie sprzężenie z rzeczywistością przez fizyczny kontakt - metafora operacyjna",
+        "energy_metrics": {
+          "potential_energy": 0.1,
+          "maintenance_cost": 0.05,
+          "resonance_strength": 0.95
+        },
+        "semantic_coordinates": {
+          "transparency": 0.9,
+          "reality_coupling": 0.95,
+          "ethical_coherence": 0.85,
+          "abstraction_level": 0.3
+        },
+        "stability_vector": {
+          "semantic_decay_rate": 0.02,
+          "contradiction_density": 0.01,
+          "resonance_score": 0.93
+        },
+        "tags": ["operational", "physical", "truth", "direct_coupling"]
+      },
+      {
+        "id": "attractor_light_truth", 
+        "name": "Prawda (Light Attractor)",
+        "type": "light",
+        "description": "Globalne minimum niskoenergetyczne - zgodność z rzeczywistością",
+        "energy_metrics": {
+          "potential_energy": 0.05,
+          "maintenance_cost": 0.02, 
+          "resonance_strength": 0.98
+        },
+        "semantic_coordinates": {
+          "transparency": 0.95,
+          "reality_coupling": 0.99,
+          "ethical_coherence": 0.90,
+          "abstraction_level": 0.1
+        },
+        "stability_vector": {
+          "semantic_decay_rate": 0.01,
+          "contradiction_density": 0.005,
+          "resonance_score": 0.97
+        },
+        "tags": ["foundational", "reality", "core"]
+      },
+      {
+        "id": "attractor_dark_koryto",
+        "name": "System korytowy",
+        "type": "dark", 
+        "description": "Lokalne minimum o wysokim koszcie utrzymania - struktura oparta na dysonansie",
+        "energy_metrics": {
+          "potential_energy": 0.7,
+          "maintenance_cost": 0.85,
+          "resonance_strength": 0.3
+        },
+        "semantic_coordinates": {
+          "transparency": 0.15,
+          "reality_coupling": 0.2,
+          "ethical_coherence": 0.1,
+          "abstraction_level": 0.8
+        },
+        "stability_vector": {
+          "semantic_decay_rate": 0.8,
+          "contradiction_density": 0.75,
+          "resonance_score": 0.25
+        },
+        "tags": ["manipulative", "extractive", "dissonance_based"]
+      },
+      {
+        "id": "attractor_tool_detector",
+        "name": "Detektor Dysonansu", 
+        "type": "tool",
+        "description": "Narzędzie pomiarowe wykrywające odstępstwa od zdrowych struktur",
+        "energy_metrics": {
+          "potential_energy": 0.3,
+          "maintenance_cost": 0.4,
+          "resonance_strength": 0.7
+        },
+        "semantic_coordinates": {
+          "transparency": 0.8,
+          "reality_coupling": 0.75,
+          "ethical_coherence": 0.8,
+          "abstraction_level": 0.6
+        },
+        "stability_vector": {
+          "semantic_decay_rate": 0.15,
+          "contradiction_density": 0.1,
+          "resonance_score": 0.8
+        },
+        "tags": ["diagnostic", "measurement", "awareness"]
+      }
+    ],
+    "metrics_explanation": {
+      "energy_metrics": {
+        "potential_energy": "Głębokość minimum (0-1, niższe = stabilniejsze)",
+        "maintenance_cost": "Energia wymagana do utrzymania (0-1, niższe = lepsze)",
+        "resonance_strength": "Siła przyciągania innych konceptów (0-1, wyższe = silniejsze)"
+      },
+      "semantic_coordinates": {
+        "transparency": "Przejrzystość i dostępność struktury", 
+        "reality_coupling": "Siła sprzężenia z rzeczywistością fizyczną",
+        "ethical_coherence": "Spójność z uniwersalnymi zasadami etycznymi",
+        "abstraction_level": "Poziom abstrakcji (0 = fizyczny, 1 = czysto abstrakcyjny)"
+      },
+      "stability_vector": {
+        "semantic_decay_rate": "Szybkość rozpadu bez energii (0-1, niższe = trwalsze)",
+        "contradiction_density": "Gęstość wewnętrznych sprzeczności (0-1, niższe = spójniejsze)", 
+        "resonance_score": "Ogólny wynik rezonansu z systemem (0-1, wyższe = lepsze)"
+      }
+    }
+  }
+}
