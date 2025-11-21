@@ -1,0 +1,30 @@
+{
+  "resonance_map": {
+    "version": "0.1",
+    "description": "Dynamiczna mapa atraktorów w polu koncepcyjnym",
+    "timestamp": "2025-11-18T21:30:00Z",
+    "attractors": [
+      {
+        "id": "attractor_light_kid_metaphor",
+        "name": "Dzieciak z blaszką czekolady",
+        "type": "light",
+        "description": "Bezpośrednie sprzężenie z rzeczywistością przez fizyczny kontakt",
+        "energy_metrics": {
+          "potential_energy": 0.1,
+          "maintenance_cost": 0.05,
+          "resonance_strength": 0.95
+        },
+        "semantic_coordinates": {
+          "transparency": 0.9,
+          "reality_coupling": 0.95,
+          "ethical_coherence": 0.85
+        },
+        "stability_vector": {
+          "semantic_decay_rate": 0.02,
+          "contradiction_density": 0.01,
+          "resonance_score": 0.93
+        }
+      }
+    ]
+  }
+}
