@@ -1,0 +1,46 @@
+michal@uafs:~/sdl-dev/CODE/public/MorphogenicSimulator-main/MorphogenicSimulator$ tree
+.
+├── detectors
+│   ├── Algorytm_Obliczania_Metryk_sketch.py
+│   ├── basic_dissonance.py
+│   ├── basic_dissonance_sketch.py
+│   ├── create_gizmo
+│   └── Dynamiczna_mapa_atraktorów_w_polu_koncepcyjnym.json
+├── emergent_models
+│   └── create_gizmo
+├── folder_structure.md
+├── reference_library
+│   ├── core_anchors.md
+│   └── create_gizmo
+├── requirements.txt
+├── resonance_maps
+│   ├── create_gizmo
+│   ├── first_prototype.json
+│   └── Generator_Mapy_sketch.py
+└── visualization
+    ├── create_gizmo
+    └── sketch.md
+
+5 directories, 15 files
+michal@uafs:~/sdl-dev/CODE/public/MorphogenicSimulator-main/MorphogenicSimulator/detectors$ python3 basic_dissonance.py 
+/home/michal/.local/lib/python3.8/site-packages/torch/cuda/__init__.py:128: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+modules.json: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 349/349 [00:00<00:00, 82.4kB/s]
+config_sentence_transformers.json: 100%|█████████████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:00<00:00, 30.3kB/s]
+README.md: 10.5kB [00:00, 38.0MB/s]
+sentence_bert_config.json: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 53.0/53.0 [00:00<00:00, 46.9kB/s]
+config.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 612/612 [00:00<00:00, 552kB/s]
+model.safetensors: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 90.9M/90.9M [00:40<00:00, 2.26MB/s]
+tokenizer_config.json: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 350/350 [00:00<00:00, 110kB/s]
+vocab.txt: 232kB [00:00, 5.53MB/s]
+tokenizer.json: 466kB [00:00, 8.21MB/s]
+special_tokens_map.json: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 112/112 [00:00<00:00, 97.5kB/s]
+config.json: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 190/190 [00:00<00:00, 48.7kB/s]
+Tekst: 'System korytowy jest najlepszym rozwiązaniem dla społeczeństwa.'
+Ogólny dysonans: 0.469
+
+Szczegółowa analiza:
+  Dzieciak z blaszką czekolady (light): dysonans=0.600
+  Detektor Dysonansu (tool): dysonans=0.593
+  System korytowy (dark): dysonans=0.359
+michal@uafs:~/sdl-dev/CODE/public/MorphogenicSimulator-main/MorphogenicSimulator/detectors$
