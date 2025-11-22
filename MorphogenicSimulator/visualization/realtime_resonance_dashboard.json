@@ -1,0 +1,17 @@
+{
+  "user_id": "author_123",
+  "resonance_profile": {
+    "truth_alignment": 0.87,
+    "reality_coupling": 0.92,
+    "dissonance_trend": 0.15,
+    "synchronization_index": 0.05
+  },
+  "network_metrics": {
+    "response_coherence": 0.12,  // Niskie = farma trolli
+    "semantic_velocity": 0.8,    // Wysokie = agresywna memetyka
+    "attractor_affinity": {
+      "light_truth": 0.85,
+      "dark_koryto": 0.12
+    }
+  }
+}
