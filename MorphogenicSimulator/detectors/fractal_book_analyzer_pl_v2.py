@@ -55,17 +55,17 @@ class MorphogenicGraphBuilder:
     #                 self.graph.add_edge(triad_id, triad['effect'], weight=1.0 / (abs(occ['global_pos'] - occ['global_pos']) + 1))
     
 
-def integrate_fractal_data(self):
-    # Teraz tylko themes, nie cały stdout
-    for word, data in self.fractal_data.items():  # themes, nie fractal_data['themes']
-        for i, triad in enumerate(data['sample_triads']):
-            triad_id = f"CRT_{word}_{i}_{data['frequency']}"
-            # ... reszta bez zmian ...
-            self.graph.add_node(triad_id, node_type='triad', **triad,
-                                embedding=self.model.encode(f"{triad['cause']} {triad['core']} {triad['effect']}"))
-
-            self.graph.add_edge(triads['cause'], triad_id, weight=0.1, force='causal')
-            self.graph.add_edge(triad_id, triads['effect'], weight=0.1, force='resonance')
+    def integrate_fractal_data(self):
+        # Teraz tylko themes, nie cały stdout
+        for word, data in self.fractal_data.items():  # themes, nie fractal_data['themes']
+            for i, triad in enumerate(data['sample_triads']):
+                triad_id = f"CRT_{word}_{i}_{data['frequency']}"
+                # ... reszta bez zmian ...
+                self.graph.add_node(triad_id, node_type='triad', **triad,
+                                    embedding=self.model.encode(f"{triad['cause']} {triad['core']} {triad['effect']}"))
+    
+                self.graph.add_edge(triads['cause'], triad_id, weight=0.1, force='causal')
+                self.graph.add_edge(triad_id, triads['effect'], weight=0.1, force='resonance')
 
     def calculate_dissonance_weights(self, node_id):
         """Oblicza wagi dysonansu dla węzła względem atraktorów (integracja z basic_dissonance)"""
