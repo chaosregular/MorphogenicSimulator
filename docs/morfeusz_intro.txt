@@ -1,0 +1,200 @@
+Morfeusz 2 (http://sgjp.pl/morfeusz) stanowi nową implementację
+analizatora morfologicznego dla języka polskiego (Woliński, 2014; Kieraś and
+Woliński, 2017). Poprzednie wersje programu (Woliński, 2006) stały się pod-
+stawą wielu narzędzi przetwarzania języka, w szczególności kilku tagerów
+i parserów języka polskiego. Jednak znane ograniczenia programu sprawiły,
+że podjęliśmy decyzję o całkowitej reimplementacji.
+Wersja druga programu, opracowana jako część infrastruktury Clarin-PL,
+różni się od porzednika kilkoma ważnymi ulepszeniami: oprócz modułu ana-
+lizy zawiera również moduł generujący zadane formy; informację generowaną
+przez program wzbogacono o klasyfikację nazw własnych oraz kwalifikatory;
+dodano możliwość ładowania słowników w czasie pracy programu; wprowa-
+dzono podsystem modelujący zjawiska segmentacyjne, który pozwala np. opi-
+sać historyczne warianty języka różniące się zasadami pisowni łącznej i roz-
+dzielnej słów określonych klas gramatycznych.
+Morfeusz jest udostępniany z dwoma słownikami fleksyjnymi: domyślnym
+słownikiem SGJP, opartym na danych Słownika gramatycznego języka polskie-
+go (Saloni et al., 2007, 2012, 2015) oraz słownikiem Polimorf (Woliński et al.,
+2012) łączącym SGJP z obszernymi, ale słabiej dopracowanymi w zakresie in-
+formacji gramatycznej danymi społecznościowego słownika SJP.pl.
+1. Wprowadzenie – podstawowe pojęcia
+Segmentem (ang. token) nazywamy ciąg znaków w tekście w języku na-
+turalnym interpretowany pod względem fleksyjnym. Ciąg taki z założenia nie
+zawiera odstępów, zwykle nie zawiera znaków interpunkcyjnych i zwykle po-
+krywa się ze słowem tekstowym; odstępstwa opisano dalej.
+Leksem to abstrakcyjna jednostka języka zwana też wyrazem słowniko-
+wym. Jego umowny identyfikator nazywamy lematem lub formą podstawo-
+wą (ponieważ zwykle jest on wykładnikiem konwencjonalnie wybranej formy
+leksemu, np. bezokolicznika czasownika).
+Formą wyrazową nazywamy segment zinterpretowany — przypisany do
+konkretnego leksemu i opisany co do jego funkcji gramatycznej. O segmen-
+tach w tekście mówimy, że są wykładnikami form fleksyjnych (a na zasadzie
+skrótu myślowego — wykładnikami leksemów).
+Technicznie leksem uważamy za zbiór form wyrazowych o wspólnym le-
+macie, a formę wyrazową za trójkę ⟨wykładnik, lemat, znacznik fleksyjny⟩.
+Analiza morfologiczna polega na określeniu dla danego segmentu
+wszystkich form wszystkich leksemów, których może on być wykładnikiem.
+W procesie tym nie uwzględnia się kontekstu, w którym wystąpił dany seg-
+ment. W językoznawstwie termin analiza morfologiczna odnosi się raczej do
+rozkładania wyrazów na na elementarne składniki morfologiczne (morfemy),
+być może sensowniej byłoby więc mówić o analizie fleksyjnej, niestety
+wydaje się, że to ten pierwszy termin utarł się w środowisku językoznawstwa
+komputerowego.
+Ujednoznacznianiem morfologicznym nazywamy określanie na pod-
+stawie kontekstu, którą z możliwych form wyrazowych realizuje dane wystą-
+pienie segmentu.
+
+Następujące po sobie analizę i ujednoznacznianie morfologiczne nazywa
+się żargonowo tagowaniem.
+Celem hasłowania (lematyzacji) jest wskazanie dla każdego segmen-
+tu opisującej go jednostki słownika morfologicznego (leksemu). Jest to więc
+analiza morfologiczna (lub tagowanie) ograniczona tylko do części informacji
+o formach — do lematów.
+Przybliżone hasłowanie polegające na odcięciu ze słów części zmieniają-
+cej się przy odmianie bywa nazywane stemowaniem. Metoda ta ma sens dla
+języków o ograniczonej fleksji, ale dla polskiego daje wyniki wysoce niezado-
+walające. W kontekście Morfeusza mówimy więc o hasłowaniu.
+Operacją odwrotną do analizy morfologicznej jest synteza morfolo-
+giczna — utworzenie wykładnika formy odmiany danej przez wskazanie
+lematu (identyfikatora leksemu) i żądanej charakterystyki fleksyjnej.
+1.1. Analiza morfologiczna
+Program Morfeusz wykonuje analizę morfologiczną dla języka polskiego.
+W obecnej wersji nie zawiera modułu zgadującego nieznane słowa (można
+więc powiedzieć, że jest słownikiem fleksyjnym).
+W trybie analizy wejściem jest ciąg znaków, a wynikiem lista interpretacji
+wykrytych w tym ciągu segmentów (reprezentująca acykliczny graf fleksyjny).
+Interpretacja obejmuje: lemat, znacznik morfosyntaktyczny, informację o by-
+ciu nazwą własną, ewentualne kwalifikatory.
+Oto przykład wyników działania programu dla tekstu „Mam próbkę ana-
+lizy morfologicznej.”:
+0 1 Mam mama subst:pl:gen:f
+mamić impt:sg:sec:imperf
+mieć fin:sg:pri:imperf
+1 2 próbkę próbka subst:sg:acc:f
+2 3 analizy analiza subst:sg:gen:f
+subst:pl:nom.acc.voc:f
+3 4 morfologicznej morfologiczny adj:sg:gen.dat.loc:f:pos
+4 5 . . interp
+Każdy wiersz tabeli zawiera jedną interpretację morfologiczną, kreski oddzie-
+lają grupy interpretacji dla poszczególnych segmentów. Tekst wejściowy został
+podzielony na segmenty (w szczególności kropka została oddzielona od napisu
+morfologicznej). Na prawo od segmentów podano odpowiadające im lematy,
+a w następnej kolumnie — znaczniki opisujące wartości kategorii gramatycz-
+nych charakteryzujące poszczególne formy.
+Segmentowi mam zostały przypisane trzy interpretacje: jako forma licz-
+by mnogiej rzeczownika mama, jako forma trybu rozkazującego czasownika
+mamić i wreszcie jako forma czasu teraźniejszego czasownika mieć. Segment
+analizy został jednoznacznie przypisany do lematu analiza, może on jednak
+być interpretowany zarówno jako forma liczby pojedynczej jak i mnogiej —
+w różnych przypadkach.  
+
+Znaczniki używane w programie Morfeusz są pozycyjne. Pierwsza pozy-
+cja określa klasę gramatyczną („część mowy”), następne pozycje reprezentują
+wartości kategorii gramatycznych przysługujących danej klasie. Na przykład
+znacznik subst oznacza rzeczownik, a po nim stoją wartości liczby, przypadka
+i rodzaju. Oznaczenia są w większości skrótami łacińskich nazw wartości.
+Lematy podawane przez program są wykładnikami tradycyjnie wybranych
+form podstawowych leksemu, chyba że wymagane jest rozróżnienie homoni-
+mów. Wyróżniamy więc dwa leksemy piec: rzeczownikowy z lematem piec:s
+i czasownikowy — piec:v. W wypadku homonimii w obrębie tej samej klasy
+gramatycznej dodajemy jeszcze oznaczenia cyfrowe. Na przykład wyróżniamy
+dwa leksemy słać: jeden z nich ma m.in. formę ściele, a drugi śle. Morfeusz
+dla wymienionych słów odpowie odpowiednio słać:v1 i słać:v2. Dla słowa
+słał, które może być interpretowane jako wykładnik obu rozważanych lekse-
+mów, Morfeusz przedstawi dwie interpretacje z tym samym znacznikiem, ale
+różnymi lematami.
+Interpretacje podawane przez program zawierają oprócz wymienionych
+w przykładzie jeszcze informację, czy dany leksem jest nazwą własną, oraz
+kwalifikatory.
+Morfeusz nie rozpatruje zależności przekraczających granicę odstępu mię-
+dzywyrazowego. Czasami jednak ciąg nie zawierający spacji jest dzielony na
+kilka segmentów. Najbardziej oczywistym takim elementem są znaki inter-
+punkcyjne oddzielane od poprzedzającego słowa. Ponadto dzielone są forma-
+cje typu biało-czerwony (ale nie ping-pong i PRL-u, jest to zadane przez słow-
+nik). Występujące w nich formy specjalne takie jak biało zostaną rozpoznane
+tylko w odpowiednim kontekście (a więc biało-jakiś lub biało-, to ostatnie ze
+względu na konteksty typu biało- lub żółto-niebieski).
+Zdarza się, że podział danego ciągu znaków na segmenty jest niejedno-
+znaczny, a w związku z tym interpretacje generowane przez Morfeusza w ogól-
+ności nie tworzą listy, ale graf acykliczny. Na przykład zdanie Coś zrobił? jest
+niejednoznaczne. Można je sparafrazować jako Co zrobiłeś?, gdzie coś jest in-
+terpretowane jako rzeczownik z doklejoną końcówką czasu przeszłego cza-
+sownika, lub też jako Czy [on] coś zrobił?, gdzie coś jest w całości interpreto-
+wane jako rzeczownik. Oto generowany dla tego przykładu graf fleksyjny:
+Jest on reprezentowany w postaci następującego ciągu interpretacyj:  
+
+0 1 Co co subst:sg:nom.acc:n2
+1 2 ś być aglt:sg:sec:imperf:nwok
+0 2 Coś coś subst:sg:nom.acc:n2
+2 3 zrobił zrobić praet:sg:m1.m2.m3:perf
+3 4 ? ? interp
+Liczby w pierwszych dwóch kolumnach tabeli oznaczają punkty pomiędzy
+poszczególnymi segmentami tekstu interpretowanymi przez program. W tym
+przykładzie fragment tekstu od punktu 0 do 2 (czyli coś) może być interpreto-
+wany jako dwa segmenty: 0–1 co i 1–2 ś lub pojedynczy segment 0–2. Numery
+są przydzielane rosnąco, ale, jak widać, nie w każdym wariancie interpretacji
+tekstu numeracja musi być ciągła.
+1.2. Synteza morfologiczna
+Synteza morfologiczna może się odbywać w dwóch wariantach. W pierw-
+szym podaje się lemat (np. piec:s) i otrzymuje listę wszystkich form zadanego
+leksemu — wykładników i znaczników morfosyntaktycznych (piec, pieca, pie-
+cowi, …, piece, pieców, …). W drugim wariancie podaje się lemat i pełny znacz-
+nik morfosyntaktyczny żądanej formy (np. subst:sg:dat:m3), a otrzymuje się
+jej wykładnik (np. piecowi) lub wykładniki, jeżeli istnieje kilka.
+Lemat podawany jako podstawa do generowania musi mieć taką samą po-
+stać, jaką zwraca moduł analizy, ewentualnie z pominięciem części po dwu-
+kropku. Podanie modułowi odmiany lematu słać:v1 spowoduje wygenero-
+wanie form tego tylko leksemu (w wyniku znajdzie się więc forma śle, ale nie
+ściele). Podanie lematu słać da w wyniku połączoną odmianę obu leksemów
+słać z pełnymi lematami pozwalającymi przypisać poszczególne formy do po-
+szczególnych leksemów.
+W wypadku nielicznych czasowników z wariantywnym bezokolicznikiem
+konieczne jest podanie właściwego lematu. Na przykład dla biec/biegnąć
+Morfeusz w analizie podaje lemat biec. Wygenerowanie formy inf:imperf dla
+tego lematu da wykładniki zarówno biec, jak i biegnąć.  
+
+2.1. Instalacja w systemach Debian, Ubuntu i pochodnych
+Pakiety dla systemu Debian/Ubuntu są udostępniane w postaci repozyto-
+rium zgodnego z systemem Apt. Aby więc zapewnić automatyczną aktuali-
+zację Morfeusza w systemie, należy dodać owo repozytorium do listy syste-
+mowych źródeł pakietów podanymi poniżej poleceniami. Morfeusz jest obec-
+nie kompilowany dla Ubuntu w trzech wersjach odpowiadających kolejnym
+dystrybucjom o przedłużonym wsparciu (LTS). Zalecamy następujący wybór
+repozytorium w zależności od wersji używanego sytemu:
+— Ubuntu 14.04, 14.10, 15.04, 15.10 — wersja „trusty”,
+— Ubuntu 16.04, 16.10, 17.04, 17.10 — wersja „xenial”,
+— Ubuntu 18.04, 18.10, 19.04, … — wersja „bionic”.
+Użycie poniższych poleceń zapewnia dodanie do systemowej listy źródeł wła-
+ściwej (automatycznie wybranej) wersji repozytorium:1
+wget -O - http://sgjp.pl/apt/sgjp.gpg.key|sudo apt-key add -
+sudo apt-add-repository http://download.sgjp.pl/apt/ubuntu
+sudo apt update
+Po ich wykonaniu można zainstalować w systemie wybrane pakiety Morfe-
+usza, na przykład:
+sudo apt install morfeusz2 morfeusz2-gui python3-morfeusz2
+Zainstalowane pakiety będą podlegały systemowej procedurze aktualizacji.
+2.2. Instalacja w innych systemach Linuksowych
+W innych systemach linuksowych konieczne jest skorzystanie z paczek
+.tar.gz. Zawierają one skompilowaną bibliotekę (z wbudowanym słownikiem
+SGJP) i programy klienckie.
+System Linux szuka bibliotek dynamicznych tylko w predefiniowanych ka-
+talogach systemowych. Dobrym miejscem dla bibliotek instalowanych z ręki
+1 Organizacja repozytorium została zmieniona w połowie 2019 r. Użytkowników po-
+przedniej wersji prosimy o usunięcie z pliku /etc/apt/sources.list zapisów dotyczących
+repozytorium sgjp.pl i ponowienie procedury konfiguracyjnej.
+
+jest katalog /usr/local/lib, po skopiowaniu plików konieczne jest odświe-
+żenie bazy bibliotek poleceniem ldconfig:
+sudo cp -a ‹ścieżka_do_rozpakowanej_paczki_z_Morfeuszem›/lib/* /usr/local/lib/
+sudo ldconfig
+Programy wykonywalne można skopiować do katalogu /usr/local/bin:
+sudo cp -a ‹ścieżka_do_rozpakowanej_paczki_z_Morfeuszem›/bin/* /usr/local/lib/
+Jeżeli niemożliwe jest umieszczenie plików w katalogach systemowych,
+można wskazać położenie bibliotek ustawiając zmienną środowiskową
+export LD_LIBRARY_PATH=‹ścieżka_do_rozpakowanej_paczki_z_Morfeuszem›/lib/
+a programy wykonywalne wywoływać z jawną ścieżką lub dodać katalog do
+zmiennej PATH:
+export PATH=‹ścieżka_do_rozpakowanej_paczki_z_Morfeuszem›/bin/
+Moduł pythonowy można zainstalować poleceniem easy_install z pliku
+.egg pobranego ze strony (dla odpowiedniej wersji języka Python).
+
