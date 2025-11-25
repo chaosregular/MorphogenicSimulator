@@ -1,0 +1,718 @@
+DEBUG: pos_info dla tokena 'Ala': (0, 1, ('Ala', 'Ala', 'subst:sg:nom:f', ['imię'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Ala': (0, 1, ('Ala', 'Al', 'subst:sg:gen.acc:m1', ['imię'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Ala': (0, 1, ('Ala', 'Alo', 'subst:sg:gen.acc:m1', ['imię'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'ma': (0, 1, ('ma', 'mój:A', 'adj:sg:nom.voc:f:pos', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'ma': (0, 1, ('ma', 'mieć', 'fin:sg:ter:imperf', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'kota.': (0, 1, ('kota', 'kota', 'subst:sg:nom:f', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'kota.': (0, 1, ('kota', 'kot:Sm1', 'subst:sg:gen.acc:m1', ['nazwa_pospolita'], ['pot.,środ.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'kota.': (0, 1, ('kota', 'kot:Sm2', 'subst:sg:gen.acc:m2', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'kota.': (1, 2, ('.', '.', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Błędne': (0, 1, ('Błędne', 'błędny', 'adj:pl:acc:m2.m3.f.n:pos', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Błędne': (0, 1, ('Błędne', 'błędny', 'adj:pl:nom.voc:m2.m3.f.n:pos', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Błędne': (0, 1, ('Błędne', 'błędny', 'adj:sg:acc:n:pos', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Błędne': (0, 1, ('Błędne', 'błędny', 'adj:sg:nom.voc:n:pos', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Skały.': (0, 1, ('Skały', 'Skały', 'subst:pl:nom.acc.voc:n:pt', ['nazwa_geograficzna'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Skały.': (0, 1, ('Skały', 'skała', 'subst:sg:gen:f', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Skały.': (0, 1, ('Skały', 'skała', 'subst:pl:nom.acc.voc:f', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Skały.': (0, 1, ('Skały', 'Skała:Sf', 'subst:sg:gen:f', ['nazwa_geograficzna', 'nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Skały.': (0, 1, ('Skały', 'Skała:Sf', 'subst:pl:nom.acc.voc:f', ['nazwa_geograficzna', 'nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Skały.': (0, 1, ('Skały', 'Skała:Sm1', 'subst:sg:gen:m1', ['nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Skały.': (0, 1, ('Skały', 'Skał:Sm1', 'depr:pl:nom.acc.voc:m2', ['nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Skały.': (0, 1, ('Skały', 'Skała:Sm1', 'depr:pl:nom.acc.voc:m2', ['nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Skały.': (1, 2, ('.', '.', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Kot': (0, 1, ('Kot', 'Kot:Sf', 'subst:sg.pl:nom.gen.dat.acc.inst.loc.voc:f', ['nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Kot': (0, 1, ('Kot', 'kot:Sm1', 'subst:sg:nom:m1', ['nazwa_pospolita'], ['pot.,środ.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Kot': (0, 1, ('Kot', 'Kot:Sm1', 'subst:sg:nom:m1', ['nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Kot': (0, 1, ('Kot', 'kot:Sm2', 'subst:sg:nom:m2', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Kot': (0, 1, ('Kot', 'Kot:Sm3', 'subst:sg:nom.acc:m3', ['nazwa_geograficzna'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Kot': (0, 1, ('Kot', 'kota', 'subst:pl:gen:f', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'goni': (0, 1, ('goni', 'goń', 'subst:sg:gen:f', ['nazwa_pospolita'], ['daw.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'goni': (0, 1, ('goni', 'goń', 'subst:sg:dat.loc:f', ['nazwa_pospolita'], ['daw.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'goni': (0, 1, ('goni', 'goń', 'subst:sg:voc:f', ['nazwa_pospolita'], ['daw.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'goni': (0, 1, ('goni', 'goń', 'subst:pl:gen:f', ['nazwa_pospolita'], ['daw.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'goni': (0, 1, ('goni', 'gonić', 'fin:sg:ter:imperf', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'kota,': (0, 1, ('kota', 'kota', 'subst:sg:nom:f', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'kota,': (0, 1, ('kota', 'kot:Sm1', 'subst:sg:gen.acc:m1', ['nazwa_pospolita'], ['pot.,środ.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'kota,': (0, 1, ('kota', 'kot:Sm2', 'subst:sg:gen.acc:m2', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'kota,': (1, 2, (',', ',', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'kotów': (0, 1, ('kotów', 'kot:Sm1', 'subst:pl:gen.acc:m1', ['nazwa_pospolita'], ['pot.,środ.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'kotów': (0, 1, ('kotów', 'kot:Sm2', 'subst:pl:gen:m2', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'i': (0, 1, ('i', 'i:I', 'interj', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'i': (0, 1, ('i', 'i:T', 'part', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'i': (0, 1, ('i', 'i:C', 'conj', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'koty.': (0, 1, ('koty', 'kot:Sm2', 'subst:pl:nom.acc.voc:m2', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'koty.': (0, 1, ('koty', 'kota', 'subst:sg:gen:f', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'koty.': (0, 1, ('koty', 'kota', 'subst:pl:nom.acc.voc:f', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'koty.': (0, 1, ('koty', 'kot:Sm1', 'depr:pl:nom.acc.voc:m2', ['nazwa_pospolita'], ['pot.,środ.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'koty.': (1, 2, ('.', '.', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Zamek': (0, 1, ('Zamek', 'Zamek', 'subst:sg:nom.acc:m3', ['człon_nazwy_geograficznej'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Zamek': (0, 1, ('Zamek', 'zamek:Sm3~a', 'subst:sg:nom.acc:m3', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Zamek': (0, 1, ('Zamek', 'zamek:Sm3~u', 'subst:sg:nom.acc:m3', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'stoi': (0, 1, ('stoi', 'stać:Vi', 'fin:sg:ter:imperf', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'stoi': (0, 1, ('stoi', 'stoa', 'subst:sg:gen:f', ['nazwa_pospolita'], ['archeol.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'stoi': (0, 1, ('stoi', 'stoa', 'subst:sg:dat.loc:f', ['nazwa_pospolita'], ['archeol.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'stoi': (0, 1, ('stoi', 'stoa', 'subst:pl:gen:f', ['nazwa_pospolita'], ['archeol.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'nad': (0, 1, ('nad', 'nad', 'prep:acc:nwok', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'nad': (0, 1, ('nad', 'nad', 'prep:inst:nwok', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'rzeką,': (0, 1, ('rzeką', 'rzec:Vp', 'fin:pl:ter:perf', [], ['niezal.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'rzeką,': (0, 1, ('rzeką', 'rzeka', 'subst:sg:inst:f', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'rzeką,': (0, 1, ('rzeką', 'rzec:Vi', 'fin:pl:ter:imperf', [], ['daw.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'rzeką,': (1, 2, (',', ',', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'a': (0, 1, ('a', 'a:C', 'conj', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'a': (0, 1, ('a', 'a:I', 'interj', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'a': (0, 1, ('a', 'a:P', 'prep:nom', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'a': (0, 1, ('a', 'a:T', 'part', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'zamek': (0, 1, ('zamek', 'zamek:Sm3~a', 'subst:sg:nom.acc:m3', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'zamek': (0, 1, ('zamek', 'zamek:Sm3~u', 'subst:sg:nom.acc:m3', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'u': (0, 1, ('u', 'u', 'prep:gen', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'drzwi': (0, 1, ('drzwi', 'drzwi', 'subst:pl:nom.acc.voc:n:pt', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'drzwi': (0, 1, ('drzwi', 'drzwi', 'subst:pl:gen:n:pt', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'nie': (0, 1, ('nie', 'nie:T', 'part', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'nie': (0, 1, ('nie', 'nie:C', 'conj', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'nie': (0, 1, ('nie', 'nie:I', 'interj', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'nie': (0, 1, ('nie', 'on:S', 'ppron3:pl:acc:m2.m3.f.n:ter:akc.nakc:praep', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'nie': (0, 1, ('nie', 'on:S', 'ppron3:sg:acc:n:ter:akc.nakc:praep', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'działa.': (0, 1, ('działa', 'dziać', 'praet:sg:f:imperf', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'działa.': (0, 1, ('działa', 'działo', 'subst:sg:gen:n:ncol', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'działa.': (0, 1, ('działa', 'działo', 'subst:pl:nom.acc.voc:n:ncol', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'działa.': (0, 1, ('działa', 'działać', 'fin:sg:ter:imperf', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'działa.': (1, 2, ('.', '.', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Idę,': (0, 1, ('Idę', 'Ida', 'subst:sg:acc:f', ['imię'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Idę,': (0, 1, ('Idę', 'iść', 'fin:sg:pri:imperf', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Idę,': (1, 2, (',', ',', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'idziesz,': (0, 1, ('idziesz', 'iść', 'fin:sg:sec:imperf', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'idziesz,': (1, 2, (',', ',', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'idzie,': (0, 1, ('idzie', 'id', 'subst:sg:loc:m3', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'idzie,': (0, 1, ('idzie', 'id', 'subst:sg:voc:m3', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'idzie,': (0, 1, ('idzie', 'iść', 'fin:sg:ter:imperf', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'idzie,': (1, 2, (',', ',', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'idziemy,': (0, 1, ('idziemy', 'iść', 'fin:pl:pri:imperf', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'idziemy,': (1, 2, (',', ',', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'idziecie,': (0, 1, ('idziecie', 'iść', 'fin:pl:sec:imperf', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'idziecie,': (1, 2, (',', ',', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'idą.': (0, 1, ('idą', 'iść', 'fin:pl:ter:imperf', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'idą.': (1, 2, ('.', '.', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Przeszła': (0, 1, ('Przeszła', 'przeszły', 'adj:sg:nom.voc:f:pos', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Przeszła': (0, 1, ('Przeszła', 'przejść', 'praet:sg:f:perf', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'obok': (0, 1, ('obok', 'obok:D', 'adv', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'obok': (0, 1, ('obok', 'obok:P', 'prep:gen', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'niego,': (0, 1, ('niego', 'on:S', 'ppron3:sg:acc:m1.m2.m3:ter:akc:praep', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'niego,': (0, 1, ('niego', 'on:S', 'ppron3:sg:gen:m1.m2.m3:ter:akc:praep', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'niego,': (0, 1, ('niego', 'on:S', 'ppron3:sg:gen:n:ter:akc.nakc:praep', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'niego,': (1, 2, (',', ',', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'niosąc': (0, 1, ('niosąc', 'nieść', 'pcon:imperf', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'list.': (0, 1, ('list', 'list', 'subst:sg:nom.acc:m3', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'list.': (0, 1, ('list', 'lista', 'subst:pl:gen:f', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'list.': (1, 2, ('.', '.', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Maria': (0, 1, ('Maria', 'Maria', 'subst:sg:nom:f', ['imię'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'poszła': (0, 1, ('poszła', 'pójść', 'praet:sg:f:perf', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'do': (0, 1, ('do', 'do:S', 'subst:sg.pl:nom.gen.dat.acc.inst.loc.voc:n:ncol', ['nazwa_pospolita'], ['muz.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'do': (0, 1, ('do', 'do:P', 'prep:gen', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Rzymu': (0, 1, ('Rzymu', 'Rzym:Sm3', 'subst:sg:gen:m3', ['nazwa_geograficzna'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'z': (0, 1, ('z', 'z:P', 'prep:gen:nwok', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'z': (0, 1, ('z', 'z:P', 'prep:inst:nwok', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'z': (0, 1, ('z', 'z:T', 'part:nwok', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Piotrem': (0, 1, ('Piotrem', 'Piotr:Sm1', 'subst:sg:inst:m1', ['imię', 'nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Skałą.': (0, 1, ('Skałą', 'skała', 'subst:sg:inst:f', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Skałą.': (0, 1, ('Skałą', 'Skała:Sf', 'subst:sg:inst:f', ['nazwa_geograficzna', 'nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Skałą.': (0, 1, ('Skałą', 'Skała:Sm1', 'subst:sg:inst:m1', ['nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Skałą.': (1, 2, ('.', '.', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'To': (0, 1, ('To', 'to:V', 'pred', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'To': (0, 1, ('To', 'to:C', 'conj', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'To': (0, 1, ('To', 'to:T', 'part', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'To': (0, 1, ('To', 'to:S', 'subst:sg:nom:n:ncol', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'To': (0, 1, ('To', 'to:S', 'subst:sg:acc:n:ncol', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'To': (0, 1, ('To', 'ten', 'adj:sg:acc:n:pos', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'To': (0, 1, ('To', 'ten', 'adj:sg:nom.voc:n:pos', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'To': (0, 1, ('To', 'to:M', 'comp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'jest': (0, 1, ('jest', 'być', 'fin:sg:ter:imperf', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'zajebisty': (0, 1, ('zajebisty', 'zajebisty', 'adj:sg:acc:m3:pos', [], ['pot.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'zajebisty': (0, 1, ('zajebisty', 'zajebisty', 'adj:sg:nom.voc:m1.m2.m3:pos', [], ['pot.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'przykład,': (0, 1, ('przykład', 'przykład', 'subst:sg:nom.acc:m3', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'przykład,': (1, 2, (',', ',', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'choć': (0, 1, ('choć', 'choć:M', 'comp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'choć': (0, 1, ('choć', 'choć:T', 'part', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'trochę': (0, 1, ('trochę', 'trochę:D', 'adv', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'trochę': (0, 1, ('trochę', 'trocha', 'subst:sg:acc:f', ['nazwa_pospolita'], ['przest.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'trochę': (0, 1, ('trochę', 'trochę:N', 'num:sg.pl:gen:m1.m2.m3.f.n:congr', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'trochę': (0, 1, ('trochę', 'trochę:N', 'num:sg.pl:nom.acc:m1.m2.m3.f.n:rec', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'potoczny.': (0, 1, ('potoczny', 'potoczny', 'adj:sg:acc:m3:pos', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'potoczny.': (0, 1, ('potoczny', 'potoczny', 'adj:sg:nom.voc:m1.m2.m3:pos', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'potoczny.': (1, 2, ('.', '.', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Ładny': (0, 1, ('Ładny', 'Ładna:Sm1', 'depr:pl:nom.acc.voc:m2', ['nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Ładny': (0, 1, ('Ładny', 'Ładno:Sm1', 'depr:pl:nom.acc.voc:m2', ['nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Ładny': (0, 1, ('Ładny', 'Ładny:Sf', 'subst:sg.pl:nom.gen.dat.acc.inst.loc.voc:f', ['nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Ładny': (0, 1, ('Ładny', 'Ładny:Sm1', 'subst:sg:nom:m1', ['nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Ładny': (0, 1, ('Ładny', 'Ładny:Sm1', 'subst:sg:voc:m1', ['nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Ładny': (0, 1, ('Ładny', 'Ładna:Sf~y', 'subst:sg:gen:f', ['nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Ładny': (0, 1, ('Ładny', 'Ładna:Sf~y', 'subst:pl:nom.acc.voc:f', ['nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Ładny': (0, 1, ('Ładny', 'Ładna:Sm1', 'subst:sg:gen:m1', ['nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Ładny': (0, 1, ('Ładny', 'Ładno:Sm1', 'subst:sg:gen:m1', ['nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Ładny': (0, 1, ('Ładny', 'ładny', 'adj:sg:acc:m3:pos', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Ładny': (0, 1, ('Ładny', 'ładny', 'adj:sg:nom.voc:m1.m2.m3:pos', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'chłopiec': (0, 1, ('chłopiec', 'chłopiec', 'subst:sg:nom:m1', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'ładnie': (0, 1, ('ładnie', 'ładnie', 'adv:pos', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'śpiewał.': (0, 1, ('śpiewał', 'śpiewać', 'praet:sg:m1.m2.m3:imperf', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'śpiewał.': (1, 2, ('.', '.', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Oko': (0, 1, ('Oko', 'Oko:Sf', 'subst:sg.pl:nom.gen.dat.acc.inst.loc.voc:f', ['nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Oko': (0, 1, ('Oko', 'Oko:Sm1', 'subst:sg:nom:m1', ['nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Oko': (0, 1, ('Oko', 'Oko:Sm1', 'subst:sg:voc:m1', ['nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Oko': (0, 1, ('Oko', 'oko:Sn_col', 'subst:sg:nom.acc.voc:n:col', ['nazwa_pospolita'], ['anat.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Oko': (0, 1, ('Oko', 'oko:Sn_ncol', 'subst:sg:nom.acc.voc:n:ncol', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Oko': (0, 1, ('Oko', 'Oka', 'subst:sg:voc:f', ['nazwa_geograficzna'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'w': (0, 1, ('w', 'w', 'prep:acc:nwok', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'w': (0, 1, ('w', 'w', 'prep:loc:nwok', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'oko': (0, 1, ('oko', 'oko:Sn_col', 'subst:sg:nom.acc.voc:n:col', ['nazwa_pospolita'], ['anat.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'oko': (0, 1, ('oko', 'oko:Sn_ncol', 'subst:sg:nom.acc.voc:n:ncol', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'z': (0, 1, ('z', 'z:P', 'prep:gen:nwok', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'z': (0, 1, ('z', 'z:P', 'prep:inst:nwok', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'z': (0, 1, ('z', 'z:T', 'part:nwok', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'losem,': (0, 1, ('losem', 'los', 'subst:sg:inst:m3', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'losem,': (1, 2, (',', ',', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'oko': (0, 1, ('oko', 'oko:Sn_col', 'subst:sg:nom.acc.voc:n:col', ['nazwa_pospolita'], ['anat.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'oko': (0, 1, ('oko', 'oko:Sn_ncol', 'subst:sg:nom.acc.voc:n:ncol', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'się': (0, 1, ('się', 'się', 'part', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'zamyka,': (0, 1, ('zamyka', 'zamykać', 'fin:sg:ter:imperf', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'zamyka,': (1, 2, (',', ',', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'a': (0, 1, ('a', 'a:C', 'conj', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'a': (0, 1, ('a', 'a:I', 'interj', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'a': (0, 1, ('a', 'a:P', 'prep:nom', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'a': (0, 1, ('a', 'a:T', 'part', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'on': (0, 1, ('on', 'on:A', 'adj:sg:acc:m3:pos', [], ['daw.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'on': (0, 1, ('on', 'on:A', 'adj:sg:nom.voc:m1.m2.m3:pos', [], ['daw.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'on': (0, 1, ('on', 'on:S', 'ppron3:sg:nom:m1.m2.m3:ter:akc.nakc:praep.npraep', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'się': (0, 1, ('się', 'się', 'part', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'o-k-o': (0, 1, ('o', 'o:P', 'prep:acc', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'o-k-o': (0, 1, ('o', 'o:P', 'prep:loc', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'o-k-o': (0, 1, ('o', 'o:I', 'interj', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'o-k-o': (1, 2, ('-', '-', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'o-k-o': (2, 3, ('k', 'kompania', 'brev:npun', [], ['wojsk.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'o-k-o': (2, 3, ('k', 'k', 'prep:dat', [], ['daw._dziś_gwar.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'o-k-o': (3, 4, ('-', '-', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'o-k-o': (4, 5, ('o', 'o:P', 'prep:acc', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'o-k-o': (4, 5, ('o', 'o:P', 'prep:loc', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'o-k-o': (4, 5, ('o', 'o:I', 'interj', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'używał': (0, 1, ('używał', 'używać', 'praet:sg:m1.m2.m3:imperf', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'inaczej.': (0, 1, ('inaczej', 'inaczej:D', 'adv', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'inaczej.': (0, 1, ('inaczej', 'inaczej:C', 'conj', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'inaczej.': (1, 2, ('.', '.', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Skała': (0, 1, ('Skała', 'skała', 'subst:sg:nom:f', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Skała': (0, 1, ('Skała', 'Skała:Sf', 'subst:sg:nom:f', ['nazwa_geograficzna', 'nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Skała': (0, 1, ('Skała', 'Skała:Sm1', 'subst:sg:nom:m1', ['nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Skała': (0, 1, ('Skała', 'Skał:Sm1', 'subst:sg:gen.acc:m1', ['nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'jest': (0, 1, ('jest', 'być', 'fin:sg:ter:imperf', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'twarda,': (0, 1, ('twarda', 'twardy', 'adj:sg:nom.voc:f:pos', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'twarda,': (1, 2, (',', ',', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'a': (0, 1, ('a', 'a:C', 'conj', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'a': (0, 1, ('a', 'a:I', 'interj', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'a': (0, 1, ('a', 'a:P', 'prep:nom', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'a': (0, 1, ('a', 'a:T', 'part', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Skała': (0, 1, ('Skała', 'skała', 'subst:sg:nom:f', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Skała': (0, 1, ('Skała', 'Skała:Sf', 'subst:sg:nom:f', ['nazwa_geograficzna', 'nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Skała': (0, 1, ('Skała', 'Skała:Sm1', 'subst:sg:nom:m1', ['nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Skała': (0, 1, ('Skała', 'Skał:Sm1', 'subst:sg:gen.acc:m1', ['nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'mieszka': (0, 1, ('mieszka', 'mieszek', 'subst:sg:gen:m3', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'mieszka': (0, 1, ('mieszka', 'mieszkać', 'fin:sg:ter:imperf', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'w': (0, 1, ('w', 'w', 'prep:acc:nwok', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'w': (0, 1, ('w', 'w', 'prep:loc:nwok', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Krakowie.': (0, 1, ('Krakowie', 'Krak:Sm1', 'subst:pl:nom.voc:m1', ['imię', 'nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Krakowie.': (0, 1, ('Krakowie', 'Kraka:Sm1', 'subst:pl:nom.voc:m1', ['nazwisko'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Krakowie.': (0, 1, ('Krakowie', 'Kraków', 'subst:sg:loc:m3', ['nazwa_geograficzna'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Krakowie.': (0, 1, ('Krakowie', 'Kraków', 'subst:sg:voc:m3', ['nazwa_geograficzna'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Krakowie.': (1, 2, ('.', '.', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Pięćdziesięciopięcioletnia': (0, 1, ('Pięćdziesięciopięcioletnia', 'pięćdziesięciopięcioletni', 'adj:sg:nom.voc:f:pos', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Pięćdziesięciopięcioletnia': (0, 1, ('Pięćdziesięciopięcioletnia', 'pięćdziesięciopięcioletni', 'adj:sg:nom.voc:f:pos', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'nauczycielka': (0, 1, ('nauczycielka', 'nauczycielka', 'subst:sg:nom:f', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'weszła': (0, 1, ('weszła', 'wejść', 'praet:sg:f:perf', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'weszła': (0, 1, ('weszła', 'wnijść', 'praet:sg:f:perf', [], ['daw.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'weszła': (0, 1, ('weszła', 'wniść', 'praet:sg:f:perf', [], ['daw.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'do': (0, 1, ('do', 'do:S', 'subst:sg.pl:nom.gen.dat.acc.inst.loc.voc:n:ncol', ['nazwa_pospolita'], ['muz.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'do': (0, 1, ('do', 'do:P', 'prep:gen', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'pokoju.': (0, 1, ('pokoju', 'pokój', 'subst:sg:gen:m3', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'pokoju.': (0, 1, ('pokoju', 'pokój', 'subst:sg:loc:m3', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'pokoju.': (0, 1, ('pokoju', 'pokój', 'subst:sg:voc:m3', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'pokoju.': (1, 2, ('.', '.', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'No.': (0, 1, ('No', 'no:I', 'interj', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'No.': (0, 1, ('No', 'no:T', 'part', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'No.': (0, 1, ('No', 'no:S', 'subst:sg.pl:nom.gen.dat.acc.inst.loc.voc:n:ncol', ['nazwa_pospolita'], ['teatr.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'No.': (1, 2, ('.', '.', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena '.': (0, 1, ('.', '.', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena '.': (0, 1, ('.', '.', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'chyba': (0, 1, ('chyba', 'chyba', 'part', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'chyba': (0, 1, ('chyba', 'chybać', 'fin:sg:ter:imperf', [], ['gwar.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'tak,': (0, 1, ('tak', 'tak:I', 'interj', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'tak,': (0, 1, ('tak', 'tak:T', 'part', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'tak,': (0, 1, ('tak', 'tak:D', 'adv:pos', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'tak,': (0, 1, ('tak', 'taka', 'subst:pl:gen:f', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'tak,': (1, 2, (',', ',', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'prawda?': (0, 1, ('prawda', 'prawda:S', 'subst:sg:nom:f', ['nazwa_pospolita'], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'prawda?': (0, 1, ('prawda', 'prawda:I', 'interj', [], ['pot.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'prawda?': (1, 2, ('?', '?', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Azażbyś': (0, 1, ('Azażbyś', 'Azażbyś', 'ign', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'nie': (0, 1, ('nie', 'nie:T', 'part', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'nie': (0, 1, ('nie', 'nie:C', 'conj', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'nie': (0, 1, ('nie', 'nie:I', 'interj', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'nie': (0, 1, ('nie', 'on:S', 'ppron3:pl:acc:m2.m3.f.n:ter:akc.nakc:praep', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'nie': (0, 1, ('nie', 'on:S', 'ppron3:sg:acc:n:ter:akc.nakc:praep', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'wiedział,': (0, 1, ('wiedział', 'wiedzieć', 'praet:sg:m1.m2.m3:imperf', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'wiedział,': (1, 2, (',', ',', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'iżeć': (0, 1, ('iżeć', 'iżeć', 'ign', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'powiadam.': (0, 1, ('powiadam', 'powiadać', 'fin:sg:pri:imperf', [], ['przest.'])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'powiadam.': (1, 2, ('.', '.', 'interp', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'Podpierdółkowacąc': (0, 1, ('Podpierdółkowacąc', 'Podpierdółkowacąc', 'ign', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'podpierdółkowacili': (0, 1, ('podpierdółkowacili', 'podpierdółkowacili', 'ign', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'podpierdółkowacącą': (0, 1, ('podpierdółkowacącą', 'podpierdółkowacącą', 'ign', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'podpierdółkę.': (0, 1, ('podpierdółkę', 'podpierdółkę', 'ign', [], [])), Typ: <class 'tuple'>
+DEBUG: pos_info dla tokena 'podpierdółkę.': (1, 2, ('.', '.', 'interp', [], [])), Typ: <class 'tuple'>
+[Zdanie 0] Ala
+  - base=Ala pos=subst feat=sg:nom:f
+  - base=Al pos=subst feat=sg:gen.acc:m1
+  - base=Alo pos=subst feat=sg:gen.acc:m1
+
+[Zdanie 0] ma
+  - base=mój:A pos=adj feat=sg:nom.voc:f:pos
+  - base=mieć pos=fin feat=sg:ter:imperf
+
+[Zdanie 0] kota.
+  - base=kota pos=subst feat=sg:nom:f
+  - base=kot:Sm1 pos=subst feat=sg:gen.acc:m1
+  - base=kot:Sm2 pos=subst feat=sg:gen.acc:m2
+  - base=. pos=interp feat=
+
+[Zdanie 1] Błędne
+  - base=błędny pos=adj feat=pl:acc:m2.m3.f.n:pos
+  - base=błędny pos=adj feat=pl:nom.voc:m2.m3.f.n:pos
+  - base=błędny pos=adj feat=sg:acc:n:pos
+  - base=błędny pos=adj feat=sg:nom.voc:n:pos
+
+[Zdanie 1] Skały.
+  - base=Skały pos=subst feat=pl:nom.acc.voc:n:pt
+  - base=skała pos=subst feat=sg:gen:f
+  - base=skała pos=subst feat=pl:nom.acc.voc:f
+  - base=Skała:Sf pos=subst feat=sg:gen:f
+  - base=Skała:Sf pos=subst feat=pl:nom.acc.voc:f
+  - base=Skała:Sm1 pos=subst feat=sg:gen:m1
+  - base=Skał:Sm1 pos=depr feat=pl:nom.acc.voc:m2
+  - base=Skała:Sm1 pos=depr feat=pl:nom.acc.voc:m2
+  - base=. pos=interp feat=
+
+[Zdanie 2] Kot
+  - base=Kot:Sf pos=subst feat=sg.pl:nom.gen.dat.acc.inst.loc.voc:f
+  - base=kot:Sm1 pos=subst feat=sg:nom:m1
+  - base=Kot:Sm1 pos=subst feat=sg:nom:m1
+  - base=kot:Sm2 pos=subst feat=sg:nom:m2
+  - base=Kot:Sm3 pos=subst feat=sg:nom.acc:m3
+  - base=kota pos=subst feat=pl:gen:f
+
+[Zdanie 2] goni
+  - base=goń pos=subst feat=sg:gen:f
+  - base=goń pos=subst feat=sg:dat.loc:f
+  - base=goń pos=subst feat=sg:voc:f
+  - base=goń pos=subst feat=pl:gen:f
+  - base=gonić pos=fin feat=sg:ter:imperf
+
+[Zdanie 2] kota,
+  - base=kota pos=subst feat=sg:nom:f
+  - base=kot:Sm1 pos=subst feat=sg:gen.acc:m1
+  - base=kot:Sm2 pos=subst feat=sg:gen.acc:m2
+  - base=, pos=interp feat=
+
+[Zdanie 2] kotów
+  - base=kot:Sm1 pos=subst feat=pl:gen.acc:m1
+  - base=kot:Sm2 pos=subst feat=pl:gen:m2
+
+[Zdanie 2] i
+  - base=i:I pos=interj feat=
+  - base=i:T pos=part feat=
+  - base=i:C pos=conj feat=
+
+[Zdanie 2] koty.
+  - base=kot:Sm2 pos=subst feat=pl:nom.acc.voc:m2
+  - base=kota pos=subst feat=sg:gen:f
+  - base=kota pos=subst feat=pl:nom.acc.voc:f
+  - base=kot:Sm1 pos=depr feat=pl:nom.acc.voc:m2
+  - base=. pos=interp feat=
+
+[Zdanie 3] Zamek
+  - base=Zamek pos=subst feat=sg:nom.acc:m3
+  - base=zamek:Sm3~a pos=subst feat=sg:nom.acc:m3
+  - base=zamek:Sm3~u pos=subst feat=sg:nom.acc:m3
+
+[Zdanie 3] stoi
+  - base=stać:Vi pos=fin feat=sg:ter:imperf
+  - base=stoa pos=subst feat=sg:gen:f
+  - base=stoa pos=subst feat=sg:dat.loc:f
+  - base=stoa pos=subst feat=pl:gen:f
+
+[Zdanie 3] nad
+  - base=nad pos=prep feat=acc:nwok
+  - base=nad pos=prep feat=inst:nwok
+
+[Zdanie 3] rzeką,
+  - base=rzec:Vp pos=fin feat=pl:ter:perf
+  - base=rzeka pos=subst feat=sg:inst:f
+  - base=rzec:Vi pos=fin feat=pl:ter:imperf
+  - base=, pos=interp feat=
+
+[Zdanie 3] a
+  - base=a:C pos=conj feat=
+  - base=a:I pos=interj feat=
+  - base=a:P pos=prep feat=nom
+  - base=a:T pos=part feat=
+
+[Zdanie 3] zamek
+  - base=zamek:Sm3~a pos=subst feat=sg:nom.acc:m3
+  - base=zamek:Sm3~u pos=subst feat=sg:nom.acc:m3
+
+[Zdanie 3] u
+  - base=u pos=prep feat=gen
+
+[Zdanie 3] drzwi
+  - base=drzwi pos=subst feat=pl:nom.acc.voc:n:pt
+  - base=drzwi pos=subst feat=pl:gen:n:pt
+
+[Zdanie 3] nie
+  - base=nie:T pos=part feat=
+  - base=nie:C pos=conj feat=
+  - base=nie:I pos=interj feat=
+  - base=on:S pos=ppron3 feat=pl:acc:m2.m3.f.n:ter:akc.nakc:praep
+  - base=on:S pos=ppron3 feat=sg:acc:n:ter:akc.nakc:praep
+
+[Zdanie 3] działa.
+  - base=dziać pos=praet feat=sg:f:imperf
+  - base=działo pos=subst feat=sg:gen:n:ncol
+  - base=działo pos=subst feat=pl:nom.acc.voc:n:ncol
+  - base=działać pos=fin feat=sg:ter:imperf
+  - base=. pos=interp feat=
+
+[Zdanie 4] Idę,
+  - base=Ida pos=subst feat=sg:acc:f
+  - base=iść pos=fin feat=sg:pri:imperf
+  - base=, pos=interp feat=
+
+[Zdanie 4] idziesz,
+  - base=iść pos=fin feat=sg:sec:imperf
+  - base=, pos=interp feat=
+
+[Zdanie 4] idzie,
+  - base=id pos=subst feat=sg:loc:m3
+  - base=id pos=subst feat=sg:voc:m3
+  - base=iść pos=fin feat=sg:ter:imperf
+  - base=, pos=interp feat=
+
+[Zdanie 4] idziemy,
+  - base=iść pos=fin feat=pl:pri:imperf
+  - base=, pos=interp feat=
+
+[Zdanie 4] idziecie,
+  - base=iść pos=fin feat=pl:sec:imperf
+  - base=, pos=interp feat=
+
+[Zdanie 4] idą.
+  - base=iść pos=fin feat=pl:ter:imperf
+  - base=. pos=interp feat=
+
+[Zdanie 5] Przeszła
+  - base=przeszły pos=adj feat=sg:nom.voc:f:pos
+  - base=przejść pos=praet feat=sg:f:perf
+
+[Zdanie 5] obok
+  - base=obok:D pos=adv feat=
+  - base=obok:P pos=prep feat=gen
+
+[Zdanie 5] niego,
+  - base=on:S pos=ppron3 feat=sg:acc:m1.m2.m3:ter:akc:praep
+  - base=on:S pos=ppron3 feat=sg:gen:m1.m2.m3:ter:akc:praep
+  - base=on:S pos=ppron3 feat=sg:gen:n:ter:akc.nakc:praep
+  - base=, pos=interp feat=
+
+[Zdanie 5] niosąc
+  - base=nieść pos=pcon feat=imperf
+
+[Zdanie 5] list.
+  - base=list pos=subst feat=sg:nom.acc:m3
+  - base=lista pos=subst feat=pl:gen:f
+  - base=. pos=interp feat=
+
+[Zdanie 6] Maria
+  - base=Maria pos=subst feat=sg:nom:f
+
+[Zdanie 6] poszła
+  - base=pójść pos=praet feat=sg:f:perf
+
+[Zdanie 6] do
+  - base=do:S pos=subst feat=sg.pl:nom.gen.dat.acc.inst.loc.voc:n:ncol
+  - base=do:P pos=prep feat=gen
+
+[Zdanie 6] Rzymu
+  - base=Rzym:Sm3 pos=subst feat=sg:gen:m3
+
+[Zdanie 6] z
+  - base=z:P pos=prep feat=gen:nwok
+  - base=z:P pos=prep feat=inst:nwok
+  - base=z:T pos=part feat=nwok
+
+[Zdanie 6] Piotrem
+  - base=Piotr:Sm1 pos=subst feat=sg:inst:m1
+
+[Zdanie 6] Skałą.
+  - base=skała pos=subst feat=sg:inst:f
+  - base=Skała:Sf pos=subst feat=sg:inst:f
+  - base=Skała:Sm1 pos=subst feat=sg:inst:m1
+  - base=. pos=interp feat=
+
+[Zdanie 7] To
+  - base=to:V pos=pred feat=
+  - base=to:C pos=conj feat=
+  - base=to:T pos=part feat=
+  - base=to:S pos=subst feat=sg:nom:n:ncol
+  - base=to:S pos=subst feat=sg:acc:n:ncol
+  - base=ten pos=adj feat=sg:acc:n:pos
+  - base=ten pos=adj feat=sg:nom.voc:n:pos
+  - base=to:M pos=comp feat=
+
+[Zdanie 7] jest
+  - base=być pos=fin feat=sg:ter:imperf
+
+[Zdanie 7] zajebisty
+  - base=zajebisty pos=adj feat=sg:acc:m3:pos
+  - base=zajebisty pos=adj feat=sg:nom.voc:m1.m2.m3:pos
+
+[Zdanie 7] przykład,
+  - base=przykład pos=subst feat=sg:nom.acc:m3
+  - base=, pos=interp feat=
+
+[Zdanie 7] choć
+  - base=choć:M pos=comp feat=
+  - base=choć:T pos=part feat=
+
+[Zdanie 7] trochę
+  - base=trochę:D pos=adv feat=
+  - base=trocha pos=subst feat=sg:acc:f
+  - base=trochę:N pos=num feat=sg.pl:gen:m1.m2.m3.f.n:congr
+  - base=trochę:N pos=num feat=sg.pl:nom.acc:m1.m2.m3.f.n:rec
+
+[Zdanie 7] potoczny.
+  - base=potoczny pos=adj feat=sg:acc:m3:pos
+  - base=potoczny pos=adj feat=sg:nom.voc:m1.m2.m3:pos
+  - base=. pos=interp feat=
+
+[Zdanie 8] Ładny
+  - base=Ładna:Sm1 pos=depr feat=pl:nom.acc.voc:m2
+  - base=Ładno:Sm1 pos=depr feat=pl:nom.acc.voc:m2
+  - base=Ładny:Sf pos=subst feat=sg.pl:nom.gen.dat.acc.inst.loc.voc:f
+  - base=Ładny:Sm1 pos=subst feat=sg:nom:m1
+  - base=Ładny:Sm1 pos=subst feat=sg:voc:m1
+  - base=Ładna:Sf~y pos=subst feat=sg:gen:f
+  - base=Ładna:Sf~y pos=subst feat=pl:nom.acc.voc:f
+  - base=Ładna:Sm1 pos=subst feat=sg:gen:m1
+  - base=Ładno:Sm1 pos=subst feat=sg:gen:m1
+  - base=ładny pos=adj feat=sg:acc:m3:pos
+  - base=ładny pos=adj feat=sg:nom.voc:m1.m2.m3:pos
+
+[Zdanie 8] chłopiec
+  - base=chłopiec pos=subst feat=sg:nom:m1
+
+[Zdanie 8] ładnie
+  - base=ładnie pos=adv feat=pos
+
+[Zdanie 8] śpiewał.
+  - base=śpiewać pos=praet feat=sg:m1.m2.m3:imperf
+  - base=. pos=interp feat=
+
+[Zdanie 9] Oko
+  - base=Oko:Sf pos=subst feat=sg.pl:nom.gen.dat.acc.inst.loc.voc:f
+  - base=Oko:Sm1 pos=subst feat=sg:nom:m1
+  - base=Oko:Sm1 pos=subst feat=sg:voc:m1
+  - base=oko:Sn_col pos=subst feat=sg:nom.acc.voc:n:col
+  - base=oko:Sn_ncol pos=subst feat=sg:nom.acc.voc:n:ncol
+  - base=Oka pos=subst feat=sg:voc:f
+
+[Zdanie 9] w
+  - base=w pos=prep feat=acc:nwok
+  - base=w pos=prep feat=loc:nwok
+
+[Zdanie 9] oko
+  - base=oko:Sn_col pos=subst feat=sg:nom.acc.voc:n:col
+  - base=oko:Sn_ncol pos=subst feat=sg:nom.acc.voc:n:ncol
+
+[Zdanie 9] z
+  - base=z:P pos=prep feat=gen:nwok
+  - base=z:P pos=prep feat=inst:nwok
+  - base=z:T pos=part feat=nwok
+
+[Zdanie 9] losem,
+  - base=los pos=subst feat=sg:inst:m3
+  - base=, pos=interp feat=
+
+[Zdanie 9] oko
+  - base=oko:Sn_col pos=subst feat=sg:nom.acc.voc:n:col
+  - base=oko:Sn_ncol pos=subst feat=sg:nom.acc.voc:n:ncol
+
+[Zdanie 9] się
+  - base=się pos=part feat=
+
+[Zdanie 9] zamyka,
+  - base=zamykać pos=fin feat=sg:ter:imperf
+  - base=, pos=interp feat=
+
+[Zdanie 9] a
+  - base=a:C pos=conj feat=
+  - base=a:I pos=interj feat=
+  - base=a:P pos=prep feat=nom
+  - base=a:T pos=part feat=
+
+[Zdanie 9] on
+  - base=on:A pos=adj feat=sg:acc:m3:pos
+  - base=on:A pos=adj feat=sg:nom.voc:m1.m2.m3:pos
+  - base=on:S pos=ppron3 feat=sg:nom:m1.m2.m3:ter:akc.nakc:praep.npraep
+
+[Zdanie 9] się
+  - base=się pos=part feat=
+
+[Zdanie 9] o-k-o
+  - base=o:P pos=prep feat=acc
+  - base=o:P pos=prep feat=loc
+  - base=o:I pos=interj feat=
+  - base=- pos=interp feat=
+  - base=kompania pos=brev feat=npun
+  - base=k pos=prep feat=dat
+  - base=- pos=interp feat=
+  - base=o:P pos=prep feat=acc
+  - base=o:P pos=prep feat=loc
+  - base=o:I pos=interj feat=
+
+[Zdanie 9] używał
+  - base=używać pos=praet feat=sg:m1.m2.m3:imperf
+
+[Zdanie 9] inaczej.
+  - base=inaczej:D pos=adv feat=
+  - base=inaczej:C pos=conj feat=
+  - base=. pos=interp feat=
+
+[Zdanie 10] Skała
+  - base=skała pos=subst feat=sg:nom:f
+  - base=Skała:Sf pos=subst feat=sg:nom:f
+  - base=Skała:Sm1 pos=subst feat=sg:nom:m1
+  - base=Skał:Sm1 pos=subst feat=sg:gen.acc:m1
+
+[Zdanie 10] jest
+  - base=być pos=fin feat=sg:ter:imperf
+
+[Zdanie 10] twarda,
+  - base=twardy pos=adj feat=sg:nom.voc:f:pos
+  - base=, pos=interp feat=
+
+[Zdanie 10] a
+  - base=a:C pos=conj feat=
+  - base=a:I pos=interj feat=
+  - base=a:P pos=prep feat=nom
+  - base=a:T pos=part feat=
+
+[Zdanie 10] Skała
+  - base=skała pos=subst feat=sg:nom:f
+  - base=Skała:Sf pos=subst feat=sg:nom:f
+  - base=Skała:Sm1 pos=subst feat=sg:nom:m1
+  - base=Skał:Sm1 pos=subst feat=sg:gen.acc:m1
+
+[Zdanie 10] mieszka
+  - base=mieszek pos=subst feat=sg:gen:m3
+  - base=mieszkać pos=fin feat=sg:ter:imperf
+
+[Zdanie 10] w
+  - base=w pos=prep feat=acc:nwok
+  - base=w pos=prep feat=loc:nwok
+
+[Zdanie 10] Krakowie.
+  - base=Krak:Sm1 pos=subst feat=pl:nom.voc:m1
+  - base=Kraka:Sm1 pos=subst feat=pl:nom.voc:m1
+  - base=Kraków pos=subst feat=sg:loc:m3
+  - base=Kraków pos=subst feat=sg:voc:m3
+  - base=. pos=interp feat=
+
+[Zdanie 11] Pięćdziesięciopięcioletnia
+  - base=pięćdziesięciopięcioletni pos=adj feat=sg:nom.voc:f:pos
+  - base=pięćdziesięciopięcioletni pos=adj feat=sg:nom.voc:f:pos
+
+[Zdanie 11] nauczycielka
+  - base=nauczycielka pos=subst feat=sg:nom:f
+
+[Zdanie 11] weszła
+  - base=wejść pos=praet feat=sg:f:perf
+  - base=wnijść pos=praet feat=sg:f:perf
+  - base=wniść pos=praet feat=sg:f:perf
+
+[Zdanie 11] do
+  - base=do:S pos=subst feat=sg.pl:nom.gen.dat.acc.inst.loc.voc:n:ncol
+  - base=do:P pos=prep feat=gen
+
+[Zdanie 11] pokoju.
+  - base=pokój pos=subst feat=sg:gen:m3
+  - base=pokój pos=subst feat=sg:loc:m3
+  - base=pokój pos=subst feat=sg:voc:m3
+  - base=. pos=interp feat=
+
+[Zdanie 12] No.
+  - base=no:I pos=interj feat=
+  - base=no:T pos=part feat=
+  - base=no:S pos=subst feat=sg.pl:nom.gen.dat.acc.inst.loc.voc:n:ncol
+  - base=. pos=interp feat=
+
+[Zdanie 13] .
+  - base=. pos=interp feat=
+
+[Zdanie 14] .
+  - base=. pos=interp feat=
+
+[Zdanie 15] chyba
+  - base=chyba pos=part feat=
+  - base=chybać pos=fin feat=sg:ter:imperf
+
+[Zdanie 15] tak,
+  - base=tak:I pos=interj feat=
+  - base=tak:T pos=part feat=
+  - base=tak:D pos=adv feat=pos
+  - base=taka pos=subst feat=pl:gen:f
+  - base=, pos=interp feat=
+
+[Zdanie 15] prawda?
+  - base=prawda:S pos=subst feat=sg:nom:f
+  - base=prawda:I pos=interj feat=
+  - base=? pos=interp feat=
+
+[Zdanie 16] Azażbyś
+  - base=Azażbyś pos=ign feat=
+
+[Zdanie 16] nie
+  - base=nie:T pos=part feat=
+  - base=nie:C pos=conj feat=
+  - base=nie:I pos=interj feat=
+  - base=on:S pos=ppron3 feat=pl:acc:m2.m3.f.n:ter:akc.nakc:praep
+  - base=on:S pos=ppron3 feat=sg:acc:n:ter:akc.nakc:praep
+
+[Zdanie 16] wiedział,
+  - base=wiedzieć pos=praet feat=sg:m1.m2.m3:imperf
+  - base=, pos=interp feat=
+
+[Zdanie 16] iżeć
+  - base=iżeć pos=ign feat=
+
+[Zdanie 16] powiadam.
+  - base=powiadać pos=fin feat=sg:pri:imperf
+  - base=. pos=interp feat=
+
+[Zdanie 17] Podpierdółkowacąc
+  - base=Podpierdółkowacąc pos=ign feat=
+
+[Zdanie 17] podpierdółkowacili
+  - base=podpierdółkowacili pos=ign feat=
+
+[Zdanie 17] podpierdółkowacącą
+  - base=podpierdółkowacącą pos=ign feat=
+
+[Zdanie 17] podpierdółkę.
+  - base=podpierdółkę pos=ign feat=
+  - base=. pos=interp feat=
+
+
+Zapisano wynik do: morfeusz_output_20251125_235558.json

@@ -1,0 +1,1884 @@
+[
+  {
+    "sentence_id": 0,
+    "token": "Ala",
+    "analyses": [
+      {
+        "base": "Ala",
+        "pos": "subst",
+        "features": "sg:nom:f"
+      },
+      {
+        "base": "Al",
+        "pos": "subst",
+        "features": "sg:gen.acc:m1"
+      },
+      {
+        "base": "Alo",
+        "pos": "subst",
+        "features": "sg:gen.acc:m1"
+      }
+    ]
+  },
+  {
+    "sentence_id": 0,
+    "token": "ma",
+    "analyses": [
+      {
+        "base": "mój:A",
+        "pos": "adj",
+        "features": "sg:nom.voc:f:pos"
+      },
+      {
+        "base": "mieć",
+        "pos": "fin",
+        "features": "sg:ter:imperf"
+      }
+    ]
+  },
+  {
+    "sentence_id": 0,
+    "token": "kota.",
+    "analyses": [
+      {
+        "base": "kota",
+        "pos": "subst",
+        "features": "sg:nom:f"
+      },
+      {
+        "base": "kot:Sm1",
+        "pos": "subst",
+        "features": "sg:gen.acc:m1"
+      },
+      {
+        "base": "kot:Sm2",
+        "pos": "subst",
+        "features": "sg:gen.acc:m2"
+      },
+      {
+        "base": ".",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 1,
+    "token": "Błędne",
+    "analyses": [
+      {
+        "base": "błędny",
+        "pos": "adj",
+        "features": "pl:acc:m2.m3.f.n:pos"
+      },
+      {
+        "base": "błędny",
+        "pos": "adj",
+        "features": "pl:nom.voc:m2.m3.f.n:pos"
+      },
+      {
+        "base": "błędny",
+        "pos": "adj",
+        "features": "sg:acc:n:pos"
+      },
+      {
+        "base": "błędny",
+        "pos": "adj",
+        "features": "sg:nom.voc:n:pos"
+      }
+    ]
+  },
+  {
+    "sentence_id": 1,
+    "token": "Skały.",
+    "analyses": [
+      {
+        "base": "Skały",
+        "pos": "subst",
+        "features": "pl:nom.acc.voc:n:pt"
+      },
+      {
+        "base": "skała",
+        "pos": "subst",
+        "features": "sg:gen:f"
+      },
+      {
+        "base": "skała",
+        "pos": "subst",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "base": "Skała:Sf",
+        "pos": "subst",
+        "features": "sg:gen:f"
+      },
+      {
+        "base": "Skała:Sf",
+        "pos": "subst",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "base": "Skała:Sm1",
+        "pos": "subst",
+        "features": "sg:gen:m1"
+      },
+      {
+        "base": "Skał:Sm1",
+        "pos": "depr",
+        "features": "pl:nom.acc.voc:m2"
+      },
+      {
+        "base": "Skała:Sm1",
+        "pos": "depr",
+        "features": "pl:nom.acc.voc:m2"
+      },
+      {
+        "base": ".",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 2,
+    "token": "Kot",
+    "analyses": [
+      {
+        "base": "Kot:Sf",
+        "pos": "subst",
+        "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:f"
+      },
+      {
+        "base": "kot:Sm1",
+        "pos": "subst",
+        "features": "sg:nom:m1"
+      },
+      {
+        "base": "Kot:Sm1",
+        "pos": "subst",
+        "features": "sg:nom:m1"
+      },
+      {
+        "base": "kot:Sm2",
+        "pos": "subst",
+        "features": "sg:nom:m2"
+      },
+      {
+        "base": "Kot:Sm3",
+        "pos": "subst",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "base": "kota",
+        "pos": "subst",
+        "features": "pl:gen:f"
+      }
+    ]
+  },
+  {
+    "sentence_id": 2,
+    "token": "goni",
+    "analyses": [
+      {
+        "base": "goń",
+        "pos": "subst",
+        "features": "sg:gen:f"
+      },
+      {
+        "base": "goń",
+        "pos": "subst",
+        "features": "sg:dat.loc:f"
+      },
+      {
+        "base": "goń",
+        "pos": "subst",
+        "features": "sg:voc:f"
+      },
+      {
+        "base": "goń",
+        "pos": "subst",
+        "features": "pl:gen:f"
+      },
+      {
+        "base": "gonić",
+        "pos": "fin",
+        "features": "sg:ter:imperf"
+      }
+    ]
+  },
+  {
+    "sentence_id": 2,
+    "token": "kota,",
+    "analyses": [
+      {
+        "base": "kota",
+        "pos": "subst",
+        "features": "sg:nom:f"
+      },
+      {
+        "base": "kot:Sm1",
+        "pos": "subst",
+        "features": "sg:gen.acc:m1"
+      },
+      {
+        "base": "kot:Sm2",
+        "pos": "subst",
+        "features": "sg:gen.acc:m2"
+      },
+      {
+        "base": ",",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 2,
+    "token": "kotów",
+    "analyses": [
+      {
+        "base": "kot:Sm1",
+        "pos": "subst",
+        "features": "pl:gen.acc:m1"
+      },
+      {
+        "base": "kot:Sm2",
+        "pos": "subst",
+        "features": "pl:gen:m2"
+      }
+    ]
+  },
+  {
+    "sentence_id": 2,
+    "token": "i",
+    "analyses": [
+      {
+        "base": "i:I",
+        "pos": "interj",
+        "features": ""
+      },
+      {
+        "base": "i:T",
+        "pos": "part",
+        "features": ""
+      },
+      {
+        "base": "i:C",
+        "pos": "conj",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 2,
+    "token": "koty.",
+    "analyses": [
+      {
+        "base": "kot:Sm2",
+        "pos": "subst",
+        "features": "pl:nom.acc.voc:m2"
+      },
+      {
+        "base": "kota",
+        "pos": "subst",
+        "features": "sg:gen:f"
+      },
+      {
+        "base": "kota",
+        "pos": "subst",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "base": "kot:Sm1",
+        "pos": "depr",
+        "features": "pl:nom.acc.voc:m2"
+      },
+      {
+        "base": ".",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 3,
+    "token": "Zamek",
+    "analyses": [
+      {
+        "base": "Zamek",
+        "pos": "subst",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "base": "zamek:Sm3~a",
+        "pos": "subst",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "base": "zamek:Sm3~u",
+        "pos": "subst",
+        "features": "sg:nom.acc:m3"
+      }
+    ]
+  },
+  {
+    "sentence_id": 3,
+    "token": "stoi",
+    "analyses": [
+      {
+        "base": "stać:Vi",
+        "pos": "fin",
+        "features": "sg:ter:imperf"
+      },
+      {
+        "base": "stoa",
+        "pos": "subst",
+        "features": "sg:gen:f"
+      },
+      {
+        "base": "stoa",
+        "pos": "subst",
+        "features": "sg:dat.loc:f"
+      },
+      {
+        "base": "stoa",
+        "pos": "subst",
+        "features": "pl:gen:f"
+      }
+    ]
+  },
+  {
+    "sentence_id": 3,
+    "token": "nad",
+    "analyses": [
+      {
+        "base": "nad",
+        "pos": "prep",
+        "features": "acc:nwok"
+      },
+      {
+        "base": "nad",
+        "pos": "prep",
+        "features": "inst:nwok"
+      }
+    ]
+  },
+  {
+    "sentence_id": 3,
+    "token": "rzeką,",
+    "analyses": [
+      {
+        "base": "rzec:Vp",
+        "pos": "fin",
+        "features": "pl:ter:perf"
+      },
+      {
+        "base": "rzeka",
+        "pos": "subst",
+        "features": "sg:inst:f"
+      },
+      {
+        "base": "rzec:Vi",
+        "pos": "fin",
+        "features": "pl:ter:imperf"
+      },
+      {
+        "base": ",",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 3,
+    "token": "a",
+    "analyses": [
+      {
+        "base": "a:C",
+        "pos": "conj",
+        "features": ""
+      },
+      {
+        "base": "a:I",
+        "pos": "interj",
+        "features": ""
+      },
+      {
+        "base": "a:P",
+        "pos": "prep",
+        "features": "nom"
+      },
+      {
+        "base": "a:T",
+        "pos": "part",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 3,
+    "token": "zamek",
+    "analyses": [
+      {
+        "base": "zamek:Sm3~a",
+        "pos": "subst",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "base": "zamek:Sm3~u",
+        "pos": "subst",
+        "features": "sg:nom.acc:m3"
+      }
+    ]
+  },
+  {
+    "sentence_id": 3,
+    "token": "u",
+    "analyses": [
+      {
+        "base": "u",
+        "pos": "prep",
+        "features": "gen"
+      }
+    ]
+  },
+  {
+    "sentence_id": 3,
+    "token": "drzwi",
+    "analyses": [
+      {
+        "base": "drzwi",
+        "pos": "subst",
+        "features": "pl:nom.acc.voc:n:pt"
+      },
+      {
+        "base": "drzwi",
+        "pos": "subst",
+        "features": "pl:gen:n:pt"
+      }
+    ]
+  },
+  {
+    "sentence_id": 3,
+    "token": "nie",
+    "analyses": [
+      {
+        "base": "nie:T",
+        "pos": "part",
+        "features": ""
+      },
+      {
+        "base": "nie:C",
+        "pos": "conj",
+        "features": ""
+      },
+      {
+        "base": "nie:I",
+        "pos": "interj",
+        "features": ""
+      },
+      {
+        "base": "on:S",
+        "pos": "ppron3",
+        "features": "pl:acc:m2.m3.f.n:ter:akc.nakc:praep"
+      },
+      {
+        "base": "on:S",
+        "pos": "ppron3",
+        "features": "sg:acc:n:ter:akc.nakc:praep"
+      }
+    ]
+  },
+  {
+    "sentence_id": 3,
+    "token": "działa.",
+    "analyses": [
+      {
+        "base": "dziać",
+        "pos": "praet",
+        "features": "sg:f:imperf"
+      },
+      {
+        "base": "działo",
+        "pos": "subst",
+        "features": "sg:gen:n:ncol"
+      },
+      {
+        "base": "działo",
+        "pos": "subst",
+        "features": "pl:nom.acc.voc:n:ncol"
+      },
+      {
+        "base": "działać",
+        "pos": "fin",
+        "features": "sg:ter:imperf"
+      },
+      {
+        "base": ".",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 4,
+    "token": "Idę,",
+    "analyses": [
+      {
+        "base": "Ida",
+        "pos": "subst",
+        "features": "sg:acc:f"
+      },
+      {
+        "base": "iść",
+        "pos": "fin",
+        "features": "sg:pri:imperf"
+      },
+      {
+        "base": ",",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 4,
+    "token": "idziesz,",
+    "analyses": [
+      {
+        "base": "iść",
+        "pos": "fin",
+        "features": "sg:sec:imperf"
+      },
+      {
+        "base": ",",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 4,
+    "token": "idzie,",
+    "analyses": [
+      {
+        "base": "id",
+        "pos": "subst",
+        "features": "sg:loc:m3"
+      },
+      {
+        "base": "id",
+        "pos": "subst",
+        "features": "sg:voc:m3"
+      },
+      {
+        "base": "iść",
+        "pos": "fin",
+        "features": "sg:ter:imperf"
+      },
+      {
+        "base": ",",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 4,
+    "token": "idziemy,",
+    "analyses": [
+      {
+        "base": "iść",
+        "pos": "fin",
+        "features": "pl:pri:imperf"
+      },
+      {
+        "base": ",",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 4,
+    "token": "idziecie,",
+    "analyses": [
+      {
+        "base": "iść",
+        "pos": "fin",
+        "features": "pl:sec:imperf"
+      },
+      {
+        "base": ",",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 4,
+    "token": "idą.",
+    "analyses": [
+      {
+        "base": "iść",
+        "pos": "fin",
+        "features": "pl:ter:imperf"
+      },
+      {
+        "base": ".",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 5,
+    "token": "Przeszła",
+    "analyses": [
+      {
+        "base": "przeszły",
+        "pos": "adj",
+        "features": "sg:nom.voc:f:pos"
+      },
+      {
+        "base": "przejść",
+        "pos": "praet",
+        "features": "sg:f:perf"
+      }
+    ]
+  },
+  {
+    "sentence_id": 5,
+    "token": "obok",
+    "analyses": [
+      {
+        "base": "obok:D",
+        "pos": "adv",
+        "features": ""
+      },
+      {
+        "base": "obok:P",
+        "pos": "prep",
+        "features": "gen"
+      }
+    ]
+  },
+  {
+    "sentence_id": 5,
+    "token": "niego,",
+    "analyses": [
+      {
+        "base": "on:S",
+        "pos": "ppron3",
+        "features": "sg:acc:m1.m2.m3:ter:akc:praep"
+      },
+      {
+        "base": "on:S",
+        "pos": "ppron3",
+        "features": "sg:gen:m1.m2.m3:ter:akc:praep"
+      },
+      {
+        "base": "on:S",
+        "pos": "ppron3",
+        "features": "sg:gen:n:ter:akc.nakc:praep"
+      },
+      {
+        "base": ",",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 5,
+    "token": "niosąc",
+    "analyses": [
+      {
+        "base": "nieść",
+        "pos": "pcon",
+        "features": "imperf"
+      }
+    ]
+  },
+  {
+    "sentence_id": 5,
+    "token": "list.",
+    "analyses": [
+      {
+        "base": "list",
+        "pos": "subst",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "base": "lista",
+        "pos": "subst",
+        "features": "pl:gen:f"
+      },
+      {
+        "base": ".",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 6,
+    "token": "Maria",
+    "analyses": [
+      {
+        "base": "Maria",
+        "pos": "subst",
+        "features": "sg:nom:f"
+      }
+    ]
+  },
+  {
+    "sentence_id": 6,
+    "token": "poszła",
+    "analyses": [
+      {
+        "base": "pójść",
+        "pos": "praet",
+        "features": "sg:f:perf"
+      }
+    ]
+  },
+  {
+    "sentence_id": 6,
+    "token": "do",
+    "analyses": [
+      {
+        "base": "do:S",
+        "pos": "subst",
+        "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:n:ncol"
+      },
+      {
+        "base": "do:P",
+        "pos": "prep",
+        "features": "gen"
+      }
+    ]
+  },
+  {
+    "sentence_id": 6,
+    "token": "Rzymu",
+    "analyses": [
+      {
+        "base": "Rzym:Sm3",
+        "pos": "subst",
+        "features": "sg:gen:m3"
+      }
+    ]
+  },
+  {
+    "sentence_id": 6,
+    "token": "z",
+    "analyses": [
+      {
+        "base": "z:P",
+        "pos": "prep",
+        "features": "gen:nwok"
+      },
+      {
+        "base": "z:P",
+        "pos": "prep",
+        "features": "inst:nwok"
+      },
+      {
+        "base": "z:T",
+        "pos": "part",
+        "features": "nwok"
+      }
+    ]
+  },
+  {
+    "sentence_id": 6,
+    "token": "Piotrem",
+    "analyses": [
+      {
+        "base": "Piotr:Sm1",
+        "pos": "subst",
+        "features": "sg:inst:m1"
+      }
+    ]
+  },
+  {
+    "sentence_id": 6,
+    "token": "Skałą.",
+    "analyses": [
+      {
+        "base": "skała",
+        "pos": "subst",
+        "features": "sg:inst:f"
+      },
+      {
+        "base": "Skała:Sf",
+        "pos": "subst",
+        "features": "sg:inst:f"
+      },
+      {
+        "base": "Skała:Sm1",
+        "pos": "subst",
+        "features": "sg:inst:m1"
+      },
+      {
+        "base": ".",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 7,
+    "token": "To",
+    "analyses": [
+      {
+        "base": "to:V",
+        "pos": "pred",
+        "features": ""
+      },
+      {
+        "base": "to:C",
+        "pos": "conj",
+        "features": ""
+      },
+      {
+        "base": "to:T",
+        "pos": "part",
+        "features": ""
+      },
+      {
+        "base": "to:S",
+        "pos": "subst",
+        "features": "sg:nom:n:ncol"
+      },
+      {
+        "base": "to:S",
+        "pos": "subst",
+        "features": "sg:acc:n:ncol"
+      },
+      {
+        "base": "ten",
+        "pos": "adj",
+        "features": "sg:acc:n:pos"
+      },
+      {
+        "base": "ten",
+        "pos": "adj",
+        "features": "sg:nom.voc:n:pos"
+      },
+      {
+        "base": "to:M",
+        "pos": "comp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 7,
+    "token": "jest",
+    "analyses": [
+      {
+        "base": "być",
+        "pos": "fin",
+        "features": "sg:ter:imperf"
+      }
+    ]
+  },
+  {
+    "sentence_id": 7,
+    "token": "zajebisty",
+    "analyses": [
+      {
+        "base": "zajebisty",
+        "pos": "adj",
+        "features": "sg:acc:m3:pos"
+      },
+      {
+        "base": "zajebisty",
+        "pos": "adj",
+        "features": "sg:nom.voc:m1.m2.m3:pos"
+      }
+    ]
+  },
+  {
+    "sentence_id": 7,
+    "token": "przykład,",
+    "analyses": [
+      {
+        "base": "przykład",
+        "pos": "subst",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "base": ",",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 7,
+    "token": "choć",
+    "analyses": [
+      {
+        "base": "choć:M",
+        "pos": "comp",
+        "features": ""
+      },
+      {
+        "base": "choć:T",
+        "pos": "part",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 7,
+    "token": "trochę",
+    "analyses": [
+      {
+        "base": "trochę:D",
+        "pos": "adv",
+        "features": ""
+      },
+      {
+        "base": "trocha",
+        "pos": "subst",
+        "features": "sg:acc:f"
+      },
+      {
+        "base": "trochę:N",
+        "pos": "num",
+        "features": "sg.pl:gen:m1.m2.m3.f.n:congr"
+      },
+      {
+        "base": "trochę:N",
+        "pos": "num",
+        "features": "sg.pl:nom.acc:m1.m2.m3.f.n:rec"
+      }
+    ]
+  },
+  {
+    "sentence_id": 7,
+    "token": "potoczny.",
+    "analyses": [
+      {
+        "base": "potoczny",
+        "pos": "adj",
+        "features": "sg:acc:m3:pos"
+      },
+      {
+        "base": "potoczny",
+        "pos": "adj",
+        "features": "sg:nom.voc:m1.m2.m3:pos"
+      },
+      {
+        "base": ".",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 8,
+    "token": "Ładny",
+    "analyses": [
+      {
+        "base": "Ładna:Sm1",
+        "pos": "depr",
+        "features": "pl:nom.acc.voc:m2"
+      },
+      {
+        "base": "Ładno:Sm1",
+        "pos": "depr",
+        "features": "pl:nom.acc.voc:m2"
+      },
+      {
+        "base": "Ładny:Sf",
+        "pos": "subst",
+        "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:f"
+      },
+      {
+        "base": "Ładny:Sm1",
+        "pos": "subst",
+        "features": "sg:nom:m1"
+      },
+      {
+        "base": "Ładny:Sm1",
+        "pos": "subst",
+        "features": "sg:voc:m1"
+      },
+      {
+        "base": "Ładna:Sf~y",
+        "pos": "subst",
+        "features": "sg:gen:f"
+      },
+      {
+        "base": "Ładna:Sf~y",
+        "pos": "subst",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "base": "Ładna:Sm1",
+        "pos": "subst",
+        "features": "sg:gen:m1"
+      },
+      {
+        "base": "Ładno:Sm1",
+        "pos": "subst",
+        "features": "sg:gen:m1"
+      },
+      {
+        "base": "ładny",
+        "pos": "adj",
+        "features": "sg:acc:m3:pos"
+      },
+      {
+        "base": "ładny",
+        "pos": "adj",
+        "features": "sg:nom.voc:m1.m2.m3:pos"
+      }
+    ]
+  },
+  {
+    "sentence_id": 8,
+    "token": "chłopiec",
+    "analyses": [
+      {
+        "base": "chłopiec",
+        "pos": "subst",
+        "features": "sg:nom:m1"
+      }
+    ]
+  },
+  {
+    "sentence_id": 8,
+    "token": "ładnie",
+    "analyses": [
+      {
+        "base": "ładnie",
+        "pos": "adv",
+        "features": "pos"
+      }
+    ]
+  },
+  {
+    "sentence_id": 8,
+    "token": "śpiewał.",
+    "analyses": [
+      {
+        "base": "śpiewać",
+        "pos": "praet",
+        "features": "sg:m1.m2.m3:imperf"
+      },
+      {
+        "base": ".",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 9,
+    "token": "Oko",
+    "analyses": [
+      {
+        "base": "Oko:Sf",
+        "pos": "subst",
+        "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:f"
+      },
+      {
+        "base": "Oko:Sm1",
+        "pos": "subst",
+        "features": "sg:nom:m1"
+      },
+      {
+        "base": "Oko:Sm1",
+        "pos": "subst",
+        "features": "sg:voc:m1"
+      },
+      {
+        "base": "oko:Sn_col",
+        "pos": "subst",
+        "features": "sg:nom.acc.voc:n:col"
+      },
+      {
+        "base": "oko:Sn_ncol",
+        "pos": "subst",
+        "features": "sg:nom.acc.voc:n:ncol"
+      },
+      {
+        "base": "Oka",
+        "pos": "subst",
+        "features": "sg:voc:f"
+      }
+    ]
+  },
+  {
+    "sentence_id": 9,
+    "token": "w",
+    "analyses": [
+      {
+        "base": "w",
+        "pos": "prep",
+        "features": "acc:nwok"
+      },
+      {
+        "base": "w",
+        "pos": "prep",
+        "features": "loc:nwok"
+      }
+    ]
+  },
+  {
+    "sentence_id": 9,
+    "token": "oko",
+    "analyses": [
+      {
+        "base": "oko:Sn_col",
+        "pos": "subst",
+        "features": "sg:nom.acc.voc:n:col"
+      },
+      {
+        "base": "oko:Sn_ncol",
+        "pos": "subst",
+        "features": "sg:nom.acc.voc:n:ncol"
+      }
+    ]
+  },
+  {
+    "sentence_id": 9,
+    "token": "z",
+    "analyses": [
+      {
+        "base": "z:P",
+        "pos": "prep",
+        "features": "gen:nwok"
+      },
+      {
+        "base": "z:P",
+        "pos": "prep",
+        "features": "inst:nwok"
+      },
+      {
+        "base": "z:T",
+        "pos": "part",
+        "features": "nwok"
+      }
+    ]
+  },
+  {
+    "sentence_id": 9,
+    "token": "losem,",
+    "analyses": [
+      {
+        "base": "los",
+        "pos": "subst",
+        "features": "sg:inst:m3"
+      },
+      {
+        "base": ",",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 9,
+    "token": "oko",
+    "analyses": [
+      {
+        "base": "oko:Sn_col",
+        "pos": "subst",
+        "features": "sg:nom.acc.voc:n:col"
+      },
+      {
+        "base": "oko:Sn_ncol",
+        "pos": "subst",
+        "features": "sg:nom.acc.voc:n:ncol"
+      }
+    ]
+  },
+  {
+    "sentence_id": 9,
+    "token": "się",
+    "analyses": [
+      {
+        "base": "się",
+        "pos": "part",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 9,
+    "token": "zamyka,",
+    "analyses": [
+      {
+        "base": "zamykać",
+        "pos": "fin",
+        "features": "sg:ter:imperf"
+      },
+      {
+        "base": ",",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 9,
+    "token": "a",
+    "analyses": [
+      {
+        "base": "a:C",
+        "pos": "conj",
+        "features": ""
+      },
+      {
+        "base": "a:I",
+        "pos": "interj",
+        "features": ""
+      },
+      {
+        "base": "a:P",
+        "pos": "prep",
+        "features": "nom"
+      },
+      {
+        "base": "a:T",
+        "pos": "part",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 9,
+    "token": "on",
+    "analyses": [
+      {
+        "base": "on:A",
+        "pos": "adj",
+        "features": "sg:acc:m3:pos"
+      },
+      {
+        "base": "on:A",
+        "pos": "adj",
+        "features": "sg:nom.voc:m1.m2.m3:pos"
+      },
+      {
+        "base": "on:S",
+        "pos": "ppron3",
+        "features": "sg:nom:m1.m2.m3:ter:akc.nakc:praep.npraep"
+      }
+    ]
+  },
+  {
+    "sentence_id": 9,
+    "token": "się",
+    "analyses": [
+      {
+        "base": "się",
+        "pos": "part",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 9,
+    "token": "o-k-o",
+    "analyses": [
+      {
+        "base": "o:P",
+        "pos": "prep",
+        "features": "acc"
+      },
+      {
+        "base": "o:P",
+        "pos": "prep",
+        "features": "loc"
+      },
+      {
+        "base": "o:I",
+        "pos": "interj",
+        "features": ""
+      },
+      {
+        "base": "-",
+        "pos": "interp",
+        "features": ""
+      },
+      {
+        "base": "kompania",
+        "pos": "brev",
+        "features": "npun"
+      },
+      {
+        "base": "k",
+        "pos": "prep",
+        "features": "dat"
+      },
+      {
+        "base": "-",
+        "pos": "interp",
+        "features": ""
+      },
+      {
+        "base": "o:P",
+        "pos": "prep",
+        "features": "acc"
+      },
+      {
+        "base": "o:P",
+        "pos": "prep",
+        "features": "loc"
+      },
+      {
+        "base": "o:I",
+        "pos": "interj",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 9,
+    "token": "używał",
+    "analyses": [
+      {
+        "base": "używać",
+        "pos": "praet",
+        "features": "sg:m1.m2.m3:imperf"
+      }
+    ]
+  },
+  {
+    "sentence_id": 9,
+    "token": "inaczej.",
+    "analyses": [
+      {
+        "base": "inaczej:D",
+        "pos": "adv",
+        "features": ""
+      },
+      {
+        "base": "inaczej:C",
+        "pos": "conj",
+        "features": ""
+      },
+      {
+        "base": ".",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 10,
+    "token": "Skała",
+    "analyses": [
+      {
+        "base": "skała",
+        "pos": "subst",
+        "features": "sg:nom:f"
+      },
+      {
+        "base": "Skała:Sf",
+        "pos": "subst",
+        "features": "sg:nom:f"
+      },
+      {
+        "base": "Skała:Sm1",
+        "pos": "subst",
+        "features": "sg:nom:m1"
+      },
+      {
+        "base": "Skał:Sm1",
+        "pos": "subst",
+        "features": "sg:gen.acc:m1"
+      }
+    ]
+  },
+  {
+    "sentence_id": 10,
+    "token": "jest",
+    "analyses": [
+      {
+        "base": "być",
+        "pos": "fin",
+        "features": "sg:ter:imperf"
+      }
+    ]
+  },
+  {
+    "sentence_id": 10,
+    "token": "twarda,",
+    "analyses": [
+      {
+        "base": "twardy",
+        "pos": "adj",
+        "features": "sg:nom.voc:f:pos"
+      },
+      {
+        "base": ",",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 10,
+    "token": "a",
+    "analyses": [
+      {
+        "base": "a:C",
+        "pos": "conj",
+        "features": ""
+      },
+      {
+        "base": "a:I",
+        "pos": "interj",
+        "features": ""
+      },
+      {
+        "base": "a:P",
+        "pos": "prep",
+        "features": "nom"
+      },
+      {
+        "base": "a:T",
+        "pos": "part",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 10,
+    "token": "Skała",
+    "analyses": [
+      {
+        "base": "skała",
+        "pos": "subst",
+        "features": "sg:nom:f"
+      },
+      {
+        "base": "Skała:Sf",
+        "pos": "subst",
+        "features": "sg:nom:f"
+      },
+      {
+        "base": "Skała:Sm1",
+        "pos": "subst",
+        "features": "sg:nom:m1"
+      },
+      {
+        "base": "Skał:Sm1",
+        "pos": "subst",
+        "features": "sg:gen.acc:m1"
+      }
+    ]
+  },
+  {
+    "sentence_id": 10,
+    "token": "mieszka",
+    "analyses": [
+      {
+        "base": "mieszek",
+        "pos": "subst",
+        "features": "sg:gen:m3"
+      },
+      {
+        "base": "mieszkać",
+        "pos": "fin",
+        "features": "sg:ter:imperf"
+      }
+    ]
+  },
+  {
+    "sentence_id": 10,
+    "token": "w",
+    "analyses": [
+      {
+        "base": "w",
+        "pos": "prep",
+        "features": "acc:nwok"
+      },
+      {
+        "base": "w",
+        "pos": "prep",
+        "features": "loc:nwok"
+      }
+    ]
+  },
+  {
+    "sentence_id": 10,
+    "token": "Krakowie.",
+    "analyses": [
+      {
+        "base": "Krak:Sm1",
+        "pos": "subst",
+        "features": "pl:nom.voc:m1"
+      },
+      {
+        "base": "Kraka:Sm1",
+        "pos": "subst",
+        "features": "pl:nom.voc:m1"
+      },
+      {
+        "base": "Kraków",
+        "pos": "subst",
+        "features": "sg:loc:m3"
+      },
+      {
+        "base": "Kraków",
+        "pos": "subst",
+        "features": "sg:voc:m3"
+      },
+      {
+        "base": ".",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 11,
+    "token": "Pięćdziesięciopięcioletnia",
+    "analyses": [
+      {
+        "base": "pięćdziesięciopięcioletni",
+        "pos": "adj",
+        "features": "sg:nom.voc:f:pos"
+      },
+      {
+        "base": "pięćdziesięciopięcioletni",
+        "pos": "adj",
+        "features": "sg:nom.voc:f:pos"
+      }
+    ]
+  },
+  {
+    "sentence_id": 11,
+    "token": "nauczycielka",
+    "analyses": [
+      {
+        "base": "nauczycielka",
+        "pos": "subst",
+        "features": "sg:nom:f"
+      }
+    ]
+  },
+  {
+    "sentence_id": 11,
+    "token": "weszła",
+    "analyses": [
+      {
+        "base": "wejść",
+        "pos": "praet",
+        "features": "sg:f:perf"
+      },
+      {
+        "base": "wnijść",
+        "pos": "praet",
+        "features": "sg:f:perf"
+      },
+      {
+        "base": "wniść",
+        "pos": "praet",
+        "features": "sg:f:perf"
+      }
+    ]
+  },
+  {
+    "sentence_id": 11,
+    "token": "do",
+    "analyses": [
+      {
+        "base": "do:S",
+        "pos": "subst",
+        "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:n:ncol"
+      },
+      {
+        "base": "do:P",
+        "pos": "prep",
+        "features": "gen"
+      }
+    ]
+  },
+  {
+    "sentence_id": 11,
+    "token": "pokoju.",
+    "analyses": [
+      {
+        "base": "pokój",
+        "pos": "subst",
+        "features": "sg:gen:m3"
+      },
+      {
+        "base": "pokój",
+        "pos": "subst",
+        "features": "sg:loc:m3"
+      },
+      {
+        "base": "pokój",
+        "pos": "subst",
+        "features": "sg:voc:m3"
+      },
+      {
+        "base": ".",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 12,
+    "token": "No.",
+    "analyses": [
+      {
+        "base": "no:I",
+        "pos": "interj",
+        "features": ""
+      },
+      {
+        "base": "no:T",
+        "pos": "part",
+        "features": ""
+      },
+      {
+        "base": "no:S",
+        "pos": "subst",
+        "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:n:ncol"
+      },
+      {
+        "base": ".",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 13,
+    "token": ".",
+    "analyses": [
+      {
+        "base": ".",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 14,
+    "token": ".",
+    "analyses": [
+      {
+        "base": ".",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 15,
+    "token": "chyba",
+    "analyses": [
+      {
+        "base": "chyba",
+        "pos": "part",
+        "features": ""
+      },
+      {
+        "base": "chybać",
+        "pos": "fin",
+        "features": "sg:ter:imperf"
+      }
+    ]
+  },
+  {
+    "sentence_id": 15,
+    "token": "tak,",
+    "analyses": [
+      {
+        "base": "tak:I",
+        "pos": "interj",
+        "features": ""
+      },
+      {
+        "base": "tak:T",
+        "pos": "part",
+        "features": ""
+      },
+      {
+        "base": "tak:D",
+        "pos": "adv",
+        "features": "pos"
+      },
+      {
+        "base": "taka",
+        "pos": "subst",
+        "features": "pl:gen:f"
+      },
+      {
+        "base": ",",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 15,
+    "token": "prawda?",
+    "analyses": [
+      {
+        "base": "prawda:S",
+        "pos": "subst",
+        "features": "sg:nom:f"
+      },
+      {
+        "base": "prawda:I",
+        "pos": "interj",
+        "features": ""
+      },
+      {
+        "base": "?",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 16,
+    "token": "Azażbyś",
+    "analyses": [
+      {
+        "base": "Azażbyś",
+        "pos": "ign",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 16,
+    "token": "nie",
+    "analyses": [
+      {
+        "base": "nie:T",
+        "pos": "part",
+        "features": ""
+      },
+      {
+        "base": "nie:C",
+        "pos": "conj",
+        "features": ""
+      },
+      {
+        "base": "nie:I",
+        "pos": "interj",
+        "features": ""
+      },
+      {
+        "base": "on:S",
+        "pos": "ppron3",
+        "features": "pl:acc:m2.m3.f.n:ter:akc.nakc:praep"
+      },
+      {
+        "base": "on:S",
+        "pos": "ppron3",
+        "features": "sg:acc:n:ter:akc.nakc:praep"
+      }
+    ]
+  },
+  {
+    "sentence_id": 16,
+    "token": "wiedział,",
+    "analyses": [
+      {
+        "base": "wiedzieć",
+        "pos": "praet",
+        "features": "sg:m1.m2.m3:imperf"
+      },
+      {
+        "base": ",",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 16,
+    "token": "iżeć",
+    "analyses": [
+      {
+        "base": "iżeć",
+        "pos": "ign",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 16,
+    "token": "powiadam.",
+    "analyses": [
+      {
+        "base": "powiadać",
+        "pos": "fin",
+        "features": "sg:pri:imperf"
+      },
+      {
+        "base": ".",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 17,
+    "token": "Podpierdółkowacąc",
+    "analyses": [
+      {
+        "base": "Podpierdółkowacąc",
+        "pos": "ign",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 17,
+    "token": "podpierdółkowacili",
+    "analyses": [
+      {
+        "base": "podpierdółkowacili",
+        "pos": "ign",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 17,
+    "token": "podpierdółkowacącą",
+    "analyses": [
+      {
+        "base": "podpierdółkowacącą",
+        "pos": "ign",
+        "features": ""
+      }
+    ]
+  },
+  {
+    "sentence_id": 17,
+    "token": "podpierdółkę.",
+    "analyses": [
+      {
+        "base": "podpierdółkę",
+        "pos": "ign",
+        "features": ""
+      },
+      {
+        "base": ".",
+        "pos": "interp",
+        "features": ""
+      }
+    ]
+  }
+]
