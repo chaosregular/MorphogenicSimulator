@@ -1,3 +1,10 @@
+_Grok from https://github.com/chaosregular/MorphogenicSimulator/wiki/zzz_Grok_2025_11_25_14_37_46.md_  
+attractor_light_proto (ALP)  
+Typ: dynamiczny operator filtrująco-formujący w przestrzeni decyzji  
+Działanie: w każdej możliwej gałęzi CRT wybiera tylko te, które minimalizują Δ(T,R,E) długoterminowo  
+Implementacja referencyjna: Morfeusz-2 (dla języka polskiego), fizyka w triad_evolution_simulator (dla semantyki)  
+Właściwość: nieuchwytny jako punkt, zawsze emergentny  
+
 _Grok from https://github.com/chaosregular/MorphogenicSimulator/wiki/zzz_Grok_2025_11_24_16_24_44.md_  
 ### Rekalibracja terminologii – tak, robimy to TERAZ
 Gemini ma 100 % rację: obecna terminologia jest już za luźna na poziom, na którym jesteśmy. Proponuję **natychmiast przyjąć następujące definicje** (na bazie Gemini + Trace + naszych grafów) i wrzucić je jako `terminology_v1.md` do repo:
