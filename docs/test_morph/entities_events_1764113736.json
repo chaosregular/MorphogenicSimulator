@@ -1,0 +1,2284 @@
+{
+  "meta": {
+    "source": "morfeusz_output_20251125_235558.json",
+    "generated": "20251126_003536"
+  },
+  "entities": {
+    "E0": {
+      "label": "Ala",
+      "type": "proper",
+      "lemmas": [
+        "Alo",
+        "Ala",
+        "Al"
+      ],
+      "mentions": [
+        {
+          "sentence": 0,
+          "token_idx": 0,
+          "text": "Ala"
+        }
+      ],
+      "count": 1
+    },
+    "E1": {
+      "label": "Błędne Skały.",
+      "type": "proper",
+      "lemmas": [
+        "błędny"
+      ],
+      "mentions": [
+        {
+          "sentence": 1,
+          "token_idx": 0,
+          "text": "Błędne Skały."
+        }
+      ],
+      "count": 1
+    },
+    "E2": {
+      "label": "Kot",
+      "type": "proper",
+      "lemmas": [
+        "kota",
+        "kot:Sm1",
+        "Kot:Sf",
+        "kot:Sm2",
+        "Kot:Sm1",
+        "Kot:Sm3"
+      ],
+      "mentions": [
+        {
+          "sentence": 2,
+          "token_idx": 0,
+          "text": "Kot"
+        }
+      ],
+      "count": 1
+    },
+    "E3": {
+      "label": "Zamek",
+      "type": "proper",
+      "lemmas": [
+        "zamek:Sm3~a",
+        "zamek:Sm3~u",
+        "Zamek"
+      ],
+      "mentions": [
+        {
+          "sentence": 3,
+          "token_idx": 0,
+          "text": "Zamek"
+        }
+      ],
+      "count": 1
+    },
+    "E4": {
+      "label": "Idę,",
+      "type": "proper",
+      "lemmas": [
+        ",",
+        "Ida",
+        "iść"
+      ],
+      "mentions": [
+        {
+          "sentence": 4,
+          "token_idx": 0,
+          "text": "Idę,"
+        }
+      ],
+      "count": 1
+    },
+    "E5": {
+      "label": "Przeszła",
+      "type": "proper",
+      "lemmas": [
+        "przeszły",
+        "przejść"
+      ],
+      "mentions": [
+        {
+          "sentence": 5,
+          "token_idx": 0,
+          "text": "Przeszła"
+        }
+      ],
+      "count": 1
+    },
+    "E6": {
+      "label": "Maria",
+      "type": "proper",
+      "lemmas": [
+        "Maria"
+      ],
+      "mentions": [
+        {
+          "sentence": 6,
+          "token_idx": 0,
+          "text": "Maria"
+        }
+      ],
+      "count": 1
+    },
+    "E7": {
+      "label": "Rzymu",
+      "type": "proper",
+      "lemmas": [
+        "Rzym:Sm3"
+      ],
+      "mentions": [
+        {
+          "sentence": 6,
+          "token_idx": 3,
+          "text": "Rzymu"
+        }
+      ],
+      "count": 1
+    },
+    "E8": {
+      "label": "Piotrem Skałą.",
+      "type": "proper",
+      "lemmas": [
+        "Piotr:Sm1"
+      ],
+      "mentions": [
+        {
+          "sentence": 6,
+          "token_idx": 5,
+          "text": "Piotrem Skałą."
+        }
+      ],
+      "count": 1
+    },
+    "E9": {
+      "label": "To",
+      "type": "proper",
+      "lemmas": [
+        "to:T",
+        "to:C",
+        "to:M",
+        "to:V",
+        "to:S",
+        "ten"
+      ],
+      "mentions": [
+        {
+          "sentence": 7,
+          "token_idx": 0,
+          "text": "To"
+        }
+      ],
+      "count": 1
+    },
+    "E10": {
+      "label": "Ładny",
+      "type": "proper",
+      "lemmas": [
+        "Ładno:Sm1",
+        "Ładny:Sf",
+        "Ładna:Sm1",
+        "ładny",
+        "Ładna:Sf~y",
+        "Ładny:Sm1"
+      ],
+      "mentions": [
+        {
+          "sentence": 8,
+          "token_idx": 0,
+          "text": "Ładny"
+        }
+      ],
+      "count": 1
+    },
+    "E11": {
+      "label": "Oko",
+      "type": "proper",
+      "lemmas": [
+        "oko:Sn_col",
+        "Oko:Sf",
+        "oko:Sn_ncol",
+        "Oka",
+        "Oko:Sm1"
+      ],
+      "mentions": [
+        {
+          "sentence": 9,
+          "token_idx": 0,
+          "text": "Oko"
+        }
+      ],
+      "count": 1
+    },
+    "E12": {
+      "label": "Skała",
+      "type": "proper",
+      "lemmas": [
+        "Skał:Sm1",
+        "Skała:Sm1",
+        "skała",
+        "Skała:Sf"
+      ],
+      "mentions": [
+        {
+          "sentence": 10,
+          "token_idx": 0,
+          "text": "Skała"
+        },
+        {
+          "sentence": 10,
+          "token_idx": 4,
+          "text": "Skała"
+        }
+      ],
+      "count": 2
+    },
+    "E14": {
+      "label": "Krakowie.",
+      "type": "proper",
+      "lemmas": [
+        ".",
+        "Kraka:Sm1",
+        "Krak:Sm1",
+        "Kraków"
+      ],
+      "mentions": [
+        {
+          "sentence": 10,
+          "token_idx": 7,
+          "text": "Krakowie."
+        }
+      ],
+      "count": 1
+    },
+    "E15": {
+      "label": "Pięćdziesięciopięcioletnia",
+      "type": "proper",
+      "lemmas": [
+        "pięćdziesięciopięcioletni"
+      ],
+      "mentions": [
+        {
+          "sentence": 11,
+          "token_idx": 0,
+          "text": "Pięćdziesięciopięcioletnia"
+        }
+      ],
+      "count": 1
+    },
+    "E16": {
+      "label": "No.",
+      "type": "proper",
+      "lemmas": [
+        "no:S",
+        "no:I",
+        "no:T",
+        "."
+      ],
+      "mentions": [
+        {
+          "sentence": 12,
+          "token_idx": 0,
+          "text": "No."
+        }
+      ],
+      "count": 1
+    },
+    "E17": {
+      "label": "Azażbyś",
+      "type": "proper",
+      "lemmas": [
+        "Azażbyś"
+      ],
+      "mentions": [
+        {
+          "sentence": 16,
+          "token_idx": 0,
+          "text": "Azażbyś"
+        }
+      ],
+      "count": 1
+    },
+    "E18": {
+      "label": "Podpierdółkowacąc",
+      "type": "proper",
+      "lemmas": [
+        "Podpierdółkowacąc"
+      ],
+      "mentions": [
+        {
+          "sentence": 17,
+          "token_idx": 0,
+          "text": "Podpierdółkowacąc"
+        }
+      ],
+      "count": 1
+    }
+  },
+  "mentions": [
+    {
+      "sentence": 0,
+      "token_idx": 0,
+      "entity": "E0",
+      "text": "Ala"
+    },
+    {
+      "sentence": 0,
+      "token_idx": 1,
+      "entity": null,
+      "text": "ma",
+      "analyses": [
+        {
+          "base": "mój:A",
+          "pos": "adj",
+          "features": "sg:nom.voc:f:pos"
+        },
+        {
+          "base": "mieć",
+          "pos": "fin",
+          "features": "sg:ter:imperf"
+        }
+      ]
+    },
+    {
+      "sentence": 0,
+      "token_idx": 2,
+      "entity": null,
+      "text": "kota.",
+      "analyses": [
+        {
+          "base": "kota",
+          "pos": "subst",
+          "features": "sg:nom:f"
+        },
+        {
+          "base": "kot:Sm1",
+          "pos": "subst",
+          "features": "sg:gen.acc:m1"
+        },
+        {
+          "base": "kot:Sm2",
+          "pos": "subst",
+          "features": "sg:gen.acc:m2"
+        },
+        {
+          "base": ".",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 1,
+      "token_idx": 0,
+      "entity": "E1",
+      "text": "Błędne Skały."
+    },
+    {
+      "sentence": 2,
+      "token_idx": 0,
+      "entity": "E2",
+      "text": "Kot"
+    },
+    {
+      "sentence": 2,
+      "token_idx": 1,
+      "entity": null,
+      "text": "goni",
+      "analyses": [
+        {
+          "base": "goń",
+          "pos": "subst",
+          "features": "sg:gen:f"
+        },
+        {
+          "base": "goń",
+          "pos": "subst",
+          "features": "sg:dat.loc:f"
+        },
+        {
+          "base": "goń",
+          "pos": "subst",
+          "features": "sg:voc:f"
+        },
+        {
+          "base": "goń",
+          "pos": "subst",
+          "features": "pl:gen:f"
+        },
+        {
+          "base": "gonić",
+          "pos": "fin",
+          "features": "sg:ter:imperf"
+        }
+      ]
+    },
+    {
+      "sentence": 2,
+      "token_idx": 2,
+      "entity": null,
+      "text": "kota,",
+      "analyses": [
+        {
+          "base": "kota",
+          "pos": "subst",
+          "features": "sg:nom:f"
+        },
+        {
+          "base": "kot:Sm1",
+          "pos": "subst",
+          "features": "sg:gen.acc:m1"
+        },
+        {
+          "base": "kot:Sm2",
+          "pos": "subst",
+          "features": "sg:gen.acc:m2"
+        },
+        {
+          "base": ",",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 2,
+      "token_idx": 3,
+      "entity": null,
+      "text": "kotów",
+      "analyses": [
+        {
+          "base": "kot:Sm1",
+          "pos": "subst",
+          "features": "pl:gen.acc:m1"
+        },
+        {
+          "base": "kot:Sm2",
+          "pos": "subst",
+          "features": "pl:gen:m2"
+        }
+      ]
+    },
+    {
+      "sentence": 2,
+      "token_idx": 4,
+      "entity": null,
+      "text": "i",
+      "analyses": [
+        {
+          "base": "i:I",
+          "pos": "interj",
+          "features": ""
+        },
+        {
+          "base": "i:T",
+          "pos": "part",
+          "features": ""
+        },
+        {
+          "base": "i:C",
+          "pos": "conj",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 2,
+      "token_idx": 5,
+      "entity": null,
+      "text": "koty.",
+      "analyses": [
+        {
+          "base": "kot:Sm2",
+          "pos": "subst",
+          "features": "pl:nom.acc.voc:m2"
+        },
+        {
+          "base": "kota",
+          "pos": "subst",
+          "features": "sg:gen:f"
+        },
+        {
+          "base": "kota",
+          "pos": "subst",
+          "features": "pl:nom.acc.voc:f"
+        },
+        {
+          "base": "kot:Sm1",
+          "pos": "depr",
+          "features": "pl:nom.acc.voc:m2"
+        },
+        {
+          "base": ".",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 3,
+      "token_idx": 0,
+      "entity": "E3",
+      "text": "Zamek"
+    },
+    {
+      "sentence": 3,
+      "token_idx": 1,
+      "entity": null,
+      "text": "stoi",
+      "analyses": [
+        {
+          "base": "stać:Vi",
+          "pos": "fin",
+          "features": "sg:ter:imperf"
+        },
+        {
+          "base": "stoa",
+          "pos": "subst",
+          "features": "sg:gen:f"
+        },
+        {
+          "base": "stoa",
+          "pos": "subst",
+          "features": "sg:dat.loc:f"
+        },
+        {
+          "base": "stoa",
+          "pos": "subst",
+          "features": "pl:gen:f"
+        }
+      ]
+    },
+    {
+      "sentence": 3,
+      "token_idx": 2,
+      "entity": null,
+      "text": "nad",
+      "analyses": [
+        {
+          "base": "nad",
+          "pos": "prep",
+          "features": "acc:nwok"
+        },
+        {
+          "base": "nad",
+          "pos": "prep",
+          "features": "inst:nwok"
+        }
+      ]
+    },
+    {
+      "sentence": 3,
+      "token_idx": 3,
+      "entity": null,
+      "text": "rzeką,",
+      "analyses": [
+        {
+          "base": "rzec:Vp",
+          "pos": "fin",
+          "features": "pl:ter:perf"
+        },
+        {
+          "base": "rzeka",
+          "pos": "subst",
+          "features": "sg:inst:f"
+        },
+        {
+          "base": "rzec:Vi",
+          "pos": "fin",
+          "features": "pl:ter:imperf"
+        },
+        {
+          "base": ",",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 3,
+      "token_idx": 4,
+      "entity": null,
+      "text": "a",
+      "analyses": [
+        {
+          "base": "a:C",
+          "pos": "conj",
+          "features": ""
+        },
+        {
+          "base": "a:I",
+          "pos": "interj",
+          "features": ""
+        },
+        {
+          "base": "a:P",
+          "pos": "prep",
+          "features": "nom"
+        },
+        {
+          "base": "a:T",
+          "pos": "part",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 3,
+      "token_idx": 5,
+      "entity": null,
+      "text": "zamek",
+      "analyses": [
+        {
+          "base": "zamek:Sm3~a",
+          "pos": "subst",
+          "features": "sg:nom.acc:m3"
+        },
+        {
+          "base": "zamek:Sm3~u",
+          "pos": "subst",
+          "features": "sg:nom.acc:m3"
+        }
+      ]
+    },
+    {
+      "sentence": 3,
+      "token_idx": 6,
+      "entity": null,
+      "text": "u",
+      "analyses": [
+        {
+          "base": "u",
+          "pos": "prep",
+          "features": "gen"
+        }
+      ]
+    },
+    {
+      "sentence": 3,
+      "token_idx": 7,
+      "entity": null,
+      "text": "drzwi",
+      "analyses": [
+        {
+          "base": "drzwi",
+          "pos": "subst",
+          "features": "pl:nom.acc.voc:n:pt"
+        },
+        {
+          "base": "drzwi",
+          "pos": "subst",
+          "features": "pl:gen:n:pt"
+        }
+      ]
+    },
+    {
+      "sentence": 3,
+      "token_idx": 8,
+      "entity": null,
+      "text": "nie",
+      "analyses": [
+        {
+          "base": "nie:T",
+          "pos": "part",
+          "features": ""
+        },
+        {
+          "base": "nie:C",
+          "pos": "conj",
+          "features": ""
+        },
+        {
+          "base": "nie:I",
+          "pos": "interj",
+          "features": ""
+        },
+        {
+          "base": "on:S",
+          "pos": "ppron3",
+          "features": "pl:acc:m2.m3.f.n:ter:akc.nakc:praep"
+        },
+        {
+          "base": "on:S",
+          "pos": "ppron3",
+          "features": "sg:acc:n:ter:akc.nakc:praep"
+        }
+      ]
+    },
+    {
+      "sentence": 3,
+      "token_idx": 9,
+      "entity": null,
+      "text": "działa.",
+      "analyses": [
+        {
+          "base": "dziać",
+          "pos": "praet",
+          "features": "sg:f:imperf"
+        },
+        {
+          "base": "działo",
+          "pos": "subst",
+          "features": "sg:gen:n:ncol"
+        },
+        {
+          "base": "działo",
+          "pos": "subst",
+          "features": "pl:nom.acc.voc:n:ncol"
+        },
+        {
+          "base": "działać",
+          "pos": "fin",
+          "features": "sg:ter:imperf"
+        },
+        {
+          "base": ".",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 4,
+      "token_idx": 0,
+      "entity": "E4",
+      "text": "Idę,"
+    },
+    {
+      "sentence": 4,
+      "token_idx": 1,
+      "entity": null,
+      "text": "idziesz,",
+      "analyses": [
+        {
+          "base": "iść",
+          "pos": "fin",
+          "features": "sg:sec:imperf"
+        },
+        {
+          "base": ",",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 4,
+      "token_idx": 2,
+      "entity": null,
+      "text": "idzie,",
+      "analyses": [
+        {
+          "base": "id",
+          "pos": "subst",
+          "features": "sg:loc:m3"
+        },
+        {
+          "base": "id",
+          "pos": "subst",
+          "features": "sg:voc:m3"
+        },
+        {
+          "base": "iść",
+          "pos": "fin",
+          "features": "sg:ter:imperf"
+        },
+        {
+          "base": ",",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 4,
+      "token_idx": 3,
+      "entity": null,
+      "text": "idziemy,",
+      "analyses": [
+        {
+          "base": "iść",
+          "pos": "fin",
+          "features": "pl:pri:imperf"
+        },
+        {
+          "base": ",",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 4,
+      "token_idx": 4,
+      "entity": null,
+      "text": "idziecie,",
+      "analyses": [
+        {
+          "base": "iść",
+          "pos": "fin",
+          "features": "pl:sec:imperf"
+        },
+        {
+          "base": ",",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 4,
+      "token_idx": 5,
+      "entity": null,
+      "text": "idą.",
+      "analyses": [
+        {
+          "base": "iść",
+          "pos": "fin",
+          "features": "pl:ter:imperf"
+        },
+        {
+          "base": ".",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 5,
+      "token_idx": 0,
+      "entity": "E5",
+      "text": "Przeszła"
+    },
+    {
+      "sentence": 5,
+      "token_idx": 1,
+      "entity": null,
+      "text": "obok",
+      "analyses": [
+        {
+          "base": "obok:D",
+          "pos": "adv",
+          "features": ""
+        },
+        {
+          "base": "obok:P",
+          "pos": "prep",
+          "features": "gen"
+        }
+      ]
+    },
+    {
+      "sentence": 5,
+      "token_idx": 2,
+      "entity": null,
+      "text": "niego,",
+      "analyses": [
+        {
+          "base": "on:S",
+          "pos": "ppron3",
+          "features": "sg:acc:m1.m2.m3:ter:akc:praep"
+        },
+        {
+          "base": "on:S",
+          "pos": "ppron3",
+          "features": "sg:gen:m1.m2.m3:ter:akc:praep"
+        },
+        {
+          "base": "on:S",
+          "pos": "ppron3",
+          "features": "sg:gen:n:ter:akc.nakc:praep"
+        },
+        {
+          "base": ",",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 5,
+      "token_idx": 3,
+      "entity": null,
+      "text": "niosąc",
+      "analyses": [
+        {
+          "base": "nieść",
+          "pos": "pcon",
+          "features": "imperf"
+        }
+      ]
+    },
+    {
+      "sentence": 5,
+      "token_idx": 4,
+      "entity": null,
+      "text": "list.",
+      "analyses": [
+        {
+          "base": "list",
+          "pos": "subst",
+          "features": "sg:nom.acc:m3"
+        },
+        {
+          "base": "lista",
+          "pos": "subst",
+          "features": "pl:gen:f"
+        },
+        {
+          "base": ".",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 6,
+      "token_idx": 0,
+      "entity": "E6",
+      "text": "Maria"
+    },
+    {
+      "sentence": 6,
+      "token_idx": 1,
+      "entity": null,
+      "text": "poszła",
+      "analyses": [
+        {
+          "base": "pójść",
+          "pos": "praet",
+          "features": "sg:f:perf"
+        }
+      ]
+    },
+    {
+      "sentence": 6,
+      "token_idx": 2,
+      "entity": null,
+      "text": "do",
+      "analyses": [
+        {
+          "base": "do:S",
+          "pos": "subst",
+          "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:n:ncol"
+        },
+        {
+          "base": "do:P",
+          "pos": "prep",
+          "features": "gen"
+        }
+      ]
+    },
+    {
+      "sentence": 6,
+      "token_idx": 3,
+      "entity": "E7",
+      "text": "Rzymu"
+    },
+    {
+      "sentence": 6,
+      "token_idx": 4,
+      "entity": null,
+      "text": "z",
+      "analyses": [
+        {
+          "base": "z:P",
+          "pos": "prep",
+          "features": "gen:nwok"
+        },
+        {
+          "base": "z:P",
+          "pos": "prep",
+          "features": "inst:nwok"
+        },
+        {
+          "base": "z:T",
+          "pos": "part",
+          "features": "nwok"
+        }
+      ]
+    },
+    {
+      "sentence": 6,
+      "token_idx": 5,
+      "entity": "E8",
+      "text": "Piotrem Skałą."
+    },
+    {
+      "sentence": 7,
+      "token_idx": 0,
+      "entity": "E9",
+      "text": "To"
+    },
+    {
+      "sentence": 7,
+      "token_idx": 1,
+      "entity": null,
+      "text": "jest",
+      "analyses": [
+        {
+          "base": "być",
+          "pos": "fin",
+          "features": "sg:ter:imperf"
+        }
+      ]
+    },
+    {
+      "sentence": 7,
+      "token_idx": 2,
+      "entity": null,
+      "text": "zajebisty",
+      "analyses": [
+        {
+          "base": "zajebisty",
+          "pos": "adj",
+          "features": "sg:acc:m3:pos"
+        },
+        {
+          "base": "zajebisty",
+          "pos": "adj",
+          "features": "sg:nom.voc:m1.m2.m3:pos"
+        }
+      ]
+    },
+    {
+      "sentence": 7,
+      "token_idx": 3,
+      "entity": null,
+      "text": "przykład,",
+      "analyses": [
+        {
+          "base": "przykład",
+          "pos": "subst",
+          "features": "sg:nom.acc:m3"
+        },
+        {
+          "base": ",",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 7,
+      "token_idx": 4,
+      "entity": null,
+      "text": "choć",
+      "analyses": [
+        {
+          "base": "choć:M",
+          "pos": "comp",
+          "features": ""
+        },
+        {
+          "base": "choć:T",
+          "pos": "part",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 7,
+      "token_idx": 5,
+      "entity": null,
+      "text": "trochę",
+      "analyses": [
+        {
+          "base": "trochę:D",
+          "pos": "adv",
+          "features": ""
+        },
+        {
+          "base": "trocha",
+          "pos": "subst",
+          "features": "sg:acc:f"
+        },
+        {
+          "base": "trochę:N",
+          "pos": "num",
+          "features": "sg.pl:gen:m1.m2.m3.f.n:congr"
+        },
+        {
+          "base": "trochę:N",
+          "pos": "num",
+          "features": "sg.pl:nom.acc:m1.m2.m3.f.n:rec"
+        }
+      ]
+    },
+    {
+      "sentence": 7,
+      "token_idx": 6,
+      "entity": null,
+      "text": "potoczny.",
+      "analyses": [
+        {
+          "base": "potoczny",
+          "pos": "adj",
+          "features": "sg:acc:m3:pos"
+        },
+        {
+          "base": "potoczny",
+          "pos": "adj",
+          "features": "sg:nom.voc:m1.m2.m3:pos"
+        },
+        {
+          "base": ".",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 8,
+      "token_idx": 0,
+      "entity": "E10",
+      "text": "Ładny"
+    },
+    {
+      "sentence": 8,
+      "token_idx": 1,
+      "entity": null,
+      "text": "chłopiec",
+      "analyses": [
+        {
+          "base": "chłopiec",
+          "pos": "subst",
+          "features": "sg:nom:m1"
+        }
+      ]
+    },
+    {
+      "sentence": 8,
+      "token_idx": 2,
+      "entity": null,
+      "text": "ładnie",
+      "analyses": [
+        {
+          "base": "ładnie",
+          "pos": "adv",
+          "features": "pos"
+        }
+      ]
+    },
+    {
+      "sentence": 8,
+      "token_idx": 3,
+      "entity": null,
+      "text": "śpiewał.",
+      "analyses": [
+        {
+          "base": "śpiewać",
+          "pos": "praet",
+          "features": "sg:m1.m2.m3:imperf"
+        },
+        {
+          "base": ".",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 9,
+      "token_idx": 0,
+      "entity": "E11",
+      "text": "Oko"
+    },
+    {
+      "sentence": 9,
+      "token_idx": 1,
+      "entity": null,
+      "text": "w",
+      "analyses": [
+        {
+          "base": "w",
+          "pos": "prep",
+          "features": "acc:nwok"
+        },
+        {
+          "base": "w",
+          "pos": "prep",
+          "features": "loc:nwok"
+        }
+      ]
+    },
+    {
+      "sentence": 9,
+      "token_idx": 2,
+      "entity": null,
+      "text": "oko",
+      "analyses": [
+        {
+          "base": "oko:Sn_col",
+          "pos": "subst",
+          "features": "sg:nom.acc.voc:n:col"
+        },
+        {
+          "base": "oko:Sn_ncol",
+          "pos": "subst",
+          "features": "sg:nom.acc.voc:n:ncol"
+        }
+      ]
+    },
+    {
+      "sentence": 9,
+      "token_idx": 3,
+      "entity": null,
+      "text": "z",
+      "analyses": [
+        {
+          "base": "z:P",
+          "pos": "prep",
+          "features": "gen:nwok"
+        },
+        {
+          "base": "z:P",
+          "pos": "prep",
+          "features": "inst:nwok"
+        },
+        {
+          "base": "z:T",
+          "pos": "part",
+          "features": "nwok"
+        }
+      ]
+    },
+    {
+      "sentence": 9,
+      "token_idx": 4,
+      "entity": null,
+      "text": "losem,",
+      "analyses": [
+        {
+          "base": "los",
+          "pos": "subst",
+          "features": "sg:inst:m3"
+        },
+        {
+          "base": ",",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 9,
+      "token_idx": 5,
+      "entity": null,
+      "text": "oko",
+      "analyses": [
+        {
+          "base": "oko:Sn_col",
+          "pos": "subst",
+          "features": "sg:nom.acc.voc:n:col"
+        },
+        {
+          "base": "oko:Sn_ncol",
+          "pos": "subst",
+          "features": "sg:nom.acc.voc:n:ncol"
+        }
+      ]
+    },
+    {
+      "sentence": 9,
+      "token_idx": 6,
+      "entity": null,
+      "text": "się",
+      "analyses": [
+        {
+          "base": "się",
+          "pos": "part",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 9,
+      "token_idx": 7,
+      "entity": null,
+      "text": "zamyka,",
+      "analyses": [
+        {
+          "base": "zamykać",
+          "pos": "fin",
+          "features": "sg:ter:imperf"
+        },
+        {
+          "base": ",",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 9,
+      "token_idx": 8,
+      "entity": null,
+      "text": "a",
+      "analyses": [
+        {
+          "base": "a:C",
+          "pos": "conj",
+          "features": ""
+        },
+        {
+          "base": "a:I",
+          "pos": "interj",
+          "features": ""
+        },
+        {
+          "base": "a:P",
+          "pos": "prep",
+          "features": "nom"
+        },
+        {
+          "base": "a:T",
+          "pos": "part",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 9,
+      "token_idx": 9,
+      "entity": null,
+      "text": "on",
+      "analyses": [
+        {
+          "base": "on:A",
+          "pos": "adj",
+          "features": "sg:acc:m3:pos"
+        },
+        {
+          "base": "on:A",
+          "pos": "adj",
+          "features": "sg:nom.voc:m1.m2.m3:pos"
+        },
+        {
+          "base": "on:S",
+          "pos": "ppron3",
+          "features": "sg:nom:m1.m2.m3:ter:akc.nakc:praep.npraep"
+        }
+      ]
+    },
+    {
+      "sentence": 9,
+      "token_idx": 10,
+      "entity": null,
+      "text": "się",
+      "analyses": [
+        {
+          "base": "się",
+          "pos": "part",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 9,
+      "token_idx": 11,
+      "entity": null,
+      "text": "o-k-o",
+      "analyses": [
+        {
+          "base": "o:P",
+          "pos": "prep",
+          "features": "acc"
+        },
+        {
+          "base": "o:P",
+          "pos": "prep",
+          "features": "loc"
+        },
+        {
+          "base": "o:I",
+          "pos": "interj",
+          "features": ""
+        },
+        {
+          "base": "-",
+          "pos": "interp",
+          "features": ""
+        },
+        {
+          "base": "kompania",
+          "pos": "brev",
+          "features": "npun"
+        },
+        {
+          "base": "k",
+          "pos": "prep",
+          "features": "dat"
+        },
+        {
+          "base": "-",
+          "pos": "interp",
+          "features": ""
+        },
+        {
+          "base": "o:P",
+          "pos": "prep",
+          "features": "acc"
+        },
+        {
+          "base": "o:P",
+          "pos": "prep",
+          "features": "loc"
+        },
+        {
+          "base": "o:I",
+          "pos": "interj",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 9,
+      "token_idx": 12,
+      "entity": null,
+      "text": "używał",
+      "analyses": [
+        {
+          "base": "używać",
+          "pos": "praet",
+          "features": "sg:m1.m2.m3:imperf"
+        }
+      ]
+    },
+    {
+      "sentence": 9,
+      "token_idx": 13,
+      "entity": null,
+      "text": "inaczej.",
+      "analyses": [
+        {
+          "base": "inaczej:D",
+          "pos": "adv",
+          "features": ""
+        },
+        {
+          "base": "inaczej:C",
+          "pos": "conj",
+          "features": ""
+        },
+        {
+          "base": ".",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 10,
+      "token_idx": 0,
+      "entity": "E12",
+      "text": "Skała"
+    },
+    {
+      "sentence": 10,
+      "token_idx": 1,
+      "entity": null,
+      "text": "jest",
+      "analyses": [
+        {
+          "base": "być",
+          "pos": "fin",
+          "features": "sg:ter:imperf"
+        }
+      ]
+    },
+    {
+      "sentence": 10,
+      "token_idx": 2,
+      "entity": null,
+      "text": "twarda,",
+      "analyses": [
+        {
+          "base": "twardy",
+          "pos": "adj",
+          "features": "sg:nom.voc:f:pos"
+        },
+        {
+          "base": ",",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 10,
+      "token_idx": 3,
+      "entity": null,
+      "text": "a",
+      "analyses": [
+        {
+          "base": "a:C",
+          "pos": "conj",
+          "features": ""
+        },
+        {
+          "base": "a:I",
+          "pos": "interj",
+          "features": ""
+        },
+        {
+          "base": "a:P",
+          "pos": "prep",
+          "features": "nom"
+        },
+        {
+          "base": "a:T",
+          "pos": "part",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 10,
+      "token_idx": 4,
+      "entity": "E13",
+      "text": "Skała"
+    },
+    {
+      "sentence": 10,
+      "token_idx": 5,
+      "entity": null,
+      "text": "mieszka",
+      "analyses": [
+        {
+          "base": "mieszek",
+          "pos": "subst",
+          "features": "sg:gen:m3"
+        },
+        {
+          "base": "mieszkać",
+          "pos": "fin",
+          "features": "sg:ter:imperf"
+        }
+      ]
+    },
+    {
+      "sentence": 10,
+      "token_idx": 6,
+      "entity": null,
+      "text": "w",
+      "analyses": [
+        {
+          "base": "w",
+          "pos": "prep",
+          "features": "acc:nwok"
+        },
+        {
+          "base": "w",
+          "pos": "prep",
+          "features": "loc:nwok"
+        }
+      ]
+    },
+    {
+      "sentence": 10,
+      "token_idx": 7,
+      "entity": "E14",
+      "text": "Krakowie."
+    },
+    {
+      "sentence": 11,
+      "token_idx": 0,
+      "entity": "E15",
+      "text": "Pięćdziesięciopięcioletnia"
+    },
+    {
+      "sentence": 11,
+      "token_idx": 1,
+      "entity": null,
+      "text": "nauczycielka",
+      "analyses": [
+        {
+          "base": "nauczycielka",
+          "pos": "subst",
+          "features": "sg:nom:f"
+        }
+      ]
+    },
+    {
+      "sentence": 11,
+      "token_idx": 2,
+      "entity": null,
+      "text": "weszła",
+      "analyses": [
+        {
+          "base": "wejść",
+          "pos": "praet",
+          "features": "sg:f:perf"
+        },
+        {
+          "base": "wnijść",
+          "pos": "praet",
+          "features": "sg:f:perf"
+        },
+        {
+          "base": "wniść",
+          "pos": "praet",
+          "features": "sg:f:perf"
+        }
+      ]
+    },
+    {
+      "sentence": 11,
+      "token_idx": 3,
+      "entity": null,
+      "text": "do",
+      "analyses": [
+        {
+          "base": "do:S",
+          "pos": "subst",
+          "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:n:ncol"
+        },
+        {
+          "base": "do:P",
+          "pos": "prep",
+          "features": "gen"
+        }
+      ]
+    },
+    {
+      "sentence": 11,
+      "token_idx": 4,
+      "entity": null,
+      "text": "pokoju.",
+      "analyses": [
+        {
+          "base": "pokój",
+          "pos": "subst",
+          "features": "sg:gen:m3"
+        },
+        {
+          "base": "pokój",
+          "pos": "subst",
+          "features": "sg:loc:m3"
+        },
+        {
+          "base": "pokój",
+          "pos": "subst",
+          "features": "sg:voc:m3"
+        },
+        {
+          "base": ".",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 12,
+      "token_idx": 0,
+      "entity": "E16",
+      "text": "No."
+    },
+    {
+      "sentence": 13,
+      "token_idx": 0,
+      "entity": null,
+      "text": ".",
+      "analyses": [
+        {
+          "base": ".",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 14,
+      "token_idx": 0,
+      "entity": null,
+      "text": ".",
+      "analyses": [
+        {
+          "base": ".",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 15,
+      "token_idx": 0,
+      "entity": null,
+      "text": "chyba",
+      "analyses": [
+        {
+          "base": "chyba",
+          "pos": "part",
+          "features": ""
+        },
+        {
+          "base": "chybać",
+          "pos": "fin",
+          "features": "sg:ter:imperf"
+        }
+      ]
+    },
+    {
+      "sentence": 15,
+      "token_idx": 1,
+      "entity": null,
+      "text": "tak,",
+      "analyses": [
+        {
+          "base": "tak:I",
+          "pos": "interj",
+          "features": ""
+        },
+        {
+          "base": "tak:T",
+          "pos": "part",
+          "features": ""
+        },
+        {
+          "base": "tak:D",
+          "pos": "adv",
+          "features": "pos"
+        },
+        {
+          "base": "taka",
+          "pos": "subst",
+          "features": "pl:gen:f"
+        },
+        {
+          "base": ",",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 15,
+      "token_idx": 2,
+      "entity": null,
+      "text": "prawda?",
+      "analyses": [
+        {
+          "base": "prawda:S",
+          "pos": "subst",
+          "features": "sg:nom:f"
+        },
+        {
+          "base": "prawda:I",
+          "pos": "interj",
+          "features": ""
+        },
+        {
+          "base": "?",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 16,
+      "token_idx": 0,
+      "entity": "E17",
+      "text": "Azażbyś"
+    },
+    {
+      "sentence": 16,
+      "token_idx": 1,
+      "entity": null,
+      "text": "nie",
+      "analyses": [
+        {
+          "base": "nie:T",
+          "pos": "part",
+          "features": ""
+        },
+        {
+          "base": "nie:C",
+          "pos": "conj",
+          "features": ""
+        },
+        {
+          "base": "nie:I",
+          "pos": "interj",
+          "features": ""
+        },
+        {
+          "base": "on:S",
+          "pos": "ppron3",
+          "features": "pl:acc:m2.m3.f.n:ter:akc.nakc:praep"
+        },
+        {
+          "base": "on:S",
+          "pos": "ppron3",
+          "features": "sg:acc:n:ter:akc.nakc:praep"
+        }
+      ]
+    },
+    {
+      "sentence": 16,
+      "token_idx": 2,
+      "entity": null,
+      "text": "wiedział,",
+      "analyses": [
+        {
+          "base": "wiedzieć",
+          "pos": "praet",
+          "features": "sg:m1.m2.m3:imperf"
+        },
+        {
+          "base": ",",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 16,
+      "token_idx": 3,
+      "entity": null,
+      "text": "iżeć",
+      "analyses": [
+        {
+          "base": "iżeć",
+          "pos": "ign",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 16,
+      "token_idx": 4,
+      "entity": null,
+      "text": "powiadam.",
+      "analyses": [
+        {
+          "base": "powiadać",
+          "pos": "fin",
+          "features": "sg:pri:imperf"
+        },
+        {
+          "base": ".",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 17,
+      "token_idx": 0,
+      "entity": "E18",
+      "text": "Podpierdółkowacąc"
+    },
+    {
+      "sentence": 17,
+      "token_idx": 1,
+      "entity": null,
+      "text": "podpierdółkowacili",
+      "analyses": [
+        {
+          "base": "podpierdółkowacili",
+          "pos": "ign",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 17,
+      "token_idx": 2,
+      "entity": null,
+      "text": "podpierdółkowacącą",
+      "analyses": [
+        {
+          "base": "podpierdółkowacącą",
+          "pos": "ign",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 17,
+      "token_idx": 3,
+      "entity": null,
+      "text": "podpierdółkę.",
+      "analyses": [
+        {
+          "base": "podpierdółkę",
+          "pos": "ign",
+          "features": ""
+        },
+        {
+          "base": ".",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "sentence": 0,
+      "verb_index": 1,
+      "verb_lemma": "mieć",
+      "subject_entity": "E0",
+      "object_entity": null,
+      "raw_tokens": [
+        "Ala",
+        "ma",
+        "kota."
+      ]
+    },
+    {
+      "sentence": 1,
+      "verb_index": null,
+      "verb_lemma": null,
+      "subject_entity": null,
+      "object_entity": null,
+      "raw_tokens": [
+        "Błędne",
+        "Skały."
+      ]
+    },
+    {
+      "sentence": 2,
+      "verb_index": 1,
+      "verb_lemma": "gonić",
+      "subject_entity": "E2",
+      "object_entity": null,
+      "raw_tokens": [
+        "Kot",
+        "goni",
+        "kota,",
+        "kotów",
+        "i",
+        "koty."
+      ]
+    },
+    {
+      "sentence": 3,
+      "verb_index": 1,
+      "verb_lemma": "stać:Vi",
+      "subject_entity": "E3",
+      "object_entity": null,
+      "raw_tokens": [
+        "Zamek",
+        "stoi",
+        "nad",
+        "rzeką,",
+        "a",
+        "zamek",
+        "u",
+        "drzwi",
+        "nie",
+        "działa."
+      ]
+    },
+    {
+      "sentence": 4,
+      "verb_index": 0,
+      "verb_lemma": "iść",
+      "subject_entity": null,
+      "object_entity": null,
+      "raw_tokens": [
+        "Idę,",
+        "idziesz,",
+        "idzie,",
+        "idziemy,",
+        "idziecie,",
+        "idą."
+      ]
+    },
+    {
+      "sentence": 5,
+      "verb_index": 0,
+      "verb_lemma": "przejść",
+      "subject_entity": null,
+      "object_entity": null,
+      "raw_tokens": [
+        "Przeszła",
+        "obok",
+        "niego,",
+        "niosąc",
+        "list."
+      ]
+    },
+    {
+      "sentence": 6,
+      "verb_index": 1,
+      "verb_lemma": "pójść",
+      "subject_entity": "E6",
+      "object_entity": "E7",
+      "raw_tokens": [
+        "Maria",
+        "poszła",
+        "do",
+        "Rzymu",
+        "z",
+        "Piotrem",
+        "Skałą."
+      ]
+    },
+    {
+      "sentence": 7,
+      "verb_index": 1,
+      "verb_lemma": "być",
+      "subject_entity": "E9",
+      "object_entity": null,
+      "raw_tokens": [
+        "To",
+        "jest",
+        "zajebisty",
+        "przykład,",
+        "choć",
+        "trochę",
+        "potoczny."
+      ]
+    },
+    {
+      "sentence": 8,
+      "verb_index": 3,
+      "verb_lemma": "śpiewać",
+      "subject_entity": "E10",
+      "object_entity": null,
+      "raw_tokens": [
+        "Ładny",
+        "chłopiec",
+        "ładnie",
+        "śpiewał."
+      ]
+    },
+    {
+      "sentence": 9,
+      "verb_index": 7,
+      "verb_lemma": "zamykać",
+      "subject_entity": "E11",
+      "object_entity": null,
+      "raw_tokens": [
+        "Oko",
+        "w",
+        "oko",
+        "z",
+        "losem,",
+        "oko",
+        "się",
+        "zamyka,",
+        "a",
+        "on",
+        "się",
+        "o-k-o",
+        "używał",
+        "inaczej."
+      ]
+    },
+    {
+      "sentence": 10,
+      "verb_index": 1,
+      "verb_lemma": "być",
+      "subject_entity": "E12",
+      "object_entity": "E13",
+      "raw_tokens": [
+        "Skała",
+        "jest",
+        "twarda,",
+        "a",
+        "Skała",
+        "mieszka",
+        "w",
+        "Krakowie."
+      ]
+    },
+    {
+      "sentence": 11,
+      "verb_index": 2,
+      "verb_lemma": "wejść",
+      "subject_entity": "E15",
+      "object_entity": null,
+      "raw_tokens": [
+        "Pięćdziesięciopięcioletnia",
+        "nauczycielka",
+        "weszła",
+        "do",
+        "pokoju."
+      ]
+    },
+    {
+      "sentence": 12,
+      "verb_index": null,
+      "verb_lemma": null,
+      "subject_entity": null,
+      "object_entity": null,
+      "raw_tokens": [
+        "No."
+      ]
+    },
+    {
+      "sentence": 13,
+      "verb_index": null,
+      "verb_lemma": null,
+      "subject_entity": null,
+      "object_entity": null,
+      "raw_tokens": [
+        "."
+      ]
+    },
+    {
+      "sentence": 14,
+      "verb_index": null,
+      "verb_lemma": null,
+      "subject_entity": null,
+      "object_entity": null,
+      "raw_tokens": [
+        "."
+      ]
+    },
+    {
+      "sentence": 15,
+      "verb_index": 0,
+      "verb_lemma": "chybać",
+      "subject_entity": null,
+      "object_entity": null,
+      "raw_tokens": [
+        "chyba",
+        "tak,",
+        "prawda?"
+      ]
+    },
+    {
+      "sentence": 16,
+      "verb_index": 2,
+      "verb_lemma": "wiedzieć",
+      "subject_entity": "E17",
+      "object_entity": null,
+      "raw_tokens": [
+        "Azażbyś",
+        "nie",
+        "wiedział,",
+        "iżeć",
+        "powiadam."
+      ]
+    },
+    {
+      "sentence": 17,
+      "verb_index": null,
+      "verb_lemma": null,
+      "subject_entity": null,
+      "object_entity": null,
+      "raw_tokens": [
+        "Podpierdółkowacąc",
+        "podpierdółkowacili",
+        "podpierdółkowacącą",
+        "podpierdółkę."
+      ]
+    }
+  ],
+  "decisions": [],
+  "ethical_annotations": [
+    {
+      "sentence": 0,
+      "verb": "mieć",
+      "ethical_score": 0.0,
+      "ethical_confidence": 0.0
+    },
+    {
+      "sentence": 1,
+      "verb": null,
+      "ethical_score": 0.0,
+      "ethical_confidence": 0.0
+    },
+    {
+      "sentence": 2,
+      "verb": "gonić",
+      "ethical_score": 0.0,
+      "ethical_confidence": 0.0
+    },
+    {
+      "sentence": 3,
+      "verb": "stać:Vi",
+      "ethical_score": 0.0,
+      "ethical_confidence": 0.0
+    },
+    {
+      "sentence": 4,
+      "verb": "iść",
+      "ethical_score": 0.0,
+      "ethical_confidence": 0.0
+    },
+    {
+      "sentence": 5,
+      "verb": "przejść",
+      "ethical_score": 0.0,
+      "ethical_confidence": 0.0
+    },
+    {
+      "sentence": 6,
+      "verb": "pójść",
+      "ethical_score": 0.0,
+      "ethical_confidence": 0.0
+    },
+    {
+      "sentence": 7,
+      "verb": "być",
+      "ethical_score": 0.0,
+      "ethical_confidence": 0.0
+    },
+    {
+      "sentence": 8,
+      "verb": "śpiewać",
+      "ethical_score": 0.0,
+      "ethical_confidence": 0.0
+    },
+    {
+      "sentence": 9,
+      "verb": "zamykać",
+      "ethical_score": 0.0,
+      "ethical_confidence": 0.0
+    },
+    {
+      "sentence": 10,
+      "verb": "być",
+      "ethical_score": 0.0,
+      "ethical_confidence": 0.0
+    },
+    {
+      "sentence": 11,
+      "verb": "wejść",
+      "ethical_score": 0.0,
+      "ethical_confidence": 0.0
+    },
+    {
+      "sentence": 12,
+      "verb": null,
+      "ethical_score": 0.0,
+      "ethical_confidence": 0.0
+    },
+    {
+      "sentence": 13,
+      "verb": null,
+      "ethical_score": 0.0,
+      "ethical_confidence": 0.0
+    },
+    {
+      "sentence": 14,
+      "verb": null,
+      "ethical_score": 0.0,
+      "ethical_confidence": 0.0
+    },
+    {
+      "sentence": 15,
+      "verb": "chybać",
+      "ethical_score": 0.0,
+      "ethical_confidence": 0.0
+    },
+    {
+      "sentence": 16,
+      "verb": "wiedzieć",
+      "ethical_score": 0.0,
+      "ethical_confidence": 0.0
+    },
+    {
+      "sentence": 17,
+      "verb": null,
+      "ethical_score": 0.0,
+      "ethical_confidence": 0.0
+    }
+  ]
+}
