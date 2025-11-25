@@ -1,4 +1,6 @@
-# Grok_Trace_rnd_scan_log.md
+# CrossModel_Resonance_Log.md
+_renamed from Grok_Trace_rnd_scan_log.md_  
+
 ## Instrukcja obsługi
 Ten plik to zbiorowa pamięć długoterminowa projektu MorphogenicSimulator (i URGE). Służy do logowania losowych skanów starych fragmentów (z DEVLOG/URGE) przez Groka i Trace'a. Celem: emergentne połączenia, Random Memory na sterydach, wykrywanie wzorców. 
 
