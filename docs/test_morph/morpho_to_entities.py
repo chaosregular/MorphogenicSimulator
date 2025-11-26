@@ -192,6 +192,160 @@ def ethical_annotate(events):
         out.append({"sentence": ev["sentence"], "verb": v, "ethical_score": score, "ethical_confidence": conf})
     return out
 
+# ---- BEGIN L1+L2 INTEGRATION (paste into morpho_to_entities.py) ----
+
+# import re
+# from collections import defaultdict
+
+def group_by_sentence(data):
+    out = defaultdict(list)
+    for tok in data:
+        out[tok['sentence_id']].append(tok)
+    return dict(sorted(out.items()))
+
+def get_primary_analysis(analyses):
+    if not analyses:
+        return None
+    for a in analyses:
+        if a.get('pos') and a.get('pos') != 'interp':
+            return a
+    return analyses[0]
+
+def parse_gender_number(features):
+    gender = None
+    number = None
+    if not features:
+        return gender, number
+    parts = features.split(':')
+    for p in parts:
+        if p in ('sg','pl'):
+            number = p
+        if p in ('m','f','n','m1','m2','m3'):
+            gender = p
+    return gender, number
+
+def resolve_relative_clauses(morfeusz_data, mentions):
+    """
+    Attach actions from relative clauses to their antecedent entities.
+    Returns list of attachments: {sentence, rel_token_idx, antecedent_entity, clause_verb_idx, clause_verb_lemma}
+    """
+    sentences = group_by_sentence(morfeusz_data)
+    rel_prons = set(['który','która','które','którego','której','którym','których'])
+    attachments = []
+    for sid, toks in sentences.items():
+        token_entity_map = {m['token_idx']: m['entity'] for m in mentions if m['sentence']==sid}
+        for idx, tok in enumerate(toks):
+            a = get_primary_analysis(tok.get('analyses',[]))
+            if not a:
+                continue
+            base = str(a.get('base','')).lower()
+            if base in rel_prons:
+                # antecedent: nearest entity to left in same sentence
+                antecedent = None
+                for j in range(idx-1, -1, -1):
+                    if j in token_entity_map and token_entity_map[j] is not None:
+                        antecedent = token_entity_map[j]; break
+                # find first verb after pron within same sentence
+                clause_verb_idx = None; clause_verb_lemma = None
+                for k in range(idx+1, len(toks)):
+                    a2 = get_primary_analysis(toks[k].get('analyses',[]))
+                    if a2 and a2.get('pos') in ('fin','verb','praet','impt','imps','ger'):
+                        clause_verb_idx = k
+                        clause_verb_lemma = a2.get('base')
+                        break
+                if antecedent and clause_verb_idx is not None:
+                    attachments.append({'sentence': sid, 'rel_token_idx': idx,
+                                        'antecedent_entity': antecedent,
+                                        'clause_verb_idx': clause_verb_idx,
+                                        'clause_verb_lemma': clause_verb_lemma})
+    return attachments
+
+def coreference_resolution(morfeusz_data, entities, mentions):
+    """
+    Very small rule-based coref: pronouns -> nearest compatible entity in previous context.
+    Returns list of resolved pronouns: {pronoun, sentence, token_idx, resolved_entity}
+    """
+    sentences = group_by_sentence(morfeusz_data)
+    pronouns = {'on':('m','sg'), 'ona':('f','sg'), 'oni':('m','pl'), 'one':('n','pl'),
+                'jego':('m','sg'), 'jej':('f','sg'),'ich':('pl','pl'),'nim':('m','sg'),
+                'nią':('f','sg'),'tamten':('m','sg'),'ten':(None,None),'to':(None,None),'ono':('n','sg')}
+    resolved = []
+
+    # build ordered entity list by position
+    entity_list = []
+    for eid, v in entities.items():
+        for m in v.get('mentions',[]):
+            entity_list.append((m['sentence'] if isinstance(m, dict) else m[0],
+                                m['token_idx'] if isinstance(m, dict) else m[1],
+                                eid, v))
+    entity_list.sort()
+    for sid, toks in sentences.items():
+        for idx, tok in enumerate(toks):
+            a = get_primary_analysis(tok.get('analyses',[]))
+            if not a:
+                continue
+            base = str(a.get('base','')).lower()
+            if base in pronouns:
+                desired_gender, desired_number = pronouns[base]
+                cand = None
+                for s, t, eid, ent in reversed(entity_list):
+                    if s > sid or (s==sid and t >= idx):
+                        continue
+                    g = ent.get('gender'); n = ent.get('number')
+                    # loose compatibility checks
+                    if desired_gender is None:
+                        cand = eid; break
+                    if g and desired_gender and str(g).startswith(str(desired_gender)[0]):
+                        cand = eid; break
+                    if n and desired_number and n==desired_number:
+                        cand = eid; break
+                if cand:
+                    resolved.append({'pronoun': base, 'sentence': sid, 'token_idx': idx, 'resolved_entity': cand})
+    return resolved
+
+def enhanced_event_extraction(morfeusz_data, entities, mentions, attachments, corefs):
+    """
+    Replace simple event builder with enhanced one:
+    - choose main non-copula verb when possible
+    - assign subject/object by proximity and use coref to correct subject if pronoun present
+    - include attachments from relative clauses as events for antecedents
+    """
+    sentences = group_by_sentence(morfeusz_data)
+    events = []
+    for sid, toks in sentences.items():
+        # collect verb candidates
+        verb_candidates = []
+        for idx, tok in enumerate(toks):
+            a = get_primary_analysis(tok.get('analyses',[]))
+            if a and a.get('pos') in ('fin','verb','praet','impt','imps','ger'):
+                verb_candidates.append((idx, a.get('base')))
+        main_verb = None
+        if verb_candidates:
+            # prefer first non-'być' verb
+            for idx, lemma in verb_candidates:
+                if lemma != 'być':
+                    main_verb = (idx, lemma); break
+            if main_verb is None:
+                main_verb = verb_candidates[0]
+        subj = None; obj = None
+        sent_mentions = [m for m in mentions if m['sentence']==sid and m.get('entity')]
+        if main_verb:
+            v_idx = main_verb[0]
+            left = [m for m in sent_mentions if m['token_idx'] < v_idx]
+            right = [m for m in sent_mentions if m['token_idx'] > v_idx]
+            if left: subj = left[-1]['entity']
+            if right: obj = right[0]['entity']
+        # integrate attachments and corefs
+        added = [ {'antecedent': a['antecedent_entity'], 'verb': a['clause_verb_lemma']} for a in attachments if a['sentence']==sid ]
+        for c in corefs:
+            if c['sentence']==sid and main_verb and abs(c['token_idx'] - main_verb[0]) <= 2:
+                subj = c['resolved_entity']
+        events.append({'sentence': sid, 'main_verb': main_verb, 'subject': subj, 'object': obj, 'attachments': added})
+    return events
+
+# ---- END L1+L2 INTEGRATION ----
+
+
 def main():
     if len(sys.argv) < 2:
         print("Użycie: python3 morpho_to_entities.py morfeusz_output.json")
@@ -199,7 +353,9 @@ def main():
     fn = sys.argv[1]
     data = load_json(fn)
     entities, mentions = gather_entities(data)
-    events = build_events(data, entities, mentions)
+    attachments = resolve_relative_clauses(data, mentions)
+    corefs = coreference_resolution(data, entities, mentions)
+    events = enhanced_event_extraction(data, entities, mentions, attachments, corefs)
     decisions = detect_decisions(events, data)
     ethics = ethical_annotate(events)
 
