@@ -1,0 +1,409 @@
+    {
+      "sentence": 3642,
+      "token_idx": 2,
+      "entity": null,
+      "text": "wspomnień",
+      "analyses": [
+        {
+          "base": "wspomnieć",
+          "pos": "ger",
+          "features": "pl:gen:n:perf:aff"
+        },
+        {
+          "base": "wspomnienie",
+          "pos": "subst",
+          "features": "pl:gen:n:ncol"
+        }
+      ]
+    },
+    {
+      "sentence": 3642,
+      "token_idx": 3,
+      "entity": null,
+      "text": "najgorsze",
+      "analyses": [
+        {
+          "base": "zły:A",
+          "pos": "adj",
+          "features": "pl:acc:m2.m3.f.n:sup"
+        },
+        {
+          "base": "zły:A",
+          "pos": "adj",
+          "features": "pl:nom.voc:m2.m3.f.n:sup"
+        },
+        {
+          "base": "zły:A",
+          "pos": "adj",
+          "features": "sg:acc:n:sup"
+        },
+        {
+          "base": "zły:A",
+          "pos": "adj",
+          "features": "sg:nom.voc:n:sup"
+        }
+      ]
+    },
+    {
+      "sentence": 3642,
+      "token_idx": 4,
+      "entity": null,
+      "text": "było",
+      "analyses": [
+        {
+          "base": "być",
+          "pos": "praet",
+          "features": "sg:n:imperf"
+        }
+      ]
+    },
+    {
+      "sentence": 3642,
+      "token_idx": 5,
+      "entity": null,
+      "text": "wspomnienie",
+      "analyses": [
+        {
+          "base": "wspomnieć",
+          "pos": "ger",
+          "features": "sg:nom.acc:n:perf:aff"
+        },
+        {
+          "base": "wspomnienie",
+          "pos": "subst",
+          "features": "sg:nom.acc.voc:n:ncol"
+        }
+      ]
+    },
+    {
+      "sentence": 3642,
+      "token_idx": 6,
+      "entity": null,
+      "text": "o",
+      "analyses": [
+        {
+          "base": "o:P",
+          "pos": "prep",
+          "features": "acc"
+        },
+        {
+          "base": "o:P",
+          "pos": "prep",
+          "features": "loc"
+        },
+        {
+          "base": "o:I",
+          "pos": "interj",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 3642,
+      "token_idx": 7,
+      "entity": null,
+      "text": "człowieku,",
+      "analyses": [
+        {
+          "base": "człowiek",
+          "pos": "subst",
+          "features": "sg:loc:m1"
+        },
+        {
+          "base": "człowiek",
+          "pos": "subst",
+          "features": "sg:voc:m1"
+        },
+        {
+          "base": ",",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 3642,
+      "token_idx": 8,
+      "entity": null,
+      "text": "którego",
+      "analyses": [
+        {
+          "base": "który",
+          "pos": "adj",
+          "features": "sg:acc:m1.m2:pos"
+        },
+        {
+          "base": "który",
+          "pos": "adj",
+          "features": "sg:gen:m1.m2.m3.n:pos"
+        }
+      ]
+    },
+    {
+      "sentence": 3642,
+      "token_idx": 9,
+      "entity": null,
+      "text": "zabił,",
+      "analyses": [
+        {
+          "base": "zabić",
+          "pos": "praet",
+          "features": "sg:m1.m2.m3:perf"
+        },
+        {
+          "base": ",",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 3642,
+      "token_idx": 10,
+      "entity": null,
+      "text": "strzelając",
+      "analyses": [
+        {
+          "base": "strzelać",
+          "pos": "pcon",
+          "features": "imperf"
+        }
+      ]
+    },
+    {
+      "sentence": 3642,
+      "token_idx": 11,
+      "entity": null,
+      "text": "z",
+      "analyses": [
+        {
+          "base": "z:P",
+          "pos": "prep",
+          "features": "gen:nwok"
+        },
+        {
+          "base": "z:P",
+          "pos": "prep",
+          "features": "inst:nwok"
+        },
+        {
+          "base": "z:T",
+          "pos": "part",
+          "features": "nwok"
+        }
+      ]
+    },
+    {
+      "sentence": 3642,
+      "token_idx": 12,
+      "entity": null,
+      "text": "bliska",
+      "analyses": [
+        {
+          "base": "bliski:A",
+          "pos": "adjp",
+          "features": "gen"
+        },
+        {
+          "base": "bliski:A",
+          "pos": "adj",
+          "features": "sg:nom.voc:f:pos"
+        }
+      ]
+    },
+    {
+      "sentence": 3642,
+      "token_idx": 13,
+      "entity": null,
+      "text": "po",
+      "analyses": [
+        {
+          "base": "po",
+          "pos": "prep",
+          "features": "acc"
+        },
+        {
+          "base": "po",
+          "pos": "prep",
+          "features": "dat"
+        },
+        {
+          "base": "po",
+          "pos": "prep",
+          "features": "loc"
+        }
+      ]
+    },
+    {
+      "sentence": 3642,
+      "token_idx": 14,
+      "entity": null,
+      "text": "to,",
+      "analyses": [
+        {
+          "base": "to:V",
+          "pos": "pred",
+          "features": ""
+        },
+        {
+          "base": "to:C",
+          "pos": "conj",
+          "features": ""
+        },
+        {
+          "base": "to:T",
+          "pos": "part",
+          "features": ""
+        },
+        {
+          "base": "to:S",
+          "pos": "subst",
+          "features": "sg:nom:n:ncol"
+        },
+        {
+          "base": "to:S",
+          "pos": "subst",
+          "features": "sg:acc:n:ncol"
+        },
+        {
+          "base": "ten",
+          "pos": "adj",
+          "features": "sg:acc:n:pos"
+        },
+        {
+          "base": "ten",
+          "pos": "adj",
+          "features": "sg:nom.voc:n:pos"
+        },
+        {
+          "base": "to:M",
+          "pos": "comp",
+          "features": ""
+        },
+        {
+          "base": ",",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 3642,
+      "token_idx": 15,
+      "entity": null,
+      "text": "aby",
+      "analyses": [
+        {
+          "base": "aby:T",
+          "pos": "part",
+          "features": ""
+        },
+        {
+          "base": "aby:M",
+          "pos": "comp",
+          "features": ""
+        }
+      ]
+    },
+    {
+      "sentence": 3642,
+      "token_idx": 16,
+      "entity": null,
+      "text": "tamten",
+      "analyses": [
+        {
+          "base": "tamten",
+          "pos": "adj",
+          "features": "sg:acc:m3:pos"
+        },
+        {
+          "base": "tamten",
+          "pos": "adj",
+          "features": "sg:nom.voc:m1.m2.m3:pos"
+        }
+      ]
+    },
+    {
+      "sentence": 3642,
+      "token_idx": 17,
+      "entity": null,
+      "text": "nie",
+      "analyses": [
+        {
+          "base": "nie:T",
+          "pos": "part",
+          "features": ""
+        },
+        {
+          "base": "nie:C",
+          "pos": "conj",
+          "features": ""
+        },
+        {
+          "base": "nie:I",
+          "pos": "interj",
+          "features": ""
+        },
+        {
+          "base": "on:S",
+          "pos": "ppron3",
+          "features": "pl:acc:m2.m3.f.n:ter:akc.nakc:praep"
+        },
+        {
+          "base": "on:S",
+          "pos": "ppron3",
+          "features": "sg:acc:n:ter:akc.nakc:praep"
+        }
+      ]
+    },
+    {
+      "sentence": 3642,
+      "token_idx": 18,
+      "entity": null,
+      "text": "zabił",
+      "analyses": [
+        {
+          "base": "zabić",
+          "pos": "praet",
+          "features": "sg:m1.m2.m3:perf"
+        }
+      ]
+    },
+    {
+      "sentence": 3642,
+      "token_idx": 19,
+      "entity": null,
+      "text": "innych.",
+      "analyses": [
+        {
+          "base": "inny:S",
+          "pos": "subst",
+          "features": "pl:gen.acc:m1"
+        },
+        {
+          "base": "inny:S",
+          "pos": "subst",
+          "features": "pl:loc:m1"
+        },
+        {
+          "base": "inny:A",
+          "pos": "adj",
+          "features": "pl:acc:m1:pos"
+        },
+        {
+          "base": "inny:A",
+          "pos": "adj",
+          "features": "pl:gen:m1.m2.m3.f.n:pos"
+        },
+        {
+          "base": "inny:A",
+          "pos": "adj",
+          "features": "pl:loc:m1.m2.m3.f.n:pos"
+        },
+        {
+          "base": ".",
+          "pos": "interp",
+          "features": ""
+        }
+      ]
+    },
