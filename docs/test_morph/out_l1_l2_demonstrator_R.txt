@@ -1,0 +1,182 @@
+{
+  "entities": {
+    "E0": {
+      "label": "Ala",
+      "lemmas": [
+        "Ala"
+      ],
+      "gender": "f",
+      "number": "sg",
+      "mentions": [
+        [
+          0,
+          0,
+          "Ala"
+        ]
+      ]
+    },
+    "E1": {
+      "label": "kota",
+      "lemmas": [
+        "kot"
+      ],
+      "gender": "m1",
+      "number": "sg",
+      "mentions": [
+        [
+          0,
+          2,
+          "kota"
+        ]
+      ]
+    },
+    "E2": {
+      "label": "Ze",
+      "lemmas": [
+        "ze"
+      ],
+      "gender": null,
+      "number": null,
+      "mentions": [
+        [
+          1,
+          0,
+          "Ze"
+        ]
+      ]
+    },
+    "E3": {
+      "label": "wspomnień",
+      "lemmas": [
+        "wspomnienie"
+      ],
+      "gender": null,
+      "number": "pl",
+      "mentions": [
+        [
+          1,
+          2,
+          "wspomnień"
+        ]
+      ]
+    },
+    "E4": {
+      "label": "wspomnienie",
+      "lemmas": [
+        "wspomnienie"
+      ],
+      "gender": "n",
+      "number": "sg",
+      "mentions": [
+        [
+          1,
+          5,
+          "wspomnienie"
+        ]
+      ]
+    },
+    "E5": {
+      "label": "człowieku",
+      "lemmas": [
+        "człowiek"
+      ],
+      "gender": "m1",
+      "number": "sg",
+      "mentions": [
+        [
+          1,
+          7,
+          "człowieku"
+        ]
+      ]
+    }
+  },
+  "mentions": [
+    {
+      "sentence": 0,
+      "token_idx": 0,
+      "entity": "E0",
+      "text": "Ala"
+    },
+    {
+      "sentence": 0,
+      "token_idx": 2,
+      "entity": "E1",
+      "text": "kota"
+    },
+    {
+      "sentence": 1,
+      "token_idx": 0,
+      "entity": "E2",
+      "text": "Ze"
+    },
+    {
+      "sentence": 1,
+      "token_idx": 2,
+      "entity": "E3",
+      "text": "wspomnień"
+    },
+    {
+      "sentence": 1,
+      "token_idx": 5,
+      "entity": "E4",
+      "text": "wspomnienie"
+    },
+    {
+      "sentence": 1,
+      "token_idx": 7,
+      "entity": "E5",
+      "text": "człowieku"
+    }
+  ],
+  "attachments": [
+    {
+      "sentence": 1,
+      "rel_token_idx": 8,
+      "antecedent_entity": "E5",
+      "clause_verb_idx": 9,
+      "clause_verb_lemma": "zabić"
+    }
+  ],
+  "corefs": [
+    {
+      "pronoun": "to",
+      "sentence": 1,
+      "token_idx": 14,
+      "resolved_entity": "E5"
+    },
+    {
+      "pronoun": "tamten",
+      "sentence": 1,
+      "token_idx": 16,
+      "resolved_entity": "E5"
+    }
+  ],
+  "events": [
+    {
+      "sentence": 0,
+      "main_verb": [
+        1,
+        "mieć"
+      ],
+      "subject": "E0",
+      "object": "E1",
+      "attachments": []
+    },
+    {
+      "sentence": 1,
+      "main_verb": [
+        9,
+        "zabić"
+      ],
+      "subject": "E5",
+      "object": null,
+      "attachments": [
+        {
+          "antecedent": "E5",
+          "verb": "zabić"
+        }
+      ]
+    }
+  ]
+}
