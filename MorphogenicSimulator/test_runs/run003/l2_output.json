@@ -1,0 +1,3063 @@
+[
+  {
+    "sentence_id": 0,
+    "tokens": [
+      "Mały",
+      "statyczny",
+      "ciąg."
+    ],
+    "events": [],
+    "entities": [
+      {
+        "token": "Mały",
+        "lemma": "mały:S",
+        "features": "sg:nom:m1"
+      },
+      {
+        "token": "Mały",
+        "lemma": "mały:S",
+        "features": "sg:voc:m1"
+      },
+      {
+        "token": "Mały",
+        "lemma": "Mały:Sf",
+        "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:f"
+      },
+      {
+        "token": "Mały",
+        "lemma": "Mały:Sm1",
+        "features": "sg:nom:m1"
+      },
+      {
+        "token": "Mały",
+        "lemma": "Mały:Sm1",
+        "features": "sg:voc:m1"
+      },
+      {
+        "token": "ciąg.",
+        "lemma": "ciąg",
+        "features": "sg:nom.acc:m3"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 1,
+    "tokens": [
+      "Kolistymi",
+      "pierścieniami,",
+      "jak",
+      "bałwany",
+      "prawdziwego",
+      "morza,",
+      "na",
+      "wszystkie",
+      "strony",
+      "gnały",
+      "dymiące",
+      "fale",
+      "pustynnego",
+      "piachu."
+    ],
+    "events": [
+      {
+        "token": "gnały",
+        "lemma": "gnać",
+        "features": "pl:m2.m3.f.n:imperf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "pierścieniami,",
+        "lemma": "pierścień",
+        "features": "pl:inst:m3"
+      },
+      {
+        "token": "jak",
+        "lemma": "jak:S",
+        "features": "sg:nom:m2"
+      },
+      {
+        "token": "jak",
+        "lemma": "jaka",
+        "features": "pl:gen:f"
+      },
+      {
+        "token": "bałwany",
+        "lemma": "bałwan:Sm2",
+        "features": "pl:nom.acc.voc:m2"
+      },
+      {
+        "token": "bałwany",
+        "lemma": "bałwan:Sm3",
+        "features": "pl:nom.acc.voc:m3"
+      },
+      {
+        "token": "bałwany",
+        "lemma": "bałwan:Sm1",
+        "features": "pl:nom.acc.voc:m2"
+      },
+      {
+        "token": "morza,",
+        "lemma": "morze",
+        "features": "sg:gen:n:ncol"
+      },
+      {
+        "token": "morza,",
+        "lemma": "morze",
+        "features": "pl:nom.acc.voc:n:ncol"
+      },
+      {
+        "token": "strony",
+        "lemma": "strona",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "strony",
+        "lemma": "strona",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "fale",
+        "lemma": "fala",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "fale",
+        "lemma": "fał",
+        "features": "sg:loc:m3"
+      },
+      {
+        "token": "fale",
+        "lemma": "fał",
+        "features": "sg:voc:m3"
+      },
+      {
+        "token": "piachu.",
+        "lemma": "piach",
+        "features": "sg:gen:m3"
+      },
+      {
+        "token": "piachu.",
+        "lemma": "piach",
+        "features": "sg:loc:m3"
+      },
+      {
+        "token": "piachu.",
+        "lemma": "piach",
+        "features": "sg:voc:m3"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 2,
+    "tokens": [
+      "Epicentrum,",
+      "trafione",
+      "z",
+      "niewielkiej",
+      "odległości",
+      "krzaczastym",
+      "płomieniem",
+      "wylotów,",
+      "nie",
+      "dymiło",
+      "już."
+    ],
+    "events": [
+      {
+        "token": "dymiło",
+        "lemma": "dymić",
+        "features": "sg:n:imperf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "Epicentrum,",
+        "lemma": "epicentrum",
+        "features": "sg:nom.acc.voc:n:ncol"
+      },
+      {
+        "token": "Epicentrum,",
+        "lemma": "epicentrum",
+        "features": "sg:gen:n:ncol"
+      },
+      {
+        "token": "Epicentrum,",
+        "lemma": "epicentrum",
+        "features": "sg:dat:n:ncol"
+      },
+      {
+        "token": "Epicentrum,",
+        "lemma": "epicentrum",
+        "features": "sg:inst:n:ncol"
+      },
+      {
+        "token": "Epicentrum,",
+        "lemma": "epicentrum",
+        "features": "sg:loc:n:ncol"
+      },
+      {
+        "token": "odległości",
+        "lemma": "odległość",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "odległości",
+        "lemma": "odległość",
+        "features": "sg:dat.loc:f"
+      },
+      {
+        "token": "odległości",
+        "lemma": "odległość",
+        "features": "sg:voc:f"
+      },
+      {
+        "token": "odległości",
+        "lemma": "odległość",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "odległości",
+        "lemma": "odległość",
+        "features": "pl:gen:f"
+      },
+      {
+        "token": "płomieniem",
+        "lemma": "płomień",
+        "features": "sg:inst:m3"
+      },
+      {
+        "token": "płomieniem",
+        "lemma": "płomię",
+        "features": "sg:inst:n:ncol"
+      },
+      {
+        "token": "wylotów,",
+        "lemma": "wylot",
+        "features": "pl:gen:m3"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 3,
+    "tokens": [
+      "Piasek",
+      "znikł,",
+      "przeistoczył",
+      "się",
+      "w",
+      "lustro",
+      "bąblistej",
+      "czerwieni,",
+      "w",
+      "kipiące",
+      "jezioro",
+      "stopionej",
+      "krzemionki,",
+      "w",
+      "słup",
+      "jazgocących",
+      "eksplozji,",
+      "aż",
+      "wyparował."
+    ],
+    "events": [
+      {
+        "token": "znikł,",
+        "lemma": "zniknąć",
+        "features": "sg:m1.m2.m3:perf"
+      },
+      {
+        "token": "przeistoczył",
+        "lemma": "przeistoczyć",
+        "features": "sg:m1.m2.m3:perf"
+      },
+      {
+        "token": "czerwieni,",
+        "lemma": "czerwienić",
+        "features": "sg:ter:imperf"
+      },
+      {
+        "token": "słup",
+        "lemma": "słupić",
+        "features": "sg:sec:imperf"
+      },
+      {
+        "token": "wyparował.",
+        "lemma": "wyparować",
+        "features": "sg:m1.m2.m3:perf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "Piasek",
+        "lemma": "piasek",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "Piasek",
+        "lemma": "Piasek:Sf",
+        "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:f"
+      },
+      {
+        "token": "Piasek",
+        "lemma": "Piasek:Sm1",
+        "features": "sg:nom:m1"
+      },
+      {
+        "token": "Piasek",
+        "lemma": "Piasek:Sm3",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "Piasek",
+        "lemma": "Piaski",
+        "features": "pl:gen:n:pt"
+      },
+      {
+        "token": "lustro",
+        "lemma": "lustro",
+        "features": "sg:nom.acc.voc:n:ncol"
+      },
+      {
+        "token": "czerwieni,",
+        "lemma": "czerwień",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "czerwieni,",
+        "lemma": "czerwień",
+        "features": "sg:dat.loc:f"
+      },
+      {
+        "token": "czerwieni,",
+        "lemma": "czerwień",
+        "features": "sg:voc:f"
+      },
+      {
+        "token": "czerwieni,",
+        "lemma": "czerwień",
+        "features": "pl:gen:f"
+      },
+      {
+        "token": "jezioro",
+        "lemma": "jezioro",
+        "features": "sg:nom.acc.voc:n:ncol"
+      },
+      {
+        "token": "krzemionki,",
+        "lemma": "krzemionka",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "krzemionki,",
+        "lemma": "krzemionka",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "słup",
+        "lemma": "słup",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "eksplozji,",
+        "lemma": "eksplozja",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "eksplozji,",
+        "lemma": "eksplozja",
+        "features": "sg:dat.loc:f"
+      },
+      {
+        "token": "eksplozji,",
+        "lemma": "eksplozja",
+        "features": "pl:gen:f"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 4,
+    "tokens": [
+      "Obnażony,",
+      "jak",
+      "kość,",
+      "stary",
+      "bazalt",
+      "planety",
+      "zaczął",
+      "mięknąć."
+    ],
+    "events": [
+      {
+        "token": "zaczął",
+        "lemma": "zacząć",
+        "features": "sg:m1.m2.m3:perf"
+      },
+      {
+        "token": "mięknąć.",
+        "lemma": "mięknąć",
+        "features": "imperf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "jak",
+        "lemma": "jak:S",
+        "features": "sg:nom:m2"
+      },
+      {
+        "token": "jak",
+        "lemma": "jaka",
+        "features": "pl:gen:f"
+      },
+      {
+        "token": "kość,",
+        "lemma": "kość",
+        "features": "sg:nom:f"
+      },
+      {
+        "token": "kość,",
+        "lemma": "kość",
+        "features": "sg:acc:f"
+      },
+      {
+        "token": "stary",
+        "lemma": "stary:S",
+        "features": "sg:nom:m1"
+      },
+      {
+        "token": "stary",
+        "lemma": "stary:S",
+        "features": "sg:voc:m1"
+      },
+      {
+        "token": "stary",
+        "lemma": "star",
+        "features": "pl:nom.acc.voc:m2"
+      },
+      {
+        "token": "bazalt",
+        "lemma": "bazalt",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "planety",
+        "lemma": "planet",
+        "features": "pl:nom.acc.voc:m3"
+      },
+      {
+        "token": "planety",
+        "lemma": "planeta",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "planety",
+        "lemma": "planeta",
+        "features": "pl:nom.acc.voc:f"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 5,
+    "tokens": [
+      "-",
+      "Stosy",
+      "na",
+      "jałowy",
+      "bieg."
+    ],
+    "events": [],
+    "entities": [
+      {
+        "token": "Stosy",
+        "lemma": "stos",
+        "features": "pl:nom.acc.voc:m3"
+      },
+      {
+        "token": "bieg.",
+        "lemma": "bieg",
+        "features": "sg:nom.acc:m3"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 6,
+    "tokens": [
+      "Zimny",
+      "ciąg."
+    ],
+    "events": [],
+    "entities": [
+      {
+        "token": "Zimny",
+        "lemma": "Zimny:Sf",
+        "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:f"
+      },
+      {
+        "token": "Zimny",
+        "lemma": "Zimny:Sm1",
+        "features": "sg:nom:m1"
+      },
+      {
+        "token": "Zimny",
+        "lemma": "Zimny:Sm1",
+        "features": "sg:voc:m1"
+      },
+      {
+        "token": "ciąg.",
+        "lemma": "ciąg",
+        "features": "sg:nom.acc:m3"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 7,
+    "tokens": [
+      "Błękit",
+      "ognia",
+      "atomowego",
+      "zgasł."
+    ],
+    "events": [
+      {
+        "token": "zgasł.",
+        "lemma": "zgasnąć",
+        "features": "sg:m1.m2.m3:perf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "Błękit",
+        "lemma": "błękit",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "ognia",
+        "lemma": "ogień",
+        "features": "sg:gen:m3"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 8,
+    "tokens": [
+      "Z",
+      "dysz",
+      "trysnęły",
+      "skośne",
+      "promienie",
+      "borowodorów,",
+      "i",
+      "w",
+      "jednej",
+      "chwili",
+      "pustynię,",
+      "ściany",
+      "skalnych",
+      "kraterów",
+      "i",
+      "chmury",
+      "nad",
+      "nimi",
+      "zalała",
+      "upiorna",
+      "zieleń."
+    ],
+    "events": [
+      {
+        "token": "dysz",
+        "lemma": "dyszeć",
+        "features": "sg:sec:imperf"
+      },
+      {
+        "token": "trysnęły",
+        "lemma": "trysnąć",
+        "features": "pl:m2.m3.f.n:perf"
+      },
+      {
+        "token": "zalała",
+        "lemma": "zalać",
+        "features": "sg:f:perf"
+      },
+      {
+        "token": "zieleń.",
+        "lemma": "zielenić",
+        "features": "sg:sec:imperf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "dysz",
+        "lemma": "dysza",
+        "features": "pl:gen:f"
+      },
+      {
+        "token": "promienie",
+        "lemma": "promień",
+        "features": "pl:nom.acc.voc:m3"
+      },
+      {
+        "token": "borowodorów,",
+        "lemma": "borowodór",
+        "features": "pl:gen:m3"
+      },
+      {
+        "token": "chwili",
+        "lemma": "chwila",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "chwili",
+        "lemma": "chwila",
+        "features": "sg:dat.loc:f"
+      },
+      {
+        "token": "chwili",
+        "lemma": "chwila",
+        "features": "pl:gen:f"
+      },
+      {
+        "token": "pustynię,",
+        "lemma": "pustynia",
+        "features": "sg:acc:f"
+      },
+      {
+        "token": "ściany",
+        "lemma": "ściana",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "ściany",
+        "lemma": "ściana",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "kraterów",
+        "lemma": "krater",
+        "features": "pl:gen:m3"
+      },
+      {
+        "token": "chmury",
+        "lemma": "chmura",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "chmury",
+        "lemma": "chmura",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "zieleń.",
+        "lemma": "zieleń",
+        "features": "sg:nom:f"
+      },
+      {
+        "token": "zieleń.",
+        "lemma": "zieleń",
+        "features": "sg:acc:f"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 9,
+    "tokens": [
+      "Bazaltowe",
+      "podłoże,",
+      "na",
+      "którym",
+      "miała",
+      "osiąść",
+      "szeroka",
+      "rufa",
+      "\"Niezwyciężonego\",",
+      "nie",
+      "zagrażało",
+      "już",
+      "stopieniem."
+    ],
+    "events": [
+      {
+        "token": "miała",
+        "lemma": "mieć",
+        "features": "sg:f:imperf"
+      },
+      {
+        "token": "osiąść",
+        "lemma": "osiąść",
+        "features": "perf"
+      },
+      {
+        "token": "zagrażało",
+        "lemma": "zagrażać",
+        "features": "sg:n:imperf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "podłoże,",
+        "lemma": "podłoże",
+        "features": "sg:nom.acc.voc:n:ncol"
+      },
+      {
+        "token": "podłoże,",
+        "lemma": "podłoża",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "podłoże,",
+        "lemma": "podłóż",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "rufa",
+        "lemma": "rufa",
+        "features": "sg:nom:f"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 10,
+    "tokens": [
+      "-",
+      "Stosy",
+      "zero."
+    ],
+    "events": [],
+    "entities": [
+      {
+        "token": "Stosy",
+        "lemma": "stos",
+        "features": "pl:nom.acc.voc:m3"
+      },
+      {
+        "token": "zero.",
+        "lemma": "zero:S",
+        "features": "sg:nom.acc.voc:n:ncol"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 11,
+    "tokens": [
+      "Zimnym",
+      "ciągiem",
+      "do",
+      "lądowania."
+    ],
+    "events": [],
+    "entities": [
+      {
+        "token": "Zimnym",
+        "lemma": "Zimny:Sm1",
+        "features": "sg:inst:m1"
+      },
+      {
+        "token": "Zimnym",
+        "lemma": "Zimny:Sm1",
+        "features": "sg:loc:m1"
+      },
+      {
+        "token": "Zimnym",
+        "lemma": "Zimny:Sm1",
+        "features": "pl:dat:m1"
+      },
+      {
+        "token": "Zimnym",
+        "lemma": "Zimna",
+        "features": "pl:dat:f"
+      },
+      {
+        "token": "Zimnym",
+        "lemma": "zimne",
+        "features": "sg:inst:n:ncol"
+      },
+      {
+        "token": "Zimnym",
+        "lemma": "zimne",
+        "features": "sg:loc:n:ncol"
+      },
+      {
+        "token": "Zimnym",
+        "lemma": "zimne",
+        "features": "pl:dat:n:ncol"
+      },
+      {
+        "token": "Zimnym",
+        "lemma": "Zimne",
+        "features": "pl:dat:n:ncol"
+      },
+      {
+        "token": "ciągiem",
+        "lemma": "ciąg",
+        "features": "sg:inst:m3"
+      },
+      {
+        "token": "do",
+        "lemma": "do:S",
+        "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:n:ncol"
+      },
+      {
+        "token": "lądowania.",
+        "lemma": "lądowanie",
+        "features": "sg:gen:n:ncol"
+      },
+      {
+        "token": "lądowania.",
+        "lemma": "lądowanie",
+        "features": "pl:nom.acc.voc:n:ncol"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 12,
+    "tokens": [
+      "Wszystkie",
+      "serca",
+      "uderzyły",
+      "żywiej,",
+      "oczy",
+      "pochyliły",
+      "się",
+      "nad",
+      "instrumentami,",
+      "rękojeści",
+      "spotniały",
+      "w",
+      "skurczonych",
+      "palcach."
+    ],
+    "events": [
+      {
+        "token": "uderzyły",
+        "lemma": "uderzyć",
+        "features": "pl:m2.m3.f.n:perf"
+      },
+      {
+        "token": "oczy",
+        "lemma": "oczyć",
+        "features": "sg:ter:imperf"
+      },
+      {
+        "token": "pochyliły",
+        "lemma": "pochylić",
+        "features": "pl:m2.m3.f.n:perf"
+      },
+      {
+        "token": "spotniały",
+        "lemma": "spotnieć",
+        "features": "pl:m2.m3.f.n:perf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "serca",
+        "lemma": "serce",
+        "features": "sg:gen:n:ncol"
+      },
+      {
+        "token": "serca",
+        "lemma": "serce",
+        "features": "pl:nom.acc.voc:n:ncol"
+      },
+      {
+        "token": "oczy",
+        "lemma": "oko:Sn_col",
+        "features": "pl:nom.acc.voc:n:col"
+      },
+      {
+        "token": "instrumentami,",
+        "lemma": "instrument",
+        "features": "pl:inst:m3"
+      },
+      {
+        "token": "rękojeści",
+        "lemma": "rękojeść",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "rękojeści",
+        "lemma": "rękojeść",
+        "features": "sg:dat.loc:f"
+      },
+      {
+        "token": "rękojeści",
+        "lemma": "rękojeść",
+        "features": "sg:voc:f"
+      },
+      {
+        "token": "rękojeści",
+        "lemma": "rękojeść",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "rękojeści",
+        "lemma": "rękojeść",
+        "features": "pl:gen:f"
+      },
+      {
+        "token": "palcach.",
+        "lemma": "palec",
+        "features": "pl:loc:m2"
+      },
+      {
+        "token": "palcach.",
+        "lemma": "palec",
+        "features": "pl:loc:m3"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 13,
+    "tokens": [
+      "Sakramentalne",
+      "słowa",
+      "oznaczały,",
+      "że",
+      "nie",
+      "będzie",
+      "już",
+      "odwrotu,",
+      "że",
+      "nogi",
+      "staną",
+      "na",
+      "prawdziwym",
+      "gruncie,",
+      "niechby",
+      "to",
+      "był",
+      "i",
+      "piasek",
+      "pustynnego",
+      "globu,",
+      "ale",
+      "będzie",
+      "tam",
+      "wschód",
+      "i",
+      "zachód",
+      "słońca,",
+      "horyzont",
+      "i",
+      "chmury,",
+      "i",
+      "wiatr."
+    ],
+    "events": [
+      {
+        "token": "oznaczały,",
+        "lemma": "oznaczać",
+        "features": "pl:m2.m3.f.n:imperf"
+      },
+      {
+        "token": "staną",
+        "lemma": "stanąć",
+        "features": "pl:ter:perf"
+      },
+      {
+        "token": "staną",
+        "lemma": "stać:Vp",
+        "features": "pl:ter:perf"
+      },
+      {
+        "token": "był",
+        "lemma": "być",
+        "features": "sg:m1.m2.m3:imperf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "słowa",
+        "lemma": "słowo",
+        "features": "sg:gen:n:ncol"
+      },
+      {
+        "token": "słowa",
+        "lemma": "słowo",
+        "features": "pl:nom.acc.voc:n:ncol"
+      },
+      {
+        "token": "odwrotu,",
+        "lemma": "odwrót",
+        "features": "sg:gen:m3"
+      },
+      {
+        "token": "nogi",
+        "lemma": "noga",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "nogi",
+        "lemma": "noga",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "gruncie,",
+        "lemma": "grunt",
+        "features": "sg:loc:m3"
+      },
+      {
+        "token": "gruncie,",
+        "lemma": "grunt",
+        "features": "sg:voc:m3"
+      },
+      {
+        "token": "to",
+        "lemma": "to:S",
+        "features": "sg:nom:n:ncol"
+      },
+      {
+        "token": "to",
+        "lemma": "to:S",
+        "features": "sg:acc:n:ncol"
+      },
+      {
+        "token": "piasek",
+        "lemma": "piasek",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "globu,",
+        "lemma": "glob",
+        "features": "sg:gen:m3"
+      },
+      {
+        "token": "tam",
+        "lemma": "tama",
+        "features": "pl:gen:f"
+      },
+      {
+        "token": "wschód",
+        "lemma": "wschód",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "zachód",
+        "lemma": "zachód",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "słońca,",
+        "lemma": "słońce",
+        "features": "sg:gen:n:ncol"
+      },
+      {
+        "token": "słońca,",
+        "lemma": "słońce",
+        "features": "pl:nom.acc.voc:n:ncol"
+      },
+      {
+        "token": "horyzont",
+        "lemma": "horyzont",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "chmury,",
+        "lemma": "chmura",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "chmury,",
+        "lemma": "chmura",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "wiatr.",
+        "lemma": "wiatr",
+        "features": "sg:nom.acc:m3"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 14,
+    "tokens": [
+      "Lądowanie",
+      "punktowe",
+      "w",
+      "nadirze."
+    ],
+    "events": [],
+    "entities": [
+      {
+        "token": "Lądowanie",
+        "lemma": "lądowanie",
+        "features": "sg:nom.acc.voc:n:ncol"
+      },
+      {
+        "token": "punktowe",
+        "lemma": "punktowy:S",
+        "features": "pl:nom.acc.voc:m2"
+      },
+      {
+        "token": "nadirze.",
+        "lemma": "nadir",
+        "features": "sg:loc:m3"
+      },
+      {
+        "token": "nadirze.",
+        "lemma": "nadir",
+        "features": "sg:voc:m3"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 15,
+    "tokens": [
+      "Statek",
+      "pełen",
+      "był",
+      "przeciągłego",
+      "jęku",
+      "turbin,",
+      "tłoczących",
+      "materiał",
+      "pędny",
+      "w",
+      "dół."
+    ],
+    "events": [
+      {
+        "token": "był",
+        "lemma": "być",
+        "features": "sg:m1.m2.m3:imperf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "Statek",
+        "lemma": "statek",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "Statek",
+        "lemma": "Statek:Sf",
+        "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:f"
+      },
+      {
+        "token": "Statek",
+        "lemma": "Statek:Sm1",
+        "features": "sg:nom:m1"
+      },
+      {
+        "token": "jęku",
+        "lemma": "jęk",
+        "features": "sg:gen:m3"
+      },
+      {
+        "token": "jęku",
+        "lemma": "jęk",
+        "features": "sg:loc:m3"
+      },
+      {
+        "token": "jęku",
+        "lemma": "jęk",
+        "features": "sg:voc:m3"
+      },
+      {
+        "token": "turbin,",
+        "lemma": "turbina",
+        "features": "pl:gen:f"
+      },
+      {
+        "token": "materiał",
+        "lemma": "materiał",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "dół.",
+        "lemma": "dół:Sm2",
+        "features": "sg:nom:m2"
+      },
+      {
+        "token": "dół.",
+        "lemma": "dół:Sm3",
+        "features": "sg:nom.acc:m3"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 16,
+    "tokens": [
+      "Zielony,",
+      "stożkowato",
+      "rozchodzący",
+      "się",
+      "słup",
+      "ognia",
+      "połączył",
+      "go",
+      "z",
+      "dymiącą",
+      "skałą."
+    ],
+    "events": [
+      {
+        "token": "słup",
+        "lemma": "słupić",
+        "features": "sg:sec:imperf"
+      },
+      {
+        "token": "połączył",
+        "lemma": "połączyć",
+        "features": "sg:m1.m2.m3:perf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "Zielony,",
+        "lemma": "Zielony:Sf",
+        "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:f"
+      },
+      {
+        "token": "Zielony,",
+        "lemma": "zielony:Sm1",
+        "features": "sg:nom:m1"
+      },
+      {
+        "token": "Zielony,",
+        "lemma": "zielony:Sm1",
+        "features": "sg:voc:m1"
+      },
+      {
+        "token": "Zielony,",
+        "lemma": "Zielony:Sm1",
+        "features": "sg:nom:m1"
+      },
+      {
+        "token": "Zielony,",
+        "lemma": "Zielony:Sm1",
+        "features": "sg:voc:m1"
+      },
+      {
+        "token": "Zielony,",
+        "lemma": "zielony:Sm2",
+        "features": "sg:nom:m2"
+      },
+      {
+        "token": "Zielony,",
+        "lemma": "zielony:Sm2",
+        "features": "sg:voc:m2"
+      },
+      {
+        "token": "słup",
+        "lemma": "słup",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "ognia",
+        "lemma": "ogień",
+        "features": "sg:gen:m3"
+      },
+      {
+        "token": "go",
+        "lemma": "go",
+        "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:n:ncol"
+      },
+      {
+        "token": "skałą.",
+        "lemma": "skała",
+        "features": "sg:inst:f"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 17,
+    "tokens": [
+      "Ze",
+      "wszystkich",
+      "stron",
+      "podniosły",
+      "się",
+      "chmury",
+      "piasku,",
+      "oślepiły",
+      "peryskop",
+      "środkowych",
+      "pokładów,",
+      "tylko",
+      "w",
+      "sterowni",
+      "na",
+      "ekranach",
+      "radarów",
+      "niezmiennie",
+      "pojawiały",
+      "się",
+      "i",
+      "gasły",
+      "wzdłuż",
+      "promieni",
+      "wodzących",
+      "zarysy",
+      "krajobrazu,",
+      "tonące",
+      "w",
+      "tajfunowym",
+      "chaosie."
+    ],
+    "events": [
+      {
+        "token": "podniosły",
+        "lemma": "podnieść",
+        "features": "pl:m2.m3.f.n:perf"
+      },
+      {
+        "token": "oślepiły",
+        "lemma": "oślepić",
+        "features": "pl:m2.m3.f.n:perf"
+      },
+      {
+        "token": "pojawiały",
+        "lemma": "pojawiać",
+        "features": "pl:m2.m3.f.n:imperf"
+      },
+      {
+        "token": "gasły",
+        "lemma": "gasnąć",
+        "features": "pl:m2.m3.f.n:imperf"
+      },
+      {
+        "token": "wzdłuż",
+        "lemma": "wzdłużyć",
+        "features": "sg:sec:perf"
+      },
+      {
+        "token": "promieni",
+        "lemma": "promienić",
+        "features": "sg:ter:imperf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "wszystkich",
+        "lemma": "wszyscy",
+        "features": "pl:gen:m1:pt"
+      },
+      {
+        "token": "wszystkich",
+        "lemma": "wszyscy",
+        "features": "pl:acc:m1:pt"
+      },
+      {
+        "token": "wszystkich",
+        "lemma": "wszyscy",
+        "features": "pl:loc:m1:pt"
+      },
+      {
+        "token": "stron",
+        "lemma": "strona",
+        "features": "pl:gen:f"
+      },
+      {
+        "token": "chmury",
+        "lemma": "chmura",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "chmury",
+        "lemma": "chmura",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "piasku,",
+        "lemma": "piasek",
+        "features": "sg:gen:m3"
+      },
+      {
+        "token": "piasku,",
+        "lemma": "piasek",
+        "features": "sg:loc:m3"
+      },
+      {
+        "token": "piasku,",
+        "lemma": "piasek",
+        "features": "sg:voc:m3"
+      },
+      {
+        "token": "peryskop",
+        "lemma": "peryskop",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "środkowych",
+        "lemma": "środkowa",
+        "features": "pl:gen:f"
+      },
+      {
+        "token": "środkowych",
+        "lemma": "środkowa",
+        "features": "pl:loc:f"
+      },
+      {
+        "token": "pokładów,",
+        "lemma": "pokład",
+        "features": "pl:gen:m3"
+      },
+      {
+        "token": "sterowni",
+        "lemma": "sterownia",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "sterowni",
+        "lemma": "sterownia",
+        "features": "sg:dat.loc:f"
+      },
+      {
+        "token": "sterowni",
+        "lemma": "sterownia",
+        "features": "pl:gen:f"
+      },
+      {
+        "token": "ekranach",
+        "lemma": "ekran",
+        "features": "pl:loc:m3"
+      },
+      {
+        "token": "radarów",
+        "lemma": "radar",
+        "features": "pl:gen:m3"
+      },
+      {
+        "token": "promieni",
+        "lemma": "promień",
+        "features": "pl:gen:m3"
+      },
+      {
+        "token": "zarysy",
+        "lemma": "zarys",
+        "features": "pl:nom.acc.voc:m3"
+      },
+      {
+        "token": "krajobrazu,",
+        "lemma": "krajobraz",
+        "features": "sg:gen:m3"
+      },
+      {
+        "token": "tonące",
+        "lemma": "tonąca",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "tonące",
+        "lemma": "tonący:S",
+        "features": "pl:nom.acc.voc:m2"
+      },
+      {
+        "token": "chaosie.",
+        "lemma": "chaos",
+        "features": "sg:loc:m3"
+      },
+      {
+        "token": "chaosie.",
+        "lemma": "chaos",
+        "features": "sg:voc:m3"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 18,
+    "tokens": [
+      "-",
+      "Stop",
+      "przy",
+      "styku."
+    ],
+    "events": [
+      {
+        "token": "Stop",
+        "lemma": "stopić",
+        "features": "sg:sec:perf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "Stop",
+        "lemma": "stop:Sm2",
+        "features": "sg:nom:m2"
+      },
+      {
+        "token": "Stop",
+        "lemma": "stop:Sm3",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "Stop",
+        "lemma": "Stopa:Sf",
+        "features": "pl:gen:f"
+      },
+      {
+        "token": "styku.",
+        "lemma": "styk",
+        "features": "sg:gen:m3"
+      },
+      {
+        "token": "styku.",
+        "lemma": "styk",
+        "features": "sg:loc:m3"
+      },
+      {
+        "token": "styku.",
+        "lemma": "styk",
+        "features": "sg:voc:m3"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 19,
+    "tokens": [
+      "Ogień",
+      "kotłował",
+      "się",
+      "buntowniczo",
+      "pod",
+      "rufą,",
+      "przytłaczany",
+      "milimetr",
+      "po",
+      "milimetrze",
+      "osuwającym",
+      "się",
+      "nań",
+      "cielskiem",
+      "rakiety,",
+      "zielone",
+      "piekło",
+      "strzelało",
+      "długimi",
+      "bryźnięciami",
+      "w",
+      "głąb",
+      "dygocących",
+      "piaskowych",
+      "chmur."
+    ],
+    "events": [
+      {
+        "token": "kotłował",
+        "lemma": "kotłować",
+        "features": "sg:m1.m2.m3:imperf"
+      },
+      {
+        "token": "piekło",
+        "lemma": "piec:V",
+        "features": "sg:n:imperf"
+      },
+      {
+        "token": "strzelało",
+        "lemma": "strzelać",
+        "features": "sg:n:imperf"
+      },
+      {
+        "token": "głąb",
+        "lemma": "głębić",
+        "features": "sg:sec:imperf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "Ogień",
+        "lemma": "ogień",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "rufą,",
+        "lemma": "rufa",
+        "features": "sg:inst:f"
+      },
+      {
+        "token": "milimetr",
+        "lemma": "milimetr",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "milimetrze",
+        "lemma": "milimetr",
+        "features": "sg:loc:m3"
+      },
+      {
+        "token": "milimetrze",
+        "lemma": "milimetr",
+        "features": "sg:voc:m3"
+      },
+      {
+        "token": "cielskiem",
+        "lemma": "cielsko",
+        "features": "sg:inst:n:ncol"
+      },
+      {
+        "token": "rakiety,",
+        "lemma": "rakieta",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "rakiety,",
+        "lemma": "rakieta",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "zielone",
+        "lemma": "zielony:Sm1",
+        "features": "pl:nom.acc.voc:m2"
+      },
+      {
+        "token": "zielone",
+        "lemma": "zielone",
+        "features": "sg:nom.acc.voc:n:ncol"
+      },
+      {
+        "token": "zielone",
+        "lemma": "zielone",
+        "features": "pl:nom.acc.voc:n:ncol"
+      },
+      {
+        "token": "zielone",
+        "lemma": "zielony:Sm2",
+        "features": "pl:nom.acc.voc:m2"
+      },
+      {
+        "token": "piekło",
+        "lemma": "piekło",
+        "features": "sg:nom.acc.voc:n:ncol"
+      },
+      {
+        "token": "głąb",
+        "lemma": "głąb:Sf",
+        "features": "sg:nom:f"
+      },
+      {
+        "token": "głąb",
+        "lemma": "głąb:Sf",
+        "features": "sg:acc:f"
+      },
+      {
+        "token": "głąb",
+        "lemma": "głąb:Sm1.m2",
+        "features": "sg:nom:m1"
+      },
+      {
+        "token": "głąb",
+        "lemma": "głąb:Sm1.m2",
+        "features": "sg:nom:m2"
+      },
+      {
+        "token": "głąb",
+        "lemma": "głąb:Sm2.m3",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "głąb",
+        "lemma": "głąb:Sm2.m3",
+        "features": "sg:nom:m2"
+      },
+      {
+        "token": "chmur.",
+        "lemma": "chmura",
+        "features": "pl:gen:f"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 20,
+    "tokens": [
+      "Rozziew",
+      "między",
+      "rufą",
+      "a",
+      "opalonym",
+      "bazaltem",
+      "skały",
+      "stał",
+      "się",
+      "wąską",
+      "szczeliną,",
+      "linią",
+      "zielonego",
+      "pałania."
+    ],
+    "events": [
+      {
+        "token": "Rozziew",
+        "lemma": "rozziewić",
+        "features": "sg:sec:perf"
+      },
+      {
+        "token": "stał",
+        "lemma": "stać:Vi",
+        "features": "sg:m1.m2.m3:imperf"
+      },
+      {
+        "token": "stał",
+        "lemma": "stać:Vp",
+        "features": "sg:m1.m2.m3:perf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "Rozziew",
+        "lemma": "rozziew",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "rufą",
+        "lemma": "rufa",
+        "features": "sg:inst:f"
+      },
+      {
+        "token": "bazaltem",
+        "lemma": "bazalt",
+        "features": "sg:inst:m3"
+      },
+      {
+        "token": "skały",
+        "lemma": "skała",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "skały",
+        "lemma": "skała",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "szczeliną,",
+        "lemma": "szczelina",
+        "features": "sg:inst:f"
+      },
+      {
+        "token": "linią",
+        "lemma": "linia",
+        "features": "sg:inst:f"
+      },
+      {
+        "token": "zielonego",
+        "lemma": "zielone",
+        "features": "sg:gen:n:ncol"
+      },
+      {
+        "token": "zielonego",
+        "lemma": "zielony:Sm1",
+        "features": "sg:gen.acc:m1"
+      },
+      {
+        "token": "zielonego",
+        "lemma": "zielony:Sm2",
+        "features": "sg:gen.acc:m2"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 21,
+    "tokens": [
+      "Zero",
+      "i",
+      "zero."
+    ],
+    "events": [],
+    "entities": [
+      {
+        "token": "Zero",
+        "lemma": "zero:S",
+        "features": "sg:nom.acc.voc:n:ncol"
+      },
+      {
+        "token": "Zero",
+        "lemma": "Zera:Sf",
+        "features": "sg:voc:f"
+      },
+      {
+        "token": "Zero",
+        "lemma": "Zera:Sm1",
+        "features": "sg:voc:m1"
+      },
+      {
+        "token": "zero.",
+        "lemma": "zero:S",
+        "features": "sg:nom.acc.voc:n:ncol"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 22,
+    "tokens": [
+      "Wszystkie",
+      "silniki",
+      "stop."
+    ],
+    "events": [
+      {
+        "token": "stop.",
+        "lemma": "stopić",
+        "features": "sg:sec:perf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "silniki",
+        "lemma": "silnik",
+        "features": "pl:nom.acc.voc:m3"
+      },
+      {
+        "token": "stop.",
+        "lemma": "stop:Sm2",
+        "features": "sg:nom:m2"
+      },
+      {
+        "token": "stop.",
+        "lemma": "stop:Sm3",
+        "features": "sg:nom.acc:m3"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 23,
+    "tokens": [
+      "Dzwon."
+    ],
+    "events": [],
+    "entities": [
+      {
+        "token": "Dzwon.",
+        "lemma": "dzwon:Sm2",
+        "features": "sg:nom:m2"
+      },
+      {
+        "token": "Dzwon.",
+        "lemma": "dzwon:Sm3",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "Dzwon.",
+        "lemma": "dzwono",
+        "features": "pl:gen:n:ncol"
+      },
+      {
+        "token": "Dzwon.",
+        "lemma": "Dzwono",
+        "features": "pl:gen:n:ncol"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 24,
+    "tokens": [
+      "Jedno,",
+      "jedyne",
+      "uderzenie,",
+      "jakby",
+      "olbrzymiego,",
+      "pękniętego",
+      "serca."
+    ],
+    "events": [],
+    "entities": [
+      {
+        "token": "Jedno,",
+        "lemma": "jedno:S",
+        "features": "sg:nom:n:ncol"
+      },
+      {
+        "token": "Jedno,",
+        "lemma": "jedno:S",
+        "features": "sg:acc:n:ncol"
+      },
+      {
+        "token": "jedyne",
+        "lemma": "jedyne",
+        "features": "sg:nom.acc.voc:n:ncol"
+      },
+      {
+        "token": "jedyne",
+        "lemma": "jedyne",
+        "features": "pl:nom.acc.voc:n:ncol"
+      },
+      {
+        "token": "jedyne",
+        "lemma": "jedyna",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "jedyne",
+        "lemma": "jedyny:S",
+        "features": "pl:nom.acc.voc:m2"
+      },
+      {
+        "token": "uderzenie,",
+        "lemma": "uderzenie",
+        "features": "sg:nom.acc.voc:n:ncol"
+      },
+      {
+        "token": "serca.",
+        "lemma": "serce",
+        "features": "sg:gen:n:ncol"
+      },
+      {
+        "token": "serca.",
+        "lemma": "serce",
+        "features": "pl:nom.acc.voc:n:ncol"
+      }
+    ],
+    "modality": [
+      {
+        "category": "uncertainty",
+        "marker": "jakby"
+      }
+    ]
+  },
+  {
+    "sentence_id": 25,
+    "tokens": [
+      "Rakieta",
+      "stała."
+    ],
+    "events": [
+      {
+        "token": "stała.",
+        "lemma": "stać:Vi",
+        "features": "sg:f:imperf"
+      },
+      {
+        "token": "stała.",
+        "lemma": "stać:Vp",
+        "features": "sg:f:perf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "Rakieta",
+        "lemma": "rakieta",
+        "features": "sg:nom:f"
+      },
+      {
+        "token": "stała.",
+        "lemma": "stała",
+        "features": "sg:nom:f"
+      },
+      {
+        "token": "stała.",
+        "lemma": "stała",
+        "features": "sg:voc:f"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 26,
+    "tokens": [
+      "Główny",
+      "inżynier",
+      "stał",
+      "z",
+      "rękami",
+      "na",
+      "dwu",
+      "rękojeściach",
+      "awaryjnego",
+      "odrzutu:",
+      "skała",
+      "mogła",
+      "się",
+      "poddać."
+    ],
+    "events": [
+      {
+        "token": "stał",
+        "lemma": "stać:Vi",
+        "features": "sg:m1.m2.m3:imperf"
+      },
+      {
+        "token": "stał",
+        "lemma": "stać:Vp",
+        "features": "sg:m1.m2.m3:perf"
+      },
+      {
+        "token": "mogła",
+        "lemma": "móc",
+        "features": "sg:f:imperf"
+      },
+      {
+        "token": "poddać.",
+        "lemma": "poddać",
+        "features": "perf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "inżynier",
+        "lemma": "inżynier",
+        "features": "sg:nom:m1"
+      },
+      {
+        "token": "rękami",
+        "lemma": "ręka",
+        "features": "pl:inst:f"
+      },
+      {
+        "token": "rękojeściach",
+        "lemma": "rękojeść",
+        "features": "pl:loc:f"
+      },
+      {
+        "token": "odrzutu:",
+        "lemma": "odrzut",
+        "features": "sg:gen:m3"
+      },
+      {
+        "token": "skała",
+        "lemma": "skała",
+        "features": "sg:nom:f"
+      }
+    ],
+    "modality": [
+      {
+        "category": "possibility",
+        "marker": "mogła"
+      }
+    ]
+  },
+  {
+    "sentence_id": 27,
+    "tokens": [
+      "Czekali."
+    ],
+    "events": [
+      {
+        "token": "Czekali.",
+        "lemma": "czekać",
+        "features": "pl:m1:imperf"
+      }
+    ],
+    "entities": [],
+    "modality": []
+  },
+  {
+    "sentence_id": 28,
+    "tokens": [
+      "Strzałki",
+      "sekundomierzy",
+      "poruszały",
+      "się",
+      "dalej",
+      "swoim",
+      "owadzim",
+      "ruchem."
+    ],
+    "events": [
+      {
+        "token": "poruszały",
+        "lemma": "poruszać:Vi",
+        "features": "pl:m2.m3.f.n:imperf"
+      },
+      {
+        "token": "poruszały",
+        "lemma": "poruszać:Vp",
+        "features": "pl:m2.m3.f.n:perf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "Strzałki",
+        "lemma": "Strzałka:Sm1",
+        "features": "pl:nom.acc.voc:m2"
+      },
+      {
+        "token": "Strzałki",
+        "lemma": "Strzałko:Sm1",
+        "features": "pl:nom.acc.voc:m2"
+      },
+      {
+        "token": "Strzałki",
+        "lemma": "Strzałek:Sm1",
+        "features": "pl:nom.acc.voc:m2"
+      },
+      {
+        "token": "Strzałki",
+        "lemma": "Strzałki",
+        "features": "pl:nom.acc.voc:n:pt"
+      },
+      {
+        "token": "Strzałki",
+        "lemma": "strzałka",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "Strzałki",
+        "lemma": "strzałka",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "Strzałki",
+        "lemma": "Strzałka:Sf",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "Strzałki",
+        "lemma": "Strzałka:Sf",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "Strzałki",
+        "lemma": "Strzałka:Sm1",
+        "features": "sg:gen:m1"
+      },
+      {
+        "token": "Strzałki",
+        "lemma": "Strzałko:Sm1",
+        "features": "sg:gen:m1"
+      },
+      {
+        "token": "sekundomierzy",
+        "lemma": "sekundomierz",
+        "features": "pl:gen:m3"
+      },
+      {
+        "token": "swoim",
+        "lemma": "swoje",
+        "features": "sg:inst:n:ncol"
+      },
+      {
+        "token": "swoim",
+        "lemma": "swoje",
+        "features": "sg:loc:n:ncol"
+      },
+      {
+        "token": "swoim",
+        "lemma": "swoje",
+        "features": "pl:dat:n:ncol"
+      },
+      {
+        "token": "ruchem.",
+        "lemma": "ruch",
+        "features": "sg:inst:m3"
+      },
+      {
+        "token": "ruchem.",
+        "lemma": "rucho",
+        "features": "sg:inst:n:ncol"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 29,
+    "tokens": [
+      "Dowódca",
+      "patrzał",
+      "przez",
+      "chwilę",
+      "na",
+      "wskaźnik",
+      "pionu;",
+      "jego",
+      "srebrzyste",
+      "światełko",
+      "ani",
+      "trochę",
+      "nie",
+      "odchyliło",
+      "się",
+      "na",
+      "-bok",
+      "od",
+      "czerwonego",
+      "Zera."
+    ],
+    "events": [
+      {
+        "token": "patrzał",
+        "lemma": "patrzeć",
+        "features": "sg:m1.m2.m3:imperf"
+      },
+      {
+        "token": "odchyliło",
+        "lemma": "odchylić",
+        "features": "sg:n:perf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "Dowódca",
+        "lemma": "dowódca",
+        "features": "sg:nom:m1"
+      },
+      {
+        "token": "chwilę",
+        "lemma": "chwila",
+        "features": "sg:acc:f"
+      },
+      {
+        "token": "wskaźnik",
+        "lemma": "wskaźnik",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "pionu;",
+        "lemma": "pion:Sm3",
+        "features": "sg:gen:m3"
+      },
+      {
+        "token": "światełko",
+        "lemma": "światełko",
+        "features": "sg:nom.acc.voc:n:ncol"
+      },
+      {
+        "token": "trochę",
+        "lemma": "trocha",
+        "features": "sg:acc:f"
+      },
+      {
+        "token": "-bok",
+        "lemma": "bok",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "od",
+        "lemma": "oda",
+        "features": "pl:gen:f"
+      },
+      {
+        "token": "czerwonego",
+        "lemma": "czerwone",
+        "features": "sg:gen:n:ncol"
+      },
+      {
+        "token": "czerwonego",
+        "lemma": "czerwony:S",
+        "features": "sg:gen.acc:m1"
+      },
+      {
+        "token": "Zera.",
+        "lemma": "Zera:Sf",
+        "features": "sg:nom:f"
+      },
+      {
+        "token": "Zera.",
+        "lemma": "Zera:Sm1",
+        "features": "sg:nom:m1"
+      },
+      {
+        "token": "Zera.",
+        "lemma": "zero:S",
+        "features": "sg:gen:n:ncol"
+      },
+      {
+        "token": "Zera.",
+        "lemma": "zero:S",
+        "features": "pl:nom.acc.voc:n:ncol"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 30,
+    "tokens": [
+      "Milczeli."
+    ],
+    "events": [
+      {
+        "token": "Milczeli.",
+        "lemma": "milczeć",
+        "features": "pl:m1:imperf"
+      }
+    ],
+    "entities": [],
+    "modality": []
+  },
+  {
+    "sentence_id": 31,
+    "tokens": [
+      "Rozgrzane",
+      "do",
+      "wiśniowego",
+      "żaru",
+      "dysze",
+      "zaczynały",
+      "się",
+      "kurczyć,",
+      "wydając",
+      "szereg",
+      "charakterystycznych",
+      "odgłosów,",
+      "podobnych",
+      "do",
+      "chrapliwego",
+      "postękiwania."
+    ],
+    "events": [
+      {
+        "token": "zaczynały",
+        "lemma": "zaczynać",
+        "features": "pl:m2.m3.f.n:imperf"
+      },
+      {
+        "token": "kurczyć,",
+        "lemma": "kurczyć",
+        "features": "imperf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "do",
+        "lemma": "do:S",
+        "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:n:ncol"
+      },
+      {
+        "token": "żaru",
+        "lemma": "żar",
+        "features": "sg:gen:m3"
+      },
+      {
+        "token": "dysze",
+        "lemma": "dysza",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "dysze",
+        "lemma": "dycha",
+        "features": "sg:dat.loc:f"
+      },
+      {
+        "token": "szereg",
+        "lemma": "szereg:S",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "odgłosów,",
+        "lemma": "odgłos",
+        "features": "pl:gen:m3"
+      },
+      {
+        "token": "do",
+        "lemma": "do:S",
+        "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:n:ncol"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 32,
+    "tokens": [
+      "Czerwonawa",
+      "chmura,",
+      "wzbita",
+      "na",
+      "setki",
+      "metrów,",
+      "opadała."
+    ],
+    "events": [
+      {
+        "token": "opadała.",
+        "lemma": "opadać",
+        "features": "sg:f:imperf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "chmura,",
+        "lemma": "chmura",
+        "features": "sg:nom:f"
+      },
+      {
+        "token": "setki",
+        "lemma": "setka",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "setki",
+        "lemma": "setka",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "metrów,",
+        "lemma": "metr:Sm1",
+        "features": "pl:gen.acc:m1"
+      },
+      {
+        "token": "metrów,",
+        "lemma": "metr:Sm3~a",
+        "features": "pl:gen:m3"
+      },
+      {
+        "token": "metrów,",
+        "lemma": "metr:Sm3~u",
+        "features": "pl:gen:m3"
+      },
+      {
+        "token": "metrów,",
+        "lemma": "metrum",
+        "features": "pl:gen:n:ncol"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 33,
+    "tokens": [
+      "Wyłonił",
+      "się",
+      "z",
+      "niej",
+      "tępy",
+      "wierzchołek",
+      "\"Niezwyciężonego\",",
+      "jego",
+      "boki,",
+      "osmalone",
+      "tarciem",
+      "atmosferycznym",
+      "i",
+      "podobne",
+      "przez",
+      "to",
+      "barwą",
+      "do",
+      "starej",
+      "skały,",
+      "chropawy,",
+      "podwójny",
+      "pancerz,",
+      "rudy",
+      "kurz",
+      "wciąż",
+      "jeszcze",
+      "kłębił",
+      "się",
+      "i",
+      "wirował",
+      "u",
+      "rufy,",
+      "ale",
+      "sam",
+      "statek",
+      "znieruchomiał",
+      "już",
+      "na",
+      "dobre,",
+      "jakby",
+      "stał",
+      "się",
+      "częścią",
+      "planety",
+      "i",
+      "teraz",
+      "krążył",
+      "razem",
+      "z",
+      "jej",
+      "powierzchnią",
+      "leniwym",
+      "ruchem,",
+      "trwającym",
+      "od",
+      "wieków,",
+      "pod",
+      "fioletowym",
+      "niebem,",
+      "w",
+      "którym",
+      "widniały",
+      "najsilniejsze",
+      "gwiazdy,",
+      "niknące",
+      "tylko",
+      "w",
+      "bezpośrednim",
+      "pobliżu",
+      "czerwonego",
+      "słońca."
+    ],
+    "events": [
+      {
+        "token": "Wyłonił",
+        "lemma": "wyłonić",
+        "features": "sg:m1.m2.m3:perf"
+      },
+      {
+        "token": "kurz",
+        "lemma": "kurzyć",
+        "features": "sg:sec:imperf"
+      },
+      {
+        "token": "kłębił",
+        "lemma": "kłębić",
+        "features": "sg:m1.m2.m3:imperf"
+      },
+      {
+        "token": "wirował",
+        "lemma": "wirować",
+        "features": "sg:m1.m2.m3:imperf"
+      },
+      {
+        "token": "znieruchomiał",
+        "lemma": "znieruchomiać",
+        "features": "sg:m1.m2.m3:imperf"
+      },
+      {
+        "token": "znieruchomiał",
+        "lemma": "znieruchomieć",
+        "features": "sg:m1.m2.m3:perf"
+      },
+      {
+        "token": "stał",
+        "lemma": "stać:Vi",
+        "features": "sg:m1.m2.m3:imperf"
+      },
+      {
+        "token": "stał",
+        "lemma": "stać:Vp",
+        "features": "sg:m1.m2.m3:perf"
+      },
+      {
+        "token": "krążył",
+        "lemma": "krążyć",
+        "features": "sg:m1.m2.m3:imperf"
+      },
+      {
+        "token": "widniały",
+        "lemma": "widnieć",
+        "features": "pl:m2.m3.f.n:imperf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "wierzchołek",
+        "lemma": "wierzchołek",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "boki,",
+        "lemma": "bok",
+        "features": "pl:nom.acc.voc:m3"
+      },
+      {
+        "token": "tarciem",
+        "lemma": "tarcie",
+        "features": "sg:inst:n:ncol"
+      },
+      {
+        "token": "to",
+        "lemma": "to:S",
+        "features": "sg:nom:n:ncol"
+      },
+      {
+        "token": "to",
+        "lemma": "to:S",
+        "features": "sg:acc:n:ncol"
+      },
+      {
+        "token": "barwą",
+        "lemma": "barwa",
+        "features": "sg:inst:f"
+      },
+      {
+        "token": "do",
+        "lemma": "do:S",
+        "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:n:ncol"
+      },
+      {
+        "token": "starej",
+        "lemma": "stara",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "starej",
+        "lemma": "stara",
+        "features": "sg:dat.loc:f"
+      },
+      {
+        "token": "skały,",
+        "lemma": "skała",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "skały,",
+        "lemma": "skała",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "pancerz,",
+        "lemma": "pancerz",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "rudy",
+        "lemma": "rudy:S",
+        "features": "sg:nom:m1"
+      },
+      {
+        "token": "rudy",
+        "lemma": "rudy:S",
+        "features": "sg:voc:m1"
+      },
+      {
+        "token": "rudy",
+        "lemma": "ruda:Sf~y",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "rudy",
+        "lemma": "ruda:Sf~y",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "kurz",
+        "lemma": "kurz",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "rufy,",
+        "lemma": "ruf",
+        "features": "pl:nom.acc.voc:m3"
+      },
+      {
+        "token": "rufy,",
+        "lemma": "rufa",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "rufy,",
+        "lemma": "rufa",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "sam",
+        "lemma": "sam:S",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "statek",
+        "lemma": "statek",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "dobre,",
+        "lemma": "dobre",
+        "features": "sg:nom.acc.voc:n:ncol"
+      },
+      {
+        "token": "dobre,",
+        "lemma": "dobre",
+        "features": "pl:nom.acc.voc:n:ncol"
+      },
+      {
+        "token": "dobre,",
+        "lemma": "dobry:Sm3",
+        "features": "pl:nom.acc.voc:m3"
+      },
+      {
+        "token": "dobre,",
+        "lemma": "dobry:Sm1",
+        "features": "pl:nom.acc.voc:m2"
+      },
+      {
+        "token": "częścią",
+        "lemma": "część",
+        "features": "sg:inst:f"
+      },
+      {
+        "token": "planety",
+        "lemma": "planet",
+        "features": "pl:nom.acc.voc:m3"
+      },
+      {
+        "token": "planety",
+        "lemma": "planeta",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "planety",
+        "lemma": "planeta",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "razem",
+        "lemma": "raz:Sm3~a~u",
+        "features": "sg:inst:m3"
+      },
+      {
+        "token": "razem",
+        "lemma": "raz:Sm3~u",
+        "features": "sg:inst:m3"
+      },
+      {
+        "token": "powierzchnią",
+        "lemma": "powierzchnia",
+        "features": "sg:inst:f"
+      },
+      {
+        "token": "ruchem,",
+        "lemma": "ruch",
+        "features": "sg:inst:m3"
+      },
+      {
+        "token": "ruchem,",
+        "lemma": "rucho",
+        "features": "sg:inst:n:ncol"
+      },
+      {
+        "token": "od",
+        "lemma": "oda",
+        "features": "pl:gen:f"
+      },
+      {
+        "token": "wieków,",
+        "lemma": "wiek",
+        "features": "pl:gen:m3"
+      },
+      {
+        "token": "niebem,",
+        "lemma": "niebo",
+        "features": "sg:inst:n:ncol"
+      },
+      {
+        "token": "gwiazdy,",
+        "lemma": "gwiazda",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "gwiazdy,",
+        "lemma": "gwiazda",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "pobliżu",
+        "lemma": "pobliże",
+        "features": "sg:dat:n:ncol"
+      },
+      {
+        "token": "pobliżu",
+        "lemma": "pobliże",
+        "features": "sg:loc:n:ncol"
+      },
+      {
+        "token": "czerwonego",
+        "lemma": "czerwone",
+        "features": "sg:gen:n:ncol"
+      },
+      {
+        "token": "czerwonego",
+        "lemma": "czerwony:S",
+        "features": "sg:gen.acc:m1"
+      },
+      {
+        "token": "słońca.",
+        "lemma": "słońce",
+        "features": "sg:gen:n:ncol"
+      },
+      {
+        "token": "słońca.",
+        "lemma": "słońce",
+        "features": "pl:nom.acc.voc:n:ncol"
+      }
+    ],
+    "modality": [
+      {
+        "category": "uncertainty",
+        "marker": "jakby"
+      }
+    ]
+  },
+  {
+    "sentence_id": 34,
+    "tokens": [
+      "Normalna",
+      "procedura?"
+    ],
+    "events": [],
+    "entities": [
+      {
+        "token": "Normalna",
+        "lemma": "normalna",
+        "features": "sg:nom:f"
+      },
+      {
+        "token": "Normalna",
+        "lemma": "normalna",
+        "features": "sg:voc:f"
+      },
+      {
+        "token": "procedura?",
+        "lemma": "procedura",
+        "features": "sg:nom:f"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 35,
+    "tokens": [
+      "Astrogator",
+      "wyprostował",
+      "się",
+      "znad",
+      "książki",
+      "pokładowej,",
+      "gdzie,",
+      "w",
+      "połowie",
+      "karty,",
+      "wpisał",
+      "umowny",
+      "znak",
+      "lądowania,",
+      "godzinę",
+      "i",
+      "dodał",
+      "obok",
+      "w",
+      "rubryce",
+      "nazwę",
+      "planety:",
+      "\"Regis",
+      "III\"."
+    ],
+    "events": [
+      {
+        "token": "wyprostował",
+        "lemma": "wyprostować",
+        "features": "sg:m1.m2.m3:perf"
+      },
+      {
+        "token": "wpisał",
+        "lemma": "wpisać",
+        "features": "sg:m1.m2.m3:perf"
+      },
+      {
+        "token": "dodał",
+        "lemma": "dodać",
+        "features": "sg:m1.m2.m3:perf"
+      },
+      {
+        "token": "nazwę",
+        "lemma": "nazwać",
+        "features": "sg:pri:perf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "książki",
+        "lemma": "książka",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "książki",
+        "lemma": "książka",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "połowie",
+        "lemma": "połowa",
+        "features": "sg:dat.loc:f"
+      },
+      {
+        "token": "połowie",
+        "lemma": "połów",
+        "features": "sg:loc:m3"
+      },
+      {
+        "token": "połowie",
+        "lemma": "połów",
+        "features": "sg:voc:m3"
+      },
+      {
+        "token": "karty,",
+        "lemma": "karty",
+        "features": "pl:nom.acc.voc:n:pt"
+      },
+      {
+        "token": "karty,",
+        "lemma": "kart",
+        "features": "pl:nom.acc.voc:m2"
+      },
+      {
+        "token": "karty,",
+        "lemma": "kart",
+        "features": "pl:nom.acc.voc:m3"
+      },
+      {
+        "token": "karty,",
+        "lemma": "karta",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "karty,",
+        "lemma": "karta",
+        "features": "pl:nom.acc.voc:f"
+      },
+      {
+        "token": "znak",
+        "lemma": "znak",
+        "features": "sg:nom.acc:m3"
+      },
+      {
+        "token": "lądowania,",
+        "lemma": "lądowanie",
+        "features": "sg:gen:n:ncol"
+      },
+      {
+        "token": "lądowania,",
+        "lemma": "lądowanie",
+        "features": "pl:nom.acc.voc:n:ncol"
+      },
+      {
+        "token": "godzinę",
+        "lemma": "godzina",
+        "features": "sg:acc:f"
+      },
+      {
+        "token": "rubryce",
+        "lemma": "rubryka",
+        "features": "sg:dat.loc:f"
+      },
+      {
+        "token": "nazwę",
+        "lemma": "nazwa",
+        "features": "sg:acc:f"
+      },
+      {
+        "token": "planety:",
+        "lemma": "planet",
+        "features": "pl:nom.acc.voc:m3"
+      },
+      {
+        "token": "planety:",
+        "lemma": "planeta",
+        "features": "sg:gen:f"
+      },
+      {
+        "token": "planety:",
+        "lemma": "planeta",
+        "features": "pl:nom.acc.voc:f"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 36,
+    "tokens": [
+      "Nie,",
+      "Rohan."
+    ],
+    "events": [],
+    "entities": [],
+    "modality": []
+  },
+  {
+    "sentence_id": 37,
+    "tokens": [
+      "Zaczniemy",
+      "od",
+      "trzeciego",
+      "stopnia."
+    ],
+    "events": [
+      {
+        "token": "Zaczniemy",
+        "lemma": "zacząć",
+        "features": "pl:pri:perf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "od",
+        "lemma": "oda",
+        "features": "pl:gen:f"
+      },
+      {
+        "token": "trzeciego",
+        "lemma": "trzeci:S",
+        "features": "sg:gen.acc:m2"
+      },
+      {
+        "token": "trzeciego",
+        "lemma": "trzeci:S",
+        "features": "sg:gen:m3"
+      },
+      {
+        "token": "stopnia.",
+        "lemma": "stopień",
+        "features": "sg:gen:m3"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 38,
+    "tokens": [
+      "Rohan",
+      "starał",
+      "się",
+      "nie",
+      "okazać",
+      "zdziwienia."
+    ],
+    "events": [
+      {
+        "token": "starał",
+        "lemma": "starać",
+        "features": "sg:m1.m2.m3:imperf"
+      },
+      {
+        "token": "okazać",
+        "lemma": "okazać",
+        "features": "perf"
+      }
+    ],
+    "entities": [
+      {
+        "token": "zdziwienia.",
+        "lemma": "zdziwienie",
+        "features": "sg:gen:n:ncol"
+      },
+      {
+        "token": "zdziwienia.",
+        "lemma": "zdziwienie",
+        "features": "pl:nom.acc.voc:n:ncol"
+      }
+    ],
+    "modality": []
+  },
+  {
+    "sentence_id": 39,
+    "tokens": [
+      "{chunk_0."
+    ],
+    "events": [],
+    "entities": [],
+    "modality": []
+  },
+  {
+    "sentence_id": 40,
+    "tokens": [
+      "5}"
+    ],
+    "events": [],
+    "entities": [],
+    "modality": []
+  }
+]
