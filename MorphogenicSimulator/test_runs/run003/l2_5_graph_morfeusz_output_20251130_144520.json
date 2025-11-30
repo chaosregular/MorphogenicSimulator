@@ -1,0 +1,3764 @@
+{
+  "events": [
+    {
+      "id": "EV0",
+      "sentence": 1,
+      "token_idx": 12,
+      "token": "gnały",
+      "lemma": "gnać",
+      "features": "pl:m2.m3.f.n:imperf",
+      "agent": {
+        "token": "strony",
+        "sentence": 1,
+        "token_idx": 11,
+        "lemma": "strona"
+      },
+      "object": {
+        "token": "fale",
+        "sentence": 1,
+        "token_idx": 14,
+        "lemma": "fala"
+      },
+      "adjuncts": [
+        {
+          "token": "wszystkie",
+          "pos": "adj",
+          "token_idx": 10
+        },
+        {
+          "token": "pustynnego",
+          "pos": "adj",
+          "token_idx": 15
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV1",
+      "sentence": 2,
+      "token_idx": 26,
+      "token": "dymiło",
+      "lemma": "dymić",
+      "features": "sg:n:imperf",
+      "agent": {
+        "token": "wylotów,",
+        "sentence": 2,
+        "token_idx": 24,
+        "lemma": "wylot"
+      },
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV2",
+      "sentence": 3,
+      "token_idx": 29,
+      "token": "znikł,",
+      "lemma": "zniknąć",
+      "features": "sg:m1.m2.m3:perf",
+      "agent": {
+        "token": "Piasek",
+        "sentence": 3,
+        "token_idx": 28,
+        "lemma": "piasek"
+      },
+      "object": {
+        "token": "lustro",
+        "sentence": 3,
+        "token_idx": 33,
+        "lemma": "lustro"
+      },
+      "adjuncts": [
+        {
+          "token": "w",
+          "pos": "prep",
+          "token_idx": 32
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV3",
+      "sentence": 3,
+      "token_idx": 30,
+      "token": "przeistoczył",
+      "lemma": "przeistoczyć",
+      "features": "sg:m1.m2.m3:perf",
+      "agent": {
+        "token": "Piasek",
+        "sentence": 3,
+        "token_idx": 28,
+        "lemma": "piasek"
+      },
+      "object": {
+        "token": "lustro",
+        "sentence": 3,
+        "token_idx": 33,
+        "lemma": "lustro"
+      },
+      "adjuncts": [
+        {
+          "token": "w",
+          "pos": "prep",
+          "token_idx": 32
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV4",
+      "sentence": 3,
+      "token_idx": 46,
+      "token": "wyparował.",
+      "lemma": "wyparować",
+      "features": "sg:m1.m2.m3:perf",
+      "agent": {
+        "token": "eksplozji,",
+        "sentence": 3,
+        "token_idx": 44,
+        "lemma": "eksplozja"
+      },
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV5",
+      "sentence": 4,
+      "token_idx": 53,
+      "token": "zaczął",
+      "lemma": "zacząć",
+      "features": "sg:m1.m2.m3:perf",
+      "agent": {
+        "token": "planety",
+        "sentence": 4,
+        "token_idx": 52,
+        "lemma": "planet"
+      },
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV6",
+      "sentence": 4,
+      "token_idx": 54,
+      "token": "mięknąć.",
+      "lemma": "mięknąć",
+      "features": "imperf",
+      "agent": {
+        "token": "planety",
+        "sentence": 4,
+        "token_idx": 52,
+        "lemma": "planet"
+      },
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV7",
+      "sentence": 7,
+      "token_idx": 65,
+      "token": "zgasł.",
+      "lemma": "zgasnąć",
+      "features": "sg:m1.m2.m3:perf",
+      "agent": {
+        "token": "ognia",
+        "sentence": 7,
+        "token_idx": 63,
+        "lemma": "ogień"
+      },
+      "object": null,
+      "adjuncts": [
+        {
+          "token": "atomowego",
+          "pos": "adj",
+          "token_idx": 64
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV8",
+      "sentence": 8,
+      "token_idx": 67,
+      "token": "dysz",
+      "lemma": "dyszeć",
+      "features": "sg:sec:imperf",
+      "agent": null,
+      "object": {
+        "token": "skośne",
+        "sentence": 8,
+        "token_idx": 69,
+        "lemma": "skośny"
+      },
+      "adjuncts": [
+        {
+          "token": "Z",
+          "pos": "prep",
+          "token_idx": 66
+        },
+        {
+          "token": "skośne",
+          "pos": "adj",
+          "token_idx": 69
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV9",
+      "sentence": 8,
+      "token_idx": 68,
+      "token": "trysnęły",
+      "lemma": "trysnąć",
+      "features": "pl:m2.m3.f.n:perf",
+      "agent": null,
+      "object": {
+        "token": "skośne",
+        "sentence": 8,
+        "token_idx": 69,
+        "lemma": "skośny"
+      },
+      "adjuncts": [
+        {
+          "token": "Z",
+          "pos": "prep",
+          "token_idx": 66
+        },
+        {
+          "token": "skośne",
+          "pos": "adj",
+          "token_idx": 69
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV10",
+      "sentence": 8,
+      "token_idx": 84,
+      "token": "zalała",
+      "lemma": "zalać",
+      "features": "sg:f:perf",
+      "agent": {
+        "token": "chmury",
+        "sentence": 8,
+        "token_idx": 81,
+        "lemma": "chmura"
+      },
+      "object": {
+        "token": "upiorna",
+        "sentence": 8,
+        "token_idx": 85,
+        "lemma": "upiorny"
+      },
+      "adjuncts": [
+        {
+          "token": "nad",
+          "pos": "prep",
+          "token_idx": 82
+        },
+        {
+          "token": "upiorna",
+          "pos": "adj",
+          "token_idx": 85
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV11",
+      "sentence": 9,
+      "token_idx": 91,
+      "token": "miała",
+      "lemma": "mieć",
+      "features": "sg:f:imperf",
+      "agent": {
+        "token": "podłoże,",
+        "sentence": 9,
+        "token_idx": 88,
+        "lemma": "podłoże"
+      },
+      "object": {
+        "token": "szeroka",
+        "sentence": 9,
+        "token_idx": 93,
+        "lemma": "szeroki"
+      },
+      "adjuncts": [
+        {
+          "token": "którym",
+          "pos": "adj",
+          "token_idx": 90
+        },
+        {
+          "token": "szeroka",
+          "pos": "adj",
+          "token_idx": 93
+        }
+      ],
+      "embedded_in": {
+        "entity_token": "podłoże,",
+        "entity_token_idx": 88,
+        "sentence": 9
+      },
+      "modality": []
+    },
+    {
+      "id": "EV12",
+      "sentence": 9,
+      "token_idx": 92,
+      "token": "osiąść",
+      "lemma": "osiąść",
+      "features": "perf",
+      "agent": {
+        "token": "podłoże,",
+        "sentence": 9,
+        "token_idx": 88,
+        "lemma": "podłoże"
+      },
+      "object": {
+        "token": "szeroka",
+        "sentence": 9,
+        "token_idx": 93,
+        "lemma": "szeroki"
+      },
+      "adjuncts": [
+        {
+          "token": "którym",
+          "pos": "adj",
+          "token_idx": 90
+        },
+        {
+          "token": "szeroka",
+          "pos": "adj",
+          "token_idx": 93
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV13",
+      "sentence": 9,
+      "token_idx": 97,
+      "token": "zagrażało",
+      "lemma": "zagrażać",
+      "features": "sg:n:imperf",
+      "agent": {
+        "token": "rufa",
+        "sentence": 9,
+        "token_idx": 94,
+        "lemma": "rufa"
+      },
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV14",
+      "sentence": 9,
+      "token_idx": 99,
+      "token": "stopieniem.",
+      "lemma": "stopić",
+      "features": "sg:inst:n:perf:aff",
+      "agent": {
+        "token": "rufa",
+        "sentence": 9,
+        "token_idx": 94,
+        "lemma": "rufa"
+      },
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV15",
+      "sentence": 11,
+      "token_idx": 106,
+      "token": "lądowania.",
+      "lemma": "lądować",
+      "features": "pl:nom.acc:n:imperf:aff",
+      "agent": {
+        "token": "do",
+        "sentence": 11,
+        "token_idx": 105,
+        "lemma": "do:S"
+      },
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV16",
+      "sentence": 12,
+      "token_idx": 109,
+      "token": "uderzyły",
+      "lemma": "uderzyć",
+      "features": "pl:m2.m3.f.n:perf",
+      "agent": {
+        "token": "serca",
+        "sentence": 12,
+        "token_idx": 108,
+        "lemma": "serce"
+      },
+      "object": {
+        "token": "instrumentami,",
+        "sentence": 12,
+        "token_idx": 115,
+        "lemma": "instrument"
+      },
+      "adjuncts": [
+        {
+          "token": "Wszystkie",
+          "pos": "adj",
+          "token_idx": 107
+        },
+        {
+          "token": "żywiej,",
+          "pos": "adv",
+          "token_idx": 110
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV17",
+      "sentence": 12,
+      "token_idx": 111,
+      "token": "oczy",
+      "lemma": "oczyć",
+      "features": "sg:ter:imperf",
+      "agent": {
+        "token": "serca",
+        "sentence": 12,
+        "token_idx": 108,
+        "lemma": "serce"
+      },
+      "object": {
+        "token": "instrumentami,",
+        "sentence": 12,
+        "token_idx": 115,
+        "lemma": "instrument"
+      },
+      "adjuncts": [
+        {
+          "token": "żywiej,",
+          "pos": "adv",
+          "token_idx": 110
+        },
+        {
+          "token": "nad",
+          "pos": "prep",
+          "token_idx": 114
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV18",
+      "sentence": 12,
+      "token_idx": 112,
+      "token": "pochyliły",
+      "lemma": "pochylić",
+      "features": "pl:m2.m3.f.n:perf",
+      "agent": {
+        "token": "serca",
+        "sentence": 12,
+        "token_idx": 108,
+        "lemma": "serce"
+      },
+      "object": {
+        "token": "instrumentami,",
+        "sentence": 12,
+        "token_idx": 115,
+        "lemma": "instrument"
+      },
+      "adjuncts": [
+        {
+          "token": "żywiej,",
+          "pos": "adv",
+          "token_idx": 110
+        },
+        {
+          "token": "nad",
+          "pos": "prep",
+          "token_idx": 114
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV19",
+      "sentence": 13,
+      "token_idx": 123,
+      "token": "oznaczały,",
+      "lemma": "oznaczać",
+      "features": "pl:m2.m3.f.n:imperf",
+      "agent": {
+        "token": "słowa",
+        "sentence": 13,
+        "token_idx": 122,
+        "lemma": "słowo"
+      },
+      "object": {
+        "token": "odwrotu,",
+        "sentence": 13,
+        "token_idx": 128,
+        "lemma": "odwrót"
+      },
+      "adjuncts": [
+        {
+          "token": "Sakramentalne",
+          "pos": "adj",
+          "token_idx": 121
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV20",
+      "sentence": 13,
+      "token_idx": 131,
+      "token": "staną",
+      "lemma": "stanąć",
+      "features": "pl:ter:perf",
+      "agent": {
+        "token": "nogi",
+        "sentence": 13,
+        "token_idx": 130,
+        "lemma": "noga"
+      },
+      "object": {
+        "token": "prawdziwym",
+        "sentence": 13,
+        "token_idx": 133,
+        "lemma": "prawdziwy"
+      },
+      "adjuncts": [
+        {
+          "token": "prawdziwym",
+          "pos": "adj",
+          "token_idx": 133
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV21",
+      "sentence": 13,
+      "token_idx": 137,
+      "token": "był",
+      "lemma": "być",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": {
+        "token": "gruncie,",
+        "sentence": 13,
+        "token_idx": 134,
+        "lemma": "grunt"
+      },
+      "object": {
+        "token": "piasek",
+        "sentence": 13,
+        "token_idx": 139,
+        "lemma": "piasek"
+      },
+      "adjuncts": [
+        {
+          "token": "pustynnego",
+          "pos": "adj",
+          "token_idx": 140
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV22",
+      "sentence": 14,
+      "token_idx": 154,
+      "token": "Lądowanie",
+      "lemma": "lądować",
+      "features": "sg:nom.acc:n:imperf:aff",
+      "agent": null,
+      "object": {
+        "token": "punktowe",
+        "sentence": 14,
+        "token_idx": 155,
+        "lemma": "punktowy:A"
+      },
+      "adjuncts": [
+        {
+          "token": "punktowe",
+          "pos": "adj",
+          "token_idx": 155
+        },
+        {
+          "token": "w",
+          "pos": "prep",
+          "token_idx": 156
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV23",
+      "sentence": 15,
+      "token_idx": 160,
+      "token": "był",
+      "lemma": "być",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": {
+        "token": "Statek",
+        "sentence": 15,
+        "token_idx": 158,
+        "lemma": "statek"
+      },
+      "object": {
+        "token": "przeciągłego",
+        "sentence": 15,
+        "token_idx": 161,
+        "lemma": "przeciągły"
+      },
+      "adjuncts": [
+        {
+          "token": "pełen",
+          "pos": "adj",
+          "token_idx": 159
+        },
+        {
+          "token": "przeciągłego",
+          "pos": "adj",
+          "token_idx": 161
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV24",
+      "sentence": 16,
+      "token_idx": 175,
+      "token": "połączył",
+      "lemma": "połączyć",
+      "features": "sg:m1.m2.m3:perf",
+      "agent": {
+        "token": "ognia",
+        "sentence": 16,
+        "token_idx": 174,
+        "lemma": "ogień"
+      },
+      "object": {
+        "token": "skałą.",
+        "sentence": 16,
+        "token_idx": 179,
+        "lemma": "skała"
+      },
+      "adjuncts": [
+        {
+          "token": "z",
+          "pos": "prep",
+          "token_idx": 177
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV25",
+      "sentence": 17,
+      "token_idx": 187,
+      "token": "oślepiły",
+      "lemma": "oślepić",
+      "features": "pl:m2.m3.f.n:perf",
+      "agent": {
+        "token": "piasku,",
+        "sentence": 17,
+        "token_idx": 186,
+        "lemma": "piasek"
+      },
+      "object": {
+        "token": "peryskop",
+        "sentence": 17,
+        "token_idx": 188,
+        "lemma": "peryskop"
+      },
+      "adjuncts": [
+        {
+          "token": "środkowych",
+          "pos": "adj",
+          "token_idx": 189
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV26",
+      "sentence": 17,
+      "token_idx": 198,
+      "token": "pojawiały",
+      "lemma": "pojawiać",
+      "features": "pl:m2.m3.f.n:imperf",
+      "agent": {
+        "token": "radarów",
+        "sentence": 17,
+        "token_idx": 196,
+        "lemma": "radar"
+      },
+      "object": {
+        "token": "zarysy",
+        "sentence": 17,
+        "token_idx": 205,
+        "lemma": "zarys"
+      },
+      "adjuncts": [
+        {
+          "token": "niezmiennie",
+          "pos": "adv",
+          "token_idx": 197
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV27",
+      "sentence": 17,
+      "token_idx": 201,
+      "token": "gasły",
+      "lemma": "gasnąć",
+      "features": "pl:m2.m3.f.n:imperf",
+      "agent": {
+        "token": "radarów",
+        "sentence": 17,
+        "token_idx": 196,
+        "lemma": "radar"
+      },
+      "object": {
+        "token": "zarysy",
+        "sentence": 17,
+        "token_idx": 205,
+        "lemma": "zarys"
+      },
+      "adjuncts": [
+        {
+          "token": "wzdłuż",
+          "pos": "adv",
+          "token_idx": 202
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV28",
+      "sentence": 17,
+      "token_idx": 203,
+      "token": "promieni",
+      "lemma": "promienić",
+      "features": "sg:ter:imperf",
+      "agent": {
+        "token": "radarów",
+        "sentence": 17,
+        "token_idx": 196,
+        "lemma": "radar"
+      },
+      "object": {
+        "token": "zarysy",
+        "sentence": 17,
+        "token_idx": 205,
+        "lemma": "zarys"
+      },
+      "adjuncts": [
+        {
+          "token": "wzdłuż",
+          "pos": "adv",
+          "token_idx": 202
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV29",
+      "sentence": 19,
+      "token_idx": 216,
+      "token": "kotłował",
+      "lemma": "kotłować",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": {
+        "token": "Ogień",
+        "sentence": 19,
+        "token_idx": 215,
+        "lemma": "ogień"
+      },
+      "object": {
+        "token": "rufą,",
+        "sentence": 19,
+        "token_idx": 220,
+        "lemma": "rufa"
+      },
+      "adjuncts": [
+        {
+          "token": "buntowniczo",
+          "pos": "adv",
+          "token_idx": 218
+        },
+        {
+          "token": "pod",
+          "pos": "prep",
+          "token_idx": 219
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV30",
+      "sentence": 19,
+      "token_idx": 231,
+      "token": "piekło",
+      "lemma": "piec:V",
+      "features": "sg:n:imperf",
+      "agent": {
+        "token": "zielone",
+        "sentence": 19,
+        "token_idx": 230,
+        "lemma": "zielony:Sm1"
+      },
+      "object": {
+        "token": "długimi",
+        "sentence": 19,
+        "token_idx": 233,
+        "lemma": "długi"
+      },
+      "adjuncts": [
+        {
+          "token": "długimi",
+          "pos": "adj",
+          "token_idx": 233
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV31",
+      "sentence": 19,
+      "token_idx": 232,
+      "token": "strzelało",
+      "lemma": "strzelać",
+      "features": "sg:n:imperf",
+      "agent": {
+        "token": "zielone",
+        "sentence": 19,
+        "token_idx": 230,
+        "lemma": "zielony:Sm1"
+      },
+      "object": {
+        "token": "długimi",
+        "sentence": 19,
+        "token_idx": 233,
+        "lemma": "długi"
+      },
+      "adjuncts": [
+        {
+          "token": "długimi",
+          "pos": "adj",
+          "token_idx": 233
+        },
+        {
+          "token": "w",
+          "pos": "prep",
+          "token_idx": 235
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV32",
+      "sentence": 19,
+      "token_idx": 234,
+      "token": "bryźnięciami",
+      "lemma": "bryznąć",
+      "features": "pl:inst:n:perf:aff",
+      "agent": {
+        "token": "zielone",
+        "sentence": 19,
+        "token_idx": 230,
+        "lemma": "zielony:Sm1"
+      },
+      "object": {
+        "token": "głąb",
+        "sentence": 19,
+        "token_idx": 236,
+        "lemma": "głąb:Sf"
+      },
+      "adjuncts": [
+        {
+          "token": "długimi",
+          "pos": "adj",
+          "token_idx": 233
+        },
+        {
+          "token": "w",
+          "pos": "prep",
+          "token_idx": 235
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV33",
+      "sentence": 20,
+      "token_idx": 240,
+      "token": "Rozziew",
+      "lemma": "rozziewić",
+      "features": "sg:sec:perf",
+      "agent": null,
+      "object": {
+        "token": "rufą",
+        "sentence": 20,
+        "token_idx": 242,
+        "lemma": "rufa"
+      },
+      "adjuncts": [
+        {
+          "token": "między",
+          "pos": "prep",
+          "token_idx": 241
+        },
+        {
+          "token": "a",
+          "pos": "conj",
+          "token_idx": 243
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV34",
+      "sentence": 20,
+      "token_idx": 247,
+      "token": "stał",
+      "lemma": "stać:Vi",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": {
+        "token": "skały",
+        "sentence": 20,
+        "token_idx": 246,
+        "lemma": "skała"
+      },
+      "object": {
+        "token": "wąską",
+        "sentence": 20,
+        "token_idx": 249,
+        "lemma": "wąski"
+      },
+      "adjuncts": [
+        {
+          "token": "opalonym",
+          "pos": "adj",
+          "token_idx": 244
+        },
+        {
+          "token": "wąską",
+          "pos": "adj",
+          "token_idx": 249
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV35",
+      "sentence": 20,
+      "token_idx": 253,
+      "token": "pałania.",
+      "lemma": "pałać",
+      "features": "pl:nom.acc:n:imperf:aff",
+      "agent": {
+        "token": "zielonego",
+        "sentence": 20,
+        "token_idx": 252,
+        "lemma": "zielone"
+      },
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV36",
+      "sentence": 26,
+      "token_idx": 272,
+      "token": "stał",
+      "lemma": "stać:Vi",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": {
+        "token": "inżynier",
+        "sentence": 26,
+        "token_idx": 271,
+        "lemma": "inżynier"
+      },
+      "object": {
+        "token": "rękami",
+        "sentence": 26,
+        "token_idx": 274,
+        "lemma": "ręka"
+      },
+      "adjuncts": [
+        {
+          "token": "Główny",
+          "pos": "adj",
+          "token_idx": 270
+        },
+        {
+          "token": "z",
+          "pos": "prep",
+          "token_idx": 273
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV37",
+      "sentence": 26,
+      "token_idx": 281,
+      "token": "mogła",
+      "lemma": "móc",
+      "features": "sg:f:imperf",
+      "agent": {
+        "token": "skała",
+        "sentence": 26,
+        "token_idx": 280,
+        "lemma": "skała"
+      },
+      "object": null,
+      "adjuncts": [
+        {
+          "token": "awaryjnego",
+          "pos": "adj",
+          "token_idx": 278
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV38",
+      "sentence": 26,
+      "token_idx": 283,
+      "token": "poddać.",
+      "lemma": "poddać",
+      "features": "perf",
+      "agent": {
+        "token": "skała",
+        "sentence": 26,
+        "token_idx": 280,
+        "lemma": "skała"
+      },
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV39",
+      "sentence": 27,
+      "token_idx": 284,
+      "token": "Czekali.",
+      "lemma": "czekać",
+      "features": "pl:m1:imperf",
+      "agent": null,
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV40",
+      "sentence": 28,
+      "token_idx": 287,
+      "token": "poruszały",
+      "lemma": "poruszać:Vi",
+      "features": "pl:m2.m3.f.n:imperf",
+      "agent": {
+        "token": "sekundomierzy",
+        "sentence": 28,
+        "token_idx": 286,
+        "lemma": "sekundomierz"
+      },
+      "object": {
+        "token": "swoim",
+        "sentence": 28,
+        "token_idx": 290,
+        "lemma": "swój"
+      },
+      "adjuncts": [
+        {
+          "token": "dalej",
+          "pos": "adv",
+          "token_idx": 289
+        },
+        {
+          "token": "swoim",
+          "pos": "adj",
+          "token_idx": 290
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV41",
+      "sentence": 29,
+      "token_idx": 294,
+      "token": "patrzał",
+      "lemma": "patrzeć",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": {
+        "token": "Dowódca",
+        "sentence": 29,
+        "token_idx": 293,
+        "lemma": "dowódca"
+      },
+      "object": {
+        "token": "chwilę",
+        "sentence": 29,
+        "token_idx": 296,
+        "lemma": "chwila"
+      },
+      "adjuncts": [
+        {
+          "token": "przez",
+          "pos": "prep",
+          "token_idx": 295
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV42",
+      "sentence": 29,
+      "token_idx": 306,
+      "token": "odchyliło",
+      "lemma": "odchylić",
+      "features": "sg:n:perf",
+      "agent": {
+        "token": "światełko",
+        "sentence": 29,
+        "token_idx": 302,
+        "lemma": "światełko"
+      },
+      "object": {
+        "token": "-bok",
+        "sentence": 29,
+        "token_idx": 309,
+        "lemma": "bok"
+      },
+      "adjuncts": [
+        {
+          "token": "ani",
+          "pos": "conj",
+          "token_idx": 303
+        },
+        {
+          "token": "trochę",
+          "pos": "adv",
+          "token_idx": 304
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV43",
+      "sentence": 30,
+      "token_idx": 313,
+      "token": "Milczeli.",
+      "lemma": "milczeć",
+      "features": "pl:m1:imperf",
+      "agent": null,
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV44",
+      "sentence": 31,
+      "token_idx": 319,
+      "token": "zaczynały",
+      "lemma": "zaczynać",
+      "features": "pl:m2.m3.f.n:imperf",
+      "agent": {
+        "token": "dysze",
+        "sentence": 31,
+        "token_idx": 318,
+        "lemma": "dysza"
+      },
+      "object": {
+        "token": "charakterystycznych",
+        "sentence": 31,
+        "token_idx": 324,
+        "lemma": "charakterystyczny"
+      },
+      "adjuncts": [
+        {
+          "token": "wiśniowego",
+          "pos": "adj",
+          "token_idx": 316
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV45",
+      "sentence": 31,
+      "token_idx": 321,
+      "token": "kurczyć,",
+      "lemma": "kurczyć",
+      "features": "imperf",
+      "agent": {
+        "token": "dysze",
+        "sentence": 31,
+        "token_idx": 318,
+        "lemma": "dysza"
+      },
+      "object": {
+        "token": "charakterystycznych",
+        "sentence": 31,
+        "token_idx": 324,
+        "lemma": "charakterystyczny"
+      },
+      "adjuncts": [
+        {
+          "token": "charakterystycznych",
+          "pos": "adj",
+          "token_idx": 324
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV46",
+      "sentence": 31,
+      "token_idx": 329,
+      "token": "postękiwania.",
+      "lemma": "postękiwać",
+      "features": "pl:nom.acc:n:imperf:aff",
+      "agent": {
+        "token": "do",
+        "sentence": 31,
+        "token_idx": 327,
+        "lemma": "do:S"
+      },
+      "object": null,
+      "adjuncts": [
+        {
+          "token": "podobnych",
+          "pos": "adj",
+          "token_idx": 326
+        },
+        {
+          "token": "chrapliwego",
+          "pos": "adj",
+          "token_idx": 328
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV47",
+      "sentence": 32,
+      "token_idx": 336,
+      "token": "opadała.",
+      "lemma": "opadać",
+      "features": "sg:f:imperf",
+      "agent": {
+        "token": "metrów,",
+        "sentence": 32,
+        "token_idx": 335,
+        "lemma": "metr:Sm1"
+      },
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV48",
+      "sentence": 33,
+      "token_idx": 337,
+      "token": "Wyłonił",
+      "lemma": "wyłonić",
+      "features": "sg:m1.m2.m3:perf",
+      "agent": null,
+      "object": {
+        "token": "tępy",
+        "sentence": 33,
+        "token_idx": 341,
+        "lemma": "tępy"
+      },
+      "adjuncts": [
+        {
+          "token": "z",
+          "pos": "prep",
+          "token_idx": 339
+        }
+      ],
+      "embedded_in": null,
+      "modality": [
+        {
+          "category": "uncertainty",
+          "marker": "jakby"
+        }
+      ]
+    },
+    {
+      "id": "EV49",
+      "sentence": 33,
+      "token_idx": 347,
+      "token": "tarciem",
+      "lemma": "trzeć",
+      "features": "sg:inst:n:imperf:aff",
+      "agent": {
+        "token": "boki,",
+        "sentence": 33,
+        "token_idx": 345,
+        "lemma": "bok"
+      },
+      "object": {
+        "token": "atmosferycznym",
+        "sentence": 33,
+        "token_idx": 348,
+        "lemma": "atmosferyczny"
+      },
+      "adjuncts": [
+        {
+          "token": "atmosferycznym",
+          "pos": "adj",
+          "token_idx": 348
+        },
+        {
+          "token": "podobne",
+          "pos": "adj",
+          "token_idx": 350
+        }
+      ],
+      "embedded_in": null,
+      "modality": [
+        {
+          "category": "uncertainty",
+          "marker": "jakby"
+        }
+      ]
+    },
+    {
+      "id": "EV50",
+      "sentence": 33,
+      "token_idx": 364,
+      "token": "kłębił",
+      "lemma": "kłębić",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": {
+        "token": "kurz",
+        "sentence": 33,
+        "token_idx": 361,
+        "lemma": "kurz"
+      },
+      "object": {
+        "token": "rufy,",
+        "sentence": 33,
+        "token_idx": 369,
+        "lemma": "ruf"
+      },
+      "adjuncts": [
+        {
+          "token": "wciąż",
+          "pos": "adv",
+          "token_idx": 362
+        }
+      ],
+      "embedded_in": null,
+      "modality": [
+        {
+          "category": "uncertainty",
+          "marker": "jakby"
+        }
+      ]
+    },
+    {
+      "id": "EV51",
+      "sentence": 33,
+      "token_idx": 367,
+      "token": "wirował",
+      "lemma": "wirować",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": {
+        "token": "kurz",
+        "sentence": 33,
+        "token_idx": 361,
+        "lemma": "kurz"
+      },
+      "object": {
+        "token": "rufy,",
+        "sentence": 33,
+        "token_idx": 369,
+        "lemma": "ruf"
+      },
+      "adjuncts": [
+        {
+          "token": "u",
+          "pos": "prep",
+          "token_idx": 368
+        }
+      ],
+      "embedded_in": null,
+      "modality": [
+        {
+          "category": "uncertainty",
+          "marker": "jakby"
+        }
+      ]
+    },
+    {
+      "id": "EV52",
+      "sentence": 33,
+      "token_idx": 373,
+      "token": "znieruchomiał",
+      "lemma": "znieruchomiać",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": {
+        "token": "statek",
+        "sentence": 33,
+        "token_idx": 372,
+        "lemma": "statek"
+      },
+      "object": {
+        "token": "dobre,",
+        "sentence": 33,
+        "token_idx": 376,
+        "lemma": "dobre"
+      },
+      "adjuncts": [
+        {
+          "token": "sam",
+          "pos": "adv",
+          "token_idx": 371
+        }
+      ],
+      "embedded_in": null,
+      "modality": [
+        {
+          "category": "uncertainty",
+          "marker": "jakby"
+        }
+      ]
+    },
+    {
+      "id": "EV53",
+      "sentence": 33,
+      "token_idx": 378,
+      "token": "stał",
+      "lemma": "stać:Vi",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": {
+        "token": "dobre,",
+        "sentence": 33,
+        "token_idx": 376,
+        "lemma": "dobre"
+      },
+      "object": {
+        "token": "częścią",
+        "sentence": 33,
+        "token_idx": 380,
+        "lemma": "część"
+      },
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": [
+        {
+          "category": "uncertainty",
+          "marker": "jakby"
+        }
+      ]
+    },
+    {
+      "id": "EV54",
+      "sentence": 33,
+      "token_idx": 384,
+      "token": "krążył",
+      "lemma": "krążyć",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": {
+        "token": "planety",
+        "sentence": 33,
+        "token_idx": 381,
+        "lemma": "planet"
+      },
+      "object": {
+        "token": "razem",
+        "sentence": 33,
+        "token_idx": 385,
+        "lemma": "raz:Sm3~a~u"
+      },
+      "adjuncts": [
+        {
+          "token": "teraz",
+          "pos": "adv",
+          "token_idx": 383
+        },
+        {
+          "token": "z",
+          "pos": "prep",
+          "token_idx": 386
+        }
+      ],
+      "embedded_in": null,
+      "modality": [
+        {
+          "category": "uncertainty",
+          "marker": "jakby"
+        }
+      ]
+    },
+    {
+      "id": "EV55",
+      "sentence": 33,
+      "token_idx": 399,
+      "token": "widniały",
+      "lemma": "widnieć",
+      "features": "pl:m2.m3.f.n:imperf",
+      "agent": {
+        "token": "niebem,",
+        "sentence": 33,
+        "token_idx": 396,
+        "lemma": "niebo"
+      },
+      "object": {
+        "token": "najsilniejsze",
+        "sentence": 33,
+        "token_idx": 400,
+        "lemma": "silny"
+      },
+      "adjuncts": [
+        {
+          "token": "w",
+          "pos": "prep",
+          "token_idx": 397
+        },
+        {
+          "token": "którym",
+          "pos": "adj",
+          "token_idx": 398
+        },
+        {
+          "token": "najsilniejsze",
+          "pos": "adj",
+          "token_idx": 400
+        }
+      ],
+      "embedded_in": {
+        "entity_token": "niebem,",
+        "entity_token_idx": 396,
+        "sentence": 33
+      },
+      "modality": [
+        {
+          "category": "uncertainty",
+          "marker": "jakby"
+        }
+      ]
+    },
+    {
+      "id": "EV56",
+      "sentence": 35,
+      "token_idx": 412,
+      "token": "wyprostował",
+      "lemma": "wyprostować",
+      "features": "sg:m1.m2.m3:perf",
+      "agent": null,
+      "object": {
+        "token": "książki",
+        "sentence": 35,
+        "token_idx": 415,
+        "lemma": "książka"
+      },
+      "adjuncts": [
+        {
+          "token": "znad",
+          "pos": "prep",
+          "token_idx": 414
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV57",
+      "sentence": 35,
+      "token_idx": 421,
+      "token": "wpisał",
+      "lemma": "wpisać",
+      "features": "sg:m1.m2.m3:perf",
+      "agent": {
+        "token": "karty,",
+        "sentence": 35,
+        "token_idx": 420,
+        "lemma": "karty"
+      },
+      "object": {
+        "token": "umowny",
+        "sentence": 35,
+        "token_idx": 422,
+        "lemma": "umowny"
+      },
+      "adjuncts": [
+        {
+          "token": "w",
+          "pos": "prep",
+          "token_idx": 418
+        },
+        {
+          "token": "umowny",
+          "pos": "adj",
+          "token_idx": 422
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV58",
+      "sentence": 35,
+      "token_idx": 424,
+      "token": "lądowania,",
+      "lemma": "lądować",
+      "features": "pl:nom.acc:n:imperf:aff",
+      "agent": {
+        "token": "znak",
+        "sentence": 35,
+        "token_idx": 423,
+        "lemma": "znak"
+      },
+      "object": {
+        "token": "godzinę",
+        "sentence": 35,
+        "token_idx": 425,
+        "lemma": "godzina"
+      },
+      "adjuncts": [
+        {
+          "token": "umowny",
+          "pos": "adj",
+          "token_idx": 422
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV59",
+      "sentence": 35,
+      "token_idx": 427,
+      "token": "dodał",
+      "lemma": "dodać",
+      "features": "sg:m1.m2.m3:perf",
+      "agent": {
+        "token": "godzinę",
+        "sentence": 35,
+        "token_idx": 425,
+        "lemma": "godzina"
+      },
+      "object": {
+        "token": "rubryce",
+        "sentence": 35,
+        "token_idx": 430,
+        "lemma": "rubryka"
+      },
+      "adjuncts": [
+        {
+          "token": "obok",
+          "pos": "adv",
+          "token_idx": 428
+        },
+        {
+          "token": "w",
+          "pos": "prep",
+          "token_idx": 429
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV60",
+      "sentence": 37,
+      "token_idx": 437,
+      "token": "Zaczniemy",
+      "lemma": "zacząć",
+      "features": "pl:pri:perf",
+      "agent": null,
+      "object": {
+        "token": "trzeciego",
+        "sentence": 37,
+        "token_idx": 439,
+        "lemma": "trzeci:S"
+      },
+      "adjuncts": [
+        {
+          "token": "od",
+          "pos": "prep",
+          "token_idx": 438
+        }
+      ],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV61",
+      "sentence": 38,
+      "token_idx": 442,
+      "token": "starał",
+      "lemma": "starać",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": null,
+      "object": {
+        "token": "zdziwienia.",
+        "sentence": 38,
+        "token_idx": 446,
+        "lemma": "zdziwienie"
+      },
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": []
+    },
+    {
+      "id": "EV62",
+      "sentence": 38,
+      "token_idx": 445,
+      "token": "okazać",
+      "lemma": "okazać",
+      "features": "perf",
+      "agent": null,
+      "object": {
+        "token": "zdziwienia.",
+        "sentence": 38,
+        "token_idx": 446,
+        "lemma": "zdziwienie"
+      },
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": []
+    }
+  ],
+  "entities": {
+    "ENT0": {
+      "label": "Mały",
+      "sentence": 0,
+      "token_idx": 0,
+      "lemma": "mały:S",
+      "features": "sg:nom:m1"
+    },
+    "ENT1": {
+      "label": "ciąg",
+      "sentence": 0,
+      "token_idx": 2,
+      "lemma": "ciąg",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT2": {
+      "label": "pierścieniami",
+      "sentence": 1,
+      "token_idx": 4,
+      "lemma": "pierścień",
+      "features": "pl:inst:m3"
+    },
+    "ENT3": {
+      "label": "bałwany",
+      "sentence": 1,
+      "token_idx": 6,
+      "lemma": "bałwan:Sm2",
+      "features": "pl:nom.acc.voc:m2"
+    },
+    "ENT4": {
+      "label": "morza",
+      "sentence": 1,
+      "token_idx": 8,
+      "lemma": "morze",
+      "features": "sg:gen:n:ncol"
+    },
+    "ENT5": {
+      "label": "strony",
+      "sentence": 1,
+      "token_idx": 11,
+      "lemma": "strona",
+      "features": "sg:gen:f"
+    },
+    "ENT6": {
+      "label": "fale",
+      "sentence": 1,
+      "token_idx": 14,
+      "lemma": "fala",
+      "features": "pl:nom.acc.voc:f"
+    },
+    "ENT7": {
+      "label": "piachu",
+      "sentence": 1,
+      "token_idx": 16,
+      "lemma": "piach",
+      "features": "sg:gen:m3"
+    },
+    "ENT8": {
+      "label": "Epicentrum",
+      "sentence": 2,
+      "token_idx": 17,
+      "lemma": "epicentrum",
+      "features": "sg:nom.acc.voc:n:ncol"
+    },
+    "ENT9": {
+      "label": "odległości",
+      "sentence": 2,
+      "token_idx": 21,
+      "lemma": "odległość",
+      "features": "sg:gen:f"
+    },
+    "ENT10": {
+      "label": "płomieniem",
+      "sentence": 2,
+      "token_idx": 23,
+      "lemma": "płomień",
+      "features": "sg:inst:m3"
+    },
+    "ENT11": {
+      "label": "wylotów",
+      "sentence": 2,
+      "token_idx": 24,
+      "lemma": "wylot",
+      "features": "pl:gen:m3"
+    },
+    "ENT12": {
+      "label": "Piasek",
+      "sentence": 3,
+      "token_idx": 28,
+      "lemma": "piasek",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT13": {
+      "label": "lustro",
+      "sentence": 3,
+      "token_idx": 33,
+      "lemma": "lustro",
+      "features": "sg:nom.acc.voc:n:ncol"
+    },
+    "ENT14": {
+      "label": "czerwieni",
+      "sentence": 3,
+      "token_idx": 35,
+      "lemma": "czerwień",
+      "features": "sg:gen:f"
+    },
+    "ENT15": {
+      "label": "jezioro",
+      "sentence": 3,
+      "token_idx": 38,
+      "lemma": "jezioro",
+      "features": "sg:nom.acc.voc:n:ncol"
+    },
+    "ENT16": {
+      "label": "krzemionki",
+      "sentence": 3,
+      "token_idx": 40,
+      "lemma": "krzemionka",
+      "features": "sg:gen:f"
+    },
+    "ENT17": {
+      "label": "słup",
+      "sentence": 3,
+      "token_idx": 42,
+      "lemma": "słup",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT18": {
+      "label": "eksplozji",
+      "sentence": 3,
+      "token_idx": 44,
+      "lemma": "eksplozja",
+      "features": "sg:gen:f"
+    },
+    "ENT19": {
+      "label": "kość",
+      "sentence": 4,
+      "token_idx": 49,
+      "lemma": "kość",
+      "features": "sg:nom:f"
+    },
+    "ENT20": {
+      "label": "stary",
+      "sentence": 4,
+      "token_idx": 50,
+      "lemma": "stary:S",
+      "features": "sg:nom:m1"
+    },
+    "ENT21": {
+      "label": "bazalt",
+      "sentence": 4,
+      "token_idx": 51,
+      "lemma": "bazalt",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT22": {
+      "label": "planety",
+      "sentence": 4,
+      "token_idx": 52,
+      "lemma": "planet",
+      "features": "pl:nom.acc.voc:m3"
+    },
+    "ENT23": {
+      "label": "Stosy",
+      "sentence": 5,
+      "token_idx": 56,
+      "lemma": "stos",
+      "features": "pl:nom.acc.voc:m3"
+    },
+    "ENT24": {
+      "label": "bieg",
+      "sentence": 5,
+      "token_idx": 59,
+      "lemma": "bieg",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT25": {
+      "label": "Zimny",
+      "sentence": 6,
+      "token_idx": 60,
+      "lemma": "Zimny:Sf",
+      "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:f"
+    },
+    "ENT26": {
+      "label": "ciąg",
+      "sentence": 6,
+      "token_idx": 61,
+      "lemma": "ciąg",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT27": {
+      "label": "Błękit",
+      "sentence": 7,
+      "token_idx": 62,
+      "lemma": "błękit",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT28": {
+      "label": "ognia",
+      "sentence": 7,
+      "token_idx": 63,
+      "lemma": "ogień",
+      "features": "sg:gen:m3"
+    },
+    "ENT29": {
+      "label": "promienie",
+      "sentence": 8,
+      "token_idx": 70,
+      "lemma": "promień",
+      "features": "pl:nom.acc.voc:m3"
+    },
+    "ENT30": {
+      "label": "borowodorów",
+      "sentence": 8,
+      "token_idx": 71,
+      "lemma": "borowodór",
+      "features": "pl:gen:m3"
+    },
+    "ENT31": {
+      "label": "chwili",
+      "sentence": 8,
+      "token_idx": 75,
+      "lemma": "chwila",
+      "features": "sg:gen:f"
+    },
+    "ENT32": {
+      "label": "pustynię",
+      "sentence": 8,
+      "token_idx": 76,
+      "lemma": "pustynia",
+      "features": "sg:acc:f"
+    },
+    "ENT33": {
+      "label": "ściany",
+      "sentence": 8,
+      "token_idx": 77,
+      "lemma": "ściana",
+      "features": "sg:gen:f"
+    },
+    "ENT34": {
+      "label": "kraterów",
+      "sentence": 8,
+      "token_idx": 79,
+      "lemma": "krater",
+      "features": "pl:gen:m3"
+    },
+    "ENT35": {
+      "label": "chmury",
+      "sentence": 8,
+      "token_idx": 81,
+      "lemma": "chmura",
+      "features": "sg:gen:f"
+    },
+    "ENT36": {
+      "label": "zieleń",
+      "sentence": 8,
+      "token_idx": 86,
+      "lemma": "zieleń",
+      "features": "sg:nom:f"
+    },
+    "ENT37": {
+      "label": "podłoże",
+      "sentence": 9,
+      "token_idx": 88,
+      "lemma": "podłoże",
+      "features": "sg:nom.acc.voc:n:ncol"
+    },
+    "ENT38": {
+      "label": "rufa",
+      "sentence": 9,
+      "token_idx": 94,
+      "lemma": "rufa",
+      "features": "sg:nom:f"
+    },
+    "ENT39": {
+      "label": "Stosy",
+      "sentence": 10,
+      "token_idx": 101,
+      "lemma": "stos",
+      "features": "pl:nom.acc.voc:m3"
+    },
+    "ENT40": {
+      "label": "zero",
+      "sentence": 10,
+      "token_idx": 102,
+      "lemma": "zero:S",
+      "features": "sg:nom.acc.voc:n:ncol"
+    },
+    "ENT41": {
+      "label": "Zimnym",
+      "sentence": 11,
+      "token_idx": 103,
+      "lemma": "Zimny:Sm1",
+      "features": "sg:inst:m1"
+    },
+    "ENT42": {
+      "label": "ciągiem",
+      "sentence": 11,
+      "token_idx": 104,
+      "lemma": "ciąg",
+      "features": "sg:inst:m3"
+    },
+    "ENT43": {
+      "label": "do",
+      "sentence": 11,
+      "token_idx": 105,
+      "lemma": "do:S",
+      "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:n:ncol"
+    },
+    "ENT44": {
+      "label": "serca",
+      "sentence": 12,
+      "token_idx": 108,
+      "lemma": "serce",
+      "features": "sg:gen:n:ncol"
+    },
+    "ENT45": {
+      "label": "instrumentami",
+      "sentence": 12,
+      "token_idx": 115,
+      "lemma": "instrument",
+      "features": "pl:inst:m3"
+    },
+    "ENT46": {
+      "label": "rękojeści",
+      "sentence": 12,
+      "token_idx": 116,
+      "lemma": "rękojeść",
+      "features": "sg:gen:f"
+    },
+    "ENT47": {
+      "label": "palcach",
+      "sentence": 12,
+      "token_idx": 120,
+      "lemma": "palec",
+      "features": "pl:loc:m2"
+    },
+    "ENT48": {
+      "label": "słowa",
+      "sentence": 13,
+      "token_idx": 122,
+      "lemma": "słowo",
+      "features": "sg:gen:n:ncol"
+    },
+    "ENT49": {
+      "label": "odwrotu",
+      "sentence": 13,
+      "token_idx": 128,
+      "lemma": "odwrót",
+      "features": "sg:gen:m3"
+    },
+    "ENT50": {
+      "label": "nogi",
+      "sentence": 13,
+      "token_idx": 130,
+      "lemma": "noga",
+      "features": "sg:gen:f"
+    },
+    "ENT51": {
+      "label": "gruncie",
+      "sentence": 13,
+      "token_idx": 134,
+      "lemma": "grunt",
+      "features": "sg:loc:m3"
+    },
+    "ENT52": {
+      "label": "piasek",
+      "sentence": 13,
+      "token_idx": 139,
+      "lemma": "piasek",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT53": {
+      "label": "globu",
+      "sentence": 13,
+      "token_idx": 141,
+      "lemma": "glob",
+      "features": "sg:gen:m3"
+    },
+    "ENT54": {
+      "label": "tam",
+      "sentence": 13,
+      "token_idx": 144,
+      "lemma": "tama",
+      "features": "pl:gen:f"
+    },
+    "ENT55": {
+      "label": "wschód",
+      "sentence": 13,
+      "token_idx": 145,
+      "lemma": "wschód",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT56": {
+      "label": "zachód",
+      "sentence": 13,
+      "token_idx": 147,
+      "lemma": "zachód",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT57": {
+      "label": "słońca",
+      "sentence": 13,
+      "token_idx": 148,
+      "lemma": "słońce",
+      "features": "sg:gen:n:ncol"
+    },
+    "ENT58": {
+      "label": "horyzont",
+      "sentence": 13,
+      "token_idx": 149,
+      "lemma": "horyzont",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT59": {
+      "label": "chmury",
+      "sentence": 13,
+      "token_idx": 151,
+      "lemma": "chmura",
+      "features": "sg:gen:f"
+    },
+    "ENT60": {
+      "label": "wiatr",
+      "sentence": 13,
+      "token_idx": 153,
+      "lemma": "wiatr",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT61": {
+      "label": "nadirze",
+      "sentence": 14,
+      "token_idx": 157,
+      "lemma": "nadir",
+      "features": "sg:loc:m3"
+    },
+    "ENT62": {
+      "label": "Statek",
+      "sentence": 15,
+      "token_idx": 158,
+      "lemma": "statek",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT63": {
+      "label": "jęku",
+      "sentence": 15,
+      "token_idx": 162,
+      "lemma": "jęk",
+      "features": "sg:gen:m3"
+    },
+    "ENT64": {
+      "label": "turbin",
+      "sentence": 15,
+      "token_idx": 163,
+      "lemma": "turbina",
+      "features": "pl:gen:f"
+    },
+    "ENT65": {
+      "label": "materiał",
+      "sentence": 15,
+      "token_idx": 165,
+      "lemma": "materiał",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT66": {
+      "label": "dół",
+      "sentence": 15,
+      "token_idx": 168,
+      "lemma": "dół:Sm2",
+      "features": "sg:nom:m2"
+    },
+    "ENT67": {
+      "label": "Zielony",
+      "sentence": 16,
+      "token_idx": 169,
+      "lemma": "Zielony:Sf",
+      "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:f"
+    },
+    "ENT68": {
+      "label": "słup",
+      "sentence": 16,
+      "token_idx": 173,
+      "lemma": "słup",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT69": {
+      "label": "ognia",
+      "sentence": 16,
+      "token_idx": 174,
+      "lemma": "ogień",
+      "features": "sg:gen:m3"
+    },
+    "ENT70": {
+      "label": "skałą",
+      "sentence": 16,
+      "token_idx": 179,
+      "lemma": "skała",
+      "features": "sg:inst:f"
+    },
+    "ENT71": {
+      "label": "stron",
+      "sentence": 17,
+      "token_idx": 182,
+      "lemma": "strona",
+      "features": "pl:gen:f"
+    },
+    "ENT72": {
+      "label": "chmury",
+      "sentence": 17,
+      "token_idx": 185,
+      "lemma": "chmura",
+      "features": "sg:gen:f"
+    },
+    "ENT73": {
+      "label": "piasku",
+      "sentence": 17,
+      "token_idx": 186,
+      "lemma": "piasek",
+      "features": "sg:gen:m3"
+    },
+    "ENT74": {
+      "label": "peryskop",
+      "sentence": 17,
+      "token_idx": 188,
+      "lemma": "peryskop",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT75": {
+      "label": "pokładów",
+      "sentence": 17,
+      "token_idx": 190,
+      "lemma": "pokład",
+      "features": "pl:gen:m3"
+    },
+    "ENT76": {
+      "label": "sterowni",
+      "sentence": 17,
+      "token_idx": 193,
+      "lemma": "sterownia",
+      "features": "sg:gen:f"
+    },
+    "ENT77": {
+      "label": "ekranach",
+      "sentence": 17,
+      "token_idx": 195,
+      "lemma": "ekran",
+      "features": "pl:loc:m3"
+    },
+    "ENT78": {
+      "label": "radarów",
+      "sentence": 17,
+      "token_idx": 196,
+      "lemma": "radar",
+      "features": "pl:gen:m3"
+    },
+    "ENT79": {
+      "label": "zarysy",
+      "sentence": 17,
+      "token_idx": 205,
+      "lemma": "zarys",
+      "features": "pl:nom.acc.voc:m3"
+    },
+    "ENT80": {
+      "label": "krajobrazu",
+      "sentence": 17,
+      "token_idx": 206,
+      "lemma": "krajobraz",
+      "features": "sg:gen:m3"
+    },
+    "ENT81": {
+      "label": "chaosie",
+      "sentence": 17,
+      "token_idx": 210,
+      "lemma": "chaos",
+      "features": "sg:loc:m3"
+    },
+    "ENT82": {
+      "label": "styku",
+      "sentence": 18,
+      "token_idx": 214,
+      "lemma": "styk",
+      "features": "sg:gen:m3"
+    },
+    "ENT83": {
+      "label": "Ogień",
+      "sentence": 19,
+      "token_idx": 215,
+      "lemma": "ogień",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT84": {
+      "label": "rufą",
+      "sentence": 19,
+      "token_idx": 220,
+      "lemma": "rufa",
+      "features": "sg:inst:f"
+    },
+    "ENT85": {
+      "label": "milimetr",
+      "sentence": 19,
+      "token_idx": 222,
+      "lemma": "milimetr",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT86": {
+      "label": "milimetrze",
+      "sentence": 19,
+      "token_idx": 224,
+      "lemma": "milimetr",
+      "features": "sg:loc:m3"
+    },
+    "ENT87": {
+      "label": "cielskiem",
+      "sentence": 19,
+      "token_idx": 228,
+      "lemma": "cielsko",
+      "features": "sg:inst:n:ncol"
+    },
+    "ENT88": {
+      "label": "rakiety",
+      "sentence": 19,
+      "token_idx": 229,
+      "lemma": "rakieta",
+      "features": "sg:gen:f"
+    },
+    "ENT89": {
+      "label": "zielone",
+      "sentence": 19,
+      "token_idx": 230,
+      "lemma": "zielony:Sm1",
+      "features": "pl:nom.acc.voc:m2"
+    },
+    "ENT90": {
+      "label": "głąb",
+      "sentence": 19,
+      "token_idx": 236,
+      "lemma": "głąb:Sf",
+      "features": "sg:nom:f"
+    },
+    "ENT91": {
+      "label": "chmur",
+      "sentence": 19,
+      "token_idx": 239,
+      "lemma": "chmura",
+      "features": "pl:gen:f"
+    },
+    "ENT92": {
+      "label": "rufą",
+      "sentence": 20,
+      "token_idx": 242,
+      "lemma": "rufa",
+      "features": "sg:inst:f"
+    },
+    "ENT93": {
+      "label": "bazaltem",
+      "sentence": 20,
+      "token_idx": 245,
+      "lemma": "bazalt",
+      "features": "sg:inst:m3"
+    },
+    "ENT94": {
+      "label": "skały",
+      "sentence": 20,
+      "token_idx": 246,
+      "lemma": "skała",
+      "features": "sg:gen:f"
+    },
+    "ENT95": {
+      "label": "szczeliną",
+      "sentence": 20,
+      "token_idx": 250,
+      "lemma": "szczelina",
+      "features": "sg:inst:f"
+    },
+    "ENT96": {
+      "label": "linią",
+      "sentence": 20,
+      "token_idx": 251,
+      "lemma": "linia",
+      "features": "sg:inst:f"
+    },
+    "ENT97": {
+      "label": "zielonego",
+      "sentence": 20,
+      "token_idx": 252,
+      "lemma": "zielone",
+      "features": "sg:gen:n:ncol"
+    },
+    "ENT98": {
+      "label": "Zero",
+      "sentence": 21,
+      "token_idx": 254,
+      "lemma": "zero:S",
+      "features": "sg:nom.acc.voc:n:ncol"
+    },
+    "ENT99": {
+      "label": "zero",
+      "sentence": 21,
+      "token_idx": 256,
+      "lemma": "zero:S",
+      "features": "sg:nom.acc.voc:n:ncol"
+    },
+    "ENT100": {
+      "label": "silniki",
+      "sentence": 22,
+      "token_idx": 258,
+      "lemma": "silnik",
+      "features": "pl:nom.acc.voc:m3"
+    },
+    "ENT101": {
+      "label": "Dzwon",
+      "sentence": 23,
+      "token_idx": 260,
+      "lemma": "dzwon:Sm2",
+      "features": "sg:nom:m2"
+    },
+    "ENT102": {
+      "label": "Jedno",
+      "sentence": 24,
+      "token_idx": 261,
+      "lemma": "jedno:S",
+      "features": "sg:nom:n:ncol"
+    },
+    "ENT103": {
+      "label": "jedyne",
+      "sentence": 24,
+      "token_idx": 262,
+      "lemma": "jedyne",
+      "features": "sg:nom.acc.voc:n:ncol"
+    },
+    "ENT104": {
+      "label": "uderzenie",
+      "sentence": 24,
+      "token_idx": 263,
+      "lemma": "uderzenie",
+      "features": "sg:nom.acc.voc:n:ncol"
+    },
+    "ENT105": {
+      "label": "serca",
+      "sentence": 24,
+      "token_idx": 267,
+      "lemma": "serce",
+      "features": "sg:gen:n:ncol"
+    },
+    "ENT106": {
+      "label": "Rakieta",
+      "sentence": 25,
+      "token_idx": 268,
+      "lemma": "rakieta",
+      "features": "sg:nom:f"
+    },
+    "ENT107": {
+      "label": "stała",
+      "sentence": 25,
+      "token_idx": 269,
+      "lemma": "stała",
+      "features": "sg:nom:f"
+    },
+    "ENT108": {
+      "label": "inżynier",
+      "sentence": 26,
+      "token_idx": 271,
+      "lemma": "inżynier",
+      "features": "sg:nom:m1"
+    },
+    "ENT109": {
+      "label": "rękami",
+      "sentence": 26,
+      "token_idx": 274,
+      "lemma": "ręka",
+      "features": "pl:inst:f"
+    },
+    "ENT110": {
+      "label": "rękojeściach",
+      "sentence": 26,
+      "token_idx": 277,
+      "lemma": "rękojeść",
+      "features": "pl:loc:f"
+    },
+    "ENT111": {
+      "label": "odrzutu",
+      "sentence": 26,
+      "token_idx": 279,
+      "lemma": "odrzut",
+      "features": "sg:gen:m3"
+    },
+    "ENT112": {
+      "label": "skała",
+      "sentence": 26,
+      "token_idx": 280,
+      "lemma": "skała",
+      "features": "sg:nom:f"
+    },
+    "ENT113": {
+      "label": "Strzałki",
+      "sentence": 28,
+      "token_idx": 285,
+      "lemma": "Strzałka:Sm1",
+      "features": "pl:nom.acc.voc:m2"
+    },
+    "ENT114": {
+      "label": "sekundomierzy",
+      "sentence": 28,
+      "token_idx": 286,
+      "lemma": "sekundomierz",
+      "features": "pl:gen:m3"
+    },
+    "ENT115": {
+      "label": "ruchem",
+      "sentence": 28,
+      "token_idx": 292,
+      "lemma": "ruch",
+      "features": "sg:inst:m3"
+    },
+    "ENT116": {
+      "label": "Dowódca",
+      "sentence": 29,
+      "token_idx": 293,
+      "lemma": "dowódca",
+      "features": "sg:nom:m1"
+    },
+    "ENT117": {
+      "label": "chwilę",
+      "sentence": 29,
+      "token_idx": 296,
+      "lemma": "chwila",
+      "features": "sg:acc:f"
+    },
+    "ENT118": {
+      "label": "wskaźnik",
+      "sentence": 29,
+      "token_idx": 298,
+      "lemma": "wskaźnik",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT119": {
+      "label": "pionu",
+      "sentence": 29,
+      "token_idx": 299,
+      "lemma": "pion:Sm3",
+      "features": "sg:gen:m3"
+    },
+    "ENT120": {
+      "label": "światełko",
+      "sentence": 29,
+      "token_idx": 302,
+      "lemma": "światełko",
+      "features": "sg:nom.acc.voc:n:ncol"
+    },
+    "ENT121": {
+      "label": "-bok",
+      "sentence": 29,
+      "token_idx": 309,
+      "lemma": "bok",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT122": {
+      "label": "czerwonego",
+      "sentence": 29,
+      "token_idx": 311,
+      "lemma": "czerwone",
+      "features": "sg:gen:n:ncol"
+    },
+    "ENT123": {
+      "label": "Zera",
+      "sentence": 29,
+      "token_idx": 312,
+      "lemma": "Zera:Sf",
+      "features": "sg:nom:f"
+    },
+    "ENT124": {
+      "label": "do",
+      "sentence": 31,
+      "token_idx": 315,
+      "lemma": "do:S",
+      "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:n:ncol"
+    },
+    "ENT125": {
+      "label": "żaru",
+      "sentence": 31,
+      "token_idx": 317,
+      "lemma": "żar",
+      "features": "sg:gen:m3"
+    },
+    "ENT126": {
+      "label": "dysze",
+      "sentence": 31,
+      "token_idx": 318,
+      "lemma": "dysza",
+      "features": "pl:nom.acc.voc:f"
+    },
+    "ENT127": {
+      "label": "odgłosów",
+      "sentence": 31,
+      "token_idx": 325,
+      "lemma": "odgłos",
+      "features": "pl:gen:m3"
+    },
+    "ENT128": {
+      "label": "do",
+      "sentence": 31,
+      "token_idx": 327,
+      "lemma": "do:S",
+      "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:n:ncol"
+    },
+    "ENT129": {
+      "label": "chmura",
+      "sentence": 32,
+      "token_idx": 331,
+      "lemma": "chmura",
+      "features": "sg:nom:f"
+    },
+    "ENT130": {
+      "label": "setki",
+      "sentence": 32,
+      "token_idx": 334,
+      "lemma": "setka",
+      "features": "sg:gen:f"
+    },
+    "ENT131": {
+      "label": "metrów",
+      "sentence": 32,
+      "token_idx": 335,
+      "lemma": "metr:Sm1",
+      "features": "pl:gen.acc:m1"
+    },
+    "ENT132": {
+      "label": "wierzchołek",
+      "sentence": 33,
+      "token_idx": 342,
+      "lemma": "wierzchołek",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT133": {
+      "label": "boki",
+      "sentence": 33,
+      "token_idx": 345,
+      "lemma": "bok",
+      "features": "pl:nom.acc.voc:m3"
+    },
+    "ENT134": {
+      "label": "barwą",
+      "sentence": 33,
+      "token_idx": 353,
+      "lemma": "barwa",
+      "features": "sg:inst:f"
+    },
+    "ENT135": {
+      "label": "do",
+      "sentence": 33,
+      "token_idx": 354,
+      "lemma": "do:S",
+      "features": "sg.pl:nom.gen.dat.acc.inst.loc.voc:n:ncol"
+    },
+    "ENT136": {
+      "label": "starej",
+      "sentence": 33,
+      "token_idx": 355,
+      "lemma": "stara",
+      "features": "sg:gen:f"
+    },
+    "ENT137": {
+      "label": "skały",
+      "sentence": 33,
+      "token_idx": 356,
+      "lemma": "skała",
+      "features": "sg:gen:f"
+    },
+    "ENT138": {
+      "label": "pancerz",
+      "sentence": 33,
+      "token_idx": 359,
+      "lemma": "pancerz",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT139": {
+      "label": "rudy",
+      "sentence": 33,
+      "token_idx": 360,
+      "lemma": "rudy:S",
+      "features": "sg:nom:m1"
+    },
+    "ENT140": {
+      "label": "kurz",
+      "sentence": 33,
+      "token_idx": 361,
+      "lemma": "kurz",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT141": {
+      "label": "rufy",
+      "sentence": 33,
+      "token_idx": 369,
+      "lemma": "ruf",
+      "features": "pl:nom.acc.voc:m3"
+    },
+    "ENT142": {
+      "label": "statek",
+      "sentence": 33,
+      "token_idx": 372,
+      "lemma": "statek",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT143": {
+      "label": "dobre",
+      "sentence": 33,
+      "token_idx": 376,
+      "lemma": "dobre",
+      "features": "sg:nom.acc.voc:n:ncol"
+    },
+    "ENT144": {
+      "label": "częścią",
+      "sentence": 33,
+      "token_idx": 380,
+      "lemma": "część",
+      "features": "sg:inst:f"
+    },
+    "ENT145": {
+      "label": "planety",
+      "sentence": 33,
+      "token_idx": 381,
+      "lemma": "planet",
+      "features": "pl:nom.acc.voc:m3"
+    },
+    "ENT146": {
+      "label": "razem",
+      "sentence": 33,
+      "token_idx": 385,
+      "lemma": "raz:Sm3~a~u",
+      "features": "sg:inst:m3"
+    },
+    "ENT147": {
+      "label": "ruchem",
+      "sentence": 33,
+      "token_idx": 390,
+      "lemma": "ruch",
+      "features": "sg:inst:m3"
+    },
+    "ENT148": {
+      "label": "wieków",
+      "sentence": 33,
+      "token_idx": 393,
+      "lemma": "wiek",
+      "features": "pl:gen:m3"
+    },
+    "ENT149": {
+      "label": "niebem",
+      "sentence": 33,
+      "token_idx": 396,
+      "lemma": "niebo",
+      "features": "sg:inst:n:ncol"
+    },
+    "ENT150": {
+      "label": "gwiazdy",
+      "sentence": 33,
+      "token_idx": 401,
+      "lemma": "gwiazda",
+      "features": "sg:gen:f"
+    },
+    "ENT151": {
+      "label": "pobliżu",
+      "sentence": 33,
+      "token_idx": 406,
+      "lemma": "pobliże",
+      "features": "sg:dat:n:ncol"
+    },
+    "ENT152": {
+      "label": "czerwonego",
+      "sentence": 33,
+      "token_idx": 407,
+      "lemma": "czerwone",
+      "features": "sg:gen:n:ncol"
+    },
+    "ENT153": {
+      "label": "słońca",
+      "sentence": 33,
+      "token_idx": 408,
+      "lemma": "słońce",
+      "features": "sg:gen:n:ncol"
+    },
+    "ENT154": {
+      "label": "procedura?",
+      "sentence": 34,
+      "token_idx": 410,
+      "lemma": "procedura",
+      "features": "sg:nom:f"
+    },
+    "ENT155": {
+      "label": "książki",
+      "sentence": 35,
+      "token_idx": 415,
+      "lemma": "książka",
+      "features": "sg:gen:f"
+    },
+    "ENT156": {
+      "label": "połowie",
+      "sentence": 35,
+      "token_idx": 419,
+      "lemma": "połowa",
+      "features": "sg:dat.loc:f"
+    },
+    "ENT157": {
+      "label": "karty",
+      "sentence": 35,
+      "token_idx": 420,
+      "lemma": "karty",
+      "features": "pl:nom.acc.voc:n:pt"
+    },
+    "ENT158": {
+      "label": "znak",
+      "sentence": 35,
+      "token_idx": 423,
+      "lemma": "znak",
+      "features": "sg:nom.acc:m3"
+    },
+    "ENT159": {
+      "label": "godzinę",
+      "sentence": 35,
+      "token_idx": 425,
+      "lemma": "godzina",
+      "features": "sg:acc:f"
+    },
+    "ENT160": {
+      "label": "rubryce",
+      "sentence": 35,
+      "token_idx": 430,
+      "lemma": "rubryka",
+      "features": "sg:dat.loc:f"
+    },
+    "ENT161": {
+      "label": "nazwę",
+      "sentence": 35,
+      "token_idx": 431,
+      "lemma": "nazwa",
+      "features": "sg:acc:f"
+    },
+    "ENT162": {
+      "label": "planety",
+      "sentence": 35,
+      "token_idx": 432,
+      "lemma": "planet",
+      "features": "pl:nom.acc.voc:m3"
+    },
+    "ENT163": {
+      "label": "trzeciego",
+      "sentence": 37,
+      "token_idx": 439,
+      "lemma": "trzeci:S",
+      "features": "sg:gen.acc:m2"
+    },
+    "ENT164": {
+      "label": "stopnia",
+      "sentence": 37,
+      "token_idx": 440,
+      "lemma": "stopień",
+      "features": "sg:gen:m3"
+    },
+    "ENT165": {
+      "label": "zdziwienia",
+      "sentence": 38,
+      "token_idx": 446,
+      "lemma": "zdziwienie",
+      "features": "sg:gen:n:ncol"
+    }
+  },
+  "relations": [
+    {
+      "type": "relative_clause_attachment",
+      "antecedent_token": "podłoże,",
+      "antecedent_idx": 88,
+      "clause_event_id": "EV11"
+    },
+    {
+      "type": "relative_clause_attachment",
+      "antecedent_token": "niebem,",
+      "antecedent_idx": 396,
+      "clause_event_id": "EV55"
+    }
+  ],
+  "sentence_index": {
+    "0": {
+      "tokens": [
+        "Mały",
+        "statyczny",
+        "ciąg."
+      ],
+      "events": [],
+      "modality": []
+    },
+    "1": {
+      "tokens": [
+        "Kolistymi",
+        "pierścieniami,",
+        "jak",
+        "bałwany",
+        "prawdziwego",
+        "morza,",
+        "na",
+        "wszystkie",
+        "strony",
+        "gnały",
+        "dymiące",
+        "fale",
+        "pustynnego",
+        "piachu."
+      ],
+      "events": [
+        "EV0"
+      ],
+      "modality": []
+    },
+    "2": {
+      "tokens": [
+        "Epicentrum,",
+        "trafione",
+        "z",
+        "niewielkiej",
+        "odległości",
+        "krzaczastym",
+        "płomieniem",
+        "wylotów,",
+        "nie",
+        "dymiło",
+        "już."
+      ],
+      "events": [
+        "EV1"
+      ],
+      "modality": []
+    },
+    "3": {
+      "tokens": [
+        "Piasek",
+        "znikł,",
+        "przeistoczył",
+        "się",
+        "w",
+        "lustro",
+        "bąblistej",
+        "czerwieni,",
+        "w",
+        "kipiące",
+        "jezioro",
+        "stopionej",
+        "krzemionki,",
+        "w",
+        "słup",
+        "jazgocących",
+        "eksplozji,",
+        "aż",
+        "wyparował."
+      ],
+      "events": [
+        "EV2",
+        "EV3",
+        "EV4"
+      ],
+      "modality": []
+    },
+    "4": {
+      "tokens": [
+        "Obnażony,",
+        "jak",
+        "kość,",
+        "stary",
+        "bazalt",
+        "planety",
+        "zaczął",
+        "mięknąć."
+      ],
+      "events": [
+        "EV5",
+        "EV6"
+      ],
+      "modality": []
+    },
+    "5": {
+      "tokens": [
+        "-",
+        "Stosy",
+        "na",
+        "jałowy",
+        "bieg."
+      ],
+      "events": [],
+      "modality": []
+    },
+    "6": {
+      "tokens": [
+        "Zimny",
+        "ciąg."
+      ],
+      "events": [],
+      "modality": []
+    },
+    "7": {
+      "tokens": [
+        "Błękit",
+        "ognia",
+        "atomowego",
+        "zgasł."
+      ],
+      "events": [
+        "EV7"
+      ],
+      "modality": []
+    },
+    "8": {
+      "tokens": [
+        "Z",
+        "dysz",
+        "trysnęły",
+        "skośne",
+        "promienie",
+        "borowodorów,",
+        "i",
+        "w",
+        "jednej",
+        "chwili",
+        "pustynię,",
+        "ściany",
+        "skalnych",
+        "kraterów",
+        "i",
+        "chmury",
+        "nad",
+        "nimi",
+        "zalała",
+        "upiorna",
+        "zieleń."
+      ],
+      "events": [
+        "EV8",
+        "EV9",
+        "EV10"
+      ],
+      "modality": []
+    },
+    "9": {
+      "tokens": [
+        "Bazaltowe",
+        "podłoże,",
+        "na",
+        "którym",
+        "miała",
+        "osiąść",
+        "szeroka",
+        "rufa",
+        "\"Niezwyciężonego\",",
+        "nie",
+        "zagrażało",
+        "już",
+        "stopieniem."
+      ],
+      "events": [
+        "EV11",
+        "EV12",
+        "EV13",
+        "EV14"
+      ],
+      "modality": []
+    },
+    "10": {
+      "tokens": [
+        "-",
+        "Stosy",
+        "zero."
+      ],
+      "events": [],
+      "modality": []
+    },
+    "11": {
+      "tokens": [
+        "Zimnym",
+        "ciągiem",
+        "do",
+        "lądowania."
+      ],
+      "events": [
+        "EV15"
+      ],
+      "modality": []
+    },
+    "12": {
+      "tokens": [
+        "Wszystkie",
+        "serca",
+        "uderzyły",
+        "żywiej,",
+        "oczy",
+        "pochyliły",
+        "się",
+        "nad",
+        "instrumentami,",
+        "rękojeści",
+        "spotniały",
+        "w",
+        "skurczonych",
+        "palcach."
+      ],
+      "events": [
+        "EV16",
+        "EV17",
+        "EV18"
+      ],
+      "modality": []
+    },
+    "13": {
+      "tokens": [
+        "Sakramentalne",
+        "słowa",
+        "oznaczały,",
+        "że",
+        "nie",
+        "będzie",
+        "już",
+        "odwrotu,",
+        "że",
+        "nogi",
+        "staną",
+        "na",
+        "prawdziwym",
+        "gruncie,",
+        "niechby",
+        "to",
+        "był",
+        "i",
+        "piasek",
+        "pustynnego",
+        "globu,",
+        "ale",
+        "będzie",
+        "tam",
+        "wschód",
+        "i",
+        "zachód",
+        "słońca,",
+        "horyzont",
+        "i",
+        "chmury,",
+        "i",
+        "wiatr."
+      ],
+      "events": [
+        "EV19",
+        "EV20",
+        "EV21"
+      ],
+      "modality": []
+    },
+    "14": {
+      "tokens": [
+        "Lądowanie",
+        "punktowe",
+        "w",
+        "nadirze."
+      ],
+      "events": [
+        "EV22"
+      ],
+      "modality": []
+    },
+    "15": {
+      "tokens": [
+        "Statek",
+        "pełen",
+        "był",
+        "przeciągłego",
+        "jęku",
+        "turbin,",
+        "tłoczących",
+        "materiał",
+        "pędny",
+        "w",
+        "dół."
+      ],
+      "events": [
+        "EV23"
+      ],
+      "modality": []
+    },
+    "16": {
+      "tokens": [
+        "Zielony,",
+        "stożkowato",
+        "rozchodzący",
+        "się",
+        "słup",
+        "ognia",
+        "połączył",
+        "go",
+        "z",
+        "dymiącą",
+        "skałą."
+      ],
+      "events": [
+        "EV24"
+      ],
+      "modality": []
+    },
+    "17": {
+      "tokens": [
+        "Ze",
+        "wszystkich",
+        "stron",
+        "podniosły",
+        "się",
+        "chmury",
+        "piasku,",
+        "oślepiły",
+        "peryskop",
+        "środkowych",
+        "pokładów,",
+        "tylko",
+        "w",
+        "sterowni",
+        "na",
+        "ekranach",
+        "radarów",
+        "niezmiennie",
+        "pojawiały",
+        "się",
+        "i",
+        "gasły",
+        "wzdłuż",
+        "promieni",
+        "wodzących",
+        "zarysy",
+        "krajobrazu,",
+        "tonące",
+        "w",
+        "tajfunowym",
+        "chaosie."
+      ],
+      "events": [
+        "EV25",
+        "EV26",
+        "EV27",
+        "EV28"
+      ],
+      "modality": []
+    },
+    "18": {
+      "tokens": [
+        "-",
+        "Stop",
+        "przy",
+        "styku."
+      ],
+      "events": [],
+      "modality": []
+    },
+    "19": {
+      "tokens": [
+        "Ogień",
+        "kotłował",
+        "się",
+        "buntowniczo",
+        "pod",
+        "rufą,",
+        "przytłaczany",
+        "milimetr",
+        "po",
+        "milimetrze",
+        "osuwającym",
+        "się",
+        "nań",
+        "cielskiem",
+        "rakiety,",
+        "zielone",
+        "piekło",
+        "strzelało",
+        "długimi",
+        "bryźnięciami",
+        "w",
+        "głąb",
+        "dygocących",
+        "piaskowych",
+        "chmur."
+      ],
+      "events": [
+        "EV29",
+        "EV30",
+        "EV31",
+        "EV32"
+      ],
+      "modality": []
+    },
+    "20": {
+      "tokens": [
+        "Rozziew",
+        "między",
+        "rufą",
+        "a",
+        "opalonym",
+        "bazaltem",
+        "skały",
+        "stał",
+        "się",
+        "wąską",
+        "szczeliną,",
+        "linią",
+        "zielonego",
+        "pałania."
+      ],
+      "events": [
+        "EV33",
+        "EV34",
+        "EV35"
+      ],
+      "modality": []
+    },
+    "21": {
+      "tokens": [
+        "Zero",
+        "i",
+        "zero."
+      ],
+      "events": [],
+      "modality": []
+    },
+    "22": {
+      "tokens": [
+        "Wszystkie",
+        "silniki",
+        "stop."
+      ],
+      "events": [],
+      "modality": []
+    },
+    "23": {
+      "tokens": [
+        "Dzwon."
+      ],
+      "events": [],
+      "modality": []
+    },
+    "24": {
+      "tokens": [
+        "Jedno,",
+        "jedyne",
+        "uderzenie,",
+        "jakby",
+        "olbrzymiego,",
+        "pękniętego",
+        "serca."
+      ],
+      "events": [],
+      "modality": [
+        {
+          "category": "uncertainty",
+          "marker": "jakby"
+        }
+      ]
+    },
+    "25": {
+      "tokens": [
+        "Rakieta",
+        "stała."
+      ],
+      "events": [],
+      "modality": []
+    },
+    "26": {
+      "tokens": [
+        "Główny",
+        "inżynier",
+        "stał",
+        "z",
+        "rękami",
+        "na",
+        "dwu",
+        "rękojeściach",
+        "awaryjnego",
+        "odrzutu:",
+        "skała",
+        "mogła",
+        "się",
+        "poddać."
+      ],
+      "events": [
+        "EV36",
+        "EV37",
+        "EV38"
+      ],
+      "modality": []
+    },
+    "27": {
+      "tokens": [
+        "Czekali."
+      ],
+      "events": [
+        "EV39"
+      ],
+      "modality": []
+    },
+    "28": {
+      "tokens": [
+        "Strzałki",
+        "sekundomierzy",
+        "poruszały",
+        "się",
+        "dalej",
+        "swoim",
+        "owadzim",
+        "ruchem."
+      ],
+      "events": [
+        "EV40"
+      ],
+      "modality": []
+    },
+    "29": {
+      "tokens": [
+        "Dowódca",
+        "patrzał",
+        "przez",
+        "chwilę",
+        "na",
+        "wskaźnik",
+        "pionu;",
+        "jego",
+        "srebrzyste",
+        "światełko",
+        "ani",
+        "trochę",
+        "nie",
+        "odchyliło",
+        "się",
+        "na",
+        "-bok",
+        "od",
+        "czerwonego",
+        "Zera."
+      ],
+      "events": [
+        "EV41",
+        "EV42"
+      ],
+      "modality": []
+    },
+    "30": {
+      "tokens": [
+        "Milczeli."
+      ],
+      "events": [
+        "EV43"
+      ],
+      "modality": []
+    },
+    "31": {
+      "tokens": [
+        "Rozgrzane",
+        "do",
+        "wiśniowego",
+        "żaru",
+        "dysze",
+        "zaczynały",
+        "się",
+        "kurczyć,",
+        "wydając",
+        "szereg",
+        "charakterystycznych",
+        "odgłosów,",
+        "podobnych",
+        "do",
+        "chrapliwego",
+        "postękiwania."
+      ],
+      "events": [
+        "EV44",
+        "EV45",
+        "EV46"
+      ],
+      "modality": []
+    },
+    "32": {
+      "tokens": [
+        "Czerwonawa",
+        "chmura,",
+        "wzbita",
+        "na",
+        "setki",
+        "metrów,",
+        "opadała."
+      ],
+      "events": [
+        "EV47"
+      ],
+      "modality": []
+    },
+    "33": {
+      "tokens": [
+        "Wyłonił",
+        "się",
+        "z",
+        "niej",
+        "tępy",
+        "wierzchołek",
+        "\"Niezwyciężonego\",",
+        "jego",
+        "boki,",
+        "osmalone",
+        "tarciem",
+        "atmosferycznym",
+        "i",
+        "podobne",
+        "przez",
+        "to",
+        "barwą",
+        "do",
+        "starej",
+        "skały,",
+        "chropawy,",
+        "podwójny",
+        "pancerz,",
+        "rudy",
+        "kurz",
+        "wciąż",
+        "jeszcze",
+        "kłębił",
+        "się",
+        "i",
+        "wirował",
+        "u",
+        "rufy,",
+        "ale",
+        "sam",
+        "statek",
+        "znieruchomiał",
+        "już",
+        "na",
+        "dobre,",
+        "jakby",
+        "stał",
+        "się",
+        "częścią",
+        "planety",
+        "i",
+        "teraz",
+        "krążył",
+        "razem",
+        "z",
+        "jej",
+        "powierzchnią",
+        "leniwym",
+        "ruchem,",
+        "trwającym",
+        "od",
+        "wieków,",
+        "pod",
+        "fioletowym",
+        "niebem,",
+        "w",
+        "którym",
+        "widniały",
+        "najsilniejsze",
+        "gwiazdy,",
+        "niknące",
+        "tylko",
+        "w",
+        "bezpośrednim",
+        "pobliżu",
+        "czerwonego",
+        "słońca."
+      ],
+      "events": [
+        "EV48",
+        "EV49",
+        "EV50",
+        "EV51",
+        "EV52",
+        "EV53",
+        "EV54",
+        "EV55"
+      ],
+      "modality": [
+        {
+          "category": "uncertainty",
+          "marker": "jakby"
+        }
+      ]
+    },
+    "34": {
+      "tokens": [
+        "Normalna",
+        "procedura?"
+      ],
+      "events": [],
+      "modality": []
+    },
+    "35": {
+      "tokens": [
+        "Astrogator",
+        "wyprostował",
+        "się",
+        "znad",
+        "książki",
+        "pokładowej,",
+        "gdzie,",
+        "w",
+        "połowie",
+        "karty,",
+        "wpisał",
+        "umowny",
+        "znak",
+        "lądowania,",
+        "godzinę",
+        "i",
+        "dodał",
+        "obok",
+        "w",
+        "rubryce",
+        "nazwę",
+        "planety:",
+        "\"Regis",
+        "III\"."
+      ],
+      "events": [
+        "EV56",
+        "EV57",
+        "EV58",
+        "EV59"
+      ],
+      "modality": []
+    },
+    "36": {
+      "tokens": [
+        "Nie,",
+        "Rohan."
+      ],
+      "events": [],
+      "modality": []
+    },
+    "37": {
+      "tokens": [
+        "Zaczniemy",
+        "od",
+        "trzeciego",
+        "stopnia."
+      ],
+      "events": [
+        "EV60"
+      ],
+      "modality": []
+    },
+    "38": {
+      "tokens": [
+        "Rohan",
+        "starał",
+        "się",
+        "nie",
+        "okazać",
+        "zdziwienia."
+      ],
+      "events": [
+        "EV61",
+        "EV62"
+      ],
+      "modality": []
+    },
+    "39": {
+      "tokens": [
+        "{chunk_0."
+      ],
+      "events": [],
+      "modality": []
+    },
+    "40": {
+      "tokens": [
+        "5}"
+      ],
+      "events": [],
+      "modality": []
+    }
+  }
+}

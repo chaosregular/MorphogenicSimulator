@@ -1,0 +1,2292 @@
+{
+  "EV0": [
+    {
+      "id": "EV0",
+      "sentence": 1,
+      "token_idx": 12,
+      "token": "gna\u0142y",
+      "lemma": "gna\u0107",
+      "features": "pl:m2.m3.f.n:imperf",
+      "agent": {
+        "token": "strony",
+        "sentence": 1,
+        "token_idx": 11,
+        "lemma": "strona"
+      },
+      "object": {
+        "token": "fale",
+        "sentence": 1,
+        "token_idx": 14,
+        "lemma": "fala"
+      },
+      "adjuncts": [
+        {
+          "token": "wszystkie",
+          "pos": "adj",
+          "token_idx": 10
+        },
+        {
+          "token": "pustynnego",
+          "pos": "adj",
+          "token_idx": 15
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV1": [
+    {
+      "id": "EV1",
+      "sentence": 2,
+      "token_idx": 26,
+      "token": "dymi\u0142o",
+      "lemma": "dymi\u0107",
+      "features": "sg:n:imperf",
+      "agent": {
+        "token": "wylot\u00f3w,",
+        "sentence": 2,
+        "token_idx": 24,
+        "lemma": "wylot"
+      },
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV2": [
+    {
+      "id": "EV2",
+      "sentence": 3,
+      "token_idx": 29,
+      "token": "znik\u0142,",
+      "lemma": "znikn\u0105\u0107",
+      "features": "sg:m1.m2.m3:perf",
+      "agent": {
+        "token": "Piasek",
+        "sentence": 3,
+        "token_idx": 28,
+        "lemma": "piasek"
+      },
+      "object": {
+        "token": "lustro",
+        "sentence": 3,
+        "token_idx": 33,
+        "lemma": "lustro"
+      },
+      "adjuncts": [
+        {
+          "token": "w",
+          "pos": "prep",
+          "token_idx": 32
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV3": [
+    {
+      "id": "EV3",
+      "sentence": 3,
+      "token_idx": 30,
+      "token": "przeistoczy\u0142",
+      "lemma": "przeistoczy\u0107",
+      "features": "sg:m1.m2.m3:perf",
+      "agent": {
+        "token": "Piasek",
+        "sentence": 3,
+        "token_idx": 28,
+        "lemma": "piasek"
+      },
+      "object": {
+        "token": "lustro",
+        "sentence": 3,
+        "token_idx": 33,
+        "lemma": "lustro"
+      },
+      "adjuncts": [
+        {
+          "token": "w",
+          "pos": "prep",
+          "token_idx": 32
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV4": [
+    {
+      "id": "EV4",
+      "sentence": 3,
+      "token_idx": 46,
+      "token": "wyparowa\u0142.",
+      "lemma": "wyparowa\u0107",
+      "features": "sg:m1.m2.m3:perf",
+      "agent": {
+        "token": "eksplozji,",
+        "sentence": 3,
+        "token_idx": 44,
+        "lemma": "eksplozja"
+      },
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV5": [
+    {
+      "id": "EV5",
+      "sentence": 4,
+      "token_idx": 53,
+      "token": "zacz\u0105\u0142",
+      "lemma": "zacz\u0105\u0107",
+      "features": "sg:m1.m2.m3:perf",
+      "agent": {
+        "token": "planety",
+        "sentence": 4,
+        "token_idx": 52,
+        "lemma": "planet"
+      },
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV6": [
+    {
+      "id": "EV6",
+      "sentence": 4,
+      "token_idx": 54,
+      "token": "mi\u0119kn\u0105\u0107.",
+      "lemma": "mi\u0119kn\u0105\u0107",
+      "features": "imperf",
+      "agent": {
+        "token": "planety",
+        "sentence": 4,
+        "token_idx": 52,
+        "lemma": "planet"
+      },
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV7": [
+    {
+      "id": "EV7",
+      "sentence": 7,
+      "token_idx": 65,
+      "token": "zgas\u0142.",
+      "lemma": "zgasn\u0105\u0107",
+      "features": "sg:m1.m2.m3:perf",
+      "agent": {
+        "token": "ognia",
+        "sentence": 7,
+        "token_idx": 63,
+        "lemma": "ogie\u0144"
+      },
+      "object": null,
+      "adjuncts": [
+        {
+          "token": "atomowego",
+          "pos": "adj",
+          "token_idx": 64
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV8": [
+    {
+      "id": "EV8",
+      "sentence": 8,
+      "token_idx": 67,
+      "token": "dysz",
+      "lemma": "dysze\u0107",
+      "features": "sg:sec:imperf",
+      "agent": null,
+      "object": {
+        "token": "sko\u015bne",
+        "sentence": 8,
+        "token_idx": 69,
+        "lemma": "sko\u015bny"
+      },
+      "adjuncts": [
+        {
+          "token": "Z",
+          "pos": "prep",
+          "token_idx": 66
+        },
+        {
+          "token": "sko\u015bne",
+          "pos": "adj",
+          "token_idx": 69
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV9": [
+    {
+      "id": "EV9",
+      "sentence": 8,
+      "token_idx": 68,
+      "token": "trysn\u0119\u0142y",
+      "lemma": "trysn\u0105\u0107",
+      "features": "pl:m2.m3.f.n:perf",
+      "agent": null,
+      "object": {
+        "token": "sko\u015bne",
+        "sentence": 8,
+        "token_idx": 69,
+        "lemma": "sko\u015bny"
+      },
+      "adjuncts": [
+        {
+          "token": "Z",
+          "pos": "prep",
+          "token_idx": 66
+        },
+        {
+          "token": "sko\u015bne",
+          "pos": "adj",
+          "token_idx": 69
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV10": [
+    {
+      "id": "EV10",
+      "sentence": 8,
+      "token_idx": 84,
+      "token": "zala\u0142a",
+      "lemma": "zala\u0107",
+      "features": "sg:f:perf",
+      "agent": {
+        "token": "chmury",
+        "sentence": 8,
+        "token_idx": 81,
+        "lemma": "chmura"
+      },
+      "object": {
+        "token": "upiorna",
+        "sentence": 8,
+        "token_idx": 85,
+        "lemma": "upiorny"
+      },
+      "adjuncts": [
+        {
+          "token": "nad",
+          "pos": "prep",
+          "token_idx": 82
+        },
+        {
+          "token": "upiorna",
+          "pos": "adj",
+          "token_idx": 85
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV11": [
+    {
+      "id": "EV11",
+      "sentence": 9,
+      "token_idx": 91,
+      "token": "mia\u0142a",
+      "lemma": "mie\u0107",
+      "features": "sg:f:imperf",
+      "agent": {
+        "token": "pod\u0142o\u017ce,",
+        "sentence": 9,
+        "token_idx": 88,
+        "lemma": "pod\u0142o\u017ce"
+      },
+      "object": {
+        "token": "szeroka",
+        "sentence": 9,
+        "token_idx": 93,
+        "lemma": "szeroki"
+      },
+      "adjuncts": [
+        {
+          "token": "kt\u00f3rym",
+          "pos": "adj",
+          "token_idx": 90
+        },
+        {
+          "token": "szeroka",
+          "pos": "adj",
+          "token_idx": 93
+        }
+      ],
+      "embedded_in": {
+        "entity_token": "pod\u0142o\u017ce,",
+        "entity_token_idx": 88,
+        "sentence": 9
+      },
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV12": [
+    {
+      "id": "EV12",
+      "sentence": 9,
+      "token_idx": 92,
+      "token": "osi\u0105\u015b\u0107",
+      "lemma": "osi\u0105\u015b\u0107",
+      "features": "perf",
+      "agent": {
+        "token": "pod\u0142o\u017ce,",
+        "sentence": 9,
+        "token_idx": 88,
+        "lemma": "pod\u0142o\u017ce"
+      },
+      "object": {
+        "token": "szeroka",
+        "sentence": 9,
+        "token_idx": 93,
+        "lemma": "szeroki"
+      },
+      "adjuncts": [
+        {
+          "token": "kt\u00f3rym",
+          "pos": "adj",
+          "token_idx": 90
+        },
+        {
+          "token": "szeroka",
+          "pos": "adj",
+          "token_idx": 93
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV13": [
+    {
+      "id": "EV13",
+      "sentence": 9,
+      "token_idx": 97,
+      "token": "zagra\u017ca\u0142o",
+      "lemma": "zagra\u017ca\u0107",
+      "features": "sg:n:imperf",
+      "agent": {
+        "token": "rufa",
+        "sentence": 9,
+        "token_idx": 94,
+        "lemma": "rufa"
+      },
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV14": [
+    {
+      "id": "EV14",
+      "sentence": 9,
+      "token_idx": 99,
+      "token": "stopieniem.",
+      "lemma": "stopi\u0107",
+      "features": "sg:inst:n:perf:aff",
+      "agent": {
+        "token": "rufa",
+        "sentence": 9,
+        "token_idx": 94,
+        "lemma": "rufa"
+      },
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV15": [
+    {
+      "id": "EV15",
+      "sentence": 11,
+      "token_idx": 106,
+      "token": "l\u0105dowania.",
+      "lemma": "l\u0105dowa\u0107",
+      "features": "pl:nom.acc:n:imperf:aff",
+      "agent": {
+        "token": "do",
+        "sentence": 11,
+        "token_idx": 105,
+        "lemma": "do:S"
+      },
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV16": [
+    {
+      "id": "EV16",
+      "sentence": 12,
+      "token_idx": 109,
+      "token": "uderzy\u0142y",
+      "lemma": "uderzy\u0107",
+      "features": "pl:m2.m3.f.n:perf",
+      "agent": {
+        "token": "serca",
+        "sentence": 12,
+        "token_idx": 108,
+        "lemma": "serce"
+      },
+      "object": {
+        "token": "instrumentami,",
+        "sentence": 12,
+        "token_idx": 115,
+        "lemma": "instrument"
+      },
+      "adjuncts": [
+        {
+          "token": "Wszystkie",
+          "pos": "adj",
+          "token_idx": 107
+        },
+        {
+          "token": "\u017cywiej,",
+          "pos": "adv",
+          "token_idx": 110
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV17": [
+    {
+      "id": "EV17",
+      "sentence": 12,
+      "token_idx": 111,
+      "token": "oczy",
+      "lemma": "oczy\u0107",
+      "features": "sg:ter:imperf",
+      "agent": {
+        "token": "serca",
+        "sentence": 12,
+        "token_idx": 108,
+        "lemma": "serce"
+      },
+      "object": {
+        "token": "instrumentami,",
+        "sentence": 12,
+        "token_idx": 115,
+        "lemma": "instrument"
+      },
+      "adjuncts": [
+        {
+          "token": "\u017cywiej,",
+          "pos": "adv",
+          "token_idx": 110
+        },
+        {
+          "token": "nad",
+          "pos": "prep",
+          "token_idx": 114
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV18": [
+    {
+      "id": "EV18",
+      "sentence": 12,
+      "token_idx": 112,
+      "token": "pochyli\u0142y",
+      "lemma": "pochyli\u0107",
+      "features": "pl:m2.m3.f.n:perf",
+      "agent": {
+        "token": "serca",
+        "sentence": 12,
+        "token_idx": 108,
+        "lemma": "serce"
+      },
+      "object": {
+        "token": "instrumentami,",
+        "sentence": 12,
+        "token_idx": 115,
+        "lemma": "instrument"
+      },
+      "adjuncts": [
+        {
+          "token": "\u017cywiej,",
+          "pos": "adv",
+          "token_idx": 110
+        },
+        {
+          "token": "nad",
+          "pos": "prep",
+          "token_idx": 114
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV19": [
+    {
+      "id": "EV19",
+      "sentence": 13,
+      "token_idx": 123,
+      "token": "oznacza\u0142y,",
+      "lemma": "oznacza\u0107",
+      "features": "pl:m2.m3.f.n:imperf",
+      "agent": {
+        "token": "s\u0142owa",
+        "sentence": 13,
+        "token_idx": 122,
+        "lemma": "s\u0142owo"
+      },
+      "object": {
+        "token": "odwrotu,",
+        "sentence": 13,
+        "token_idx": 128,
+        "lemma": "odwr\u00f3t"
+      },
+      "adjuncts": [
+        {
+          "token": "Sakramentalne",
+          "pos": "adj",
+          "token_idx": 121
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV20": [
+    {
+      "id": "EV20",
+      "sentence": 13,
+      "token_idx": 131,
+      "token": "stan\u0105",
+      "lemma": "stan\u0105\u0107",
+      "features": "pl:ter:perf",
+      "agent": {
+        "token": "nogi",
+        "sentence": 13,
+        "token_idx": 130,
+        "lemma": "noga"
+      },
+      "object": {
+        "token": "prawdziwym",
+        "sentence": 13,
+        "token_idx": 133,
+        "lemma": "prawdziwy"
+      },
+      "adjuncts": [
+        {
+          "token": "prawdziwym",
+          "pos": "adj",
+          "token_idx": 133
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV21": [
+    {
+      "id": "EV21",
+      "sentence": 13,
+      "token_idx": 137,
+      "token": "by\u0142",
+      "lemma": "by\u0107",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": {
+        "token": "gruncie,",
+        "sentence": 13,
+        "token_idx": 134,
+        "lemma": "grunt"
+      },
+      "object": {
+        "token": "piasek",
+        "sentence": 13,
+        "token_idx": 139,
+        "lemma": "piasek"
+      },
+      "adjuncts": [
+        {
+          "token": "pustynnego",
+          "pos": "adj",
+          "token_idx": 140
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV22": [
+    {
+      "id": "EV22",
+      "sentence": 14,
+      "token_idx": 154,
+      "token": "L\u0105dowanie",
+      "lemma": "l\u0105dowa\u0107",
+      "features": "sg:nom.acc:n:imperf:aff",
+      "agent": null,
+      "object": {
+        "token": "punktowe",
+        "sentence": 14,
+        "token_idx": 155,
+        "lemma": "punktowy:A"
+      },
+      "adjuncts": [
+        {
+          "token": "punktowe",
+          "pos": "adj",
+          "token_idx": 155
+        },
+        {
+          "token": "w",
+          "pos": "prep",
+          "token_idx": 156
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV23": [
+    {
+      "id": "EV23",
+      "sentence": 15,
+      "token_idx": 160,
+      "token": "by\u0142",
+      "lemma": "by\u0107",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": {
+        "token": "Statek",
+        "sentence": 15,
+        "token_idx": 158,
+        "lemma": "statek"
+      },
+      "object": {
+        "token": "przeci\u0105g\u0142ego",
+        "sentence": 15,
+        "token_idx": 161,
+        "lemma": "przeci\u0105g\u0142y"
+      },
+      "adjuncts": [
+        {
+          "token": "pe\u0142en",
+          "pos": "adj",
+          "token_idx": 159
+        },
+        {
+          "token": "przeci\u0105g\u0142ego",
+          "pos": "adj",
+          "token_idx": 161
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV24": [
+    {
+      "id": "EV24",
+      "sentence": 16,
+      "token_idx": 175,
+      "token": "po\u0142\u0105czy\u0142",
+      "lemma": "po\u0142\u0105czy\u0107",
+      "features": "sg:m1.m2.m3:perf",
+      "agent": {
+        "token": "ognia",
+        "sentence": 16,
+        "token_idx": 174,
+        "lemma": "ogie\u0144"
+      },
+      "object": {
+        "token": "ska\u0142\u0105.",
+        "sentence": 16,
+        "token_idx": 179,
+        "lemma": "ska\u0142a"
+      },
+      "adjuncts": [
+        {
+          "token": "z",
+          "pos": "prep",
+          "token_idx": 177
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV25": [
+    {
+      "id": "EV25",
+      "sentence": 17,
+      "token_idx": 187,
+      "token": "o\u015blepi\u0142y",
+      "lemma": "o\u015blepi\u0107",
+      "features": "pl:m2.m3.f.n:perf",
+      "agent": {
+        "token": "piasku,",
+        "sentence": 17,
+        "token_idx": 186,
+        "lemma": "piasek"
+      },
+      "object": {
+        "token": "peryskop",
+        "sentence": 17,
+        "token_idx": 188,
+        "lemma": "peryskop"
+      },
+      "adjuncts": [
+        {
+          "token": "\u015brodkowych",
+          "pos": "adj",
+          "token_idx": 189
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV26": [
+    {
+      "id": "EV26",
+      "sentence": 17,
+      "token_idx": 198,
+      "token": "pojawia\u0142y",
+      "lemma": "pojawia\u0107",
+      "features": "pl:m2.m3.f.n:imperf",
+      "agent": {
+        "token": "radar\u00f3w",
+        "sentence": 17,
+        "token_idx": 196,
+        "lemma": "radar"
+      },
+      "object": {
+        "token": "zarysy",
+        "sentence": 17,
+        "token_idx": 205,
+        "lemma": "zarys"
+      },
+      "adjuncts": [
+        {
+          "token": "niezmiennie",
+          "pos": "adv",
+          "token_idx": 197
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV27": [
+    {
+      "id": "EV27",
+      "sentence": 17,
+      "token_idx": 201,
+      "token": "gas\u0142y",
+      "lemma": "gasn\u0105\u0107",
+      "features": "pl:m2.m3.f.n:imperf",
+      "agent": {
+        "token": "radar\u00f3w",
+        "sentence": 17,
+        "token_idx": 196,
+        "lemma": "radar"
+      },
+      "object": {
+        "token": "zarysy",
+        "sentence": 17,
+        "token_idx": 205,
+        "lemma": "zarys"
+      },
+      "adjuncts": [
+        {
+          "token": "wzd\u0142u\u017c",
+          "pos": "adv",
+          "token_idx": 202
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV28": [
+    {
+      "id": "EV28",
+      "sentence": 17,
+      "token_idx": 203,
+      "token": "promieni",
+      "lemma": "promieni\u0107",
+      "features": "sg:ter:imperf",
+      "agent": {
+        "token": "radar\u00f3w",
+        "sentence": 17,
+        "token_idx": 196,
+        "lemma": "radar"
+      },
+      "object": {
+        "token": "zarysy",
+        "sentence": 17,
+        "token_idx": 205,
+        "lemma": "zarys"
+      },
+      "adjuncts": [
+        {
+          "token": "wzd\u0142u\u017c",
+          "pos": "adv",
+          "token_idx": 202
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV29": [
+    {
+      "id": "EV29",
+      "sentence": 19,
+      "token_idx": 216,
+      "token": "kot\u0142owa\u0142",
+      "lemma": "kot\u0142owa\u0107",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": {
+        "token": "Ogie\u0144",
+        "sentence": 19,
+        "token_idx": 215,
+        "lemma": "ogie\u0144"
+      },
+      "object": {
+        "token": "ruf\u0105,",
+        "sentence": 19,
+        "token_idx": 220,
+        "lemma": "rufa"
+      },
+      "adjuncts": [
+        {
+          "token": "buntowniczo",
+          "pos": "adv",
+          "token_idx": 218
+        },
+        {
+          "token": "pod",
+          "pos": "prep",
+          "token_idx": 219
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV30": [
+    {
+      "id": "EV30",
+      "sentence": 19,
+      "token_idx": 231,
+      "token": "piek\u0142o",
+      "lemma": "piec:V",
+      "features": "sg:n:imperf",
+      "agent": {
+        "token": "zielone",
+        "sentence": 19,
+        "token_idx": 230,
+        "lemma": "zielony:Sm1"
+      },
+      "object": {
+        "token": "d\u0142ugimi",
+        "sentence": 19,
+        "token_idx": 233,
+        "lemma": "d\u0142ugi"
+      },
+      "adjuncts": [
+        {
+          "token": "d\u0142ugimi",
+          "pos": "adj",
+          "token_idx": 233
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV31": [
+    {
+      "id": "EV31",
+      "sentence": 19,
+      "token_idx": 232,
+      "token": "strzela\u0142o",
+      "lemma": "strzela\u0107",
+      "features": "sg:n:imperf",
+      "agent": {
+        "token": "zielone",
+        "sentence": 19,
+        "token_idx": 230,
+        "lemma": "zielony:Sm1"
+      },
+      "object": {
+        "token": "d\u0142ugimi",
+        "sentence": 19,
+        "token_idx": 233,
+        "lemma": "d\u0142ugi"
+      },
+      "adjuncts": [
+        {
+          "token": "d\u0142ugimi",
+          "pos": "adj",
+          "token_idx": 233
+        },
+        {
+          "token": "w",
+          "pos": "prep",
+          "token_idx": 235
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV32": [
+    {
+      "id": "EV32",
+      "sentence": 19,
+      "token_idx": 234,
+      "token": "bry\u017ani\u0119ciami",
+      "lemma": "bryzn\u0105\u0107",
+      "features": "pl:inst:n:perf:aff",
+      "agent": {
+        "token": "zielone",
+        "sentence": 19,
+        "token_idx": 230,
+        "lemma": "zielony:Sm1"
+      },
+      "object": {
+        "token": "g\u0142\u0105b",
+        "sentence": 19,
+        "token_idx": 236,
+        "lemma": "g\u0142\u0105b:Sf"
+      },
+      "adjuncts": [
+        {
+          "token": "d\u0142ugimi",
+          "pos": "adj",
+          "token_idx": 233
+        },
+        {
+          "token": "w",
+          "pos": "prep",
+          "token_idx": 235
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV33": [
+    {
+      "id": "EV33",
+      "sentence": 20,
+      "token_idx": 240,
+      "token": "Rozziew",
+      "lemma": "rozziewi\u0107",
+      "features": "sg:sec:perf",
+      "agent": null,
+      "object": {
+        "token": "ruf\u0105",
+        "sentence": 20,
+        "token_idx": 242,
+        "lemma": "rufa"
+      },
+      "adjuncts": [
+        {
+          "token": "mi\u0119dzy",
+          "pos": "prep",
+          "token_idx": 241
+        },
+        {
+          "token": "a",
+          "pos": "conj",
+          "token_idx": 243
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV34": [
+    {
+      "id": "EV34",
+      "sentence": 20,
+      "token_idx": 247,
+      "token": "sta\u0142",
+      "lemma": "sta\u0107:Vi",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": {
+        "token": "ska\u0142y",
+        "sentence": 20,
+        "token_idx": 246,
+        "lemma": "ska\u0142a"
+      },
+      "object": {
+        "token": "w\u0105sk\u0105",
+        "sentence": 20,
+        "token_idx": 249,
+        "lemma": "w\u0105ski"
+      },
+      "adjuncts": [
+        {
+          "token": "opalonym",
+          "pos": "adj",
+          "token_idx": 244
+        },
+        {
+          "token": "w\u0105sk\u0105",
+          "pos": "adj",
+          "token_idx": 249
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV35": [
+    {
+      "id": "EV35",
+      "sentence": 20,
+      "token_idx": 253,
+      "token": "pa\u0142ania.",
+      "lemma": "pa\u0142a\u0107",
+      "features": "pl:nom.acc:n:imperf:aff",
+      "agent": {
+        "token": "zielonego",
+        "sentence": 20,
+        "token_idx": 252,
+        "lemma": "zielone"
+      },
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV36": [
+    {
+      "id": "EV36",
+      "sentence": 26,
+      "token_idx": 272,
+      "token": "sta\u0142",
+      "lemma": "sta\u0107:Vi",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": {
+        "token": "in\u017cynier",
+        "sentence": 26,
+        "token_idx": 271,
+        "lemma": "in\u017cynier"
+      },
+      "object": {
+        "token": "r\u0119kami",
+        "sentence": 26,
+        "token_idx": 274,
+        "lemma": "r\u0119ka"
+      },
+      "adjuncts": [
+        {
+          "token": "G\u0142\u00f3wny",
+          "pos": "adj",
+          "token_idx": 270
+        },
+        {
+          "token": "z",
+          "pos": "prep",
+          "token_idx": 273
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV37": [
+    {
+      "id": "EV37",
+      "sentence": 26,
+      "token_idx": 281,
+      "token": "mog\u0142a",
+      "lemma": "m\u00f3c",
+      "features": "sg:f:imperf",
+      "agent": {
+        "token": "ska\u0142a",
+        "sentence": 26,
+        "token_idx": 280,
+        "lemma": "ska\u0142a"
+      },
+      "object": null,
+      "adjuncts": [
+        {
+          "token": "awaryjnego",
+          "pos": "adj",
+          "token_idx": 278
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV38": [
+    {
+      "id": "EV38",
+      "sentence": 26,
+      "token_idx": 283,
+      "token": "podda\u0107.",
+      "lemma": "podda\u0107",
+      "features": "perf",
+      "agent": {
+        "token": "ska\u0142a",
+        "sentence": 26,
+        "token_idx": 280,
+        "lemma": "ska\u0142a"
+      },
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV39": [
+    {
+      "id": "EV39",
+      "sentence": 27,
+      "token_idx": 284,
+      "token": "Czekali.",
+      "lemma": "czeka\u0107",
+      "features": "pl:m1:imperf",
+      "agent": null,
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV40": [
+    {
+      "id": "EV40",
+      "sentence": 28,
+      "token_idx": 287,
+      "token": "porusza\u0142y",
+      "lemma": "porusza\u0107:Vi",
+      "features": "pl:m2.m3.f.n:imperf",
+      "agent": {
+        "token": "sekundomierzy",
+        "sentence": 28,
+        "token_idx": 286,
+        "lemma": "sekundomierz"
+      },
+      "object": {
+        "token": "swoim",
+        "sentence": 28,
+        "token_idx": 290,
+        "lemma": "sw\u00f3j"
+      },
+      "adjuncts": [
+        {
+          "token": "dalej",
+          "pos": "adv",
+          "token_idx": 289
+        },
+        {
+          "token": "swoim",
+          "pos": "adj",
+          "token_idx": 290
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV41": [
+    {
+      "id": "EV41",
+      "sentence": 29,
+      "token_idx": 294,
+      "token": "patrza\u0142",
+      "lemma": "patrze\u0107",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": {
+        "token": "Dow\u00f3dca",
+        "sentence": 29,
+        "token_idx": 293,
+        "lemma": "dow\u00f3dca"
+      },
+      "object": {
+        "token": "chwil\u0119",
+        "sentence": 29,
+        "token_idx": 296,
+        "lemma": "chwila"
+      },
+      "adjuncts": [
+        {
+          "token": "przez",
+          "pos": "prep",
+          "token_idx": 295
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV42": [
+    {
+      "id": "EV42",
+      "sentence": 29,
+      "token_idx": 306,
+      "token": "odchyli\u0142o",
+      "lemma": "odchyli\u0107",
+      "features": "sg:n:perf",
+      "agent": {
+        "token": "\u015bwiate\u0142ko",
+        "sentence": 29,
+        "token_idx": 302,
+        "lemma": "\u015bwiate\u0142ko"
+      },
+      "object": {
+        "token": "-bok",
+        "sentence": 29,
+        "token_idx": 309,
+        "lemma": "bok"
+      },
+      "adjuncts": [
+        {
+          "token": "ani",
+          "pos": "conj",
+          "token_idx": 303
+        },
+        {
+          "token": "troch\u0119",
+          "pos": "adv",
+          "token_idx": 304
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV43": [
+    {
+      "id": "EV43",
+      "sentence": 30,
+      "token_idx": 313,
+      "token": "Milczeli.",
+      "lemma": "milcze\u0107",
+      "features": "pl:m1:imperf",
+      "agent": null,
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV44": [
+    {
+      "id": "EV44",
+      "sentence": 31,
+      "token_idx": 319,
+      "token": "zaczyna\u0142y",
+      "lemma": "zaczyna\u0107",
+      "features": "pl:m2.m3.f.n:imperf",
+      "agent": {
+        "token": "dysze",
+        "sentence": 31,
+        "token_idx": 318,
+        "lemma": "dysza"
+      },
+      "object": {
+        "token": "charakterystycznych",
+        "sentence": 31,
+        "token_idx": 324,
+        "lemma": "charakterystyczny"
+      },
+      "adjuncts": [
+        {
+          "token": "wi\u015bniowego",
+          "pos": "adj",
+          "token_idx": 316
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV45": [
+    {
+      "id": "EV45",
+      "sentence": 31,
+      "token_idx": 321,
+      "token": "kurczy\u0107,",
+      "lemma": "kurczy\u0107",
+      "features": "imperf",
+      "agent": {
+        "token": "dysze",
+        "sentence": 31,
+        "token_idx": 318,
+        "lemma": "dysza"
+      },
+      "object": {
+        "token": "charakterystycznych",
+        "sentence": 31,
+        "token_idx": 324,
+        "lemma": "charakterystyczny"
+      },
+      "adjuncts": [
+        {
+          "token": "charakterystycznych",
+          "pos": "adj",
+          "token_idx": 324
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV46": [
+    {
+      "id": "EV46",
+      "sentence": 31,
+      "token_idx": 329,
+      "token": "post\u0119kiwania.",
+      "lemma": "post\u0119kiwa\u0107",
+      "features": "pl:nom.acc:n:imperf:aff",
+      "agent": {
+        "token": "do",
+        "sentence": 31,
+        "token_idx": 327,
+        "lemma": "do:S"
+      },
+      "object": null,
+      "adjuncts": [
+        {
+          "token": "podobnych",
+          "pos": "adj",
+          "token_idx": 326
+        },
+        {
+          "token": "chrapliwego",
+          "pos": "adj",
+          "token_idx": 328
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV47": [
+    {
+      "id": "EV47",
+      "sentence": 32,
+      "token_idx": 336,
+      "token": "opada\u0142a.",
+      "lemma": "opada\u0107",
+      "features": "sg:f:imperf",
+      "agent": {
+        "token": "metr\u00f3w,",
+        "sentence": 32,
+        "token_idx": 335,
+        "lemma": "metr:Sm1"
+      },
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV48": [
+    {
+      "id": "EV48",
+      "sentence": 33,
+      "token_idx": 337,
+      "token": "Wy\u0142oni\u0142",
+      "lemma": "wy\u0142oni\u0107",
+      "features": "sg:m1.m2.m3:perf",
+      "agent": null,
+      "object": {
+        "token": "t\u0119py",
+        "sentence": 33,
+        "token_idx": 341,
+        "lemma": "t\u0119py"
+      },
+      "adjuncts": [
+        {
+          "token": "z",
+          "pos": "prep",
+          "token_idx": 339
+        }
+      ],
+      "embedded_in": null,
+      "modality": [
+        {
+          "category": "uncertainty",
+          "marker": "jakby"
+        }
+      ],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV49": [
+    {
+      "id": "EV49",
+      "sentence": 33,
+      "token_idx": 347,
+      "token": "tarciem",
+      "lemma": "trze\u0107",
+      "features": "sg:inst:n:imperf:aff",
+      "agent": {
+        "token": "boki,",
+        "sentence": 33,
+        "token_idx": 345,
+        "lemma": "bok"
+      },
+      "object": {
+        "token": "atmosferycznym",
+        "sentence": 33,
+        "token_idx": 348,
+        "lemma": "atmosferyczny"
+      },
+      "adjuncts": [
+        {
+          "token": "atmosferycznym",
+          "pos": "adj",
+          "token_idx": 348
+        },
+        {
+          "token": "podobne",
+          "pos": "adj",
+          "token_idx": 350
+        }
+      ],
+      "embedded_in": null,
+      "modality": [
+        {
+          "category": "uncertainty",
+          "marker": "jakby"
+        }
+      ],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV50": [
+    {
+      "id": "EV50",
+      "sentence": 33,
+      "token_idx": 364,
+      "token": "k\u0142\u0119bi\u0142",
+      "lemma": "k\u0142\u0119bi\u0107",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": {
+        "token": "kurz",
+        "sentence": 33,
+        "token_idx": 361,
+        "lemma": "kurz"
+      },
+      "object": {
+        "token": "rufy,",
+        "sentence": 33,
+        "token_idx": 369,
+        "lemma": "ruf"
+      },
+      "adjuncts": [
+        {
+          "token": "wci\u0105\u017c",
+          "pos": "adv",
+          "token_idx": 362
+        }
+      ],
+      "embedded_in": null,
+      "modality": [
+        {
+          "category": "uncertainty",
+          "marker": "jakby"
+        }
+      ],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV51": [
+    {
+      "id": "EV51",
+      "sentence": 33,
+      "token_idx": 367,
+      "token": "wirowa\u0142",
+      "lemma": "wirowa\u0107",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": {
+        "token": "kurz",
+        "sentence": 33,
+        "token_idx": 361,
+        "lemma": "kurz"
+      },
+      "object": {
+        "token": "rufy,",
+        "sentence": 33,
+        "token_idx": 369,
+        "lemma": "ruf"
+      },
+      "adjuncts": [
+        {
+          "token": "u",
+          "pos": "prep",
+          "token_idx": 368
+        }
+      ],
+      "embedded_in": null,
+      "modality": [
+        {
+          "category": "uncertainty",
+          "marker": "jakby"
+        }
+      ],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV52": [
+    {
+      "id": "EV52",
+      "sentence": 33,
+      "token_idx": 373,
+      "token": "znieruchomia\u0142",
+      "lemma": "znieruchomia\u0107",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": {
+        "token": "statek",
+        "sentence": 33,
+        "token_idx": 372,
+        "lemma": "statek"
+      },
+      "object": {
+        "token": "dobre,",
+        "sentence": 33,
+        "token_idx": 376,
+        "lemma": "dobre"
+      },
+      "adjuncts": [
+        {
+          "token": "sam",
+          "pos": "adv",
+          "token_idx": 371
+        }
+      ],
+      "embedded_in": null,
+      "modality": [
+        {
+          "category": "uncertainty",
+          "marker": "jakby"
+        }
+      ],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV53": [
+    {
+      "id": "EV53",
+      "sentence": 33,
+      "token_idx": 378,
+      "token": "sta\u0142",
+      "lemma": "sta\u0107:Vi",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": {
+        "token": "dobre,",
+        "sentence": 33,
+        "token_idx": 376,
+        "lemma": "dobre"
+      },
+      "object": {
+        "token": "cz\u0119\u015bci\u0105",
+        "sentence": 33,
+        "token_idx": 380,
+        "lemma": "cz\u0119\u015b\u0107"
+      },
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": [
+        {
+          "category": "uncertainty",
+          "marker": "jakby"
+        }
+      ],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV54": [
+    {
+      "id": "EV54",
+      "sentence": 33,
+      "token_idx": 384,
+      "token": "kr\u0105\u017cy\u0142",
+      "lemma": "kr\u0105\u017cy\u0107",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": {
+        "token": "planety",
+        "sentence": 33,
+        "token_idx": 381,
+        "lemma": "planet"
+      },
+      "object": {
+        "token": "razem",
+        "sentence": 33,
+        "token_idx": 385,
+        "lemma": "raz:Sm3~a~u"
+      },
+      "adjuncts": [
+        {
+          "token": "teraz",
+          "pos": "adv",
+          "token_idx": 383
+        },
+        {
+          "token": "z",
+          "pos": "prep",
+          "token_idx": 386
+        }
+      ],
+      "embedded_in": null,
+      "modality": [
+        {
+          "category": "uncertainty",
+          "marker": "jakby"
+        }
+      ],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV55": [
+    {
+      "id": "EV55",
+      "sentence": 33,
+      "token_idx": 399,
+      "token": "widnia\u0142y",
+      "lemma": "widnie\u0107",
+      "features": "pl:m2.m3.f.n:imperf",
+      "agent": {
+        "token": "niebem,",
+        "sentence": 33,
+        "token_idx": 396,
+        "lemma": "niebo"
+      },
+      "object": {
+        "token": "najsilniejsze",
+        "sentence": 33,
+        "token_idx": 400,
+        "lemma": "silny"
+      },
+      "adjuncts": [
+        {
+          "token": "w",
+          "pos": "prep",
+          "token_idx": 397
+        },
+        {
+          "token": "kt\u00f3rym",
+          "pos": "adj",
+          "token_idx": 398
+        },
+        {
+          "token": "najsilniejsze",
+          "pos": "adj",
+          "token_idx": 400
+        }
+      ],
+      "embedded_in": {
+        "entity_token": "niebem,",
+        "entity_token_idx": 396,
+        "sentence": 33
+      },
+      "modality": [
+        {
+          "category": "uncertainty",
+          "marker": "jakby"
+        }
+      ],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV56": [
+    {
+      "id": "EV56",
+      "sentence": 35,
+      "token_idx": 412,
+      "token": "wyprostowa\u0142",
+      "lemma": "wyprostowa\u0107",
+      "features": "sg:m1.m2.m3:perf",
+      "agent": null,
+      "object": {
+        "token": "ksi\u0105\u017cki",
+        "sentence": 35,
+        "token_idx": 415,
+        "lemma": "ksi\u0105\u017cka"
+      },
+      "adjuncts": [
+        {
+          "token": "znad",
+          "pos": "prep",
+          "token_idx": 414
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV57": [
+    {
+      "id": "EV57",
+      "sentence": 35,
+      "token_idx": 421,
+      "token": "wpisa\u0142",
+      "lemma": "wpisa\u0107",
+      "features": "sg:m1.m2.m3:perf",
+      "agent": {
+        "token": "karty,",
+        "sentence": 35,
+        "token_idx": 420,
+        "lemma": "karty"
+      },
+      "object": {
+        "token": "umowny",
+        "sentence": 35,
+        "token_idx": 422,
+        "lemma": "umowny"
+      },
+      "adjuncts": [
+        {
+          "token": "w",
+          "pos": "prep",
+          "token_idx": 418
+        },
+        {
+          "token": "umowny",
+          "pos": "adj",
+          "token_idx": 422
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV58": [
+    {
+      "id": "EV58",
+      "sentence": 35,
+      "token_idx": 424,
+      "token": "l\u0105dowania,",
+      "lemma": "l\u0105dowa\u0107",
+      "features": "pl:nom.acc:n:imperf:aff",
+      "agent": {
+        "token": "znak",
+        "sentence": 35,
+        "token_idx": 423,
+        "lemma": "znak"
+      },
+      "object": {
+        "token": "godzin\u0119",
+        "sentence": 35,
+        "token_idx": 425,
+        "lemma": "godzina"
+      },
+      "adjuncts": [
+        {
+          "token": "umowny",
+          "pos": "adj",
+          "token_idx": 422
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV59": [
+    {
+      "id": "EV59",
+      "sentence": 35,
+      "token_idx": 427,
+      "token": "doda\u0142",
+      "lemma": "doda\u0107",
+      "features": "sg:m1.m2.m3:perf",
+      "agent": {
+        "token": "godzin\u0119",
+        "sentence": 35,
+        "token_idx": 425,
+        "lemma": "godzina"
+      },
+      "object": {
+        "token": "rubryce",
+        "sentence": 35,
+        "token_idx": 430,
+        "lemma": "rubryka"
+      },
+      "adjuncts": [
+        {
+          "token": "obok",
+          "pos": "adv",
+          "token_idx": 428
+        },
+        {
+          "token": "w",
+          "pos": "prep",
+          "token_idx": 429
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV60": [
+    {
+      "id": "EV60",
+      "sentence": 37,
+      "token_idx": 437,
+      "token": "Zaczniemy",
+      "lemma": "zacz\u0105\u0107",
+      "features": "pl:pri:perf",
+      "agent": null,
+      "object": {
+        "token": "trzeciego",
+        "sentence": 37,
+        "token_idx": 439,
+        "lemma": "trzeci:S"
+      },
+      "adjuncts": [
+        {
+          "token": "od",
+          "pos": "prep",
+          "token_idx": 438
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV61": [
+    {
+      "id": "EV61",
+      "sentence": 38,
+      "token_idx": 442,
+      "token": "stara\u0142",
+      "lemma": "stara\u0107",
+      "features": "sg:m1.m2.m3:imperf",
+      "agent": null,
+      "object": {
+        "token": "zdziwienia.",
+        "sentence": 38,
+        "token_idx": 446,
+        "lemma": "zdziwienie"
+      },
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "EV62": [
+    {
+      "id": "EV62",
+      "sentence": 38,
+      "token_idx": 445,
+      "token": "okaza\u0107",
+      "lemma": "okaza\u0107",
+      "features": "perf",
+      "agent": null,
+      "object": {
+        "token": "zdziwienia.",
+        "sentence": 38,
+        "token_idx": 446,
+        "lemma": "zdziwienie"
+      },
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": [],
+      "sanity_hyp": {
+        "agent": "env",
+        "object": null,
+        "energy": 0.11498523982899411
+      },
+      "uncertainty": 0.8913793007206424
+    }
+  ],
+  "global_rgb": "R"
+}
