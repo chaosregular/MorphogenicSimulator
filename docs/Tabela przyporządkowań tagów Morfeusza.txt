@@ -1,0 +1,62 @@
+Tabela przyporządkowań tagów Morfeusza
+Podstawowe części mowy
+Skrót	Opis
+subst	Rzeczownik (substantivum)
+adj		Przymiotnik (adjectivum)
+adj:num	Liczebnik przymiotnikowy (np. pierwszy)
+adjp	Przymiotnik (forma predykatywna)
+adv		Przysłówek (adverbium)
+conj	Spójnik (conjunctio)
+interp	Interpunkcja
+num		Liczebnik główny (np. dwa, pięć)
+ppron	Zaimek osobowy (personal pronoun)
+ppron12	Zaimek osobowy 1. lub 2. osoby
+sie		Słówko się
+pred	Predykatyw (np. można, warto)
+prep	Przyimek (prepozycja)
+qub		Kubeł (słowa niewymienione w słowniku, często skróty)
+verb	Czasownik (verbum)
+Formy 	czasownika i tryby (segmenty tagu)
+
+Te skróty pojawiają się jako drugi lub kolejny segment w tagu verb.
+Skrót	Opis
+fin		Forma skończona (indicativus lub conditionalis)
+impt	Tryb rozkazujący (imperativus)
+inf		Bezokolicznik (infinitivus)
+part	Imiesłów (participium)
+ger		Gerundium (odsłownik)
+praet	Czas przeszły
+pres	Czas teraźniejszy
+fut		Czas przyszły
+Osoby,  Liczby i Rodzaje
+Skrót	Opis
+pri		1. osoba (prima)
+sec		2. osoba (secunda)
+ter		3. osoba (tertia)
+sg		Liczba pojedyncza (singularis)
+pl		Liczba mnoga (pluralis)
+f		Rodzaj żeński (feminine)
+m1		Rodzaj męskoosobowy
+m2		Rodzaj męskozwierzęcy (lub męski nierzeczowy)
+m3		Rodzaj męski nierzeczowy (lub męskozwierzęcy)
+n		Rodzaj nijaki (neuter)
+
+Przypadki (Casus)
+Często łączone kropkami, np. nom.acc.voc.
+Skrót 	Opis
+nom		Mianownik (nominativus)
+gen		Dopełniacz (genetivus)
+dat		Celownik (dativus)
+acc		Biernik (accusativus)
+inst	Narzędnik (instrumentalis)
+loc		Miejscownik (locativus)
+voc		Wołacz (vocativus)
+
+Aspekty i Stopnie
+Skrót	Opis
+imperf	Aspekt niedokonany
+perf	Aspekt dokonany
+pos		Stopień równy (pozytyw)
+comp	Stopień wyższy (komparatyw)
+sup		Stopień najwyższy (superlatyw)
+Mam nadzieję, że ta tabela jest dokładnie tym, czego potrzebowałeś do dekodowania dalszych danych!
