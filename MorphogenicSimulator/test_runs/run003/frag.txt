@@ -1,0 +1,668 @@
+{
+  "metadata": {
+    "processed_sentences": 4744,
+    "total_entities": 8750,
+    "level_distribution": {
+      "15": 8530,
+      "17": 154,
+      "16": 56,
+      "14": 10
+    }
+  },
+  "timeline": [
+    {
+      "time": 1.0,
+      "entities": [
+        {
+          "id": "4aef579c",
+          "lemma": "jaka",
+          "token": "jaką",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 0.0,
+          "sentence_id": 0
+        },
+        {
+          "id": "5dfbd2a3",
+          "lemma": "baza",
+          "token": "baza",
+          "features": "",
+          "level": 17,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 0.0,
+          "sentence_id": 0
+        },
+        {
+          "id": "9fdcb4b7",
+          "lemma": "lir",
+          "token": "Liry,",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 0.0,
+          "sentence_id": 0
+        },
+        {
+          "id": "2138e969",
+          "lemma": "fotonowy",
+          "token": "fotonowym",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 0.0,
+          "sentence_id": 0
+        }
+      ],
+(...)
+        {
+          "id": "5793c2e1",
+          "lemma": "statek",
+          "token": "statek",
+          "features": "",
+          "level": 17,
+          "coords": [
+            50,
+            50,
+            50
+          ],
+          "timestamp": 2131.0,
+          "sentence_id": 2131
+        },
+        {
+          "id": "3bf51cbd",
+          "lemma": "reperacja",
+          "token": "reperacja",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2131.0,
+          "sentence_id": 2131
+        },
+        {
+          "id": "17ab68ed",
+          "lemma": "powłok",
+          "token": "powłoki",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2131.0,
+          "sentence_id": 2131
+        },
+        {
+          "id": "40a215a7",
+          "lemma": "możliwości",
+          "token": "możliwości",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2131.0,
+          "sentence_id": 2131
+        },
+        {
+          "id": "1d3da0ee",
+          "lemma": "do:S",
+          "token": "do",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2132.0,
+          "sentence_id": 2132
+        },
+        {
+          "id": "962ea9f4",
+          "lemma": "wrak:Sm1.m2",
+          "token": "wrakiem",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2132.0,
+          "sentence_id": 2132
+        },
+        {
+          "id": "a1574c5e",
+          "lemma": "sam:A",
+          "token": "sami",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2132.0,
+          "sentence_id": 2132
+        },
+        {
+          "id": "77d27691",
+          "lemma": "ekspedycja",
+          "token": "ekspedycja",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2132.0,
+          "sentence_id": 2132
+        },
+        {
+          "id": "73108b04",
+          "lemma": "krążownik",
+          "token": "krążownik",
+          "features": "",
+          "level": 17,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2132.0,
+          "sentence_id": 2132
+        },
+        {
+          "id": "17ef9e8f",
+          "lemma": "ekipa",
+          "token": "ekipę",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2133.0,
+          "sentence_id": 2133
+        },
+        {
+          "id": "c63e900a",
+          "lemma": "północ",
+          "token": "północ;",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2133.0,
+          "sentence_id": 2133
+        },
+        {
+          "id": "9d8d10db",
+          "lemma": "on:A",
+          "token": "ona,",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2133.0,
+          "sentence_id": 2133
+        },
+        {
+          "id": "c80b52a5",
+          "lemma": "grupa",
+          "token": "grupy",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2133.0,
+          "sentence_id": 2133
+        },
+        {
+          "id": "a6442d7d",
+          "lemma": "główny",
+          "token": "głównym",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2133.0,
+          "sentence_id": 2133
+        },
+        {
+          "id": "affcfa76",
+          "lemma": "koordynator",
+          "token": "koordynatorem",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2133.0,
+          "sentence_id": 2133
+        },
+        {
+          "id": "9fbb282f",
+          "lemma": "pobliże",
+          "token": "pobliże",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2133.0,
+          "sentence_id": 2133
+        },
+        {
+          "id": "0cdafbc5",
+          "lemma": "każdy",
+          "token": "każdego",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2133.0,
+          "sentence_id": 2133
+        },
+        {
+          "id": "15317c4e",
+          "lemma": "grupa",
+          "token": "grupy",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2134.0,
+          "sentence_id": 2134
+        },
+        {
+          "id": "747d2a62",
+          "lemma": "system",
+          "token": "systemie",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2134.0,
+          "sentence_id": 2134
+        },
+        {
+          "id": "2860fb7f",
+          "lemma": "substancja",
+          "token": "substancji,",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2135.0,
+          "sentence_id": 2135
+        },
+        {
+          "id": "b54eaa3f",
+          "lemma": "geologiczny",
+          "token": "geologicznego,",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2135.0,
+          "sentence_id": 2135
+        },
+        {
+          "id": "177e1e22",
+          "lemma": "temat",
+          "token": "temat",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2136.0,
+          "sentence_id": 2136
+        },
+        {
+          "id": "b0baea84",
+          "lemma": "powierzchnia",
+          "token": "powierzchni",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2137.0,
+          "sentence_id": 2137
+        },
+        {
+          "id": "af3b2c20",
+          "lemma": "lato",
+          "token": "lat",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2137.0,
+          "sentence_id": 2137
+        },
+        {
+          "id": "0e80c03d",
+          "lemma": "ogromny",
+          "token": "ogromne",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2137.0,
+          "sentence_id": 2137
+        },
+        {
+          "id": "d7f38d8b",
+          "lemma": "odłamek",
+          "token": "odłamków",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2137.0,
+          "sentence_id": 2137
+        },
+        {
+          "id": "0523acfd",
+          "lemma": "szczątki",
+          "token": "szczątków",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2137.0,
+          "sentence_id": 2137
+        },
+        {
+          "id": "578f305b",
+          "lemma": "atmosfera",
+          "token": "atmosferze",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2137.0,
+          "sentence_id": 2137
+        },
+        {
+          "id": "6ba4f304",
+          "lemma": "gigantyczny",
+          "token": "gigantyczny,",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2137.0,
+          "sentence_id": 2137
+        },
+        {
+          "id": "c218651a",
+          "lemma": "deszcz",
+          "token": "deszczami",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2137.0,
+          "sentence_id": 2137
+        },
+        {
+          "id": "62edb9c9",
+          "lemma": "skała",
+          "token": "skały",
+          "features": "",
+          "level": 17,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2137.0,
+          "sentence_id": 2137
+        },
+        {
+          "id": "dea8a77f",
+          "lemma": "epoka",
+          "token": "epoki),",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2137.0,
+          "sentence_id": 2137
+        },
+        {
+          "id": "9ceb8b3d",
+          "lemma": "reakcja",
+          "token": "reakcje",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2137.0,
+          "sentence_id": 2137
+        },
+        {
+          "id": "65924a7f",
+          "lemma": "pokład",
+          "token": "pokłady",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2137.0,
+          "sentence_id": 2137
+        },
+        {
+          "id": "784b0b26",
+          "lemma": "miejsce",
+          "token": "miejscami",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2137.0,
+          "sentence_id": 2137
+        },
+        {
+          "id": "a198bdba",
+          "lemma": "odkrywka",
+          "token": "Odkrywki",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 2138.0,
+          "sentence_id": 2138
+        },
+(...)
+        {
+          "id": "ca730d21",
+          "lemma": "dwudziestopiętrowy",
+          "token": "dwudziestopiętrowy",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 4742.0,
+          "sentence_id": 4742
+        },
+        {
+          "id": "4f3cdf62",
+          "lemma": "statek",
+          "token": "statek,",
+          "features": "",
+          "level": 17,
+          "coords": [
+            50,
+            50,
+            50
+          ],
+          "timestamp": 4742.0,
+          "sentence_id": 4742
+        },
+        {
+          "id": "1272efd0",
+          "lemma": "światła",
+          "token": "świateł,",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 4742.0,
+          "sentence_id": 4742
+        },
+        {
+          "id": "93cc0ed9",
+          "lemma": "ogrom",
+          "token": "ogromie,",
+          "features": "",
+          "level": 15,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 4742.0,
+          "sentence_id": 4742
+        },
+        {
+          "id": "40a114aa",
+          "lemma": "niezwyciężony",
+          "token": "niezwyciężony.",
+          "features": "",
+          "level": 17,
+          "coords": [
+            127,
+            127,
+            127
+          ],
+          "timestamp": 4742.0,
+          "sentence_id": 4742
+        }
+      ],
+      "level_summary": {
+        "15": 8530,
+        "17": 154,
+        "16": 56,
+        "14": 10
+      }
+    }
+  ],
+  "level_scales": {
+    "10": "atomowy (0.1nm)",
+    "14": "przedmiot (7cm)",
+    "15": "człowiek/pomieszczenie (17m)",
+    "16": "krajobraz (280m)",
+    "17": "planeta/statek (1100km)",
+    "20": "układ słoneczny (18mld km)",
+    "22": "system gwiezdny (120 lat świetlnych)",
+    "23": "sektor galaktyki"
+  }
+}
