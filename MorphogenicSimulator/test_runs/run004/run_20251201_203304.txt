@@ -1,0 +1,52 @@
+michal@uafs:~/Desktop/Documents/CGPT/Trace_test_runs/20251130_202907$ date; ls -l
+pon, 1 gru 2025, 20:33:04 CET
+total 59092
+-rw-rw-r-- 1 michal michal     3468 lis 27 15:39 CC_Stanisław_Lem_Niezwyciezony_utf8_0005.txt
+-rw-rw-r-- 1 michal michal  6457856 gru  1 20:16 enriched_v2.json
+-rw-rw-r-- 1 michal michal     3816 gru  1 17:48 GA_help_001.py
+-rw-rw-r-- 1 michal michal    49591 lis 30 21:53 grenr_l2_5_graph_morfeusz_output_20251130_144520.json
+-rw-rw-r-- 1 michal michal     4207 gru  1 20:32 grok_resonance_checker_v3.py
+-rw-rw-r-- 1 michal michal     2544 lis 30 21:59 Grok_sketch_sanit.py
+-rw-rw-r-- 1 michal michal     4882 gru  1 01:25 Grok_sketch_sanit_v2.py
+-rw-rw-r-- 1 michal michal  8951394 lis 30 20:44 l2_5_graph.json
+-rw-rw-r-- 1 michal michal  8951394 lis 30 20:44 l2_5_graph_morfeusz_output_20251129_044452.json
+-rw-rw-r-- 1 michal michal    76592 lis 30 20:39 l2_5_graph_morfeusz_output_20251130_144520.json
+-rw-rw-r-- 1 michal michal 16171561 lis 29 04:44 morfeusz_output_20251129_044452.json
+-rw-rw-r-- 1 michal michal   148645 lis 30 14:45 morfeusz_output_20251130_144520.json
+-rw-rw-r-- 1 michal michal  6459115 gru  1 01:40 sanity_out1.json
+-rw-rw-r-- 1 michal michal  6496112 gru  1 01:40 sanity_out2.json
+-rw-rw-r-- 1 michal michal  6672076 lis 30 21:59 sanity_out.json
+-rw-rw-r-- 1 michal michal    10373 lis 30 20:29 trace_l2_5_a.py
+-rw-rw-r-- 1 michal michal     5180 lis 30 20:32 trace_l2_5_a.py.out.json
+-rw-rw-r-- 1 michal michal     6978 lis 30 20:37 trace_l2_5.py
+michal@uafs:~/Desktop/Documents/CGPT/Trace_test_runs/20251130_202907$ python3 grok_resonance_checker_v3.py 
+  File "grok_resonance_checker_v3.py", line 69
+    if uncertainty < 0.4 and leak_counter < max_leaks and and np.random.rand() < 0.12:
+                                                          ^
+SyntaxError: invalid syntax
+michal@uafs:~/Desktop/Documents/CGPT/Trace_test_runs/20251130_202907$ python3 grok_resonance_checker_v3.py 
+Resonance v3 → RGB=Y | avg_unc=0.373 | leaks=9 | size=29.8 KB
+michal@uafs:~/Desktop/Documents/CGPT/Trace_test_runs/20251130_202907$ ls -l
+total 59144
+-rw-rw-r-- 1 michal michal     3468 lis 27 15:39 CC_Stanisław_Lem_Niezwyciezony_utf8_0005.txt
+-rw-rw-r-- 1 michal michal  6457856 gru  1 20:16 enriched_v2.json
+-rw-rw-r-- 1 michal michal     3816 gru  1 17:48 GA_help_001.py
+-rw-rw-r-- 1 michal michal    49591 lis 30 21:53 grenr_l2_5_graph_morfeusz_output_20251130_144520.json
+-rw-rw-r-- 1 michal michal     4296 gru  1 20:33 grok_resonance_checker_v3.py
+-rw-rw-r-- 1 michal michal     2544 lis 30 21:59 Grok_sketch_sanit.py
+-rw-rw-r-- 1 michal michal     4882 gru  1 01:25 Grok_sketch_sanit_v2.py
+-rw-rw-r-- 1 michal michal  8951394 lis 30 20:44 l2_5_graph.json
+-rw-rw-r-- 1 michal michal  8951394 lis 30 20:44 l2_5_graph_morfeusz_output_20251129_044452.json
+-rw-rw-r-- 1 michal michal    76592 lis 30 20:39 l2_5_graph_morfeusz_output_20251130_144520.json
+-rw-rw-r-- 1 michal michal 16171561 lis 29 04:44 morfeusz_output_20251129_044452.json
+-rw-rw-r-- 1 michal michal   148645 lis 30 14:45 morfeusz_output_20251130_144520.json
+-rw-rw-r-- 1 michal michal    47243 gru  1 20:33 resonance_v3_output.json
+-rw-rw-r-- 1 michal michal     2827 gru  1 20:38 resonance_v3_output_truncated.json
+-rw-rw-r-- 1 michal michal  6459115 gru  1 01:40 sanity_out1.json
+-rw-rw-r-- 1 michal michal  6496112 gru  1 01:40 sanity_out2.json
+-rw-rw-r-- 1 michal michal  6672076 lis 30 21:59 sanity_out.json
+-rw-rw-r-- 1 michal michal    10373 lis 30 20:29 trace_l2_5_a.py
+-rw-rw-r-- 1 michal michal     5180 lis 30 20:32 trace_l2_5_a.py.out.json
+-rw-rw-r-- 1 michal michal     6978 lis 30 20:37 trace_l2_5.py
+michal@uafs:~/Desktop/Documents/CGPT/Trace_test_runs/20251130_202907$ 
+

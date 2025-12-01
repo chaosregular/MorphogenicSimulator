@@ -1,0 +1,155 @@
+{
+  "events": [
+    {
+      "id": "EV0",
+      "sentence": 1,
+      "token_idx": 12,
+      "token": "gnały",
+      "lemma": "gnać",
+      "features": "pl:m2.m3.f.n:imperf",
+      "agent": {
+        "token": "strony",
+        "sentence": 1,
+        "token_idx": 11,
+        "lemma": "strona"
+      },
+      "object": {
+        "token": "fale",
+        "sentence": 1,
+        "token_idx": 14,
+        "lemma": "fala"
+      },
+      "adjuncts": [
+        {
+          "token": "wszystkie",
+          "pos": "adj",
+          "token_idx": 10
+        },
+        {
+          "token": "pustynnego",
+          "pos": "adj",
+          "token_idx": 15
+        }
+      ],
+      "embedded_in": null,
+      "modality": [],
+      "resonance": {
+        "energy": -0.5,
+        "uncertainty": 0.364,
+        "agent_final": "env",
+        "coherence": 1.0
+      }
+    },
+    {
+      "id": "EV1",
+      "sentence": 2,
+      "token_idx": 26,
+      "token": "dymiło",
+      "lemma": "dymić",
+      "features": "sg:n:imperf",
+      "agent": {
+        "token": "wylotów,",
+        "sentence": 2,
+        "token_idx": 24,
+        "lemma": "wylot"
+      },
+      "object": null,
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": [],
+      "resonance": {
+        "energy": -0.5,
+        "uncertainty": 0.364,
+        "agent_final": "env",
+        "coherence": 1.0
+      }
+    }
+(...),
+    {
+      "id": "EV62",
+      "sentence": 38,
+      "token_idx": 445,
+      "token": "okazać",
+      "lemma": "okazać",
+      "features": "perf",
+      "agent": null,
+      "object": {
+        "token": "zdziwienia.",
+        "sentence": 38,
+        "token_idx": 446,
+        "lemma": "zdziwienie"
+      },
+      "adjuncts": [],
+      "embedded_in": null,
+      "modality": [],
+      "resonance": {
+        "energy": -0.5,
+        "uncertainty": 0.364,
+        "agent_final": "env",
+        "coherence": 1.0
+      }
+    }
+  ],
+  "summary": {
+    "global_rgb": "Y",
+    "avg_uncertainty": 0.373,
+    "ethical_collisions": 0,
+    "controlled_leaks": 9
+  },
+  "leaks": [
+    {
+      "EV5": {
+        "t+1": "STATE_CHANGE",
+        "p": 0.64
+      }
+    },
+    {
+      "EV8": {
+        "t+1": "STATE_CHANGE",
+        "p": 0.64
+      }
+    },
+    {
+      "EV9": {
+        "t+1": "STATE_CHANGE",
+        "p": 0.64
+      }
+    },
+    {
+      "EV10": {
+        "t+1": "STATE_CHANGE",
+        "p": 0.64
+      }
+    },
+    {
+      "EV18": {
+        "t+1": "STATE_CHANGE",
+        "p": 0.64
+      }
+    },
+    {
+      "EV36": {
+        "t+1": "STATE_CHANGE",
+        "p": 0.64
+      }
+    },
+    {
+      "EV42": {
+        "t+1": "STATE_CHANGE",
+        "p": 0.64
+      }
+    },
+    {
+      "EV47": {
+        "t+1": "STATE_CHANGE",
+        "p": 0.64
+      }
+    },
+    {
+      "EV57": {
+        "t+1": "STATE_CHANGE",
+        "p": 0.64
+      }
+    }
+  ]
+}
