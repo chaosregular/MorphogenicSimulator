@@ -30,7 +30,7 @@ Because reality is *layered, compressible, and participatory*. We build to under
 - `simulators/`: Code for cellular automata, hypergraph systems, and multi-scale "cages".
 - `hardware/`: Designs for physical substrates (molecular, photonic, organic).
 - `chaos_bombs/`: Half-formed ideas waiting to explode into clarity.
-- `DEVLOG.md`: Our [living log](https://github.com/chaosregular/URGE/wiki/DEV_LOG) of progress and insight.
+- `DEVLOG.md`: Our [living log](https://github.com/chaosregular/MorphogenicSimulator/wiki/DEVLOG) and [living log](https://github.com/chaosregular/URGE/wiki/DEV_LOG) of progress and insight.
 
 ## Get Involved
 We welcome thinkers, coders, poets, and rebels.  
